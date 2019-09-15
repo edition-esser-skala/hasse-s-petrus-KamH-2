@@ -5,24 +5,36 @@
 \version "2.18.0"
 
 MariaJacobeIncipit = \markup {
-	"Maria Jacobe" \hspace #-17 \score {
+	\center-column { "Maria" "Jacobe" } \hspace #-16.5 \score {
 		\new Staff \with {	
 			\remove Time_signature_engraver
 		} {
-			\clef soprano s4 \bar empty
+			\clef alto s4 \bar empty
 		}
 		\layout { }
 	} \hspace #-1.8
 }
 
-MariaJacobeNotes = {
+IntroduzioneMariaJacobeNotes = {
 	\relative c' {
 		\clef treble
-		
+		\key d \minor \time 4/4 \autoBeamOff \tempoIntroduzione
 		
 	}
 }
 
-MariaJacobeLyrics = \lyricmode {
+IntroduzioneMariaJacobeLyrics = \lyricmode {
 	
 }
+
+% MariaJacobeNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		
+% 		
+% 	}
+% }
+% 
+% MariaJacobeLyrics = \lyricmode {
+% 	
+% }

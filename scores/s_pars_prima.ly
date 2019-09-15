@@ -77,7 +77,7 @@
 							\IntroduzioneViola
 					}
 				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
+				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = \PetrusIncipit
 						\override Staff.InstrumentName.self-alignment-Y = ##f
@@ -85,6 +85,14 @@
 						\new Voice = "Petrus" { \dynamicUp \IntroduzionePetrusNotes }
 					}
 					\new Lyrics \lyricsto Petrus \IntroduzionePetrusLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \MariaJacobeIncipit
+						\override Staff.InstrumentName.self-alignment-Y = ##f
+						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\new Voice = "MariaJacobe" { \dynamicUp \IntroduzioneMariaJacobeNotes }
+					}
+					\new Lyrics \lyricsto MariaJacobe \IntroduzioneMariaJacobeLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {

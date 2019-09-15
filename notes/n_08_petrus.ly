@@ -5,14 +5,14 @@
 \version "2.18.0"
 
 PetrusIncipit = \markup {
-	"Petrus" \hspace #-15 \score {
+	"Petrus" \hspace #-16 \score {
 		\new Staff \with {
 			\remove Time_signature_engraver
 		} {
 			\clef alto s4 \bar empty
 		}
 		\layout { }
-	} \hspace #-3
+	} \hspace #-1.8
 }
 
 IntroduzionePetrusNotes = {
