@@ -1,8 +1,8 @@
-# Baldassare Galuppi: Confitebor BurG II/6
+# Johann Adolph Hasse: S Petrus et S Maria Magdalena KamH 2
 
 Engraving files for LilyPond 2.18.0
 
-First version, September 2019
+First version, October 2019
 
 
 ## Build instructions
@@ -30,17 +30,23 @@ The file *master.ly* allows you to work with an editor like Kile: Change the inc
 * Individual voices in folder *notes*:
     * n_01_vl1.ly
     * n_02_vl2.ly
-    * n_03_S.ly
-    * n_04_A.ly
-    * n_05_org.ly
+    * n_03_vla.ly
+    * n_04_maria_jacobe.ly
+    * n_05_maria_magdalena.ly
+    * n_06_maria_salome.ly
+    * n_07_joseph.ly
+    * n_08_petrus.ly
+    * n_09_org.ly
 * Movement definitions in folder *scores*:
-    * s_confitebor.ly
+    * s_pars_prima.ly
+    * s_pars_secunda.ly
 * Parts definitions in folder *parts*:
     * p_b.ly
-    * p_coro.ly
+    * p_soli.ly
     * p_org.ly
     * p_vl1.ly
     * p_vl2.ly
+    * p_vla.ly
 
 
 ## Copyright
