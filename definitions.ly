@@ -199,6 +199,12 @@ tempoMarkup =
 %
 
 tempoIntroduzione = \tempoMarkup "Lento"
+	tempoIntroduzioneB = \tempoMarkup "Allegro non presto"
+	tempoIntroduzioneC = \tempoMarkup "Lento come prima"
+	tempoIntroduzioneD = \tempoMarkup "Un poco più andante"
+	tempoIntroduzioneE = \tempoMarkup "Andante"
+	tempoIntroduzioneF = \tempoMarkup "Adagio"
+	tempoIntroduzioneG = \tempoMarkup "Un poco più andante"
 
 
 
