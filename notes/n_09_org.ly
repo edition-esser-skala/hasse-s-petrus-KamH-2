@@ -70,7 +70,7 @@ IntroduzioneOrgano = {
 		r g b a b g %60
 		a4. g8 f e
 		d d e f g a
-		b4 b4. a8
+		b!4 b4. a8
 		g g a g a b
 		c4 c4. b8 %65
 		a a b a b c
