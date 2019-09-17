@@ -6,7 +6,7 @@
 
 IntroduzioneViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key d \minor \time 4/4 \tempoIntroduzione
 		f,8\p f f f b b a a
 		a a d b b b h h
@@ -104,7 +104,7 @@ IntroduzioneViola = {
 		d( c! b! as)
 		g h8 c16( es) d2~\pE %95
 		d1
-		c16( d es f g a h c) h(\f c h as) g( as g h,)
+		c16( d es f) g( a h c) h(\f c h as) g( as g h,)
 		c1~\pE
 		c2~ c8. b!16 as([ g)] g([\f fis)]
 		fis?2 r4 r8 \tempoIntroduzioneD g'\f %100

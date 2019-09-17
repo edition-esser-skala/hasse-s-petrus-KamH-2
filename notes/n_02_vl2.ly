@@ -106,7 +106,7 @@ IntroduzioneViolinoII = {
 		h1
 		es,16( f g a!) h( c d es) d(\fE es d c) h( c h d)
 		c2\pE b~
-		b a!16( e! f g) as([ g)] g([\f fis)]
+		b as?16( e! f g) as([ g)] g([\f fis)]
 		fis?2 r4 r8 \tempoIntroduzioneD h\f %100
 		c16( f8) e!32( d) c16( d32 c d16) h!\trill c( f8) e32( d) c16( d32 c d16) h\trill
 		c2\pE b~
@@ -125,7 +125,7 @@ IntroduzioneViolinoII = {
 		g'' f32 es d[ c b a] g16 d b g g'' f32 es d[ c b a] g16 d b g %115
 		es'4 r r8 r16 c' c8. c,16
 		c4 r r2
-		d16 f'32 e! f16 f, g a b g b f'32 e f16 b, a g f es
+		d16 f'32 e! f16 f, g a b a b f'32 e f16 b, a g f es
 		d4 r8 r16 b' b8 r r4
 		\tempoIntroduzioneF es,16(\p f g as b\fE c b b) b2\pE %120
 		c,4(-. c-.) c4( c8-. c-.)

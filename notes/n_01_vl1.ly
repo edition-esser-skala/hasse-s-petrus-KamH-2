@@ -125,7 +125,7 @@ IntroduzioneViolinoI = {
 		g'' f32 es d[ c b a] g16 d b g g'' f32 es d[ c b a] g16 d b g %115
 		es'4 r r8 r16 es' es8. es,16
 		es4 r r2
-		d16 f'32 e! f16 f, g a b g b f'32 e f16 b, a g f es
+		d16 f'32 e! f16 f, g a b a b f'32 e f16 b, a g f es
 		d4 r8 r16 f' f8 r r4
 		\tempoIntroduzioneF es,16(\p f g as b\fE c des des) des2\pE %120
 		c4(-. c-.) c4( c8-. c-.)

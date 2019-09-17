@@ -57,7 +57,7 @@
 % 	}
 	\bookpart {
 		\header {
-			movement = "1.1 INTRODUZIONE – PLANGE O MISERUM COR"
+			movement = "1.1 INTRODUZIONE – PLANGE, O MISERUM COR"
 		}
 		\score {
 			<<
