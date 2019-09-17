@@ -112,12 +112,12 @@ IntroduzioneOrgano = {
 		c2\p cis~
 		cis1
 		d8 d, r a' d r r4\fermata
-		\tempoIntroduzioneE c,8\p r r4 c8 r c r %105
+		\tempoIntroduzioneE c,8 r r4 c8 r c r %105
 		b r r4 b'8\f r b r
 		fis\p r r4 fis8 r r4
 		fis8\f fis fis fis fis2~\p
 		fis8 fis fis fis fis2
-		g,16\p g' g g g g g g g,\f g' g g g g f f %110
+		g,16 g' g g g g g g g,\f g' g g g g f f %110
 		e!\p e e e e e e e e e e\f e e e e e
 		e\p e e e e e e e f8 r16 c\f d-! e-! f-! e-!
 		f8 r16 f e d c b a8 r r4
@@ -128,7 +128,7 @@ IntroduzioneOrgano = {
 		b8 r16 f' g a b a b8 r16 b a g f es
 		d4 r8 r16 d' d8 r r4
 		\tempoIntroduzioneF es,8.(\p f16) g(\f as g f) e2\p %120
-		r16 f( e) f r g( f e) r f( e f) g-! g( f e)
+		r16 f( e!) f r g( f e!) r f( e! f) g-! g( f e!)
 		f1~
 		f2 r4 \tempoIntroduzioneG g\f
 		c, r g' r
@@ -139,16 +139,16 @@ IntroduzioneOrgano = {
 		b1
 		es~ %130
 		es2 r4 f\f
-		b, r4 b'2\pE
+		\key c \major b, r4 b'2\pE
 		a1
 		g
 		e! %135
-		f
-		e
+		\time 2/4 f2
+		\time 4/4 e1
 		d
 		e
 		a %140
-		r4 h e, r \bar "||" %141 finis
+		r4 h e, r\fermata \bar "||" %141 finis
 	}
 }
 

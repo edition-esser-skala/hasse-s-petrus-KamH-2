@@ -198,13 +198,13 @@ tempoMarkup =
 	#})
 %
 
-tempoIntroduzione = \tempoMarkup "Lento"
-	tempoIntroduzioneB = \tempoMarkup "Allegro non presto"
-	tempoIntroduzioneC = \tempoMarkup "Lento come prima"
-	tempoIntroduzioneD = \tempoMarkup "Un poco più andante"
-	tempoIntroduzioneE = \tempoMarkup "Andante"
-	tempoIntroduzioneF = \tempoMarkup "Adagio"
-	tempoIntroduzioneG = \tempoMarkup "Un poco più andante"
+tempoIntroduzione = \tempoMarkup "Lento" %1
+	tempoIntroduzioneB = \tempoMarkup "Allegro non presto" %9
+	tempoIntroduzioneC = \tempoMarkup "Lento come prima" %86
+	tempoIntroduzioneD = \tempoMarkup "Un poco più andante" %100
+	tempoIntroduzioneE = \tempoMarkup "Andante" %105
+	tempoIntroduzioneF = \tempoMarkup "Adagio" %120
+	tempoIntroduzioneG = \tempoMarkup "Un poco più andante" %123
 
 
 
@@ -333,8 +333,8 @@ tempoIntroduzione = \tempoMarkup "Lento"
 		\GrandStaff
 		\override InstrumentName.font-shape = #'italic
 		\override StaffGrouper.staffgroup-staff-spacing =
-		  #'((basic-distance . 15)
-         (minimum-distance . 15)
+		  #'((basic-distance . 12)
+         (minimum-distance . 12)
          (padding . -100)
          (stretchability . 0))
 		\override StaffGrouper.staff-staff-spacing =

@@ -14,7 +14,7 @@ IntroduzioneViola = {
 		a4\p a a a8\f a
 		a16 cis8 cis cis e16~ e d8 d16 cis8 cis %5
 		d d es es d b c d
-		es es cis cis d d16 f) f( e) e( d) \noBreak
+		es es cis cis d d16( f) f( e) e( d) \noBreak
 		e8 d16( cis) h4 cis8 cis d4\fermata
 		\time 3/4 \tempoIntroduzioneB a4 r r \noBreak
 		r8 a' a4-! <g a>-! %10
@@ -96,7 +96,53 @@ IntroduzioneViola = {
 		\time 4/4 \tempoIntroduzioneC a8 r a r <e a> r <d a'> r \noBreak
 		a4\p a a a8\f a
 		a4\pE a a a8\fE a
-		a( d cis d)
-		cis4~ cis8 r
+		a( d cis d) cis4~ cis8 r
+		a'\p r a r a r a r %90
+		a r d, r d r d r
+		d r d r d, r r4
+		r2 r4 e'\fE
+		d( c! b! as)
+		g h8 c16( es) d2~\pE %95
+		d1
+		c16( d es f g a h c) h(\f c h as) g( as g h,)
+		c1~\pE
+		c2~ c8. b!16 as([ g)] g([\f fis)]
+		fis?2 r4 r8 \tempoIntroduzioneD g'\f %100
+		c c, r g' c c, r g'
+		g2\pE g~
+		g1
+		f8 a r a a r r4\fermata
+		\tempoIntroduzioneE fis,8 r r4 a8 r fis r %105
+		d16 d' d d es d d d g\fE d d d b' d, d d
+		a'\pE d, d es es h h c c d d es es h h c
+		c\fE h h c c a a a a2~\pE
+		a16 a(-. a-. a-. a-. a-. a-. a-.) a2
+		g32 g g g g[ g g g] g g g g g[ g g g] g\fE g g g g[ g g g] g g g g g[ g g g] %110
+		g\pE g g g g[ g g g] g g g g g[ g g g] g g g g g[\fE g g g] g g g g g[ g g g]
+		g\pE g g g g[ g g g] g g g g g[ g g g] f8 r16 c'\f d-! e-! f-! e-!
+		f8 r16 f e d c b a8 r r4
+		b8\f r b'16 f d b b'8 r b16 f d b
+		g'8 r g16 d b g g'8 r g16 d b g %115
+		es'4 r r8 r16 a a8. a,16
+		a4 r r2
+		b8 r16 f' g a b a b8 r16 b a g f es
+		d4 r8 r16 f f8 r r4
+		\tempoIntroduzioneF es8.([\p f16)] g(\fE as b as) g2\pE %120
+		r16 as,( g as) r b( as g) r as( g as) b-\parenthesize-! b( as g)
+		as8([ b)] c([ e!)] f2~
+		f r4 \tempoIntroduzioneG g\fE
+		g8-! es-! es-! es-! es-! b!( c des)
+		c-! c-![ c-! c-!] c \once \slurDashed g( a! b) %125
+		\appoggiatura b4 a!1~\pE
+		a
+		f4-\critnote des' c2
+		f1
+		ges~^\tenuto %130
+		ges2 r4 f-!\fE
+		\key c \major f-! r r2
+		R1*3 %135
+		\time 2/4 R2
+		\time 4/4 R1*4 %140
+		R1\fermataMarkup \bar "||" %141 finis
 	}
 }

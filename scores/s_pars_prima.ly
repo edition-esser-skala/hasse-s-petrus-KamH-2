@@ -79,20 +79,20 @@
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \PetrusIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Petrus" { \dynamicUp \IntroduzionePetrusNotes }
-					}
-					\new Lyrics \lyricsto Petrus \IntroduzionePetrusLyrics
-					
-					\new Staff {
 						\set Staff.instrumentName = \MariaJacobeIncipit
 						\override Staff.InstrumentName.self-alignment-Y = ##f
 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
 						\new Voice = "MariaJacobe" { \dynamicUp \IntroduzioneMariaJacobeNotes }
 					}
 					\new Lyrics \lyricsto MariaJacobe \IntroduzioneMariaJacobeLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \PetrusIncipit
+						\override Staff.InstrumentName.self-alignment-Y = ##f
+						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\new Voice = "Petrus" { \dynamicUp \IntroduzionePetrusNotes }
+					}
+					\new Lyrics \lyricsto Petrus \IntroduzionePetrusLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {

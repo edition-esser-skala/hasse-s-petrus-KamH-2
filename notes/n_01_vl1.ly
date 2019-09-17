@@ -97,6 +97,53 @@ IntroduzioneViolinoI = {
 		e-! e,([\p f e)] r cis'( d cis) r e( f e) r f(\f d gis)
 		a-! e,([\p f e)] r cis'( d cis) r e( f e) r f(\f d gis)
 		\stemDown a a,(-. a-. a-. a-. a-. a-. a-.) \stemNeutral a4~ a8 r
+		r16 f'(\p e f) r g( a e) r f( e f) r g( a e) %90
+		r f( e f) r fis?( g fis?) r g( fis g) r a( b a)
+		r b( a b) r b,( a b) r b,( c b) b4
+		r2 r4 g''\f
+		f16 f,([ e f)] r es( d es) r d( cis d) r c( h c)
+		h( d g h) d([ g)] es([ c)] g'2~\p %95
+		g1
+		g4( g8-. g-.) g4(\f g8-. g-.)
+		g1~\p
+		g2 c,16( e,! f g) as([ g)] g([\f fis)]
+		fis?2 r4 r8 \tempoIntroduzioneD d'\f %100
+		e!16( a8) g32( f) e16( f32 e f16) d\trill e16( a8) g32( f) e16( f32 e f16) d\trill
+		e1~\p
+		e
+		d16 a'8 g16 f( g32 f g16) e\trill f8 r r4\fermata
+		\tempoIntroduzioneE r16 d, d d es d d d fis d d d a' d, d d %105
+		g d d d es d d d g\f d d d b' d, d d
+		a'\p d, d es es h h c c d d es es h h c
+		c\f d d es es es es es es2~\p
+		es16 es(-. es-. es-. es-. es-. es-. es-.) es2
+		d'32 d, d d d[ d d d] es d d d d[ d d d] b'\f d, d d d[ d d d] es es es es d[ d d d] %110
+		c\p c c c c[ c c c] c c c c c[ c c c] c c c c c[\f c c c] e e e e g[ g g g]
+		b\p c, c c c[ c c c] c c c c c[ c c c] c16 c'32\f h c16 c, d-! e-! f-! e-!
+		f c'32 h c16 f, e d c b a8 r r4
+		b''16\f a32 g f[ es d c] b16 f d b b'' a32 g f[ es d c] b16 f d b
+		g'' f32 es d[ c b a] g16 d b g g'' f32 es d[ c b a] g16 d b g %115
+		es'4 r r8 r16 es' es8. es,16
+		es4 r r2
+		d16 f'32 e! f16 f, g a b g b f'32 e f16 b, a g f es
+		d4 r8 r16 f' f8 r r4
+		\tempoIntroduzioneF es,16(\p f g as b\fE c des des) des2\pE %120
+		c4(-. c-.) c4( c8-. c-.)
+		c16 as'( g f e! des c b) as2~
+		as r4 \tempoIntroduzioneG d\f
+		es8 es,-! es-! es-! es-! b!( c des)
+		c-! c[-! c-! c-!] c g( a! b) %125
+		\appoggiatura b4 a!2\p c
+		es1
+		des8-! f'(-. f-. f-.) f ges f16([ es)] des([ c)]
+		des2( d)
+		es1~^\tenuto %130
+		es2 r4 a!-!\f
+		\key c \major b-! r r2
+		R1*3 %135
+		\time 2/4 R2
+		\time 4/4 R1*4 %140
+		R1\fermataMarkup \bar "||" %141 finis
 	}
 }
 
