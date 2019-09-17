@@ -55,9 +55,62 @@
 % 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
 % 		\partTitle "1" "P A R S   P R I M A"
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "1.1 INTRODUZIONE – 1.2 PLANGE, O MISERUM COR"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\IntroduzioneViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\IntroduzioneViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 							\IntroduzioneViola
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \MariaJacobeIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "MariaJacobe" { \dynamicUp \IntroduzioneMariaJacobeNotes }
+% 					}
+% 					\new Lyrics \lyricsto MariaJacobe \IntroduzioneMariaJacobeLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \PetrusIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Petrus" { \dynamicUp \IntroduzionePetrusNotes }
+% 					}
+% 					\new Lyrics \lyricsto Petrus \IntroduzionePetrusLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\IntroduzioneOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\IntroduzioneBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "1.1 INTRODUZIONE – PLANGE, O MISERUM COR"
+			movement = "1.3 CRUCIFIXUM SI VIDERES"
 		}
 		\score {
 			<<
@@ -65,47 +118,37 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\IntroduzioneViolinoI
+							\CrucifixumViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\IntroduzioneViolinoII
+							\CrucifixumViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-							\IntroduzioneViola
+							\CrucifixumViola
 					}
 				>>
-				\new ChoirStaff <<
+				\new ChoirStaff \with { \smallerGroupDistance } <<
 					\new Staff {
-						\set Staff.instrumentName = \MariaJacobeIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "MariaJacobe" { \dynamicUp \IntroduzioneMariaJacobeNotes }
+						\set Staff.instrumentName = \markup { \center-column { "Maria" "Jacobe" } }
+						\new Voice = "MariaJacobe" { \dynamicUp \CrucifixumMariaJacobeNotes }
 					}
-					\new Lyrics \lyricsto MariaJacobe \IntroduzioneMariaJacobeLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = \PetrusIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Petrus" { \dynamicUp \IntroduzionePetrusNotes }
-					}
-					\new Lyrics \lyricsto Petrus \IntroduzionePetrusLyrics
+					\new Lyrics \lyricsto MariaJacobe \CrucifixumMariaJacobeLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\IntroduzioneOrgano
+						\CrucifixumOrgano
 					}
 				>>
 				\new FiguredBass {
-					\IntroduzioneBassFigures
+					\CrucifixumBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 }

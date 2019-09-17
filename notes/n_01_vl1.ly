@@ -147,6 +147,15 @@ IntroduzioneViolinoI = {
 	}
 }
 
+CrucifixumViolinoI = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 2/2 \tempoCrucifixum
+			\set Score.currentBarNumber = #142
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

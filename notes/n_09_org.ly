@@ -296,6 +296,19 @@ IntroduzioneBassFigures = \figuremode {
 	r4 <[5+] _+> <_+>2 %141 finis
 }
 
+CrucifixumOrgano = {
+	\relative c {
+		\clef bass
+		\key a \major \time 2/2 \tempoCrucifixum
+			\set Score.currentBarNumber = #142
+		r4 a'\fE h cis
+	}
+}
+
+CrucifixumBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

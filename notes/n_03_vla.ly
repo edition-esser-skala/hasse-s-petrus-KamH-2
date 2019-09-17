@@ -146,3 +146,12 @@ IntroduzioneViola = {
 		R1\fermataMarkup \bar "||" %141 finis
 	}
 }
+
+CrucifixumViola = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 2/2 \tempoCrucifixum
+			\set Score.currentBarNumber = #142
+		
+	}
+}

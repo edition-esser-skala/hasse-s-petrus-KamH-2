@@ -64,6 +64,19 @@ IntroduzioneMariaJacobeLyrics = \lyricmode {
 	pe -- dem. %141 finis
 }
 
+CrucifixumMariaJacobeNotes = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 2/2 \autoBeamOff \tempoCrucifixum
+			\set Score.currentBarNumber = #142
+		
+	}
+}
+
+CrucifixumMariaJacobeLyrics = \lyricmode {
+	
+}
+
 % MariaJacobeNotes = {
 % 	\relative c' {
 % 		\clef treble
