@@ -34,7 +34,7 @@ IntroduzioneOrgano = {
 		b4 b h
 		c( d\p h) %25
 		c( d h)
-		c2.~\f
+		\mvTr c2.~\f-\tastoE
 		c~
 		c~
 		c %30
@@ -78,7 +78,7 @@ IntroduzioneOrgano = {
 		g4 g( gis
 		a b!\p gis)
 		\once \slurDashed a( b! gis) %70
-		a2.~\f
+		\mvTr a2.~\f-\tastoE
 		a~
 		a~
 		a
@@ -135,7 +135,7 @@ IntroduzioneOrgano = {
 		as r e! r %125
 		es1\p
 		a,!
-		b2 a
+		b2 a!
 		b1
 		es~ %130
 		es2 r4 f\f
@@ -153,7 +153,147 @@ IntroduzioneOrgano = {
 }
 
 IntroduzioneBassFigures = \figuremode {
-	
+	r2 <6 5>4 <_+>
+	<9> <5 3> <6-> <7 _!>
+	<_+>2. <6 4>8 <7+ 4 2!>
+	<8 _+>2. <6 4>8 <7+ 4 2!>
+	<_+>4 <\t> <7>8 <6> <6\\> <\t> %5
+	<4> <_+> <4\+ _->4 <7>8 <6> <6\\>4
+	<4>8 <3> <6! 4+>4 <6> <6\\>
+	<_+> <7 _!> <_+> <7 _!>
+	<_+>2.
+	r4 <6> <_+> %10
+	r2.
+	r4 <6> <_+>
+	r2.
+	r8 <5 3>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff <6 4+> <\t \t>
+	r2. %15
+	r4 <6> <_+>
+	r2.
+	r4 <6> <_+>
+	r2.
+	r8 <5 3>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff <8 6> <\t \t> %20
+	r2 <6 4>8 <8 6>
+	<10 8>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <8 6> <\t \t>
+	r2 <6 4>8 <8 6>
+	r4 <6 5>2 \bassFigureExtendersOn
+	q2. %25
+	q2 q4 \bassFigureExtendersOff
+	<5 3>2.
+	r
+	r
+	r %30
+	r
+	r
+	r8 <5 3> r4 <6 _->8 <2>
+	<6>2 <6 5->4
+	<5> <6> <6 5> %35
+	r2.
+	<6>2 r8 q
+	<5 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <8 6> <\t \t>
+	r2 <6 4>8 <8 6>
+	r4 <6>2 %40
+	r4 <6>2
+	<9>8 <8> <6>4 <7>
+	<9>8 <8> <6>4 <7>
+	<9>8 <8> <6>4 <7 _+>
+	<9>8 <8> \bassFigureExtendersOn q4. q8 \bassFigureExtendersOff %45
+	<_+>2.
+	r8 <_+> <5 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<_+>2.
+	r8 <_+> <5 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<_+>2. %50
+	<6>2 r8 <6\\>
+	<5 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <6 4+> <\t \t>
+	r2 <6>8 <6\\>
+	<5 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <8 6> <\t \t>
+	r2 <6>8 <6!> %55
+	<_->8 <6!> <6> <6!> <6> <_->
+	<_+>2.
+	r4 <6> <_+>
+	r <6> <_+>
+	r <6>8 <6\\> <6>4 %60
+	<_+>2.
+	<5 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <8 6> <\t \t>
+	r2 <6 4>8 <8 6>
+	<5 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <8 6> <\t \t>
+	r2 <6 4>8 <8 6> %65
+	<5 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <8 6> <\t \t>
+	<_+>4. <4+ 2>8 <6> <6\\>
+	r4 <6 5>2 \bassFigureExtendersOn
+	q2.
+	q2 q4 \bassFigureExtendersOff %70
+	<_+>2.
+	r
+	r
+	r
+	r %75
+	r
+	r
+	r8 <_+>4. <5->8 <\t>
+	<6>2 <6 5>4
+	r4 <4\+ 2>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff <4\+ _-> %80
+	<6>2 <6 5>4
+	r8 <6\\> <6>4. q8
+	r <6\\> <6>4. q8
+	r <6\\> <6>2
+	<6 4! 2+>2. %85
+	<6>4 <\t> <6\\>2
+	<_+>2. <6 4>8 <7+ 4 2!>
+	<8 _+>2. <6 4>8 <7+ 4 2!>
+	<8 _+> <6 4> <5 _+> <6 4> <5 _+>2
+	r4 <_+> r q %90
+	r <4+ 2> <6> <6 5>
+	r1
+	r2. <7 _+>4
+	r <6 _-> r <4 3>
+	<_!>4. <6- 4 2>8 <5 _!>2 %95
+	r1
+	<_->4 <_!> <6> <_!>
+	<6>2 <5->
+	<7-> <_->8. <6>16 q <1> q q
+	<6 _!>2.. <_!>8 %100
+	<_!>4. <7 _!>8 r4. <7 _!>8
+	r2 <7->
+	r1
+	r4. <7 _+>8 r2
+	<4+ 2>2 <\t \t> %105
+	<6> <\t>
+	<6> <\t>
+	<7->1
+	<\t>
+	r2. <6->8 <6 4 2> %110
+	<6 5>1
+	<\t \t>2 <_!>8. <1>16 q q q q
+	r2 <6>
+	r1
+	r %115
+	r2 r8. <6 _->16 <\t \t>4
+	q1
+	r8. <1>16 q q q q r2
+	<6>4.. q16 <\t>2
+	r8. <6 _->16 <6>8 <5- 3>16 <\t \t> <7->2 %120
+	r16 <_-> <6> <_-> r <6!> <_-> <6> r <_-> <6> <_-> <6!>8 <_->16 <6>
+	<_->1
+	<4! 2>2. <5 _!>4
+	<_->2 <6 5->
+	<5-> <6 5> %125
+	<4! 2>1
+	<7->2. <6>8 <5->
+	<_->2 <6>
+	<_->2 <_!>
+	<_->1 %130
+	<6 4!>2. <_!>4
+	q1
+	<6\\>
+	<_->
+	<6> %135
+	<5 3>4 <6>
+	<6\\>1
+	<5 3>2 <6->
+	<5! _+>1
+	r %140
+	r4 <[5+] _+> <_+>2 %141 finis
 }
 
 % Organo = {
