@@ -204,11 +204,11 @@ CrucifixumViolinoI = {
 		a dis e cis %190
 		gis4.( a8) \appoggiatura gis4 fis2
 		e4-! gis~\f \tuplet 3/2 4 { gis8 a(\p h a[ gis fis]) }
-		e4-! a~\f \tuplet 3/2 4 { a8 h(\p cis h[ a gis]) }
+		e4-! a~\f \tuplet 3/2 4 { \stemDown a8 h(\p cis h[ a gis]) } \stemNeutral
 		fis4-! dis'~\f \tuplet 3/2 4 { dis8 e(\p fis e[ dis cis)] }
 		h4( a) \appoggiatura gis fis2 %195
 		e4-! g~\f \tuplet 3/2 4 { g8 a( h a[ g fis]) }
-		e4-! a~ \tuplet 3/2 4 { a8 h( c h[ a g]) }
+		e4-! a~ \tuplet 3/2 4 { \stemDown a8 h( c h[ a g]) } \stemNeutral
 		fis4-! dis'~ \tuplet 3/2 4 { dis8 e(\p fis) h,[( cis dis)] }
 		e4( h)a'2\f
 		gis4(\p e) g2\f %200
@@ -250,7 +250,7 @@ CrucifixumViolinoI = {
 		d d d d
 		cis a'2 cis,4
 		h fis'2 a,4
-		gis h'16([ gis8.)] a16([ e8.)] fis16([ d8.)]
+		gis h'16([\pocoF gis8.)] a16([ e8.)] fis16([ d8.)]
 		cis4.(\trill d8) \appoggiatura cis4 h2 %240
 		a8-! r cis4~ \tuplet 3/2 4 { cis8 d(\p e d[ cis h)] }
 		a-! r d4~ \tuplet 3/2 4 { d8 e( fis e[ d cis)] }
@@ -274,10 +274,10 @@ CrucifixumViolinoI = {
 		a-! r d4~ \tuplet 3/2 4 { d8 e( fis e[ d cis)] } %260
 		h-! r gis'4~ \tuplet 3/2 4 { gis8 a( h a[ gis fis)] }
 		e8.[ a16] a,8. h16 h2\trill
-		a8-! r cis4~ \tuplet 3/2 4 { cis8 d(\p e d[ cis h)] }
+		a8-! r cis4~\p \tuplet 3/2 4 { cis8 d( e d[ cis h)] }
 		a-! r cis4~\f \tuplet 3/2 4 { cis8 d( e d[ cis h)] } \noBreak
 		a4 e a, r\fermata \bar "||" %265
-		\key a \minor a'2 f' \noBreak
+		\key a \minor a'2\p f' \noBreak
 		\appoggiatura e4 dis2. e4
 		\appoggiatura d2 c1
 		h2 e16([\pocoF c8.)] h16([ a8.)]
@@ -293,7 +293,7 @@ CrucifixumViolinoI = {
 		c8 r e4~ \tuplet 3/2 4 { e8 f( g f[ e d)] }
 		c4 b~ \tuplet 3/2 4 { b8 c( d) g,([ a b)] } %280
 		a4( a'2) a,4
-		\tuplet 3/2 4 { h8( c d) } g,4-!\f g-! g-!
+		\tuplet 3/2 4 { h!8( c d) } g,4-!\f g-! g-!
 		fis-! d'-! f,2\trill
 		e4 c'-!\p c-! c-!
 		h( g') b,2 %285

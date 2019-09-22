@@ -359,8 +359,8 @@ CrucifixumOrgano = {
 		e r r2
 		c4\f r r2
 		a4 r a'2\p
-		gis! r4 dis
-		e r r ais\f %200
+		gis! r4 dis\fE
+		e\pE r r ais\f %200
 		h a gis a
 		h a h h,
 		e-!\ff r r2
@@ -399,7 +399,7 @@ CrucifixumOrgano = {
 		e e e e
 		a a a a
 		d, d d dis
-		e d\f cis d
+		e d\pocoF cis d
 		e d e e, %240
 		a-! r r2
 		fis'4\p-! r r2
@@ -415,7 +415,7 @@ CrucifixumOrgano = {
 		\time 4/2 a2 f e dis
 		\time 2/2 e1\fermata
 		a,4\ff a'-! a-! a-!
-		gis! e' g,2\trill %255
+		gis e' g,2\trill %255
 		fis4 d' f,2\trill
 		e cis4 ais
 		h2 gis4 e
