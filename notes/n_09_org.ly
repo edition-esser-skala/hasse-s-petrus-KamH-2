@@ -326,7 +326,7 @@ CrucifixumOrgano = {
 		cis4\f fis d e
 		a-! r e-! r
 		a-! r e-!\p r \noBreak %165
-		a, r r2 \bar "S-|"
+		a, r r2\fermata \bar "S-|"
 		r4 a(\p h cis) \noBreak
 		r d r cis
 		d e fis gis
@@ -434,7 +434,7 @@ CrucifixumOrgano = {
 		f\p e
 		dis1\fermata
 		e~
-		e4 r e( f)
+		e4 e e( f)
 		f f f f %275
 		f f f fis
 		g g g8. f16 e8. d16
@@ -450,19 +450,19 @@ CrucifixumOrgano = {
 		r fis fis fis
 		g g8.\f a16 g8. f16 e8. d16
 		c4 r r2
-		r4 r8 f\f f4 r8 f
+		r4 r8 f\f f4 r8 f %290
 		f4 r8 f f4 r8 f
 		f1\fermata
 		e4-!\p r e-! r
 		e-! r r2
-		\key a \major r4 a\f h cis
+		\key a \major r4 a\f h cis %295
 		r d r cis,
 		d e fis gis
 		a r r2
 		fis4 r r2
-		d4 r r2
+		d4 r r2 %300
 		cis4 fis d e
-		a, r r2 \bar "S-S"
+		a, r r2 \bar "S-S" %302 finis
 	}
 }
 
