@@ -189,8 +189,8 @@ CrucifixumViolinoI = {
 		dis-! h'-! d,2\trill %175
 		cis4 e'(-.\p e-. e-.)
 		dis( h') d,2
-		cis4( a') cis,2
-		cis4 h h cis
+		cis4( a') c,?2
+		c?4 h h cis
 		\appoggiatura h ais2 h %180
 		a4.( h8) \appoggiatura a4 gis2
 		fis4 h-!\f h-! h-!

@@ -83,8 +83,8 @@ CrucifixumMariaJacobeNotes = {
 		R1 %175
 		r4 e2 e4
 		dis( h') d,2
-		cis4( a'2) cis,4
-		cis h \appoggiatura fis'8 e4 dis8([ cis)]
+		cis4( a'2) c,?4
+		c? h \appoggiatura fis'8 e4 dis8([ cis)]
 		\appoggiatura h4 ais2 h4 r8 e, %180
 		a4.( h8) \appoggiatura a4 gis2
 		fis r
