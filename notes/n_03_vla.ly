@@ -149,7 +149,7 @@ IntroduzioneViola = {
 
 CrucifixumViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key a \major \time 2/2 \tempoCrucifixum
 			\set Score.currentBarNumber = #142
 			\set Staff.timeSignatureFraction = 2/2

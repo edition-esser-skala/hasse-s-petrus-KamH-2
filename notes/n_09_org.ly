@@ -511,7 +511,7 @@ CrucifixumBassFigures = \figuremode {
 	q q q2
 	<6>2 <6\\ 5!>
 	<_+> <6 5!>4 <7 _+> %185
-	r2 <_!>4 <7!>
+	r2 <6 _!>4 <7!>
 	<_+>1
 	<6 4>
 	<7 _+>
@@ -563,7 +563,7 @@ CrucifixumBassFigures = \figuremode {
 	<6 4>2 <\t 4\+> %235
 	<7>1
 	r
-	<6>2. <6 5>4
+	<9 7>4 <8 6>2 <6 5>4
 	r <2> <6>2
 	<6 4>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff <5 _+> %240
 	r1
@@ -594,7 +594,7 @@ CrucifixumBassFigures = \figuremode {
 	r2 <6>
 	<5 2>4 <4\+ \t>2 <6>4
 	<4 2>2 <7>
-	<_+> <6>
+	<_+> <6>4 <6\\>
 	<_+>1 %270
 	r2 <_+>
 	<7 6>2 <\t 5>
