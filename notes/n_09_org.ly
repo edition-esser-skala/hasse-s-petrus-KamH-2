@@ -415,8 +415,8 @@ CrucifixumOrgano = {
 		\time 4/2 a2 f e dis
 		\time 2/2 e1\fermata
 		a,4\ff a'-! a-! a-!
-		gis e' g,2\trill %255
-		fis4 d' f,2\trill
+		gis-\parenthesize-! e'-\parenthesize-! g,2\trill %255
+		fis4-\parenthesize-! d'-\parenthesize-! f,2\trill
 		e cis4 ais
 		h2 gis4 e
 		a r r2

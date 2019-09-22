@@ -153,6 +153,166 @@ CrucifixumViola = {
 		\key a \major \time 2/2 \tempoCrucifixum
 			\set Score.currentBarNumber = #142
 			\set Staff.timeSignatureFraction = 2/2
-		
+		r4 cis\fE d e
+		r <fis a> r a,
+		fis' gis a h
+		e,1 %145
+		r4 cis d e
+		r a r a
+		gis( h) \appoggiatura h a2
+		gis4 e-! e-! e-!
+		dis-! h'-! d,2\trill %150
+		cis c
+		h h'4 gis
+		e2 r4 a
+		gis h a a
+		gis a2 gis4 %155
+		a-! r r2
+		fis4-! r r2
+		d4-! r r2
+		cis4 a'2 gis4
+		a r r2 %160
+		fis4-!\pE r r2
+		d4-! r r2
+		cis4\fE a'2 gis4
+		a-! r e r
+		e r e\pE r \noBreak %165
+		cis-! e-! a,-! r\fermata \bar "S-|"
+		r4 cis\p d e \noBreak
+		d2 cis
+		d4 e fis gis
+		a e cis a %170
+		r cis d e
+		d2 cis
+		h4 e e2
+		e4 e-!\f e-! e-!
+		dis-\parenthesize-! h'-\parenthesize-! d,2\trill %175
+		cis4 r e2\p
+		fis e~
+		e fis
+		e4 e e e
+		cis2 h %180
+		cis4 h2 h4
+		h h-!\fE h-! h-!
+		ais-! fis'-! a,2\trillE
+		gis4 d'!2\pE cis8( h)
+		cis2 h %185
+		h cis
+		fis,4 h h h
+		h h h h
+		h h h h
+		h h h cis %190
+		h( cis h a)
+		gis r r2
+		cis4-! r r2
+		a4-! r fis'2(
+		gis4) cis, h2 %195
+		h4 r r2
+		c4\f r r2
+		a4-! r fis'2\pE
+		h,4-! r r fis'
+		h,-! r r e %200
+		dis-!\fE dis-! e r8 cis
+		h4( cis) h a
+		gis-!\ffE r r2
+		cis4-! r r2
+		a4-! r r2 %205
+		e'4 e e dis
+		e-! r h-! r
+		h r h r
+		gis r r2
+		r4 gis\p a h %210
+		a2 gis
+		a4 h cis dis
+		e h e, e'8 d
+		cis4 cis d e
+		a, fis' e cis %215
+		r fis\fE e cis
+		r fis\pE e2
+		fis4 e e2~
+		e4 e-!\f e-! e-!
+		dis-! h'-! d,2\trill %220
+		cis c\p
+		h r4 gis
+		a2 r4 dis
+		e e\f e d
+		cis! a2\pE a4 %225
+		a a c2~
+		c4 h2\fE h4\fE
+		h h gis! h
+		e, cis' cis cis
+		cis cis cis cis %230
+		d dis dis dis
+		dis dis dis dis
+		e e e e
+		e e gis gis
+		a a ais ais %235
+		h h gis gis
+		e e e e
+		e d d dis
+		e e\pocoFE e r8 fis
+		e4 fis e d %240
+		cis-! r r2
+		fis4-!\pE r r2
+		d4 r d2
+		cis4( fis) e2
+		e4 r r2 %245
+		f4-!\fE r r2
+		d4-!\pE r d2
+		cis!4 fis! e d
+		cis r r cis\fE
+		d\pE r r fis^\critnote %250
+		h, e fis gis
+		\time 4/2 a2 f e dis
+		\time 2/2 e1\fermata
+		a,4\ff a'-! a-! a-!
+		gis-\parenthesize-! e'-\parenthesize-! g,2\trill %255
+		fis4-\parenthesize-! d'-\parenthesize-! f,2\trill
+		e ais4 cis
+		fis,2 h4 gis
+		e-! r r2
+		fis4-! r r2 %260
+		d4-! r r2
+		cis4 a'2 gis4
+		a-! r e\pE r
+		e r e\fE r \noBreak
+		cis-! e-! a,-! r\fermata \bar "||" %265
+		\key a \minor r4 a'\pE a a \noBreak
+		fis fis fis e
+		e2 dis
+		e4 e2\pocoFE dis4
+		e r r2 %270
+		f2\pE e
+		dis1\fermata
+		e1~
+		e4 e e( f)
+		f f f f %275
+		f f f fis
+		g g g8.[ f16] e8. d16
+		c4 r g' r
+		c r g r
+		e2 e %280
+		f4 f f f
+		r g-!\fE g-! g-!
+		fis-\parenthesize-! d'-\parenthesize-! f,2\trill
+		e es\p
+		d4 e8( d) e2 %285
+		f4 f f f
+		r a a a
+		d, g8.\f a16 g8.[ f16] e8. d16
+		c4 r r2
+		r4 r8 c\fE c4 r8 c %290
+		c4 r8 c c4 r8 c
+		c1\fermata
+		gis4-!\pE r gis-! r
+		gis-! r r2
+		\key a \major r4 cis\fE d e %295
+		r a r a,
+		fis' gis a h
+		e, r r2
+		fis4 r r2
+		d4 r r2 %300
+		cis4 cis fis e8( d)
+		cis4 e a, r \bar "S-S" %302 finis
 	}
 }

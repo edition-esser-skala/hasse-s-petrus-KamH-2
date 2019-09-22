@@ -239,7 +239,7 @@ CrucifixumViolinoI = {
 		e4 e2\p g,4 %225
 		g fis2 fis'4
 		fis2.\f a,4\p
-		a \tuplet 3/2 4 { gis8( h e) } e,4-! \tuplet 3/2 4 { e8( fis gis) }
+		a \tuplet 3/2 4 { gis!8( h e) } e,4-! \tuplet 3/2 4 { e8( fis gis) }
 		a4 a a a
 		a g'2 g,4 %230
 		fis h h h
