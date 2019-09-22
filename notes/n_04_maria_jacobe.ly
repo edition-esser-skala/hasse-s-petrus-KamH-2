@@ -302,7 +302,7 @@ CrucifixumMariaJacobeLyrics = \lyricmode {
 	ne -- sta %290
 	
 	no -- stra
-	sors?
+	sors? %293 finis
 }
 
 % MariaJacobeNotes = {
