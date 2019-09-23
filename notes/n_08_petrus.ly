@@ -143,12 +143,211 @@ MeaTormentaPetrusNotes = {
 		\clef treble
 		\key g \minor \time 4/4 \autoBeamOff \tempoMeaTormenta
 			\set Score.currentBarNumber = #307
-		
+		R1*17 \noBreak %323
+		R1\fermataMarkup \bar "S-|"
+		g'2\pE b4.(\trill c8) \noBreak %325
+		d4 d, r d8. d16
+		g8.([\trill fis16)] g4 r g8. b16
+		\appoggiatura b4 a4. c8 c([ b)] b a
+		b8.([\trill c16)] d4 r g,8. b16
+		\appoggiatura b4 a4. es'8 \appoggiatura es16 d8([ c)] b a %330
+		b4 a r2
+		b2 b
+		es4 es, r2
+		es'2 es,
+		d4 b'2 as16[ g f8] %335
+		g4 es'2 d16[ c b8]
+		a!16[ b a g] a[ f g a] b[ a g a] b[ c d e]
+		f4 f, r2
+		R1
+		b2 d, %340
+		\appoggiatura d8 c4 c r r8 es'
+		\appoggiatura es8 d4( c8[ b)] a([ g)] f([ es)]
+		\appoggiatura es2 d2~ d4 r
+		b'2~ b8([ c)] c([ d)]
+		d16([ c b8)] \appoggiatura a4 g2 r8 g %345
+		es'4 c \appoggiatura b a2
+		\appoggiatura a b2~ b4 b
+		g'4 \appoggiatura f8 es4 \appoggiatura d c2
+		b r
+		R1*6 %355
+		g2 b4.(\trill c8)
+		d4 d, r d8. d16
+		g8.([\trill fis16)] g4 r g8. b16
+		\appoggiatura b4 a4. es'8 d([ c)] b a
+		b4 a r2 %360
+		b b
+		es4 es, es'2~
+		es es,
+		es4 d r d8. d16
+		g2 r4 r8 g %365
+		c([ h)] c4 r r8 c
+		c4.( d16[ es)] d8([ c)] b([ a)]
+		b4 a d16([ b8.)] a16([ g8.)]
+		fis16([ e d8)] d r d'4 g,
+		fis16[ e] d4 e16[ fis] g[ fis g a] b[ a b c] %370
+		d[ c b a] d[ c b a] \appoggiatura c b8[ a16 g] \appoggiatura c b8[ a16 g]
+		fis[ g fis e?] fis[ d e? fis] g[ fis g a] b[ a b c]
+		d4 d, r2
+		R1
+		g2~ g8([ a)] a([ b)] %375
+		\appoggiatura b a4 a r c
+		c h r d
+		c2 r
+		es as,
+		\appoggiatura g8 fis4 g r r8 g %380
+		\appoggiatura f' es4 \appoggiatura d8 c4 \appoggiatura b a2
+		\appoggiatura a4 b2 g'
+		\appoggiatura f8 es4^\critnote \appoggiatura d8 c4 \appoggiatura b a2
+		g r
+		R1*10 \noBreak %394
+		R1\fermataMarkup \bar "||" %395
+		\time 3/4 \tempoMeaTormentaB b4( c) b \noBreak
+		\appoggiatura b as2.
+		g4 \appoggiatura b8 as?4 \appoggiatura g8 f4
+		\appoggiatura es d2 es4
+		c' \appoggiatura b as2 %400
+		b4( as) g
+		f8.([\trill g16] as4.) g8
+		g4 f r
+		r b b
+		b8.([ c32 des)] c4 b %405
+		as?( g) f
+		e8.([ f32 g)] c,4 r
+		r c' c
+		c2.~
+		c~ %410
+		c4( b) as?
+		\tuplet 3/2 4 { des8([ c b)] } \appoggiatura as?4 g2
+		f4 as? as
+		as? g es'~
+		es ges, ges %415
+		ges? f r
+		r b b
+		b2.~
+		b~
+		b4( as?) g8([ es')] %420
+		\appoggiatura d16 c8([ b16 as?)] \appoggiatura g4 f2
+		es r4
+		es es'2
+		\tuplet 3/2 4 { d8([ c b)] } \appoggiatura b4 as?2
+		\tuplet 3/2 4 { g8([ c b)] } \appoggiatura es,4 d2 %425
+		\appoggiatura d es2.
+		es4 es'2
+		d8.([ es32 f)] b,4 r
+		R2.
+		r4 b b %430
+		b2.~
+		b4( as?) g
+		as?8.([ b32 c)] b4 r
+		as?8.([ b32 c)] b4 r
+		R2.*2 %436
+		es,2\fermata f4
+		es2 r4
+		R2.
+		R\fermataMarkup \bar "||" %440 finis
 	}
 }
 
 MeaTormentaPetrusLyrics = \lyricmode {
+	Mea tor -- %325
+	men -- ta, pro -- pe --
+	ra -- te! U -- bi
+	sunt fla -- gel -- la et
+	cae -- des, u -- bi
+	sunt fla -- gel -- la et %330
+	cae -- des?
+	Cru -- cem
+	quae -- ro,
+	cru -- cem
+	da -- _ _ %335
+	_ _ _
+	_ _ _ _
+	_ te,
 	
+	vo -- lo %340
+	mo -- ri, o
+	De -- us, __ in __
+	te, __
+	vo -- lo __
+	mo -- ri, o %345
+	De -- us, in
+	te, __ o
+	De -- us, in
+	te.
+	
+	Mea tor -- %356
+	men -- ta, pro -- pe --
+	ra -- te! U -- bi
+	sunt fla -- gel -- la et
+	cae -- des? %360
+	Cru -- cem
+	quae -- ro, cru --
+	cem
+	da -- te. U -- bi
+	sunt fla -- %365
+	gel -- la, fla --
+	gel -- la __ et __
+	cae -- des? Cru -- cem
+	quae -- ro, cru -- cem
+	da -- _ _ _ _ %370
+	_ _ _ _
+	_ _ _ _
+	_ te,
+	
+	vo -- lo __ %375
+	mo -- ri, o
+	De -- us, in
+	te,
+	vo -- lo
+	mo -- ri, o %380
+	De -- us, in
+	te, o
+	De -- us, in
+	te.
+	
+	Je -- su %396
+	mi,
+	si me vo --
+	ca -- sti
+	san -- cta %400
+	fa -- cie
+	tua __ se --
+	re -- na,
+	in tua
+	cru -- ce, et %405
+	in __ tua
+	poe -- na,
+	Je -- su,
+	ca --
+	%410
+	re
+	vo -- ca
+	me, in tua
+	cru -- ce, et __
+	in tua %415
+	poe -- na,
+	Je -- su,
+	ca --
+	
+	re __ %420
+	vo -- ca
+	me,
+	in tua
+	cru -- ce
+	vo -- ca %425
+	me,
+	in tua
+	poe -- na,
+	
+	Je -- su, %430
+	ca --
+	re
+	vo -- ca
+	me, __ _
+	
+	vo -- ca
+	me.
 }
 
 % PetrusNotes = {
