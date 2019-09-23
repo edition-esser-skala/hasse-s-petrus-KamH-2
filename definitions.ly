@@ -208,6 +208,7 @@ tempoIntroduzione = \tempoMarkup "Lento" %1
 tempoCrucifixum = \tempoMarkup "Andante"
 tempoEamus = \tempoMarkup "[Tempo deest]"
 	tempoEamusB = \tempoMarkup "Andante"
+tempoMeaTormenta = \tempoMarkup "Allegro di molto"
 
 
 

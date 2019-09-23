@@ -316,3 +316,12 @@ CrucifixumViola = {
 		cis4 e a, r \bar "S-S" %302 finis
 	}
 }
+
+MeaTormentaViola = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoMeaTormenta
+			\set Score.currentBarNumber = #307
+		
+	}
+}

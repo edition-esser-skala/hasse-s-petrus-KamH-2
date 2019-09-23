@@ -316,3 +316,12 @@ CrucifixumViolinoII = {
 		a4 e a, r \bar "S-S" %302 finis
 	}
 }
+
+MeaTormentaViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoMeaTormenta
+			\set Score.currentBarNumber = #307
+		
+	}
+}

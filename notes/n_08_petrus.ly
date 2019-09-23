@@ -138,6 +138,19 @@ EamusPetrusLyrics = \lyricmode {
 	o -- ro. %306 finis
 }
 
+MeaTormentaPetrusNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \autoBeamOff \tempoMeaTormenta
+			\set Score.currentBarNumber = #307
+		
+	}
+}
+
+MeaTormentaPetrusLyrics = \lyricmode {
+	
+}
+
 % PetrusNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -667,6 +667,19 @@ EamusBassFigures = \figuremode {
 	r4 <[_+]> <_+>2 %306 finis
 }
 
+MeaTormentaOrgano = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/4 \tempoMeaTormenta
+			\set Score.currentBarNumber = #307
+		g'8\fE g g g g g g g
+	}
+}
+
+MeaTormentaBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
