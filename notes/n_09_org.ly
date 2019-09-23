@@ -630,6 +630,20 @@ CrucifixumBassFigures = \figuremode {
 	r1 %302 finis
 }
 
+EamusOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoEamus
+			\set Score.currentBarNumber = #294
+		eis1~\pE
+		eis2 fis
+	}
+}
+
+EamusBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

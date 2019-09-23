@@ -109,6 +109,19 @@ IntroduzionePetrusLyrics = \lyricmode {
 	_ mor De -- i. %131 finis
 }
 
+EamusPetrusNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoEamus
+			\set Score.currentBarNumber = #294
+		
+	}
+}
+
+EamusPetrusLyrics = \lyricmode {
+	
+}
+
 % PetrusNotes = {
 % 	\relative c' {
 % 		\clef treble

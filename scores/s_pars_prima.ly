@@ -108,47 +108,80 @@
 % 			\midi { \tempo 4 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "1.3 CRUCIFIXUM SI VIDERES"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\CrucifixumViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\CrucifixumViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 							\CrucifixumViola
+% 					}
+% 				>>
+% 				\new ChoirStaff \with { \smallerGroupDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Maria" "Jacobe" } }
+% 						\new Voice = "MariaJacobe" { \dynamicUp \CrucifixumMariaJacobeNotes }
+% 					}
+% 					\new Lyrics \lyricsto MariaJacobe \CrucifixumMariaJacobeLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\CrucifixumOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\CrucifixumBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "1.3 CRUCIFIXUM SI VIDERES"
+			movement = "1.4 EAMUS"
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\CrucifixumViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\CrucifixumViolinoII
-						}
-					>>
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-							\CrucifixumViola
-					}
-				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
+				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Maria" "Jacobe" } }
-						\new Voice = "MariaJacobe" { \dynamicUp \CrucifixumMariaJacobeNotes }
+						\new Voice = "MariaJacobe" { \dynamicUp \EamusMariaJacobeNotes }
 					}
-					\new Lyrics \lyricsto MariaJacobe \CrucifixumMariaJacobeLyrics
+					\new Lyrics \lyricsto MariaJacobe \EamusMariaJacobeLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Petrus"
+						\new Voice = "Petrus" { \dynamicUp \EamusPetrusNotes }
+					}
+					\new Lyrics \lyricsto Petrus \EamusPetrusLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\CrucifixumOrgano
+						\EamusOrgano
 					}
 				>>
 				\new FiguredBass {
-					\CrucifixumBassFigures
+					\EamusBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 2 = 90 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

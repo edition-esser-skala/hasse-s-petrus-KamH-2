@@ -305,6 +305,19 @@ CrucifixumMariaJacobeLyrics = \lyricmode {
 	sors? %293 finis
 }
 
+EamusMariaJacobeNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoEamus
+			\set Score.currentBarNumber = #294
+		
+	}
+}
+
+EamusMariaJacobeLyrics = \lyricmode {
+	
+}
+
 % MariaJacobeNotes = {
 % 	\relative c' {
 % 		\clef treble
