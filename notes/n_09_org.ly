@@ -673,6 +673,139 @@ MeaTormentaOrgano = {
 		\key g \minor \time 4/4 \tempoMeaTormenta
 			\set Score.currentBarNumber = #307
 		g'8\fE g g g g g g g
+		fis fis fis fis f f f f
+		es es es es b b b b
+		c c c c d d d d %310
+		g g g g b, b b b
+		c c c c d d d d
+		g g g g g g g g
+		c, c c c c c c c
+		f f f f f f f f %315
+		b, b b b b b b b
+		es es es es es es es es
+		a, a a a a a a a
+		d d d d es es es es
+		d d d d es es es es %320
+		d4 r r8 d' es cis
+		d a b fis g d es cis
+		d a b g d' a b g \noBreak
+		d'4 r r2\fermata \bar "S-|"
+		r8 g\pocoF g g g g g g \noBreak %325
+		fis fis fis fis f f f f
+		es es es es b b b b
+		c c c c d d d d
+		g g g g b, b b b
+		c c c c d d d d %330
+		g4 d8\f d16 es d8 c b a
+		g g'\p g g g g g g
+		c,\f c c c c c c c
+		f\p f f f f f f f
+		b, b b b d d d d %335
+		es es es es es es es es
+		f f f f g g g g
+		f f f f g\f g g g
+		f4 r8 f16 g f8 d es c
+		d1\p %340
+		es
+		f
+		g
+		d
+		es %345
+		r8 es es es f f f f
+		g g\f g g d d d d
+		es es es es f f f f
+		b,\ff b b b b b b b
+		c c c c es es es es %350
+		d d d d es es es es
+		d r r4 r8 d' es cis
+		d a b fis g d es cis
+		d a b g d' a b g
+		d'4 r r2 %355
+		r8 g\p g g g g g g
+		fis fis fis fis f f f f
+		es es es es b b b b
+		c c c c d d d d
+		g4 d8\f d16 es d8 c b a %360
+		g g'\p g g g g g g
+		c,\f c c c c c c\p c
+		f f f f f f f f
+		b, b b b b b b b
+		es es es es es es es es %365
+		a, a a a a a a a
+		d\f d d d d\p d d d
+		d d d c b\f b es es
+		d d d\p c b b es es
+		d d d d es-! r r4 %370
+		d8-! r r4 cis8-! r r4
+		d8-! r r4 es8-! r r4
+		r8 d\f d d es es es es
+		d4 r8 d16 es d8 c b a
+		b1\p %375
+		c
+		d
+		es
+		c
+		c'4 b r2 %380
+		r8 c,c c d d d d
+		g\f g g g b, b b b
+		c c c c d d d d
+		g,\ff g' g g g g g g
+		c, c c c c c c c %385
+		f f f f f f f f
+		b, b b b b b b b
+		es es es es es es es es
+		a, a a a a a a a
+		d d d d es es es es %390
+		d d d d es es es es
+		d r r4 c2
+		b8 b b c d d d d
+		es4-! g-! c,-! d-! \noBreak
+		g, r r2\fermata \bar "||" %395
+		\time 3/4 \tempoMeaTormentaB es'2.~\p \noBreak
+		es4 d( b)
+		es c( as)
+		b( as) g
+		as r r %400
+		es' r r
+		r as, a
+		r b\f c
+		des2 des'4\p
+		e,2. %405
+		f4 b,( des)
+		r8 c(-. c-. c-. c-. c-.)
+		c r r4 r
+		r c' f,
+		c8 r r4 r %410
+		r c' f,
+		b, c c
+		f d!( b)
+		es2 r4
+		a,!2.\f %415
+		r8 b(-.\p b-. b-. b-. b-.)
+		b r r4 r
+		r b'( es,)
+		b8 r r4 r
+		r b'( es,) %420
+		as,? b b
+		ces ces(\f b)
+		a!2.
+		b4( c! \once \stemUp d)
+		es b2 %425
+		ces4 ces(\f b)
+		a!2.
+		r8 b(-.\p b-. b-. b-. b-.)
+		b r r4 r
+		r b'( es,) %430
+		b8 r r4 r
+		r b'( es,)
+		as, es' r
+		as, es' r
+		g,\f g g %435
+		as as as
+		b2.\fermata
+		es
+		c
+		d\fermata \bar "S-S" %440 finis
 	}
 }
 
