@@ -636,12 +636,35 @@ EamusOrgano = {
 		\key c \major \time 4/4 \tempoEamus
 			\set Score.currentBarNumber = #294
 		eis1~\pE
-		eis2 fis
+		eis2 fis %295
+		h,1
+		e8 r16 \tempoEamusB e e16. d32 cis16. h32 a2
+		d1~
+		d2 r4 e
+		c!1~ %300
+		c
+		h8 g'16. fis32 g8 g b, g'16. fis32 g8 b,
+		a1
+		d8 r16 a d16. f32 e16. g32 f2
+		g1 %305
+		r4 a d, r\fermata \bar "||" %306 finis
 	}
 }
 
 EamusBassFigures = \figuremode {
-	
+	r1 %294
+	r %295
+	<7 [5+] _+>
+	r2 <_+>
+	r1
+	r2. <_+>4
+	<6>1 %300
+	r
+	r
+	r
+	<_!>
+	r %305
+	r4 <[_+]> <_+>2 %306 finis
 }
 
 % Organo = {
