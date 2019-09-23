@@ -114,12 +114,28 @@ EamusPetrusNotes = {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoEamus
 			\set Score.currentBarNumber = #294
-		
+		r4 r8 cis'\pE cis gis r4 %294
+		R1*5 %299
+		a8 a r a e'4 c8 a %300
+		fis fis r d a'8. a16 a8 h
+		g g r4 g4. g16 g
+		cis8 cis e4~ e8 g, g f!16 e
+		f8 f r4 a8 a16 a d8 c
+		b b b4~ b8 g r g16 f %305
+		d8 d r4 r2\fermata \bar "||" %306 finis
 	}
 }
 
 EamusPetrusLyrics = \lyricmode {
+	E -- a -- mus. %294
 	
+	Si -- sto, et al -- tum con -- %300
+	tem -- plor in me de -- cre -- tum
+	De -- i. Fer -- vi -- do
+	cor -- de mor -- tem ta -- men im --
+	plo -- ro: Se -- qui Ma -- gi -- strum
+	me -- um o -- pto, et ex -- %305
+	o -- ro. %306 finis
 }
 
 % PetrusNotes = {

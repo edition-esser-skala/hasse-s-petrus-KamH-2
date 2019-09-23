@@ -155,6 +155,7 @@
 		\header {
 			movement = "1.4 EAMUS"
 		}
+		\paper { systems-per-page = #3 }
 		\score {
 			<<
 				\new ChoirStaff <<

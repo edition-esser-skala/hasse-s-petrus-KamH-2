@@ -638,7 +638,7 @@ EamusOrgano = {
 		eis1~\pE
 		eis2 fis %295
 		h,1
-		e8 r16 \tempoEamusB e e16. d32 cis16. h32 a2
+		e!8 r16 \tempoEamusB e e16. d32 cis16. h32 a2
 		d1~
 		d2 r4 e
 		c!1~ %300
@@ -652,18 +652,18 @@ EamusOrgano = {
 }
 
 EamusBassFigures = \figuremode {
-	r1 %294
-	r %295
-	<7 [5+] _+>
+	<[6+ _+]>1 %294
+	r2 <[5+]> %295
+	<7 [5+] _+>1
 	r2 <_+>
-	r1
-	r2. <_+>4
+	<[_+]>1
+	<[4\+]>2. <_+>4
 	<6>1 %300
-	r
-	r
-	r
-	<_!>
-	r %305
+	<[4\+]>
+	<[6]>2 <[\t]>
+	<[7 _+]>1
+	<_!>2 <[6]>
+	<[_-]>1 %305
 	r4 <[_+]> <_+>2 %306 finis
 }
 

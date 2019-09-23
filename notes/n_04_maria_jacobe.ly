@@ -310,12 +310,23 @@ EamusMariaJacobeNotes = {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoEamus
 			\set Score.currentBarNumber = #294
-		
+		R1
+		h'8\pE h r cis a a r a %295
+		dis dis r4 fis a,8 h
+		g! g r4 r8 cis16 e e8 g,16 a
+		fis8 fis r4 fis'4( \grace e16 d8) \appoggiatura cis?16 h8
+		\appoggiatura a gis4 gis8 a e e r4
+		R1*6 %305
+		R1\fermataMarkup \bar "||" %306 finis
 	}
 }
 
 EamusMariaJacobeLyrics = \lyricmode {
-	
+	Si -- ste, o Pe -- tre. Quo %295
+	va -- dis? No -- li ex --
+	i -- re. Im -- piae tur -- bae te
+	que -- runt. Ah, __ te
+	no -- bis con -- ser -- va. %299 finis
 }
 
 % MariaJacobeNotes = {
