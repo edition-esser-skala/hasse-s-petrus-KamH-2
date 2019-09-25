@@ -984,7 +984,109 @@ AmorMeusOrgano = {
 		\clef bass
 		\key h \minor \time 3/4 \tempoAmorMeus
 			\set Score.currentBarNumber = #452
-		h'4\fE h, r
+		r4 h'\fE h,
+		r ais' ais,
+		h( cis \once \stemUp d)
+		e2 fis4 %455
+		g( fis eis)
+		g!( fis eis)
+		fis( e d)
+		r8 ais( h cis d e)
+		fis4( e d) %460
+		e fis2
+		g r4
+		e fis fis
+		h2 r4
+		e, fis fis, %465
+		h d cis
+		h\p h' h,
+		r ais' ais,
+		h( cis \once \stemUp d)
+		e2 fis4 %470
+		g( fis e)
+		\once \stemUp d( cis h)
+		g'( fis e)
+		\once \stemUp d( cis h)
+		r ais h %475
+		fis' fis, r
+		r cis' d
+		a' a, r
+		R2.
+		d4\f b' a %480
+		gis2.\p
+		a4( cis d)
+		a( cis d)
+		a( cis d)
+		a( cis d) %485
+		r a g!
+		fis2.
+		g
+		g2 fis4
+		g a a, %490
+		h2 r4
+		fis'2.
+		g2 gis4
+		a a, r
+		R2.*3 %497
+		g'!4 a a,
+		h'2 r4
+		g\f a a, %500
+		d\ff e fis
+		g a h
+		cis d g,
+		a g fis
+		g a a, %505
+		d2 g4
+		r8 ais, h cis d e
+		fis4 fis, fis
+		r h'\p h,
+		r ais' ais, %510
+		h( cis \once \stemUp d)
+		e2 fis4
+		g( fis e)
+		\once \stemUp d( cis h)
+		g'( fis e) %515
+		\once \stemUp d( cis h)
+		r ais h
+		fis' fis, r
+		R2.
+		h4\f g' g %520
+		g8.( fis16) e4 r
+		e\p c' h
+		ais2.
+		h4( e, g)
+		fis( ais h) %525
+		fis( ais h)
+		fis( ais h)
+		fis( ais h)
+		r fis fis
+		fis2. %530
+		eis
+		fis2 fis4
+		h d, h
+		r8 fis'(-. fis-. fis-. fis-. fis-.)
+		fis2. %535
+		R2.*6 %541
+		e4\pocoF fis fis
+		g2 r4
+		e\p fis fis
+		g2. %545
+		e4\f fis fis,
+		h'\ff g e
+		r dis dis,
+		e'( fis g)
+		a2( h4) %550
+		c( h ais)
+		c( h ais)
+		h( g fis)
+		eis2.
+		fis4( e d) %555
+		e fis fis
+		g2 r4
+		e fis fis
+		h2 r4
+		e, fis fis, %560
+		h r r\fermata \bar "||" %561 finis
 	}
 }
 
