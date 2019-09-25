@@ -322,6 +322,139 @@ MeaTormentaViola = {
 		\clef treble
 		\key g \minor \time 4/4 \tempoMeaTormenta
 			\set Score.currentBarNumber = #307
-		
+		<b d>8\fE q q q q q q q
+		a a' a a a a a a
+		g b b b b d d d
+		es es es es fis, fis fis fis %310
+		g4 b16 a b c d8 d, d d
+		es es es g fis a g fis
+		g d d c b b g g'
+		g g es es es es c c
+		c c a a a a f f %315
+		f' f d d d d b b
+		b b g g g g es es
+		es' es c c c c a a
+		a fis fis c' b b g g'
+		fis16 d fis a d8 c b b g g %320
+		<fis a>4 r r8 d' es! cis
+		d a b fis g d es cis
+		d a b g d' a b g \noBreak
+		d'4 r r2\fermata \bar "S-|"
+		r8 d\pocoFE d d d d d d \noBreak %325
+		d d d d d d d d
+		es es es es b\p b b b
+		c c c c d d d d
+		g g g g g, g g g'
+		g g es c d d d d %330
+		d4. d16\f es d8 c b a
+		g d'\p d d d g, g' g
+		g\fE g es es es es c c
+		c\pE c a a a a f f
+		f' f f f d d d d %335
+		es es es es es es es es
+		f f f f g g g g
+		c, a f'\f es d d b b
+		a4 r8 f'16 g f8 d es c
+		f1\pE %340
+		g
+		f2 c4( a)
+		b1
+		f'
+		g %345
+		r8 g g g f f es es
+		d16 d d\f d d d d d f f f f f f f f
+		g g g g g g g g f f f f f f f f
+		f8\ff f f f es es d d
+		es16 es es es es es es es cis cis cis cis cis cis cis cis %350
+		d8 a' d c! b b g g
+		<fis a> r r4 r8 d' es! cis
+		d a b fis g d es cis
+		d a b g d' a b g
+		d'4 r r2 %355
+		r8 d\pE d d d d d d
+		d d d d d d d d
+		es es es es d d g g
+		g g es c d d d d
+		d4. d16\f es d8 c b a %360
+		g8 d'\pE d d d g, g' g
+		g\fE g es es es es c\pE c
+		c c a a a a f f
+		f' f d d d d b b
+		b b g g g g es es %365
+		es' es c c c c a a'
+		\once \tieDashed a2~\fE a\pE
+		g8 d d d b\f b es es
+		d4-! r g-!\pE g-!
+		a8-! r r4 g8-! r r4 %370
+		fis8-! r r4 b8-! r r4
+		a8-! r r4 g8-! r r4
+		fis8\fE a d c b b g g
+		<fis a>4-! r8 d16 es d8 c b a
+		\mvTrh d1\pE-\tenuto %375
+		es
+		f
+		es~
+		es
+		a!4-! b-! r2 %380
+		r8 es, es es d d d d
+		d16\f d d d d d d d d d d d d d d d
+		es es es es es es es es d d d d d d d d
+		d8\ff d d d d g, g' g
+		g g es es es es c c %385
+		c c a a a a f f
+		f' f d d d d b b
+		b b g g g g es es
+		es' es c c c c a a
+		a fis fis c' b b g g' %390
+		<fis a> q d'[ c] b b g g
+		<fis a> r r4 q2
+		b8 g g g g g fis d
+		es4-! g-! c,-! d-! \noBreak
+		g,-! r r2\fermata \bar "||" %395
+		es'2.\pE \noBreak
+		c4( b) d
+		b c2
+		f, g4
+		es r r %400
+		es' r r
+		r c c
+		b b\fE c
+		des2.
+		des?4(\pE c) des %405
+		c( b) des
+		c8(-. c-. c-. c-. c-. c-.)
+		c r r4 r
+		c8([ f)] e([ g)] f( as)
+		R2. %410
+		c,8([ f)] e([ g)] f( as)
+		f( des) c4 b
+		as?( f') d
+		b2.
+		c\fE %415
+		b8(-.\pE b-. b-. b-. b-. b-.)
+		R2.
+		b8([ es)] d([ f)] es( g)
+		R2.
+		b,8([ es)] d([ f)] es( g) %420
+		as,?4 b b
+		ces ces(\f b)
+		a!8 c c2
+		b4(\pE c d)
+		es b2 %425
+		ces4 ces(\f b)
+		a!8 c c2
+		<b d>\p r4
+		R2.
+		b8([ es)] d([ f)] es( g) %430
+		R2.
+		b,8([ es)] d([ f)] es( g)
+		es(-. es-.) es(-. es-. es-. es-.)
+		es(-. es-.) es(-. es-. es-. es-.)
+		b4\fE b b %435
+		c c c
+		b2.\fermata
+		es
+		es\p
+		<d a'!>\fermata \bar "S-S" %440 finis
 	}
 }

@@ -377,7 +377,7 @@ MeaTormentaViolinoII = {
 		es es es g fis a g fis
 		g4 fis8 d16\f es d8 c b a %360
 		g8 g'\p g16 fis g a b a b c d8 d
-		es16 c, d es f g a b c b c d es8 es
+		es16\f c, d es f g a b c b c d es8\p es
 		es es, es'4~ es8 es es, es'
 		d16 b, c d es f g a b a b c d8 d
 		d d, d'4~ d8 d d, d' %365
