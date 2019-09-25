@@ -358,6 +358,19 @@ PetreExtolleMariaJacobeLyrics = \lyricmode {
 	mor -- tem, et por -- ten -- ta. %448 finis
 }
 
+AmorMeusMariaJacobeNotes = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 3/4 \autoBeamOff \tempoAmorMeus
+			\set Score.currentBarNumber = #452
+		
+	}
+}
+
+AmorMeusMariaJacobeLyrics = \lyricmode {
+	
+}
+
 % MariaJacobeNotes = {
 % 	\relative c' {
 % 		\clef treble

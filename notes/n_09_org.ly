@@ -979,6 +979,19 @@ PetreExtolleBassFigures = \figuremode {
 	r4 <[5+] _+> <_!>2 %451 finis
 }
 
+AmorMeusOrgano = {
+	\relative c {
+		\clef bass
+		\key h \minor \time 3/4 \tempoAmorMeus
+			\set Score.currentBarNumber = #452
+		h'4\fE h, r
+	}
+}
+
+AmorMeusBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

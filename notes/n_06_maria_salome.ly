@@ -5,24 +5,37 @@
 \version "2.18.0"
 
 MariaSalomeIncipit = \markup {
-	"Maria Salome" \hspace #-17 \score {
+	\center-column { "Maria" "Salome" } \hspace #-18.2 \score {
 		\new Staff \with {
 			\remove Time_signature_engraver
 		} {
-			\clef soprano s4 \bar empty
+			\clef alto s4 \bar empty
 		}
 		\layout { }
 	} \hspace #-1.8
 }
 
-MariaSalomeNotes = {
+AmorMeusMariaSalomeNotes = {
 	\relative c' {
 		\clef treble
-		
+		\key h \minor \time 3/4 \autoBeamOff \tempoAmorMeus
+			\set Score.currentBarNumber = #452
 		
 	}
 }
 
-MariaSalomeLyrics = \lyricmode {
+AmorMeusMariaSalomeLyrics = \lyricmode {
 	
 }
+
+% MariaSalomeNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		
+% 		
+% 	}
+% }
+% 
+% MariaSalomeLyrics = \lyricmode {
+% 	
+% }

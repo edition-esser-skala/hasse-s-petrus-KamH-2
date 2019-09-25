@@ -458,3 +458,12 @@ MeaTormentaViola = {
 		<d a'!>\fermata \bar "S-S" %440 finis
 	}
 }
+
+AmorMeusViola = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 3/4 \tempoAmorMeus
+			\set Score.currentBarNumber = #452
+		
+	}
+}

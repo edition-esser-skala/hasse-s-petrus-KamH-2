@@ -5,7 +5,7 @@
 \version "2.18.0"
 
 MariaMagdalenaIncipit = \markup {
-	"Maria Magdalena" \hspace #-17 \score {
+	\center-column { "Maria" "Magdalena" } \hspace #-20.5 \score {
 		\new Staff \with {
 			\remove Time_signature_engraver
 		} {
@@ -15,14 +15,27 @@ MariaMagdalenaIncipit = \markup {
 	} \hspace #-1.8
 }
 
-MariaMagdalenaNotes = {
+AmorMeusMariaMagdalenaNotes = {
 	\relative c' {
 		\clef treble
-		
+		\key h \minor \time 3/4 \autoBeamOff \tempoAmorMeus
+			\set Score.currentBarNumber = #452
 		
 	}
 }
 
-MariaMagdalenaLyrics = \lyricmode {
+AmorMeusMariaMagdalenaLyrics = \lyricmode {
 	
 }
+
+% MariaMagdalenaNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		
+% 		
+% 	}
+% }
+% 
+% MariaMagdalenaLyrics = \lyricmode {
+% 	
+% }

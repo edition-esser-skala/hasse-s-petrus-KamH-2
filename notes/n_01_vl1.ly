@@ -459,6 +459,15 @@ MeaTormentaViolinoI = {
 	}
 }
 
+AmorMeusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 3/4 \tempoAmorMeus
+			\set Score.currentBarNumber = #452
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

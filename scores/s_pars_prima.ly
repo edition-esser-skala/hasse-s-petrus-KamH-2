@@ -228,38 +228,98 @@
 % 			\midi { \tempo 4 = 150 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "1.6 PETRE EXTOLLE"
+% 		}
+% 		\paper { systems-per-page = #3 }
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Maria" "Jacobe" } }
+% 						\new Voice = "MariaJacobe" { \dynamicUp \PetreExtolleMariaJacobeNotes }
+% 					}
+% 					\new Lyrics \lyricsto MariaJacobe \PetreExtolleMariaJacobeLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Petrus"
+% 						\new Voice = "Petrus" { \dynamicUp \PetreExtollePetrusNotes }
+% 					}
+% 					\new Lyrics \lyricsto Petrus \PetreExtollePetrusLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\PetreExtolleOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\PetreExtolleBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "1.6 PETRE EXTOLLE"
+			movement = "1.7 AMOR MEUS IN CRUCE LANGUET"
 		}
-		\paper { systems-per-page = #3 }
+		\paper { indent = 3\cm }
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\AmorMeusViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\AmorMeusViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+							\AmorMeusViola
+					}
+				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Maria" "Jacobe" } }
-						\new Voice = "MariaJacobe" { \dynamicUp \PetreExtolleMariaJacobeNotes }
+						\set Staff.instrumentName = \MariaMagdalenaIncipit
+						\override Staff.InstrumentName.self-alignment-Y = ##f
+						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\new Voice = "MariaMagdalena" { \dynamicUp \AmorMeusMariaMagdalenaNotes }
 					}
-					\new Lyrics \lyricsto MariaJacobe \PetreExtolleMariaJacobeLyrics
+					\new Lyrics \lyricsto MariaMagdalena \AmorMeusMariaMagdalenaLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Petrus"
-						\new Voice = "Petrus" { \dynamicUp \PetreExtollePetrusNotes }
+						\set Staff.instrumentName = \markup { \center-column { "Maria" "Jacobe" } }
+						\new Voice = "MariaJacobe" { \dynamicUp \AmorMeusMariaJacobeNotes }
 					}
-					\new Lyrics \lyricsto Petrus \PetreExtollePetrusLyrics
+					\new Lyrics \lyricsto MariaJacobe \AmorMeusMariaJacobeLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \MariaSalomeIncipit
+						\override Staff.InstrumentName.self-alignment-Y = ##f
+						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\new Voice = "MariaSalome" { \dynamicUp \AmorMeusMariaSalomeNotes }
+					}
+					\new Lyrics \lyricsto MariaSalome \AmorMeusMariaSalomeLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\PetreExtolleOrgano
+						\AmorMeusOrgano
 					}
 				>>
 				\new FiguredBass {
-					\PetreExtolleBassFigures
+					\AmorMeusBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }
