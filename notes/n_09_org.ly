@@ -686,13 +686,13 @@ MeaTormentaOrgano = {
 		a, a a a a a a a
 		d d d d es es es es
 		d d d d es es es es %320
-		d4 r r8 d' es cis
+		d4 r r8 d' es! cis
 		d a b fis g d es cis
 		d a b g d' a b g \noBreak
 		d'4 r r2\fermata \bar "S-|"
 		r8 g\pocoF g g g g g g \noBreak %325
 		fis fis fis fis f f f f
-		es es es es b b b b
+		es es es es b\p b b b
 		c c c c d d d d
 		g g g g b, b b b
 		c c c c d d d d %330
@@ -804,7 +804,7 @@ MeaTormentaOrgano = {
 		as as as
 		b2.\fermata
 		es
-		c
+		c\pE
 		d\fermata \bar "S-S" %440 finis
 	}
 }

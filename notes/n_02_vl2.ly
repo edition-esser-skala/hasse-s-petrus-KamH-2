@@ -322,6 +322,139 @@ MeaTormentaViolinoII = {
 		\clef treble
 		\key g \minor \time 4/4 \tempoMeaTormenta
 			\set Score.currentBarNumber = #307
-		
+		g''2\fE b4~\trill b16 a b c
+		d4 d, r d8. d16
+		g8.\trill fis16 g4-! r g8. b16
+		\appoggiatura b4 a4. c8 c([ b)] b( a) %310
+		\appoggiatura c32 b16 a b c d4 r g,,8. b16
+		\appoggiatura b4 a4. es'8 d c b a
+		b16 g a b c d e fis g fis g a \kneeBeam b8 d,,
+		es!16 c d es f g a b c b c d es8 es
+		es es, es'4~ es8 es es, es' %315
+		d16 b, c d es f g a b a b c d8 d
+		d d, d'4~ d8 d d, d'
+		c16 a, b c d es f g a g a b c8 c
+		c4 \appoggiatura d16 c8 b16 a g fis g a b a b c
+		d8 d4 e16 fis g fis g a b a b c %320
+		d8 a b fis g d es cis
+		d a b fis g d es cis
+		d a b g d' a b g \noBreak
+		d'4 r r2\fermata \bar "S-|"
+		r8 b'\pocoF b b b b b b \noBreak %325
+		a a a a a a a a
+		g16 fis g a b a b c d8\p d d d
+		es es es es fis, fis fis fis
+		g16 fis g a b a b c d8 d, d d
+		es es es g fis a g fis %330
+		g4 fis8 d16\f es d8 c b a
+		g8 g'\p g16 fis g a b a b c d8 d
+		es16\f c, d es f g a b c b c d es8 es
+		es\p es, es'4~ es8 es es, es'
+		d d d d b b b b %335
+		b b b b c c b b
+		a a a a b b b b
+		a f4 g16\f a b a b c d c d e
+		f4 r8 f,16 g f8 d es c
+		b'1\p %340
+		b~
+		b2 a8([ g)] f( es)
+		es([ d)] d( b') b([ a)] a( b)
+		b([ f)] f( b) b([\pocoF c)] c( d)
+		d b( a g) fis([\p g)] h( c) %345
+		es( g es c) \appoggiatura b4 a2
+		b16 b b\f b b b b b b b b b b b b b
+		b b b b b b b b b b b b a a a a
+		b16\ff es d c d b c d es f g a b8 b
+		b a a2 g4 %350
+		fis16 g fis e fis d e fis g fis g a b a b c
+		d8 a b fis g d es cis
+		d a b fis g d es cis
+		d a b g d' a b g
+		d'4 r r2 %355
+		r8 b'\p b b b b b b
+		a a a a a a a a
+		g16 fis g a b a b c d8 d, d d
+		es es es g fis a g fis
+		g4 fis8 d16\f es d8 c b a %360
+		g8 g'\p g16 fis g a b a b c d8 d
+		es16 c, d es f g a b c b c d es8 es
+		es es, es'4~ es8 es es, es'
+		d16 b, c d es f g a b a b c d8 d
+		d d, d'4~ d8 d d, d' %365
+		c16 a, b c d es f g a g a b c8 c
+		c2~ \f c\p
+		b4 a g-!\f g'-!
+		fis-! r d-!\p cis-!
+		d8-! r r4 g,8-! r r4 %370
+		a8-! r r4 e'8-! r r4
+		d8-! r r4 g,8-! r r4
+		d'4.\f e16 fis g fis g a b a b c
+		d4-! r8 d,,16 es d8 c b a
+		\mvTrh g'1\p-\tenuto %375
+		g
+		g
+		g
+		es'
+		es4-! d-! r r8 g, %380
+		c4( a) \appoggiatura g fis2
+		g16\f g g g g g g g g g g g g g g g
+		g g g g g g g g g g g g fis fis fis fis
+		g8\ff g g16 fis g a b a b c d8 d,
+		es16 c d es f g a b c b c d es8 es %385
+		es es, es'4~ es8 es es, es'
+		d16 b, c d es f g a b a b c d8 d
+		d d, d'4~ d8 d d, d'
+		c16 a, b c d es f g a g a b c8 c
+		c4 \appoggiatura d16 c8 b16 a g fis g a b a b c %390
+		d8 d4 e16 fis g fis g a b a b c
+		d8 r r4 es,2
+		d16 g f es d c b a \appoggiatura c b8 a16 g d'8 d,
+		es4-! g-! c,-! d-! \noBreak
+		<g, d' b' g'>-! r r2\fermata \bar "||" %395
+		\time 3/4 \tempoMeaTormentaB g'4(\p as g) \noBreak
+		\appoggiatura g f2.
+		es2 c4
+		b2.
+		as'4 \appoggiatura g f2 %400
+		g4( f) es
+		r as g
+		g f\f f
+		f2 f'4\p
+		g2. %405
+		f4( des) h
+		c2 r4
+		R2.
+		c,8[( f)] e( g) f([ as)]
+		R2. %410
+		c,8([ f)] e([ g)] f( as)
+		b g \appoggiatura f4 e2
+		f4 f' f,
+		f( es!) g~\f
+		g es\p es %415
+		es d r
+		R2.
+		b8([ es)] d([ f)] es( g)
+		R2.
+		b,8([ es)] d([ f)] es( g) %420
+		as?( f) \appoggiatura es4 d2
+		es r4
+		es\f f2
+		f4(\p es f)
+		\tuplet 3/2 4 { g8( c b) } \appoggiatura es,4 d2 %425
+		\appoggiatura d4 es2.
+		es4\f f2
+		f2\p r4
+		R2.
+		b,8([ es)] d([ f)] es( g) %430
+		R2.
+		b,8([ es)] d([ f)] es( g)
+		as?4( g) r
+		as?( g) r
+		es'8\f es,4 es b'16( g) %435
+		es8 es4 es as16( f)
+		es2\fermata d4
+		es8 g( a! h) c([ d)]
+		es([ g)] c,4(-.\p c-.)
+		c2.\fermata \bar "S-S" %440 finis
 	}
 }

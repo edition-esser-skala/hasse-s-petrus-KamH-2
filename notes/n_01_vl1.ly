@@ -454,7 +454,7 @@ MeaTormentaViolinoI = {
 		f'8\f f,4 f c'16( as?)
 		g2\fermata f4
 		es8 g( a! h) c([ d)]
-		es([ g)] c,( es) a,! a'!
+		es([ g)] c,(\p es) a,! a'!
 		\appoggiatura g2 fis2.\fermata \bar "S-S" %440 finis
 	}
 }
