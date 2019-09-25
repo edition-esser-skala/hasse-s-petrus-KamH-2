@@ -882,7 +882,7 @@ MeaTormentaBassFigures = \figuremode {
 	q
 	<6!>
 	<6>
-	<6->
+	<5>2 <6->
 	<6! 4\+ 3>4 <6>2. %380
 	<5>4 <6> <6 4> <5 _+>
 	r2 <6>

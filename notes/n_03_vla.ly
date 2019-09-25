@@ -319,7 +319,7 @@ CrucifixumViola = {
 
 MeaTormentaViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key g \minor \time 4/4 \tempoMeaTormenta
 			\set Score.currentBarNumber = #307
 		<b d>8\fE q q q q q q q
