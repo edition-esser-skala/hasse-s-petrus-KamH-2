@@ -363,12 +363,67 @@ AmorMeusMariaJacobeNotes = {
 		\clef treble
 		\key h \minor \time 3/4 \autoBeamOff \tempoAmorMeus
 			\set Score.currentBarNumber = #452
-		
+		R2.*40 %491
+		c'2.
+		h4( e) d
+		d8. cis!16 cis4 cis~
+		cis( d) d %495
+		d8. cis16 cis4 r
+		R2.
+		h4 a2
+		d r4
+		\appoggiatura cis16 h8([ a16 g)] \appoggiatura fis4 e2 %500
+		d2.
+		R2.*30 %531
+		r4 fis' e
+		\appoggiatura e d2~ d8. cis16
+		cis2.
+		R %535
+		d4 cis2
+		h8. a16 a2
+		R2.
+		h4\p a2
+		g8. fis16 fis2 %540
+		R2.
+		g4\f fis2
+		h r4
+		g\p fis2
+		h r4 %545
+		\appoggiatura fis'16 e8([\f d16 cis)] \appoggiatura h4 ais2
+		h r4
+		R2.*13 %560
+		R2.\fermataMarkup \bar "||" %561 finis
 	}
 }
 
 AmorMeusMariaJacobeLyrics = \lyricmode {
+	Ah!, %492
+	ah, __ non
+	ta -- ce -- at, ah, __
+	non %495
+	ta -- ce -- at,
 	
+	no -- strum
+	cor,
+	no -- strum %500
+	cor.
+	
+	Ah!, non %532
+	ta -- ce --
+	at,
+	%535
+	ah, non
+	ta -- ce -- at,
+	
+	ah, non
+	ta -- ce -- at, %540
+	
+	no -- strum
+	cor,
+	no -- strum
+	cor, %545
+	no -- strum
+	cor. %547 finis
 }
 
 % MariaJacobeNotes = {

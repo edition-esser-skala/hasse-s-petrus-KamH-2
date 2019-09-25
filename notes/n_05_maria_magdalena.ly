@@ -92,7 +92,7 @@ AmorMeusMariaMagdalenaNotes = {
 		R2.
 		cis4\f \appoggiatura h ais2
 		\appoggiatura ais?4 h2 r4
-		e8([\p cis)] \appoggiatura h4 ais2
+		e8([\p cis!)] \appoggiatura h4 ais2
 		\appoggiatura ais? h2 r4 %545
 		\appoggiatura a'16 g8([\f fis16 e)] \appoggiatura d4 cis2
 		h r4
