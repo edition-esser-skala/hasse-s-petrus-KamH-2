@@ -332,14 +332,30 @@ EamusMariaJacobeLyrics = \lyricmode {
 PetreExtolleMariaJacobeNotes = {
 	\relative c' {
 		\clef treble
-		\key c \major \time 4/4 \tempoPetreExtolle
+		\key c \major \time 4/4 \autoBeamOff \tempoPetreExtolle
 			\set Score.currentBarNumber = #441
-		
+		e'4 a, r8 a a a16 h
+		cis8 cis r e e g, g a
+		fis fis r d' d4 a
+		fis8 fis r a c! c h a
+		h h r g cis8. cis16 cis8 d %445
+		a a r4 r8 h h c
+		d d f!4~ f8 f f e16 f
+		d8 d r d16 c a8 a r4
+		R1*2 %450
+		R1\fermataMarkup \bar "||" %451 finis
 	}
 }
 
 PetreExtolleMariaJacobeLyrics = \lyricmode {
-	
+	Pe -- tre, ex -- tol -- le pa -- %441
+	rum -- per de -- je -- ctam fa -- ciem
+	tu -- am. Ac -- ce -- dit,
+	vi -- de, ac -- ce -- dit Ma -- gda --
+	le -- na, et al -- te -- ra Ma -- %445
+	ri -- a. Nar -- ra -- bunt
+	ist -- ae ple -- ne Do -- mi -- ni
+	mor -- tem, et por -- ten -- ta. %448 finis
 }
 
 % MariaJacobeNotes = {

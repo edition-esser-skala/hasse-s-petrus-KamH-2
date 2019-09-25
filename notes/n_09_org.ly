@@ -953,11 +953,30 @@ PetreExtolleOrgano = {
 			\set Score.currentBarNumber = #441
 		cis1~
 		cis
+		d~
+		d
+		g %445
+		r4 a gis2~
+		gis1~
+		gis2 a~
+		a1~
+		a %450
+		r4 h e, r\fermata \bar "||" %451 finis
 	}
 }
 
 PetreExtolleBassFigures = \figuremode {
-	
+	<6>1 %441
+	r
+	<_+>
+	<\t>2 <7 _+>
+	<3>2 <4\+> %445
+	r4 <_+> <6>2
+	<7!>1
+	<5>2 <_!>
+	r1
+	<6+ 4+ 3> %450
+	r4 <[5+] _+> <_!>2 %451 finis
 }
 
 % Organo = {

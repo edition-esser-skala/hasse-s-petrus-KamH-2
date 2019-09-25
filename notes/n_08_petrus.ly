@@ -353,14 +353,19 @@ MeaTormentaPetrusLyrics = \lyricmode {
 PetreExtollePetrusNotes = {
 	\relative c' {
 		\clef treble
-		\key c \major \time 4/4 \tempoPetreExtolle
+		\key c \major \time 4/4 \autoBeamOff \tempoPetreExtolle
 			\set Score.currentBarNumber = #441
-		
+		R1*8 %448
+		c'4 c8. c16 \once \slurDown c4( \grace h16 a8) \appoggiatura g16 fis8
+		dis dis c'4. a8 a8. g16 %450
+		e8 e r4 r2\fermata \bar "||" %451
 	}
 }
 
 PetreExtollePetrusLyrics = \lyricmode {
-	
+	Al -- ti do -- lo -- ris %449
+	me -- i no -- va ar -- gu --
+	men -- ta. %451 finis
 }
 
 % PetrusNotes = {
