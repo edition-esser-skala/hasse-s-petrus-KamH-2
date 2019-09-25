@@ -185,47 +185,81 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "1.5 MEA TORMENTA PROPERATE"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\MeaTormentaViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\MeaTormentaViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 							\MeaTormentaViola
+% 					}
+% 				>>
+% 				\new ChoirStaff \with { \smallerGroupDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Petrus"
+% 						\new Voice = "Petrus" { \dynamicUp \MeaTormentaPetrusNotes }
+% 					}
+% 					\new Lyrics \lyricsto Petrus \MeaTormentaPetrusLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\MeaTormentaOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\MeaTormentaBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 150 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "1.5 MEA TORMENTA PROPERATE"
+			movement = "1.6 PETRE EXTOLLE"
 		}
+		\paper { systems-per-page = #3 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\MeaTormentaViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\MeaTormentaViolinoII
-						}
-					>>
+				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Viola"
-							\MeaTormentaViola
+						\set Staff.instrumentName = \markup { \center-column { "Maria" "Jacobe" } }
+						\new Voice = "MariaJacobe" { \dynamicUp \PetreExtolleMariaJacobeNotes }
 					}
-				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
+					\new Lyrics \lyricsto MariaJacobe \PetreExtolleMariaJacobeLyrics
+					
 					\new Staff {
 						\set Staff.instrumentName = "Petrus"
-						\new Voice = "Petrus" { \dynamicUp \MeaTormentaPetrusNotes }
+						\new Voice = "Petrus" { \dynamicUp \PetreExtollePetrusNotes }
 					}
-					\new Lyrics \lyricsto Petrus \MeaTormentaPetrusLyrics
+					\new Lyrics \lyricsto Petrus \PetreExtollePetrusLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\MeaTormentaOrgano
+						\PetreExtolleOrgano
 					}
 				>>
 				\new FiguredBass {
-					\MeaTormentaBassFigures
+					\PetreExtolleBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 150 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

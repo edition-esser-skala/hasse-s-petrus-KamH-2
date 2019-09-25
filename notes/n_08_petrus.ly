@@ -350,6 +350,19 @@ MeaTormentaPetrusLyrics = \lyricmode {
 	me. %438 finis
 }
 
+PetreExtollePetrusNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoPetreExtolle
+			\set Score.currentBarNumber = #441
+		
+	}
+}
+
+PetreExtollePetrusLyrics = \lyricmode {
+	
+}
+
 % PetrusNotes = {
 % 	\relative c' {
 % 		\clef treble

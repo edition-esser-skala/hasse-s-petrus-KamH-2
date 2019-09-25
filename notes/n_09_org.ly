@@ -946,6 +946,20 @@ MeaTormentaBassFigures = \figuremode {
 	<7 4> <\t _+>2 %440 finis
 }
 
+PetreExtolleOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoPetreExtolle
+			\set Score.currentBarNumber = #441
+		cis1~
+		cis
+	}
+}
+
+PetreExtolleBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

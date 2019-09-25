@@ -329,6 +329,19 @@ EamusMariaJacobeLyrics = \lyricmode {
 	no -- bis con -- ser -- va. %299 finis
 }
 
+PetreExtolleMariaJacobeNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoPetreExtolle
+			\set Score.currentBarNumber = #441
+		
+	}
+}
+
+PetreExtolleMariaJacobeLyrics = \lyricmode {
+	
+}
+
 % MariaJacobeNotes = {
 % 	\relative c' {
 % 		\clef treble

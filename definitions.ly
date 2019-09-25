@@ -210,6 +210,7 @@ tempoEamus = \tempoMarkup "[Tempo deest]"
 	tempoEamusB = \tempoMarkup "Andante"
 tempoMeaTormenta = \tempoMarkup "Allegro di molto"
 	tempoMeaTormentaB = \tempoMarkup "Lento"
+tempoPetreExtolle = \tempoMarkup "[Tempo deest]"
 
 
 
