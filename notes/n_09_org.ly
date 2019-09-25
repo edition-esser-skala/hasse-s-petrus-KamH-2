@@ -696,7 +696,7 @@ MeaTormentaOrgano = {
 		c c c c d d d d
 		g g g g b, b b b
 		c c c c d d d d %330
-		g4 d8\f d16 es d8 c b a
+		g4 d8 d16\f es d8 c b a
 		g g'\p g g g g g g
 		c,\f c c c c c c c
 		f\p f f f f f f f
@@ -717,7 +717,7 @@ MeaTormentaOrgano = {
 		b,\ff b b b b b b b
 		c c c c es es es es %350
 		d d d d es es es es
-		d r r4 r8 d' es cis
+		d r r4 r8 d' es! cis
 		d a b fis g d es cis
 		d a b g d' a b g
 		d'4 r r2 %355
@@ -725,7 +725,7 @@ MeaTormentaOrgano = {
 		fis fis fis fis f f f f
 		es es es es b b b b
 		c c c c d d d d
-		g4 d8\f d16 es d8 c b a %360
+		g4 d8 d16\f es d8 c b a %360
 		g g'\p g g g g g g
 		c,\f c c c c c c\p c
 		f f f f f f f f

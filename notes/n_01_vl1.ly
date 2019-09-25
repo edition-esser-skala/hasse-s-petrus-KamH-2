@@ -322,7 +322,140 @@ MeaTormentaViolinoI = {
 		\clef treble
 		\key g \minor \time 4/4 \tempoMeaTormenta
 			\set Score.currentBarNumber = #307
-		
+		g''2\fE b4~\trill b16 a b c
+		d4 d, r d8. d16
+		g8.\trill fis16 g4-! r g8. b16
+		\appoggiatura b4 a4. c8 c([ b)] b( a) %310
+		\appoggiatura c32 b16 a b c d4 r g,,8. b16
+		\appoggiatura b4 a4. es'8 d c b a
+		b16 g a b c d e fis g fis g a b8 b
+		b b, b'4~ b8 b b, b'
+		a16 f, g a b c d es f es f g a8 a %315
+		a a, a'4~ a8 a a, a'
+		g16 es, f g a b c d es d es f g8 g
+		g g, g'4~ g8 g g, g'
+		fis d,4 e16 fis g fis g a b a b c
+		d8 d4 e16 fis g fis g a b a b c %320
+		d8 a b fis g d es cis
+		d a b fis g d es cis
+		d a b g d' a b g \noBreak
+		d'4 r r2\fermata \bar "S-|"
+		g'2\pocoF b4.(\trill c8) \noBreak %325
+		d4 d, r d8. d16
+		g8.(\trill fis16) g4 r g8.\p b16
+		\appoggiatura b4 a4. c8 c([ b)] b( a)
+		b8.\trill c16 d4 r g,,8. b16
+		\appoggiatura b4 a4. es'8 d c b a %330
+		b4 a8 d,16\f es d8 c b a
+		g16 g'\p a b c d e fis g fis g a b8 b
+		b\f b, b'4~ b8 b b, b'
+		a16 f,\p g a b c d es f g a b c8 a,
+		b d d f f f f f %335
+		g g g g g g g g
+		g f f f f e e e
+		f f,4 g16\f a b a b c d c d e
+		f4 r8 f,16 g f8 d es c
+		\kneeBeam d b''(\p a b a b a b) %340
+		c,([ b')] b( c,) c([ d)] d( es)
+		\appoggiatura es d4 c8( b) a([ g)] f( es)
+		es([ d)] d( b') b([ a)] a( b)
+		b([ f)] f( b) b([\pocoF c)] c( d)
+		d b( a g) fis([\p g)] h( c) %345
+		es( g es c) \appoggiatura b4 a2
+		b8 b'(\f a b) a([ b)] a( b)
+		\appoggiatura a g4 \appoggiatura f8 es4 \appoggiatura d c2
+		d16\ff es d c d b c d es f g a b8 b
+		b a a2 g4 %350
+		fis16 g fis e fis d e fis g fis g a b a b c
+		d8 a b fis g d es cis
+		d a b fis g d es cis
+		d a b g d' a b g
+		d'4 r r2 %355
+		g'2\p b4.(\trill c8)
+		d4 d, r d8. d16
+		g8.\trill fis16 g4 r g8. b,16
+		\appoggiatura b4 a4. es'8 d[ c] b[ a]
+		b4 a8 d,16\f es d8 c b a %360
+		g16 g'\p a b c d e fis g fis g a b8 b
+		b\f b, b'4~ b8 b b,[\p b']
+		a16 f, g a b c d es f es f g a8 a
+		a a, a'4~ a8 a a, a'
+		g16 es, f g a b c d es d es f g8 g %365
+		g g, g'4~ g8 g g, g'
+		fis2~ \f fis\p
+		g4 fis g-!\f cis-!
+		d-! r d-!\p g,-!
+		fis8-! r r4 cis8-! r r4 %370
+		d8-! r r4 g8-! r r4
+		fis8-! r r4 cis8-! r r4
+		d4.\f e16 fis g fis g a b a b c
+		d4-! r8 d,,16 es d8 c b a
+		\kneeBeam g g''(\p fis g) g,([ a)] a( b) %375
+		b([ a)] a( g') g([ a,)] a( c)
+		c([ h)] h( g') g([ h,)] h( d)
+		d( c h c) c([ d)] d( es)
+		es([ g)] g( as) as([ b)] b( c)
+		fis,4-! g-! r r8 g, %380
+		es'4( c) \appoggiatura b a2
+		b8([\f b')] fis( g) fis([ g)] fis( g)
+		f16( es8.) d16( c8.) \appoggiatura b4 a2
+		b16\ff g a b c d e fis g fis g a b8 b
+		b b, b'4~ b8 b b, b' %385
+		a16 f, g a b c d es f es f g a8 a
+		a a, a'4~ a8 a a, a'
+		g16 es, f g a b c d es d es f g8 g
+		g g, g'4~ g8 g g, g'
+		fis d,4 e16 fis g fis g a b a b c %390
+		d8 d4 e16 fis g fis g a b a b c
+		d8 r r4 es,2
+		d16 g f es d c b a \appoggiatura c b8 a16 g d'8 d,
+		es4-! g-! c,-! d-! \noBreak
+		<g, d' b' g'>-! r r2\fermata \bar "||" %395
+		\time 3/4 \tempoMeaTormentaB b'4(\p c b) \noBreak
+		\appoggiatura b as2.
+		g4( as? f)
+		\appoggiatura es d2 es4
+		c' \appoggiatura b as2 %400
+		b4( d) es
+		r f es
+		es d8([\f f)] a,!( c)
+		b2 b4\p
+		b( c b) %405
+		as( g) f
+		e8.( f32 g) c,4 r
+		c8 f( e g) f([ as)]
+		c,([ as')] g([ b)] as( c)
+		c,([ f)] e([ g)] f( as) %410
+		c,([ as')] g([ b)] as( c)
+		des b \appoggiatura as?4 g2
+		f4 as? as
+		as?( g) es'~\f
+		es ges,\p ges %415
+		ges? f r
+		b,8([ es)] d([ f)] es( g)
+		b,([ g')] f([ as?)] g( b)
+		b,([ es)] d([ f)] es( g)
+		b,([ g')] f([ as?)] g( b) %420
+		c( as?) \appoggiatura g4 f2
+		es r4
+		es\f es'2
+		\tuplet 3/2 4 { d8(\p c b) } \appoggiatura b4 as?2
+		\tuplet 3/2 4 { g8( c b) } \appoggiatura es,4 d2 %425
+		\appoggiatura d4 es2.
+		es4\f es'2
+		d8.(\p es32 f) b,4 r
+		b,8([ es)] d([ f)] es( g)
+		b,([ g')] f([ as?)] g( b) %430
+		b,([ es)] d([ f)] es( g)
+		b,([ g')] f([ as?)] g( b)
+		c4( b) r
+		c( b) r
+		R2. %435
+		f'8\f f,4 f c'16( as?)
+		g2\fermata f4
+		es8 g( a! h) c([ d)]
+		es([ g)] c,( es) a,! a'!
+		\appoggiatura g2 fis2.\fermata \bar "S-S" %440 finis
 	}
 }
 

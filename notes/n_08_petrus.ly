@@ -168,7 +168,7 @@ MeaTormentaPetrusNotes = {
 		d16([ c b8)] \appoggiatura a4 g2 r8 g %345
 		es'4 c \appoggiatura b a2
 		\appoggiatura a b2~ b4 b
-		g'4 \appoggiatura f8 es4 \appoggiatura d c2
+		\appoggiatura a'8 g4^\critnote \appoggiatura f8 es4 \appoggiatura d c2
 		b r
 		R1*6 %355
 		g2 b4.(\trill c8)
@@ -232,7 +232,7 @@ MeaTormentaPetrusNotes = {
 		es es'2
 		\tuplet 3/2 4 { d8([ c b)] } \appoggiatura b4 as?2
 		\tuplet 3/2 4 { g8([ c b)] } \appoggiatura es,4 d2 %425
-		\appoggiatura d es2.
+		\appoggiatura d4 es2.
 		es4 es'2
 		d8.([ es32 f)] b,4 r
 		R2.
@@ -346,8 +346,8 @@ MeaTormentaPetrusLyrics = \lyricmode {
 	vo -- ca
 	me, __ _
 	
-	vo -- ca
-	me.
+	vo -- ca %437
+	me. %438 finis
 }
 
 % PetrusNotes = {
