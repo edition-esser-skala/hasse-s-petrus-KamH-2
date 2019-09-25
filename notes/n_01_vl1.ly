@@ -464,7 +464,116 @@ AmorMeusViolinoI = {
 		\clef treble
 		\key h \minor \time 3/4 \tempoAmorMeus
 			\set Score.currentBarNumber = #452
-		
+		\mvTr fis'2.\fE-\markup { \remark "sordini" }
+		\appoggiatura { e16[ fis] } g2.
+		fis4( e d)
+		c( h) ais %455
+		h2.~
+		h
+		ais8.( h16 cis4) h
+		e \appoggiatura e d2
+		\appoggiatura d4 cis2 h4 %460
+		\tuplet 3/2 4 { e8( d cis) } \appoggiatura d4 cis2
+		h8( cis d dis e fis)
+		g e \appoggiatura d4 cis2
+		d8( dis e fis g ais)
+		h16( g) fis( e) \appoggiatura d4 cis2 %465
+		h4-! fis-! r
+		fis'2.\p
+		g
+		fis4( e d)
+		c( h) ais %470
+		h2.~
+		h~
+		h~
+		h
+		fis4( e') d %475
+		d cis r
+		a!( g') fis
+		fis e r
+		a,\f f' f
+		f?2.~\p %480
+		f4 e( d)
+		<< { \oneVoice \shiftOn a'2.~ \shiftOff a } \\
+			 { cis,!4 s s s2. } >>
+		cis8( e g e fis! d)
+		cis( e g e fis d) %485
+		cis( a') a,([ h)] h( c)
+		c?( a') h,([ c)] d,( c')
+		h( h') dis,([ e)] h( g')
+		\appoggiatura d4 cis2 d4
+		h8( e) \appoggiatura d4 cis2 %490
+		d8( fis cis d) fis,([ g)]
+		d( a'' h, c) \slurDashed d,([ c')]
+		h( h' dis, e) h([ d)] \slurSolid
+		d4( cis!) e~
+		e( f) f %495
+		f? e r
+		a,8( h cis d e fis)
+		g( e) \appoggiatura d4 cis2
+		d8( fis\f g gis a ais)
+		h( g) \appoggiatura fis4 e2 %500
+		d8\ff d'4 cis c8~
+		c h4 a gis8~
+		gis g4 fis8( h, e)
+		\appoggiatura d4 cis2 d4
+		\tuplet 3/2 4 { h'8( a g) } \appoggiatura fis4 e2 %505
+		d8( fis e d cis h)
+		ais( e') \appoggiatura e4 d2
+		\appoggiatura d cis2.
+		fis\p
+		\appoggiatura { e16[ fis] } g2. %510
+		fis4( e d)
+		c( h) ais
+		h2.~
+		h~
+		h~ %515
+		h
+		fis4( e') d
+		d cis r
+		fis,\f d' d
+		d8.(\trill\p cis16) h4 r %520
+		h g' g
+		g2.~
+		g4 fis( e)
+		d( cis h)
+		fis'2.~ %525
+		fis
+		ais,8( cis e cis d h)
+		ais( cis e cis) d([ h)]
+		fis' fis,16( gis) ais8( h cis d)
+		e4( d) cis %530
+		\appoggiatura e d2.
+		cis4 fis e
+		\appoggiatura e d2.
+		cis8( fis) fis,(-. fis-. fis-. fis-.)
+		fis2. %535
+		g'4 fis2
+		e4 d2
+		d'8 d,( e d cis d)
+		\mvTr e4\p-\markup { \remark "assai" } d2
+		c4 h2 %540
+		h'8 h,( ais h cis d)
+		e\f cis \appoggiatura h4 ais2
+		h8(\p cis d dis e fis)
+		g( e) \appoggiatura d4 cis2
+		h8(\f dis e fis g ais) %545
+		h16 g( fis e) \appoggiatura d4 cis2
+		<< { \oneVoice \shiftOn h'2. \shiftOff } \\ { h,4\ff s s } >>
+		\appoggiatura { a'!16[ h] } c2.
+		h4( a g)
+		f( e dis) %550
+		e2.~
+		e
+		d!~
+		d4 cis( h)
+		\appoggiatura h ais2 h4 %555
+		cis8.( d32 e) d4 cis\trill
+		h8( cis d dis e fis)
+		g e \appoggiatura d4 cis2
+		d8( dis e fis g ais)
+		h16 g( fis e) \appoggiatura d4 cis2 %560
+		h4 h, r\fermata \bar "||" %561 finis
 	}
 }
 
