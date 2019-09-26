@@ -578,6 +578,7 @@ PiaeMulieresViolinoII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoPiaeMulieres
+			\set Staff.timeSignatureFraction = 4/4
 		
 	}
 }

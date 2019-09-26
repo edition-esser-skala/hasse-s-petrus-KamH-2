@@ -1195,7 +1195,63 @@ PiaeMulieresOrgano = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \tempoPiaeMulieres
+			\set Staff.timeSignatureFraction = 4/4
 		eis1\pE
+		fis
+		e!2 a,
+		h'4. g8 fis2~
+		fis1~ %5
+		fis2 g~
+		g fis~
+		fis \tempoPiaeMulieresB r8 e( c' h)
+		ais2 r8 fis( h a)
+		gis1 %10
+		r8 a, \once \slurDashed a'[( g]) fis2~
+		fis g~
+		g1
+		r4 a f!2~
+		f e~ %15
+		e cis~
+		cis r8 d b'([ a)]
+		gis2 r8 a, a'([ g)]
+		fis2 g~
+		g r4 fis %20
+		h, \tempoPiaeMulieresC r8 h'( gis2)
+		\tempoPiaeMulieresD a4 r8 cis d cis r cis
+		d a4 g8 fis2
+		\time 2/4 g~
+		\time 4/4 \key g \minor g r4 \tempoPiaeMulieresE a\f %25
+		d, r es r
+		es2~ es~\p
+		es1
+		d8\f d c c b b a a
+		as2\p g4 r %30
+		es'8\f es, r4 e'2
+		f8\p f f f ges ges ges\f ges
+		ges?4 r8 r16 ges ges2~\p
+		ges r4 as\f
+		des,1\p %35
+		c
+		\tempoPiaeMulieresF b'8 b as as ges ges f f
+		es es( d!4) r8 d(\f es d)
+		r d(\p es d) d2\f
+		r8 r16 d\f d8 r c r b r %40
+		as1\p
+		a4. a'8 b( a) b16([ f)] d( b)
+		f'8[ f,] f r r4 r8 b'\pocoF
+		es, es es\p es f f f f
+		r f( e f) r f( e f) %45
+		r4 r8 f b b(-. b-. b-.)
+		b4~ b8 r r4 r8 c\f
+		f,1~\p
+		f
+		d!~ %50
+		d
+		es
+		d~
+		d2 c~
+		c r4 <d d'> %55
+		<g, g'> r r2\fermata \bar "|." %56 finis
 	}
 }
 

@@ -211,8 +211,13 @@ tempoEamus = \tempoMarkup "[Tempo deest]"
 tempoMeaTormenta = \tempoMarkup "Allegro di molto"
 	tempoMeaTormentaB = \tempoMarkup "Lento"
 tempoPetreExtolle = \tempoMarkup "[Tempo deest]"
-tempoAmorMeus = \tempoMarkup "Un poco Lento, ma poco"
+tempoAmorMeus = \tempoMarkup "Un poco lento, ma poco"
 tempoPiaeMulieres = \tempoMarkup "[Tempo deest]"
+	tempoPiaeMulieresB = \tempoMarkup "Un poco lento" %8
+	tempoPiaeMulieresC = \tempoMarkup "Adagio" %21
+	tempoPiaeMulieresD = \tempoMarkup "Un poco lento, ed a tempo" %22
+	tempoPiaeMulieresE = \tempoMarkup "Grave aſsai" %25
+	tempoPiaeMulieresF = \tempoMarkup "Adagion sempre" %37
 
 
 

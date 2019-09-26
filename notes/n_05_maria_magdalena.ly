@@ -181,6 +181,7 @@ PiaeMulieresMariaMagdalenaNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoPiaeMulieres
+			\set Staff.timeSignatureFraction = 4/4
 		
 	}
 }
