@@ -464,6 +464,115 @@ AmorMeusViola = {
 		\clef treble
 		\key h \minor \time 3/4 \tempoAmorMeus
 			\set Score.currentBarNumber = #452
-		
+		r4 \mvTr d\fE-\markup { \remark "sordini" } d
+		r cis cis
+		d( e fis)
+		g2 fis4 %455
+		g( fis eis)
+		g( fis eis)
+		fis2.~
+		fis8 ais,( h cis d e)
+		fis2 fis4 %460
+		g fis2
+		h r4
+		g fis fis
+		fis r r
+		g fis( e) %465
+		d fis e
+		d\pE d d
+		r cis cis
+		d( e fis)
+		e( d cis) %470
+		h2( cis4)
+		d( e fis)
+		g( fis e)
+		d( cis h)
+		r fis' fis %475
+		fis fis r
+		r a! a
+		a a r
+		R2.
+		a4 d,2~ %480
+		d4 e( f)
+		e( cis!) d
+		a( cis d)
+		a( cis d)
+		a( cis d) %485
+		a2 r4
+		<d a'>2.
+		g4( h) h
+		<e, a>2 <fis a>4
+		g \appoggiatura fis e2 %490
+		d2.~
+		d~
+		d4 g fis
+		fis e r
+		a2 gis4 %495
+		a a r
+		R2.
+		g!4 a a,
+		h2 r4
+		r8 h'\fE a4( g) %500
+		fis\ffE g a
+		h cis d
+		e a, h
+		e,2 fis4
+		g a a, %505
+		d2 g4
+		r8 ais, h cis d e
+		fis2.
+		r4 d\pE d
+		r cis cis %510
+		d( e fis)
+		e( d cis)
+		h2( cis4)
+		d( e fis)
+		g( fis e) %515
+		d( cis h)
+		r fis' fis
+		fis fis r
+		R2.
+		fis4\f h, h %520
+		h8.\trill a16 g4 r
+		h'4\pE e,2~
+		e4 fis( g)
+		fis( e) eis
+		fis( ais,) h %525
+		fis'( ais,) h
+		r ais h
+		fis'( ais,) h
+		ais r r
+		fis'2. %530
+		eis
+		fis2 fis4
+		fis2.
+		fis8 fis,(-. fis-. fis-. fis-. fis-.)
+		fis2. %535
+		h'4 a!2
+		g4 fis2
+		R2.
+		\mvTr g4\pE-\markup { \remarkE "assai" } fis2
+		e4 d2 %540
+		R2.
+		g4\pocoFE fis fis
+		g2 r4
+		r8 g\pE fis4 fis
+		g2. %545
+		g4\fE fis( e)
+		dis\ffE e g
+		r fis fis 
+		g( a h)
+		c2 h4 %550
+		c( h ais)
+		c( h ais)
+		h2 a4
+		gis2.
+		cis,!2 fis4 %555
+		g!( fis) fis
+		g2 r4
+		e8( cis') \appoggiatura h4 ais2
+		h r4
+		g fis( e) %560
+		d r r\fermata \bar "||" %561 finis
 	}
 }

@@ -551,7 +551,7 @@ AmorMeusViolinoII = {
 		d'4 cis2
 		h4 a!2
 		d'8 d,( e d cis d)
-		\mvTr h4\p-\markup { \remark "assai" } a2
+		\mvTr \once \stemUp h4\p-\markup { \remark "assai" } a2
 		g4 fis2 %540
 		h'8 h,( ais h cis d)
 		e4\f \appoggiatura d4 cis2

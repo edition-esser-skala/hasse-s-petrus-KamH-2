@@ -989,7 +989,7 @@ AmorMeusOrgano = {
 		h( cis \once \stemUp d)
 		e2 fis4 %455
 		g( fis eis)
-		g!( fis eis)
+		g( fis eis)
 		fis( e d)
 		r8 ais( h cis d e)
 		fis4( e d) %460
