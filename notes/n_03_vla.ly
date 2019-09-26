@@ -576,3 +576,12 @@ AmorMeusViola = {
 		d r r\fermata \bar "||" %561 finis
 	}
 }
+
+PiaeMulieresViola = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoPiaeMulieres
+			\set Score.currentBarNumber = #562
+		
+	}
+}

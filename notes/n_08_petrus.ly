@@ -368,6 +368,19 @@ PetreExtollePetrusLyrics = \lyricmode {
 	men -- ta. %451 finis
 }
 
+PiaeMulieresPetrusNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoPiaeMulieres
+			\set Score.currentBarNumber = #562
+		
+	}
+}
+
+PiaeMulieresPetrusLyrics = \lyricmode {
+	
+}
+
 % PetrusNotes = {
 % 	\relative c' {
 % 		\clef treble

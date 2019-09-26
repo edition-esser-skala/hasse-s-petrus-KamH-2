@@ -576,3 +576,12 @@ AmorMeusViolinoII = {
 		h4 h, r\fermata \bar "||" %561 finis
 	}
 }
+
+PiaeMulieresViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoPiaeMulieres
+			\set Score.currentBarNumber = #562
+		
+	}
+}

@@ -577,6 +577,15 @@ AmorMeusViolinoI = {
 	}
 }
 
+PiaeMulieresViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoPiaeMulieres
+			\set Score.currentBarNumber = #562
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

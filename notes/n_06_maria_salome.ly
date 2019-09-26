@@ -82,6 +82,19 @@ AmorMeusMariaSalomeLyrics = \lyricmode {
 	cor. %547 finis
 }
 
+PiaeMulieresMariaSalomeNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoPiaeMulieres
+			\set Score.currentBarNumber = #562
+		
+	}
+}
+
+PiaeMulieresMariaSalomeLyrics = \lyricmode {
+	
+}
+
 % MariaSalomeNotes = {
 % 	\relative c' {
 % 		\clef treble

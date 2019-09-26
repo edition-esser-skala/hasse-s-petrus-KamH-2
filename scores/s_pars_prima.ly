@@ -262,12 +262,79 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "1.7 AMOR MEUS IN CRUCE LANGUET"
+% 		}
+% 		\paper {
+% 			indent = 3\cm
+% 			top-system-spacing.basic-distance = #17
+% 			top-system-spacing.minimum-distance = #17
+% 			markup-system-spacing.basic-distance = #12
+% 			markup-system-spacing.minimum-distance = #12
+% 			system-system-spacing.basic-distance = #18
+% 			system-system-spacing.minimum-distance = #18
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\AmorMeusViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\AmorMeusViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 							\AmorMeusViola
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \MariaMagdalenaIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "MariaMagdalena" { \dynamicUp \AmorMeusMariaMagdalenaNotes }
+% 					}
+% 					\new Lyrics \lyricsto MariaMagdalena \AmorMeusMariaMagdalenaLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Maria" "Jacobe" } }
+% 						\new Voice = "MariaJacobe" { \dynamicUp \AmorMeusMariaJacobeNotes }
+% 					}
+% 					\new Lyrics \lyricsto MariaJacobe \AmorMeusMariaJacobeLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \MariaSalomeIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "MariaSalome" { \dynamicUp \AmorMeusMariaSalomeNotes }
+% 					}
+% 					\new Lyrics \lyricsto MariaSalome \AmorMeusMariaSalomeLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\AmorMeusOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\AmorMeusBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 105 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "1.7 AMOR MEUS IN CRUCE LANGUET"
+			movement = "1.8 PIAE MULIERES CESSATE"
 		}
 		\paper {
-			indent = 3\cm
 			top-system-spacing.basic-distance = #17
 			top-system-spacing.minimum-distance = #17
 			markup-system-spacing.basic-distance = #12
@@ -281,49 +348,45 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\AmorMeusViolinoI
+							\PiaeMulieresViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\AmorMeusViolinoII
+							\PiaeMulieresViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-							\AmorMeusViola
+							\PiaeMulieresViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \MariaMagdalenaIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "MariaMagdalena" { \dynamicUp \AmorMeusMariaMagdalenaNotes }
+						\set Staff.instrumentName = \markup { \center-column { "Maria" "Magdalena" } }
+						\new Voice = "MariaMagdalena" { \dynamicUp \PiaeMulieresMariaMagdalenaNotes }
 					}
-					\new Lyrics \lyricsto MariaMagdalena \AmorMeusMariaMagdalenaLyrics
+					\new Lyrics \lyricsto MariaMagdalena \PiaeMulieresMariaMagdalenaLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Maria" "Jacobe" } }
-						\new Voice = "MariaJacobe" { \dynamicUp \AmorMeusMariaJacobeNotes }
+						\set Staff.instrumentName = "Petrus"
+						\new Voice = "Petrus" { \dynamicUp \PiaeMulieresPetrusNotes }
 					}
-					\new Lyrics \lyricsto MariaJacobe \AmorMeusMariaJacobeLyrics
+					\new Lyrics \lyricsto Petrus \PiaeMulieresPetrusLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = \MariaSalomeIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "MariaSalome" { \dynamicUp \AmorMeusMariaSalomeNotes }
+						\set Staff.instrumentName = \markup { \center-column { "Maria" "Salome" } }
+						\new Voice = "MariaSalome" { \dynamicUp \PiaeMulieresMariaSalomeNotes }
 					}
-					\new Lyrics \lyricsto MariaSalome \AmorMeusMariaSalomeLyrics
+					\new Lyrics \lyricsto MariaSalome \PiaeMulieresMariaSalomeLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\AmorMeusOrgano
+						\PiaeMulieresOrgano
 					}
 				>>
 				\new FiguredBass {
-					\AmorMeusBassFigures
+					\PiaeMulieresBassFigures
 				}
 			>>
 			\layout { }

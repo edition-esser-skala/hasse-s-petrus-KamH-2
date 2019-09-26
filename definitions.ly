@@ -212,6 +212,7 @@ tempoMeaTormenta = \tempoMarkup "Allegro di molto"
 	tempoMeaTormentaB = \tempoMarkup "Lento"
 tempoPetreExtolle = \tempoMarkup "[Tempo deest]"
 tempoAmorMeus = \tempoMarkup "Un poco Lento, ma poco"
+tempoPiaeMulieres = \tempoMarkup "[Tempo deest]"
 
 
 

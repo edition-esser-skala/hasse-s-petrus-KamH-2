@@ -1196,6 +1196,19 @@ AmorMeusBassFigures = \figuremode {
 	r2. %561 finis
 }
 
+PiaeMulieresOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoPiaeMulieres
+			\set Score.currentBarNumber = #562
+		eis1\pE
+	}
+}
+
+PiaeMulieresBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
