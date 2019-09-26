@@ -1310,8 +1310,8 @@ PiaeMulieresBassFigures = \figuremode {
 	<5->2. <6>4
 	<6!>1
 	r2 <_->
-	r2. <_+>4
-	<_!>1
+	r2. <_+>4 %55
+	<_!>1 %56 finis
 }
 
 % Organo = {

@@ -576,7 +576,7 @@ AmorMeusViola = {
 
 PiaeMulieresViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key c \major \time 4/4 \tempoPiaeMulieres
 			\set Staff.timeSignatureFraction = 4/4
 		R1*23 %23
