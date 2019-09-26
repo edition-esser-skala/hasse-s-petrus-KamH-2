@@ -542,7 +542,7 @@ AmorMeusViolinoII = {
 		ais8( cis e cis d h)
 		ais( cis e cis) d([ h)]
 		fis' r fis,( gis ais h)
-		cis4( h ais) %530
+		cis4( h) ais %530
 		\appoggiatura cis h2.
 		ais4 ais cis
 		\appoggiatura cis h2.

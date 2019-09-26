@@ -470,7 +470,7 @@ AmorMeusViolinoI = {
 		c( h) ais %455
 		h2.~
 		h
-		ais8.( h16 cis4) h
+		\stemDown ais8.( h16 cis4) h \stemNeutral
 		e \appoggiatura e d2
 		\appoggiatura d4 cis2 h4 %460
 		\tuplet 3/2 4 { e8( d cis) } \appoggiatura d4 cis2
@@ -532,8 +532,8 @@ AmorMeusViolinoI = {
 		fis4( e') d
 		d cis r
 		fis,\f d' d
-		d8.(\trill\p cis16) h4 r %520
-		h g' g
+		d8.(\trill cis16) h4 r %520
+		h g' g\p
 		g2.~
 		g4 fis( e)
 		d( cis h)

@@ -26,7 +26,7 @@ AmorMeusMariaSalomeNotes = {
 		fis8. e16 e4 r
 		a2 gis4 a8. a16 a4 r %495
 		R2.
-		g!4 \appoggiatura fis e2
+		g!4 \appoggiatura fis! e2
 		d r4
 		\appoggiatura cis'16 h8([ a16 g)] \appoggiatura fis4 e2
 		d2. %500
