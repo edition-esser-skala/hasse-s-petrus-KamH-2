@@ -266,7 +266,15 @@
 		\header {
 			movement = "1.7 AMOR MEUS IN CRUCE LANGUET"
 		}
-		\paper { indent = 3\cm }
+		\paper {
+			indent = 3\cm
+			top-system-spacing.basic-distance = #17
+			top-system-spacing.minimum-distance = #17
+			markup-system-spacing.basic-distance = #12
+			markup-system-spacing.minimum-distance = #12
+			system-system-spacing.basic-distance = #18
+			system-system-spacing.minimum-distance = #18
+		}
 		\score {
 			<<
 				\new StaffGroup <<
@@ -319,7 +327,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 105 }
 		}
 	}
 }

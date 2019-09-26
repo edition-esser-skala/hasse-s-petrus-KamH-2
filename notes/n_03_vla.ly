@@ -461,7 +461,7 @@ MeaTormentaViola = {
 
 AmorMeusViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key h \minor \time 3/4 \tempoAmorMeus
 			\set Score.currentBarNumber = #452
 		r4 \mvTr d\fE-\markup { \remark "sordini" } d
@@ -554,7 +554,7 @@ AmorMeusViola = {
 		\mvTr g4\pE-\markup { \remarkE "assai" } fis2
 		e4 d2 %540
 		R2.
-		g4\pocoFE fis fis
+		g4\fE fis fis
 		g2 r4
 		r8 g\pE fis4 fis
 		g2. %545
