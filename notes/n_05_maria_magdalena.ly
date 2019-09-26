@@ -182,12 +182,77 @@ PiaeMulieresMariaMagdalenaNotes = {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoPiaeMulieres
 			\set Staff.timeSignatureFraction = 4/4
-		
+		R1*3
+		r2 d'4 d
+		r8 d d e c!4 c %5
+		c8 c16 c d8 a h h r h
+		e e e8. fis16 \appoggiatura e4 dis4. c!8
+		c4. h8 g g r4
+		e'8. e16 e8 fis16 cis d8 d r4
+		d16([ e)] e([ f)] f4~ f8. f16 f8 e %10
+		c! c r4 r r8 d,
+		c'8. c16 c8 d \appoggiatura c h4 h8 g
+		g4( g'8[ e)] \appoggiatura d4 cis4. d8
+		a a r4 r2
+		R1*6 %20
+		r8 fis' \appoggiatura e d4~ d8 d d8.\trill e16
+		cis8 cis r4 r2
+		R1
+		\time 2/4 r4 es4~
+		\key g \minor \time 4/4 es cis8 d a a r4 %25
+		R1
+		r4 r8 f' f c c c
+		a a r f c' c c d
+		b b r4 r2
+		r8 f'4 d8 h h r d16 g, %30
+		c8 c r4 r des8 c
+		as16 as r8 f' \appoggiatura es16 des8 b b r b16 b
+		es8. es16 es8 r r ges4 \appoggiatura f8 es
+		c4 c8 des as as r4
+		R1*8 %42
+		r2 r4 r8 b
+		ges' ges ges4~ ges8[ f16. ges32] f8[ es]
+		des16. c32 c8 r c des c r c %45
+		es es es8.([ des32 c)] des8[ b' ges f]
+		\appoggiatura f e8. e16 e8 f \appoggiatura des? c4 c8 r
+		\key c \major R1*8 %55
+		R1\fermataMarkup \bar "|." %56 finis
 	}
 }
 
 PiaeMulieresMariaMagdalenaLyrics = \lyricmode {
+	Pe -- tre, %4
+	quis un -- quam e -- rit %5
+	mi -- hi do -- lo -- ris mo -- dus? Ex --
+	tin -- cta_est al -- ma lux, Ma --
+	gis -- ter me -- us.
+	Mi -- se -- ra, de -- so -- la -- ta,
+	pa -- cem am -- pli -- us non %10
+	sp -- ero, et
+	sem -- per in mea pe -- na in --
+	fe -- _ lix
+	e -- ro.
 	
+	Oh dul -- ce re -- mi -- %21
+	ni -- sti!
+	
+	Oh __
+	Pe -- tre ta -- ce. %25
+	
+	Ex tan -- to Dei fa --
+	vo -- re au -- gen -- tur mea tor --
+	men -- ta.
+	Cle -- mens il -- le, e -- go_in -- %30
+	gra -- ta, e -- go
+	re -- a, su -- bit il -- le cru -- de --
+	liſ -- si -- mas, cru -- de --
+	liſ -- si -- mas poe -- nas.
+	
+	A -- %43
+	ma -- rae la -- _
+	_ cry -- mae stil -- la -- te, a -- %45
+	ma -- rae la -- _
+	_ cry -- mae stil -- la -- te. %47 finis
 }
 
 % MariaMagdalenaNotes = {

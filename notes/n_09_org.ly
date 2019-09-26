@@ -1237,13 +1237,13 @@ PiaeMulieresOrgano = {
 		r d(\p es d) d2\f
 		r8 r16 d\f d8 r c r b r %40
 		as1\p
-		a4. a'8 b( a) b16([ f)] d( b)
+		a4. a'!8 b( a) b16([ f)] des?( b)
 		f'8[ f,] f r r4 r8 b'\pocoF
 		es, es es\p es f f f f
 		r f( e f) r f( e f) %45
 		r4 r8 f b b(-. b-. b-.)
 		b4~ b8 r r4 r8 c\f
-		f,1~\p
+		\key c \major f,1~\p
 		f
 		d!~ %50
 		d

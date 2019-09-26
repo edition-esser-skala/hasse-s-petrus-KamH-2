@@ -217,7 +217,7 @@ tempoPiaeMulieres = \tempoMarkup "[Tempo deest]"
 	tempoPiaeMulieresC = \tempoMarkup "Adagio" %21
 	tempoPiaeMulieresD = \tempoMarkup "Un poco lento, ed a tempo" %22
 	tempoPiaeMulieresE = \tempoMarkup "Grave aſsai" %25
-	tempoPiaeMulieresF = \tempoMarkup "Adagion sempre" %37
+	tempoPiaeMulieresF = \tempoMarkup "Adagio sempre" %37
 
 
 

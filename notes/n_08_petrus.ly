@@ -370,12 +370,72 @@ PiaeMulieresPetrusNotes = {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoPiaeMulieres
 			\set Staff.timeSignatureFraction = 4/4
-		
+		r4 gis'8 gis16 a h8. h16 h8 cis
+		a a r a d d, d d
+		d cis g'4~ g8 g16. g32 g8 fis
+		d8. d16 d8 r r2
+		R1*9 %13
+		r2 a'4 a8 r
+		d4 a8 b g4 g %15
+		cis16. cis32 cis8 r cis16 e e8 g, b4~
+		b8 b16 b b8 a f f r4
+		h4~ h16.([ c64 d)] c16 h c8 c c4~
+		c8 d,16 d d8 c' h h h e,
+		ais ais r ais16 h^\critnote fis8 fis r4 %20
+		R1
+		r4 a2 a4
+		fis8 e a4~ a8 a16 a h8 c
+		\time 2/4 h h r4
+		\key g \minor \time 4/4 R1*10 %34
+		r8 as4 as8 r as des c %35
+		a4 a c8 es, ges ges16 f
+		des8 r r b' b4 b8 b
+		b16.([ ces32)] b8 r b ces b r b
+		ces b r f ces'8. ces16 ces8 b
+		g! g r b16 c a!8 a r4 %40
+		r as8 es es'4 ges,8 as
+		f f f2~ f8. f16
+		f4 r8 f des' des des4~
+		des8[ ces16. des32] ces8[ b] \appoggiatura b a!8~[ a16. b32] a8[ c]
+		b16. a!32 a8 r a! b a! r a %45
+		c c c8.([ b32 a!)] b8[ des16. c32] des8[ des]
+		des8. b16 b8 as \appoggiatura g! f4 f8 r
+		\key c \major R1*8 %55
+		R1\fermataMarkup \bar "|." %56 finis
 	}
 }
 
 PiaeMulieresPetrusLyrics = \lyricmode {
+	Pi -- ae mu -- li -- e -- res ceſ --
+	sa -- te; in -- gra -- to cor -- di
+	me -- o so -- lum de -- ben -- tur
+	la -- cry -- mae.
 	
+	Mi -- hi %14
+	mi -- hi sit do -- lor %15
+	ma -- xi -- mus, in -- fi -- ni -- tus, qua --
+	le pec -- ca -- tum me -- um.
+	Tu __ for -- tu -- na -- ta Do --
+	mi -- num au -- di -- vi -- sti cul -- pas
+	tu -- as re -- mit -- ten -- tem. %20
+	
+	Va -- de_in %22
+	pa -- ce, di -- xit be -- ni -- gnus
+	ti -- bi.
+	
+	A -- mor, di -- vi -- nus %35
+	a -- mor ve -- re stat con -- tra
+	me. Cor me -- um in --
+	fi -- dum, in -- fi -- dum cor
+	me -- um re -- si -- ste -- re non
+	va -- let, et hor -- re -- scit. %40
+	Nun -- quam, nun -- quam ceſ --
+	sa -- te la -- cry --
+	mae, a -- ma -- rae la --
+	_ _ _
+	_ cry -- mae stil -- la -- te, a -- %45
+	ma -- rae la -- _ _
+	_ cry -- mae stil -- la -- te. %47 finis
 }
 
 % PetrusNotes = {
