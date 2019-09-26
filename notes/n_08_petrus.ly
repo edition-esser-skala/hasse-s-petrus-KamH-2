@@ -384,7 +384,7 @@ PiaeMulieresPetrusNotes = {
 		ais ais r ais16 h^\critnote fis8 fis r4 %20
 		R1
 		r4 a2 a4
-		fis8 e a4~ a8 a16 a h8 c
+		fis8 e a4~ a8 a16 a h8 c!
 		\time 2/4 h h r4
 		\key g \minor \time 4/4 R1*10 %34
 		r8 as4 as8 r as des c %35

@@ -1235,7 +1235,7 @@ PiaeMulieresOrgano = {
 		\tempoPiaeMulieresF b'8 b as as ges ges f f
 		es es( d!4) r8 d(\f es d)
 		r d(\p es d) d2\f
-		r8 r16 des?\f des8 r c r b r %40
+		r8 r16 des?\f des8 r c! r b r %40
 		as1\p
 		a4. a'!8 b( a!) b16([ f)] des?( b)
 		f'8[ f,] f r r4 r8 b'\pocoF
@@ -1256,7 +1256,62 @@ PiaeMulieresOrgano = {
 }
 
 PiaeMulieresBassFigures = \figuremode {
-	
+	<6+ _+>1
+	<5+>2 <6>
+	<7>8 <6+> r4 <7 _+>2
+	<5+> <6>
+	r1 %5
+	<6 5>
+	<6>2 <7>4 <6\\>
+	<5>2 r8 <8 3>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<7 _+>2 r8 <6+ 4>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<7!>1 %10
+	r8 <8 _!>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff <6>2
+	<5>1
+	r2 <4\+>
+	r4 <_+> <6>2
+	r <6\\> %15
+	r <7->
+	r r8 <8 _!>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<7 _!>2 r8 <8 3>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<6 5>1
+	<7+ 4+ 2+>2. <5+ _+>4 %20
+	<5+ _!>2 <6 5>
+	<_+>4. <6>8 <_+> <6> r q
+	<_+> q4 <4\+>8 <6>2
+	<5 _!>4 <6- _->
+	r2. <_+>4 %25
+	<_!>2 <6>
+	<2>1
+	r
+	<6>4 <7>8 <6> <4> <3> <7> <6>
+	<2>2 <_!> %30
+	<6> <7->4. <6>8
+	<5 _->4 <6- \t> <5->4. <5!>8
+	<6>4.. <\t>16 q2
+	<2->2. <7->4
+	<5->1 %35
+	<6! 4 3>
+	<_->4 <4! 2> <7>8 <6> <7 _-> <6!>
+	<_->4 <6>4. q8 <_-> <6>
+	r <6> <_-> <6> <7- 5->2
+	r8. <4! 2>16 r4 <6-> <6 _-> %40
+	<4->4 <3>2.
+	<6>4. <\t>8 <_-> <6> <_->8. \bassFigureExtendersOn q16 \bassFigureExtendersOff
+	<6- 4>8 <5 _!> r2 r8 <_->
+	<9 7- _->8 \bassFigureExtendersOn <8 6- _-> q <7- 5 _-> \bassFigureExtendersOff <9- _!> \bassFigureExtendersOn <8 _!> q <7 _!> \bassFigureExtendersOff
+	r8 <_!> <7-> <_!> r <_!> <7-> <_!> %45
+	r4. <7 _!>8 <8 5 _->8 \bassFigureExtendersOn q <8 6- _-> <7- 5 _-> \bassFigureExtendersOff
+	<6! 4! _->2.. <_!>8
+	<_->1
+	r
+	<6-> %50
+	<6- 5->
+	<5->2. <6>4
+	<6!>1
+	r2 <_->
+	r2. <_+>4
+	<_!>1
 }
 
 % Organo = {
