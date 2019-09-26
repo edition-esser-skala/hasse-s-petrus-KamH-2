@@ -601,7 +601,7 @@ PiaeMulieresViolinoI = {
 		c4 r8 c' des( c des) des,
 		des c r f\pocoF b b b b
 		ges' ges ges4~\p ges8 f16.( ges32 f8 es)
-		des c([ des c)] r a'!( b a) %45
+		des c([ des c)] r a'!( b a!) %45
 		c\pocoF es, es c\p des([ b')] b([ as)]
 		g!4~ g8 r r4 r8 g-!\f
 		\key c \major as4-! r r2
