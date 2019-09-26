@@ -1235,7 +1235,7 @@ PiaeMulieresOrgano = {
 		\tempoPiaeMulieresF b'8 b as as ges ges f f
 		es es( d!4) r8 d(\f es d)
 		r d(\p es d) d2\f
-		r8 r16 d\f d8 r c r b r %40
+		r8 r16 des?\f des8 r c r b r %40
 		as1\p
 		a4. a'!8 b( a) b16([ f)] des?( b)
 		f'8[ f,] f r r4 r8 b'\pocoF

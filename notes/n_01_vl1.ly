@@ -579,7 +579,34 @@ PiaeMulieresViolinoI = {
 		\clef treble
 		\key c \major \time 4/4 \tempoPiaeMulieres
 			\set Staff.timeSignatureFraction = 4/4
-		
+		R1*23 %23
+		\time 2/4 R2
+		\key g \minor \time 4/4 r2 r4 \tempoPiaeMulieresE a'\fE %25
+		d,8-! f'-! b,-![ d-!] es,-! g'-! c,-![ es-!]
+		f,2~ f\p~
+		f1
+		r8 f16.\f b32 b8( a16.) es'32 es8( d16.) g32 g8( f16.) es32
+		\appoggiatura es4 d2~\p d4 r %30
+		g,8\f r16 g h,([ c)] c([ des)] des2
+		c8\p c des[ des] des8. des16 des([\f d)] d([ es)]
+		es4-! r8 r16 es' es2~\p
+		es r4 ges\f
+		f1~\p %35
+		f
+		\tempoPiaeMulieresF f8 f f f f es es d!
+		es ges( f4) r8 f(\f ges f)
+		r f(\p ges f) f2\f
+		r8 r16 g\f g8 r \kneeBeam as16 as,,-! c-! es-! g,-! g-! b-! des-! %40
+		\appoggiatura des?4 c2~\p c
+		c4 r8 c' des( c des) des,
+		des c r f\pocoF b b b b
+		ges' ges ges4~\p ges8 f16.( ges32 f8 es)
+		des c([ des c)] r a'!( b a) %45
+		c\pocoF es, es c\p des([ b')] b([ as)]
+		g!4~ g8 r r4 r8 g-!\f
+		\key c \major as4-! r r2
+		R1*7 %55
+		R1\fermataMarkup \bar "|." %56 finis
 	}
 }
 

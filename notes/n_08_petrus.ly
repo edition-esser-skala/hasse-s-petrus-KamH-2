@@ -392,7 +392,7 @@ PiaeMulieresPetrusNotes = {
 		des8 r r b' b4 b8 b
 		b16.([ ces32)] b8 r b ces b r b
 		ces b r f ces'8. ces16 ces8 b
-		g! g r b16 c a!8 a r4 %40
+		g! g r b16 c as?8 as r4 %40
 		r as8 es es'4 ges,8 as
 		f f f2~ f8. f16
 		f4 r8 f des' des des4~
