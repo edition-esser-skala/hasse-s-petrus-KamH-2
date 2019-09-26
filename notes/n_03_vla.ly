@@ -579,6 +579,33 @@ PiaeMulieresViola = {
 		\clef treble
 		\key c \major \time 4/4 \tempoPiaeMulieres
 			\set Staff.timeSignatureFraction = 4/4
-		
+		R1*23 %23
+		\time 2/4 R2
+		\key g \minor \time 4/4 r2 r4 \tempoPiaeMulieresE a'\fE %25
+		d, r es r
+		a,2~ a~\p
+		a1
+		b8\fE f' es es f b c c
+		f,2\pE g4 r %30
+		es8\fE r16 g h,([ c)] c([ des)] des2
+		as8\pE as as as b b b\fE b
+		b4 r8 r16 ges' ges2~\p
+		ges r4 as\fE
+		as?1\pE %35
+		a
+		\tempoPiaeMulieresF b8 des, d d es es f f
+		ges es( d!4) r8 d(\fE es d)
+		r d(\pE es d) as'2\fE
+		r8 r16 b\fE b8 r es, r g, r %40
+		as1\pE
+		a4 r8 a'! b([ a!)] b16([ f)] des( b)
+		f'8[ f,] f r r4 r8 f'\pocoFE
+		f es es\pE des c c4 a!8
+		b f'([ e f)] r f( e f) %45
+		r4 r8 f f4 des8 des
+		des4~ des8 r r4 r8 c\fE^\critnote
+		\key c \major c4-! r r2
+		R1*7 %55
+		R1\fermataMarkup \bar "|." %56 finis
 	}
 }
