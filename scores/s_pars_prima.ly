@@ -52,12 +52,8 @@
 
 \book {
 % 	\bookpart {
-% 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-% 		\partTitle "1" "P A R S   P R I M A"
-% 	}
-% 	\bookpart {
 % 		\header {
-% 			movement = "1.1 INTRODUZIONE – 1.2 PLANGE, O MISERUM COR"
+% 			movement = "1 INTRODUZIONE – 2 PLANGE, O MISERUM COR"
 % 		}
 % 		\score {
 % 			<<
@@ -110,7 +106,7 @@
 % 	}
 % 	\bookpart {
 % 		\header {
-% 			movement = "1.3 CRUCIFIXUM SI VIDERES"
+% 			movement = "3 CRUCIFIXUM SI VIDERES"
 % 		}
 % 		\score {
 % 			<<
@@ -153,7 +149,7 @@
 % 	}
 % 	\bookpart {
 % 		\header {
-% 			movement = "1.4 EAMUS"
+% 			movement = "4 EAMUS"
 % 		}
 % 		\paper { systems-per-page = #3 }
 % 		\score {
@@ -187,7 +183,7 @@
 % 	}
 % 	\bookpart {
 % 		\header {
-% 			movement = "1.5 MEA TORMENTA PROPERATE"
+% 			movement = "5 MEA TORMENTA PROPERATE"
 % 		}
 % 		\score {
 % 			<<
@@ -230,7 +226,7 @@
 % 	}
 % 	\bookpart {
 % 		\header {
-% 			movement = "1.6 PETRE EXTOLLE"
+% 			movement = "6 PETRE EXTOLLE"
 % 		}
 % 		\paper { systems-per-page = #3 }
 % 		\score {
@@ -264,7 +260,7 @@
 % 	}
 % 	\bookpart {
 % 		\header {
-% 			movement = "1.7 AMOR MEUS IN CRUCE LANGUET"
+% 			movement = "7 AMOR MEUS IN CRUCE LANGUET"
 % 		}
 % 		\paper {
 % 			indent = 3\cm
@@ -332,7 +328,7 @@
 % 	}
 	\bookpart {
 		\header {
-			movement = "1.8 PIAE MULIERES CESSATE"
+			movement = "8 PIAE MULIERES CESSATE"
 		}
 		\paper {
 			top-system-spacing.basic-distance = #17

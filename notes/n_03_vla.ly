@@ -143,7 +143,7 @@ IntroduzioneViola = {
 		R1*3 %135
 		\time 2/4 R2
 		\time 4/4 R1*4 %140
-		R1\fermataMarkup \bar "||" %141 finis
+		R1\fermataMarkup \bar "|." %141 finis
 	}
 }
 
@@ -151,169 +151,168 @@ CrucifixumViola = {
 	\relative c' {
 		\clef alto
 		\key a \major \time 2/2 \tempoCrucifixum
-			\set Score.currentBarNumber = #142
 			\set Staff.timeSignatureFraction = 2/2
 		r4 cis\fE d e
 		r <fis a> r a,
 		fis' gis a h
-		e,1 %145
-		r4 cis d e
+		e,1
+		r4 cis d e %5
 		r a r a
 		gis( h) \appoggiatura h a2
 		gis4 e-! e-! e-!
-		dis-! h'-! d,2\trill %150
-		cis c
+		dis-! h'-! d,2\trill
+		cis c %10
 		h h'4 gis
 		e2 r4 a
 		gis h a a
-		gis a2 gis4 %155
-		a-! r r2
+		gis a2 gis4
+		a-! r r2 %15
 		fis4-! r r2
 		d4-! r r2
 		cis4 a'2 gis4
-		a r r2 %160
-		fis4-!\pE r r2
+		a r r2
+		fis4-!\pE r r2 %20
 		d4-! r r2
 		cis4\fE a'2 gis4
 		a-! r e r
-		e r e\pE r \noBreak %165
-		cis-! e-! a,-! r\fermata \bar "S-|"
+		e r e\pE r \noBreak
+		cis-! e-! a,-! r\fermata \bar "S-|" %25
 		r4 cis\p d e \noBreak
 		d2 cis
 		d4 e fis gis
-		a e cis a %170
-		r cis d e
+		a e cis a
+		r cis d e %30
 		d2 cis
 		h4 e e2
 		e4 e-!\f e-! e-!
-		dis-\parenthesize-! h'-\parenthesize-! d,2\trill %175
-		cis4 r e2\p
+		dis-\parenthesize-! h'-\parenthesize-! d,2\trill
+		cis4 r e2\p %35
 		fis e~
 		e fis
 		e4 e e e
-		cis2 h %180
-		cis4 h2 h4
+		cis2 h
+		cis4 h2 h4 %40
 		h h-!\fE h-! h-!
 		ais-! fis'-! a,2\trillE
 		gis4 d'!2\pE cis8( h)
-		cis2 h %185
-		h cis
+		cis2 h
+		h cis %45
 		fis,4 h h h
 		h h h h
 		h h h h
-		h h h cis %190
-		h( cis h a)
+		h h h cis
+		h( cis h a) %50
 		gis r r2
 		cis4-! r r2
 		a4-! r fis'2(
-		gis4) cis, h2 %195
-		h4 r r2
+		gis4) cis, h2
+		h4 r r2 %55
 		c4\f r r2
 		a4-! r fis'2\pE
 		h,4-! r r fis'
-		h,-! r r e %200
-		dis-!\fE dis-! e r8 cis
+		h,-! r r e
+		dis-!\fE dis-! e r8 cis %60
 		h4( cis) h a
 		gis-!\ffE r r2
 		cis4-! r r2
-		a4-! r r2 %205
-		e'4 e e dis
+		a4-! r r2
+		e'4 e e dis %65
 		e-! r h-! r
 		h r h r
 		gis r r2
-		r4 gis\p a h %210
-		a2 gis
+		r4 gis\p a h
+		a2 gis %70
 		a4 h cis dis
 		e h e, e'8 d
 		cis4 cis d e
-		a, fis' e cis %215
-		r fis\fE e cis
+		a, fis' e cis
+		r fis\fE e cis %75
 		r fis\pE e2
 		fis4 e e2~
 		e4 e-!\f e-! e-!
-		dis-! h'-! d,2\trill %220
-		cis c\p
+		dis-! h'-! d,2\trill
+		cis c\p %80
 		h r4 gis
 		a2 r4 dis
 		e e\f e d
-		cis! a2\pE a4 %225
-		a a c2~
+		cis! a2\pE a4
+		a a c2~ %85
 		c4 h2\fE h4\fE
 		h h gis! h
 		e, cis' cis cis
-		cis cis cis cis %230
-		d dis dis dis
+		cis cis cis cis
+		d dis dis dis %90
 		dis dis dis dis
 		e e e e
 		e e gis gis
-		a a ais ais %235
-		h h gis gis
+		a a ais ais
+		h h gis gis %95
 		e e e e
 		e d d dis
 		e e\pocoFE e r8 fis
-		e4 fis e d %240
-		cis-! r r2
+		e4 fis e d
+		cis-! r r2 %100
 		fis4-!\pE r r2
 		d4 r d2
 		cis4( fis) e2
-		e4 r r2 %245
-		f4-!\fE r r2
+		e4 r r2
+		f4-!\fE r r2 %105
 		d4-!\pE r d2
 		cis!4 fis! e d
 		cis r r cis\fE
-		d\pE r r fis^\critnote %250
-		h, e fis gis
+		d\pE r r fis^\critnote
+		h, e fis gis %110
 		\time 4/2 a2 f e dis
 		\time 2/2 e1\fermata
 		a,4\ff a'-! a-! a-!
-		gis-\parenthesize-! e'-\parenthesize-! g,2\trill %255
-		fis4-\parenthesize-! d'-\parenthesize-! f,2\trill
+		gis-\parenthesize-! e'-\parenthesize-! g,2\trill
+		fis4-\parenthesize-! d'-\parenthesize-! f,2\trill %115
 		e ais4 cis
 		fis,2 h4 gis
 		e-! r r2
-		fis4-! r r2 %260
-		d4-! r r2
+		fis4-! r r2
+		d4-! r r2 %120
 		cis4 a'2 gis4
 		a-! r e\pE r
 		e r e\fE r \noBreak
-		cis-! e-! a,-! r\fermata \bar "||" %265
-		\key a \minor r4 a'\pE a a \noBreak
+		cis-! e-! a,-! r\fermata \bar "||"
+		\key a \minor r4 a'\pE a a \noBreak %125
 		fis fis fis e
 		e2 dis
 		e4 e2\pocoFE dis4
-		e r r2 %270
-		f2\pE e
+		e r r2
+		f2\pE e %130
 		dis1\fermata
 		e1~
 		e4 e e( f)
-		f f f f %275
-		f f f fis
+		f f f f
+		f f f fis %135
 		g g g8.[ f16] e8. d16
 		c4 r g' r
 		c r g r
-		e2 e %280
-		f4 f f f
+		e2 e
+		f4 f f f %140
 		r g-!\fE g-! g-!
 		fis-\parenthesize-! d'-\parenthesize-! f,2\trill
 		e es\p
-		d4 e8( d) e2 %285
-		f4 f f f
+		d4 e8( d) e2
+		f4 f f f %145
 		r a a a
 		d, g8.\f a16 g8.[ f16] e8. d16
 		c4 r r2
-		r4 r8 c\fE c4 r8 c %290
-		c4 r8 c c4 r8 c
+		r4 r8 c\fE c4 r8 c
+		c4 r8 c c4 r8 c %150
 		c1\fermata
 		gis4-!\pE r gis-! r
 		gis-! r r2
-		\key a \major r4 cis\fE d e %295
-		r a r a,
+		\key a \major r4 cis\fE d e
+		r a r a, %155
 		fis' gis a h
 		e, r r2
 		fis4 r r2
-		d4 r r2 %300
-		cis4 cis fis e8( d)
-		cis4 e a, r \bar "S-S" %302 finis
+		d4 r r2
+		cis4 cis fis e8( d) %160
+		cis4 e a, r \bar "S-S" %161 finis
 	}
 }
 
@@ -321,141 +320,140 @@ MeaTormentaViola = {
 	\relative c' {
 		\clef alto
 		\key g \minor \time 4/4 \tempoMeaTormenta
-			\set Score.currentBarNumber = #307
 		<b d>8\fE q q q q q q q
 		a a' a a a a a a
 		g b b b b d d d
-		es es es es fis, fis fis fis %310
-		g4 b16 a b c d8 d, d d
+		es es es es fis, fis fis fis
+		g4 b16 a b c d8 d, d d %5
 		es es es g fis a g fis
 		g d d c b b g g'
 		g g es es es es c c
-		c c a a a a f f %315
+		c c a a a a f f
+		f' f d d d d b b %10
+		b b g g g g es es
+		es' es c c c c a a
+		a fis fis c' b b g g'
+		fis16 d fis a d8 c b b g g
+		<fis a>4 r r8 d' es! cis %15
+		d a b fis g d es cis
+		d a b g d' a b g \noBreak
+		d'4 r r2\fermata \bar "S-|"
+		r8 d\pocoFE d d d d d d \noBreak
+		d d d d d d d d %20
+		es es es es b\p b b b
+		c c c c d d d d
+		g g g g g, g g g'
+		g g es c d d d d
+		d4. d16\f es d8 c b a %25
+		g d'\p d d d g, g' g
+		g\fE g es es es es c c
+		c\pE c a a a a f f
+		f' f f f d d d d
+		es es es es es es es es %30
+		f f f f g g g g
+		c, a f'\f es d d b b
+		a4 r8 f'16 g f8 d es c
+		f1\pE
+		g %35
+		f2 c4( a)
+		b1
+		f'
+		g
+		r8 g g g f f es es %40
+		d16 d d\f d d d d d f f f f f f f f
+		g g g g g g g g f f f f f f f f
+		f8\ff f f f es es d d
+		es16 es es es es es es es cis cis cis cis cis cis cis cis
+		d8 a' d c! b b g g %45
+		<fis a> r r4 r8 d' es! cis
+		d a b fis g d es cis
+		d a b g d' a b g
+		d'4 r r2
+		r8 d\pE d d d d d d %50
+		d d d d d d d d
+		es es es es d d g g
+		g g es c d d d d
+		d4. d16\f es d8 c b a
+		g8 d'\pE d d d g, g' g %55
+		g\fE g es es es es c\pE c
+		c c a a a a f f
+		f' f d d d d b b
+		b b g g g g es es
+		es' es c c c c a a' %60
+		\once \tieDashed a2~\fE a\pE
+		g8 d d d b\f b es es
+		d4-! r g-!\pE g-!
+		a8-! r r4 g8-! r r4
+		fis8-! r r4 b8-! r r4 %65
+		a8-! r r4 g8-! r r4
+		fis8\fE a d c b b g g
+		<fis a>4-! r8 d16 es d8 c b a
+		\mvTrh d1\pE-\tenuto
+		es %70
+		f
+		es~
+		es
+		a!4-! b-! r2
+		r8 es, es es d d d d %75
+		d16\f d d d d d d d d d d d d d d d
+		es es es es es es es es d d d d d d d d
+		d8\ff d d d d g, g' g
+		g g es es es es c c
+		c c a a a a f f %80
 		f' f d d d d b b
 		b b g g g g es es
 		es' es c c c c a a
 		a fis fis c' b b g g'
-		fis16 d fis a d8 c b b g g %320
-		<fis a>4 r r8 d' es! cis
-		d a b fis g d es cis
-		d a b g d' a b g \noBreak
-		d'4 r r2\fermata \bar "S-|"
-		r8 d\pocoFE d d d d d d \noBreak %325
-		d d d d d d d d
-		es es es es b\p b b b
-		c c c c d d d d
-		g g g g g, g g g'
-		g g es c d d d d %330
-		d4. d16\f es d8 c b a
-		g d'\p d d d g, g' g
-		g\fE g es es es es c c
-		c\pE c a a a a f f
-		f' f f f d d d d %335
-		es es es es es es es es
-		f f f f g g g g
-		c, a f'\f es d d b b
-		a4 r8 f'16 g f8 d es c
-		f1\pE %340
-		g
-		f2 c4( a)
-		b1
-		f'
-		g %345
-		r8 g g g f f es es
-		d16 d d\f d d d d d f f f f f f f f
-		g g g g g g g g f f f f f f f f
-		f8\ff f f f es es d d
-		es16 es es es es es es es cis cis cis cis cis cis cis cis %350
-		d8 a' d c! b b g g
-		<fis a> r r4 r8 d' es! cis
-		d a b fis g d es cis
-		d a b g d' a b g
-		d'4 r r2 %355
-		r8 d\pE d d d d d d
-		d d d d d d d d
-		es es es es d d g g
-		g g es c d d d d
-		d4. d16\f es d8 c b a %360
-		g8 d'\pE d d d g, g' g
-		g\fE g es es es es c\pE c
-		c c a a a a f f
-		f' f d d d d b b
-		b b g g g g es es %365
-		es' es c c c c a a'
-		\once \tieDashed a2~\fE a\pE
-		g8 d d d b\f b es es
-		d4-! r g-!\pE g-!
-		a8-! r r4 g8-! r r4 %370
-		fis8-! r r4 b8-! r r4
-		a8-! r r4 g8-! r r4
-		fis8\fE a d c b b g g
-		<fis a>4-! r8 d16 es d8 c b a
-		\mvTrh d1\pE-\tenuto %375
-		es
-		f
-		es~
-		es
-		a!4-! b-! r2 %380
-		r8 es, es es d d d d
-		d16\f d d d d d d d d d d d d d d d
-		es es es es es es es es d d d d d d d d
-		d8\ff d d d d g, g' g
-		g g es es es es c c %385
-		c c a a a a f f
-		f' f d d d d b b
-		b b g g g g es es
-		es' es c c c c a a
-		a fis fis c' b b g g' %390
-		<fis a> q d'[ c] b b g g
+		<fis a> q d'[ c] b b g g %85
 		<fis a> r r4 q2
 		b8 g g g g g fis d
 		es4-! g-! c,-! d-! \noBreak
-		g,-! r r2\fermata \bar "||" %395
-		es'2.\pE \noBreak
+		g,-! r r2\fermata \bar "||"
+		es'2.\pE \noBreak %90
 		c4( b) d
 		b c2
 		f, g4
-		es r r %400
-		es' r r
+		es r r
+		es' r r %95
 		r c c
 		b b\fE c
 		des2.
-		des?4(\pE c) des %405
-		c( b) des
+		des?4(\pE c) des
+		c( b) des %100
 		c8(-. c-. c-. c-. c-. c-.)
 		c r r4 r
 		c8([ f)] e([ g)] f( as)
-		R2. %410
-		c,8([ f)] e([ g)] f( as)
+		R2.
+		c,8([ f)] e([ g)] f( as) %105
 		f( des) c4 b
 		as?( f') d
 		b2.
-		c\fE %415
-		b8(-.\pE b-. b-. b-. b-. b-.)
+		c\fE
+		b8(-.\pE b-. b-. b-. b-. b-.) %110
 		R2.
 		b8([ es)] d([ f)] es( g)
 		R2.
-		b,8([ es)] d([ f)] es( g) %420
-		as,?4 b b
+		b,8([ es)] d([ f)] es( g)
+		as,?4 b b %115
 		ces ces(\f b)
 		a!8 c c2
 		b4(\pE c d)
-		es b2 %425
-		ces4 ces(\f b)
+		es b2
+		ces4 ces(\f b) %120
 		a!8 c c2
 		<b d>\p r4
 		R2.
-		b8([ es)] d([ f)] es( g) %430
-		R2.
+		b8([ es)] d([ f)] es( g)
+		R2. %125
 		b,8([ es)] d([ f)] es( g)
 		es(-. es-.) es(-. es-. es-. es-.)
 		es(-. es-.) es(-. es-. es-. es-.)
-		b4\fE b b %435
-		c c c
+		b4\fE b b
+		c c c %130
 		b2.\fermata
 		es
 		es\p
-		<d a'!>\fermata \bar "S-S" %440 finis
+		<d a'!>\fermata \bar "S-S" %134 finis
 	}
 }
 
@@ -463,117 +461,116 @@ AmorMeusViola = {
 	\relative c' {
 		\clef alto
 		\key h \minor \time 3/4 \tempoAmorMeus
-			\set Score.currentBarNumber = #452
 		r4 \mvTr d\fE-\markup { \remark "sordini" } d
 		r cis cis
 		d( e fis)
-		g2 fis4 %455
-		g( fis eis)
+		g2 fis4
+		g( fis eis) %5
 		g( fis eis)
 		fis2.~
 		fis8 ais,( h cis d e)
-		fis2 fis4 %460
-		g fis2
+		fis2 fis4
+		g fis2 %10
 		h r4
 		g fis fis
 		fis r r
-		g fis( e) %465
-		d fis e
+		g fis( e)
+		d fis e %15
 		d\pE d d
 		r cis cis
 		d( e fis)
-		e( d cis) %470
-		h2( cis4)
+		e( d cis)
+		h2( cis4) %20
 		d( e fis)
 		g( fis e)
 		d( cis h)
-		r fis' fis %475
-		fis fis r
+		r fis' fis
+		fis fis r %25
 		r a! a
 		a a r
 		R2.
-		a4 d,2~ %480
-		d4 e( f)
+		a4 d,2~
+		d4 e( f) %30
 		e( cis!) d
 		a( cis d)
 		a( cis d)
-		a( cis d) %485
-		a2 r4
+		a( cis d)
+		a2 r4 %35
 		<d a'>2.
 		g4( h) h
 		<e, a>2 <fis a>4
-		g \appoggiatura fis e2 %490
-		d2.~
+		g \appoggiatura fis e2
+		d2.~ %40
 		d~
 		d4 g fis
 		fis e r
-		a2 gis4 %495
-		a a r
+		a2 gis4
+		a a r %45
 		R2.
 		g!4 a a,
 		h2 r4
-		r8 h'\fE a4( g) %500
-		fis\ffE g a
+		r8 h'\fE a4( g)
+		fis\ffE g a %50
 		h cis d
 		e a, h
 		e,2 fis4
-		g a a, %505
-		d2 g4
+		g a a,
+		d2 g4 %55
 		r8 ais, h cis d e
 		fis2.
 		r4 d\pE d
-		r cis cis %510
-		d( e fis)
+		r cis cis
+		d( e fis) %60
 		e( d cis)
 		h2( cis4)
 		d( e fis)
-		g( fis e) %515
-		d( cis h)
+		g( fis e)
+		d( cis h) %65
 		r fis' fis
 		fis fis r
 		R2.
-		fis4\f h, h %520
-		h8.\trill a16 g4 r
+		fis4\f h, h
+		h8.\trill a16 g4 r %70
 		h'4\pE e,2~
 		e4 fis( g)
 		fis( e) eis
-		fis( ais,) h %525
-		fis'( ais,) h
+		fis( ais,) h
+		fis'( ais,) h %75
 		r ais h
 		fis'( ais,) h
 		ais r r
-		fis'2. %530
-		eis
+		fis'2.
+		eis %80
 		fis2 fis4
 		fis2.
 		fis8 fis,(-. fis-. fis-. fis-. fis-.)
-		fis2. %535
-		h'4 a!2
+		fis2.
+		h'4 a!2 %85
 		g4 fis2
 		R2.
 		\mvTr g4\pE-\markup { \remarkE "assai" } fis2
-		e4 d2 %540
-		R2.
+		e4 d2
+		R2. %90
 		g4\fE fis fis
 		g2 r4
 		r8 g\pE fis4 fis
-		g2. %545
-		g4\fE fis( e)
+		g2.
+		g4\fE fis( e) %95
 		dis\ffE e g
 		r fis fis 
 		g( a h)
-		c2 h4 %550
-		c( h ais)
+		c2 h4
+		c( h ais) %100
 		c( h ais)
 		h2 a4
 		gis2.
-		cis,!2 fis4 %555
-		g!( fis) fis
+		cis,!2 fis4
+		g!( fis) fis %105
 		g2 r4
 		e8( cis') \appoggiatura h4 ais2
 		h r4
-		g fis( e) %560
-		d r r\fermata \bar "||" %561 finis
+		g fis( e)
+		d r r\fermata \bar "|." %110 finis
 	}
 }
 
@@ -581,7 +578,6 @@ PiaeMulieresViola = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoPiaeMulieres
-			\set Score.currentBarNumber = #562
 		
 	}
 }

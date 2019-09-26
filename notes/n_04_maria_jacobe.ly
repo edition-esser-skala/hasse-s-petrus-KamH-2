@@ -41,7 +41,7 @@ IntroduzioneMariaJacobeNotes = {
 		f8 f r4 d'8 b16 b b8 a
 		gis8 gis r h d d d c16 h
 		c4 c e4. dis16 e %140
-		h8 h r4 r2\fermata \bar "||" %141 finis
+		h8 h r4 r2\fermata \bar "|." %141 finis
 	}
 }
 
@@ -68,362 +68,358 @@ CrucifixumMariaJacobeNotes = {
 	\relative c' {
 		\clef treble
 		\key a \major \time 2/2 \autoBeamOff \tempoCrucifixum
-			\set Score.currentBarNumber = #142
 			\set Staff.timeSignatureFraction = 2/2
-		R1*24 %165
-		R1\fermataMarkup \bar "S-|"
+		R1*24
+		R1\fermataMarkup \bar "S-|" %25
 		a'2\pE a4.(\trill gis16[ a])
 		fis'2 e
 		h8([ d)] cis([ e)] \appoggiatura e4 d2
-		\appoggiatura d2 cis1 %170
-		a2 a4.(\trill gis16[ a])
+		\appoggiatura d2 cis1
+		a2 a4.(\trill gis16[ a]) %30
 		fis'2 e
 		\appoggiatura e8 d4 cis8([ h)] \appoggiatura d4 cis2
 		h2~ h4 r
-		R1 %175
-		r4 e2 e4
+		R1
+		r4 e2 e4 %35
 		dis( h') d,2
 		cis4( a'2) c,?4
 		c? h \appoggiatura fis'8 e4 dis8([ cis)]
-		\appoggiatura h4 ais2 h4 r8 e, %180
-		a4.( h8) \appoggiatura a4 gis2
+		\appoggiatura h4 ais2 h4 r8 e,
+		a4.( h8) \appoggiatura a4 gis2 %40
 		fis r
 		R1
 		r4 h2 h4
-		ais( fis'2) a,4 %185
-		gis( e'2) g,4
+		ais( fis'2) a,4
+		gis( e'2) g,4 %45
 		fis fis'~ \tuplet 3/2 4 { fis8[ e dis] cis[ h a] }
 		gis!4 gis'2 h,4
 		a a'~ \tuplet 3/2 4 { a8[ gis fis] e[ dis cis] }
-		h([ dis fis dis]) e16([ h8.)] cis16([ a8.)] %190
-		gis4.( a8) \appoggiatura gis4 fis2
+		h([ dis fis dis]) e16([ h8.)] cis16([ a8.)]
+		gis4.( a8) \appoggiatura gis4 fis2 %50
 		e4 r r2
 		R1
 		r2 h'
-		e16([ h8.)] cis16([ a8.)] \appoggiatura gis4 fis2 %195
-		e4 h'2 \tuplet 3/2 4 { a8[( g fis]) }
+		e16([ h8.)] cis16([ a8.)] \appoggiatura gis4 fis2
+		e4 h'2 \tuplet 3/2 4 { a8[( g fis]) } %55
 		\appoggiatura fis16 e8([ dis?)] e4 r2
 		r h'
 		e8[ h] h4\trill a'2
-		gis!8[ e] e4\trill g2 %200
-		fis16([ dis8.)] \appoggiatura dis32 cis16([ h8.)] e16([ h8.)] cis16([ a8.)]
+		gis!8[ e] e4\trill g2
+		fis16([ dis8.)] \appoggiatura dis32 cis16([ h8.)] e16([ h8.)] cis16([ a8.)] %60
 		gis4.(\trill a8) \appoggiatura gis4 fis2
 		e r
-		R1*6 %209
-		e2 e4.(\trill dis16[ e)] %210
-		cis'2 h
+		R1*6 %68
+		e2 e4.(\trill dis16[ e)]
+		cis'2 h %70
 		fis8([ a)] gis([ h)] \appoggiatura h4 a2
 		\appoggiatura a2 gis1
 		a2 a4.(\trill gis16[ a)]
-		fis'2 e %215
-		R1
+		fis'2 e
+		R1 %75
 		fis4.(\trill gis8 a4) e
 		\appoggiatura e8 d4 cis8([ h)] \appoggiatura d4 cis2
 		h r
-		R1 %220
-		r4 e2 e4
+		R1
+		r4 e2 e4 %80
 		dis( h') d,2
 		cis4( a') c,2
 		c?4 h r2
-		r4 e2 g,4 %225
-		g fis2 fis'4
+		r4 e2 g,4
+		g fis2 fis'4 %85
 		fis2. a,4
 		a( gis!) r e
 		a a~ \tuplet 3/2 4 { a8[ h cis] d[ e fis] }
-		g4 g,2 \appoggiatura g16 fis8[ e] %230
-		fis4-! h~ \tuplet 3/2 4 { h8[ cis dis] e[ fis gis] }
+		g4 g,2 \appoggiatura g16 fis8[ e]
+		fis4-! h~ \tuplet 3/2 4 { h8[ cis dis] e[ fis gis] } %90
 		a4 a,2 \appoggiatura a16 gis8[ fis]
 		gis4 e'2 fis8[ cis]
 		d4 d~ \tuplet 3/2 4 { d8[ fis e] d[ cis h] }
-		cis4 e2 fis8[ cis] %235
-		d4 d~ \tuplet 3/2 4 { d8[ fis e] d[ cis h] }
+		cis4 e2 fis8[ cis]
+		d4 d~ \tuplet 3/2 4 { d8[ fis e] d[ cis h] } %95
 		cis4 a'~ \tuplet 3/2 4 { a8[ gis fis] e[ d cis] }
 		h4 fis'~ \tuplet 3/2 4 { fis8[ e d] cis[ h a] }
 		gis4 gis'16( e8.) a16( e8.) fis16( d8.)
-		cis4.(\trill d8) \appoggiatura cis4 h2 %240
-		a4 r r2
+		cis4.(\trill d8) \appoggiatura cis4 h2
+		a4 r r2 %100
 		R1
 		r2 h
 		e16([ cis8.)] d16([ h8.)] \appoggiatura a4 gis2
-		a4 e'2 \tuplet 3/2 4 { d8[( c h]) } %245
-		\appoggiatura h16 a8([ gis)] a4 r2
+		a4 e'2 \tuplet 3/2 4 { d8[( c h]) }
+		\appoggiatura h16 a8([ gis)] a4 r2 %105
 		r h
 		e16([ cis!8.)] d16([ h8.)] \appoggiatura a4 gis2
 		a4 a g'2
-		fis8([ h,)] \appoggiatura cis32 h16([ ais h8)] a'!2 %250
-		\tuplet 3/2 4 { gis!8[ fis e] } e2 r4
+		fis8([ h,)] \appoggiatura cis32 h16([ ais h8)] a'!2
+		\tuplet 3/2 4 { gis!8[ fis e] } e2 r4 %110
 		\time 4/2 r1 r2 r4 a,
 		\time 2/2 a2(\fermata h4.) a8
 		a2 r
-		R1*10 \noBreak %264
-		R1\fermataMarkup \bar "||" %265
-		\key a \minor a2 f' \noBreak
+		R1*10 \noBreak %123
+		R1\fermataMarkup \bar "||"
+		\key a \minor a2 f' \noBreak %125
 		\appoggiatura e4 dis4. dis8 dis4 e
 		\appoggiatura d2 c1
 		h2 e16[( c8.]) h16[( a8.])
-		gis8([ a]) h4 r e, %270
-		a2 h
+		gis8([ a]) h4 r e,
+		a2 h %130
 		\appoggiatura h a1\fermata
 		gis
 		c2 c
-		\appoggiatura d16 c8([ h]) a2. %275
-		d4.(\trill e8 f4) a,
+		\appoggiatura d16 c8([ h]) a2.
+		d4.(\trill e8 f4) a, %135
 		\appoggiatura c16 h8([ a)] g4 r2
 		g g
 		g g
-		g4 g2~ \tuplet 3/2 4 { g8([ a b)] } %280
-		a4 f'2 e8([ d)]
+		g4 g2~ \tuplet 3/2 4 { g8([ a b)] }
+		a4 f'2 e8([ d)] %140
 		\appoggiatura c2 h!1
 		R1
 		r4 c2 c4
-		h( g'2) b,4 %285
-		a( f'2) e8([ d)]
+		h( g'2) b,4
+		a( f'2) e8([ d)] %145
 		\appoggiatura f2 e1
 		d2 r
 		r e4. c8
-		a4.(\trill gis8) a2 %290
-		R1
+		a4.(\trill gis8) a2
+		R1 %150
 		r4 a2(\fermata gis8) a
 		h4 r r2
 		R1
-		\key a \major R1*8 \bar "S-S" %302 finis
+		\key a \major R1*8 \bar "S-S" %161 finis
 	}
 }
 
 CrucifixumMariaJacobeLyrics = \lyricmode {
-	Cru -- ci -- %167
-	fi -- xum
-	si vi -- de --
-	res, %170
-	cer -- te __
-	ma -- gis
-	Pe -- tre fle --
-	res __
-	%175
-	ob tor --
-	men -- ta
-	Re -- dem --
-	pto -- ris, di -- rae
-	pe -- nae, a -- %180
-	ma -- ra
-	mors,
-	
-	di -- rae
-	pe -- nae_a -- %185
-	ma -- _
-	_ _ _
-	_ _ _
-	_ _ _
-	_ _ _ %190
-	_ ra
-	mors,
-	
-	a --
-	ma -- _ ra %195
-	mors, di -- rae __
-	pe -- nae,
-	a --
-	ma -- _ _
-	_ _ _ %200
-	_ _ _ _
-	_ ra
-	mors.
-	
-	Cru -- ci -- %210
+	Cru -- ci -- %26
 	fi -- xum
 	si vi -- de --
 	res,
-	cer -- te __
-	ma -- gis, %215
-	
+	cer -- te __ %30
 	ma -- gis
 	Pe -- tre fle --
-	res
-	%220
-	ob tor --
+	res __
+	
+	ob tor -- %35
 	men -- ta
 	Re -- dem --
-	pto -- ris,
-	di -- rae %225
+	pto -- ris, di -- rae
 	pe -- nae, a --
-	ma -- ra
-	mors, a --
-	ma -- _ _
-	_ _ _ %230
+	ma -- ra %40
+	mors,
+	
+	di -- rae
+	pe -- nae_a --
+	ma -- _ %45
 	_ _ _
 	_ _ _
 	_ _ _
 	_ _ _
-	_ _ _ %235
-	_ _ _
-	_ _ _
-	_ _ _
-	_ _ _ _
-	_ ra %240
+	_ ra %50
 	mors,
 	
 	a --
 	ma -- _ ra
-	mors, di -- rae __ %245
+	mors, di -- rae __ %55
 	pe -- nae,
+	a --
+	ma -- _ _
+	_ _ _
+	_ _ _ _ %60
+	_ ra
+	mors.
+	
+	Cru -- ci -- %69
+	fi -- xum %70
+	si vi -- de --
+	res,
+	cer -- te __
+	ma -- gis,
+	%75
+	ma -- gis
+	Pe -- tre fle --
+	res
+	
+	ob tor -- %80
+	men -- ta
+	Re -- dem --
+	pto -- ris,
+	di -- rae
+	pe -- nae, a -- %85
+	ma -- ra
+	mors, a --
+	ma -- _ _
+	_ _ _
+	_ _ _ %90
+	_ _ _
+	_ _ _
+	_ _ _
+	_ _ _
+	_ _ _ %95
+	_ _ _
+	_ _ _
+	_ _ _ _
+	_ ra
+	mors, %100
+	
+	a --
+	ma -- _ ra
+	mors, di -- rae __
+	pe -- nae, %105
 	a --
 	ma -- _ ra
 	mors, a -- ma --
-	_ _ _ %250
-	_ ra,
+	_ _ _
+	_ ra, %110
 	a --
 	ma -- ra
 	mors.
 	
-	A quo %266
+	A quo %125
 	san -- gui -- ne fit
 	mun --
 	da cul -- pa
-	tu -- a mor -- %270
-	ta -- lis
+	tu -- a mor --
+	ta -- lis %130
 	ho --
 	mo!
 	A quo
-	plan -- ctu %275
-	fit ju --
+	plan -- ctu
+	fit ju -- %135
 	cun -- da
 	tam fu --
 	ne -- sta
-	no -- stra __ %280
-	sors, no -- stra
+	no -- stra __
+	sors, no -- stra %140
 	sors?
 	
 	A quo
-	plan -- ctu %285
-	fit __ ju --
+	plan -- ctu
+	fit __ ju -- %145
 	cun --
 	da
 	tam fu --
-	ne -- sta %290
-	
+	ne -- sta
+	%150
 	no -- stra
-	sors? %293 finis
+	sors? %152 finis
 }
 
 EamusMariaJacobeNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoEamus
-			\set Score.currentBarNumber = #294
 		R1
-		h'8\pE h r cis a a r a %295
+		h'8\pE h r cis a a r a
 		dis dis r4 fis a,8 h
 		g! g r4 r8 cis16 e e8 g,16 a
-		fis8 fis r4 fis'4( \grace e16 d8) \appoggiatura cis?16 h8
+		fis8 fis r4 fis'4( \grace e16 d8) \appoggiatura cis?16 h8 %5
 		\appoggiatura a gis4 gis8 a e e r4
-		R1*6 %305
-		R1\fermataMarkup \bar "||" %306 finis
+		R1*6 %12
+		R1\fermataMarkup \bar "|." %13 finis
 	}
 }
 
 EamusMariaJacobeLyrics = \lyricmode {
-	Si -- ste, o Pe -- tre. Quo %295
+	Si -- ste, o Pe -- tre. Quo %2
 	va -- dis? No -- li ex --
 	i -- re. Im -- piae tur -- bae te
-	que -- runt. Ah, __ te
-	no -- bis con -- ser -- va. %299 finis
+	que -- runt. Ah, __ te %5
+	no -- bis con -- ser -- va. %6 finis
 }
 
 PetreExtolleMariaJacobeNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoPetreExtolle
-			\set Score.currentBarNumber = #441
 		e'4 a, r8 a a a16 h
 		cis8 cis r e e g, g a
 		fis fis r d' d4 a
 		fis8 fis r a c! c h a
-		h h r g cis8. cis16 cis8 d %445
+		h h r g cis8. cis16 cis8 d %5
 		a a r4 r8 h h c
 		d d f!4~ f8 f f e16 f
 		d8 d r d16 c a8 a r4
-		R1*2 %450
-		R1\fermataMarkup \bar "||" %451 finis
+		R1*2 %10
+		R1\fermataMarkup \bar "|." %11 finis
 	}
 }
 
 PetreExtolleMariaJacobeLyrics = \lyricmode {
-	Pe -- tre, ex -- tol -- le pa -- %441
+	Pe -- tre, ex -- tol -- le pa --
 	rum -- per de -- je -- ctam fa -- ciem
 	tu -- am. Ac -- ce -- dit,
 	vi -- de, ac -- ce -- dit Ma -- gda --
-	le -- na, et al -- te -- ra Ma -- %445
+	le -- na, et al -- te -- ra Ma -- %5
 	ri -- a. Nar -- ra -- bunt
 	ist -- ae ple -- ne Do -- mi -- ni
-	mor -- tem, et por -- ten -- ta. %448 finis
+	mor -- tem, et por -- ten -- ta. %8 finis
 }
 
 AmorMeusMariaJacobeNotes = {
 	\relative c' {
 		\clef treble
 		\key h \minor \time 3/4 \autoBeamOff \tempoAmorMeus
-			\set Score.currentBarNumber = #452
-		R2.*40 %491
+		R2.*40 %40
 		c'2.
 		h4( e) d
 		d8. cis!16 cis4 cis~
-		cis( d) d %495
-		d8. cis16 cis4 r
+		cis( d) d
+		d8. cis16 cis4 r %45
 		R2.
 		h4 a2
 		d r4
-		\appoggiatura cis16 h8([ a16 g)] \appoggiatura fis4 e2 %500
-		d2.
-		R2.*30 %531
+		\appoggiatura cis16 h8([ a16 g)] \appoggiatura fis4 e2
+		d2. %50
+		R2.*30 %80
 		r4 fis' e
 		\appoggiatura e d2~ d8. cis16
 		cis2.
-		R %535
-		d4 cis2
+		R
+		d4 cis2 %85
 		h8. a16 a2
 		R2.
 		h4\p a2
-		g8. fis16 fis2 %540
-		R2.
+		g8. fis16 fis2
+		R2. %90
 		g4\f fis2
 		h r4
 		g\p fis2
-		h r4 %545
-		\appoggiatura fis'16 e8([\f d16 cis)] \appoggiatura h4 ais2
 		h r4
-		R2.*13 %560
-		R2.\fermataMarkup \bar "||" %561 finis
+		\appoggiatura fis'16 e8([\f d16 cis)] \appoggiatura h4 ais2 %95
+		h r4
+		R2.*13 %109
+		R2.\fermataMarkup \bar "|." %110 finis
 	}
 }
 
 AmorMeusMariaJacobeLyrics = \lyricmode {
-	Ah!, %492
+	Ah!, %41
 	ah, __ non
 	ta -- ce -- at, ah, __
-	non %495
-	ta -- ce -- at,
+	non
+	ta -- ce -- at, %45
 	
 	no -- strum
 	cor,
-	no -- strum %500
-	cor.
+	no -- strum
+	cor. %50
 	
-	Ah!, non %532
+	Ah!, non %81
 	ta -- ce --
 	at,
-	%535
-	ah, non
+	
+	ah, non %85
 	ta -- ce -- at,
 	
 	ah, non
-	ta -- ce -- at, %540
-	
+	ta -- ce -- at,
+	%90
 	no -- strum
 	cor,
 	no -- strum
-	cor, %545
-	no -- strum
-	cor. %547 finis
+	cor,
+	no -- strum %95
+	cor. %96 finis
 }
 
 % MariaJacobeNotes = {

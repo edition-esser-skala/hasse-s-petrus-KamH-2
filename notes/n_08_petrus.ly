@@ -113,266 +113,262 @@ EamusPetrusNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoEamus
-			\set Score.currentBarNumber = #294
-		r4 r8 cis'\pE cis gis r4 %294
-		R1*5 %299
-		a8 a r a e'4 c8 a %300
+		r4 r8 cis'\pE cis gis r4
+		R1*5 %6
+		a8 a r a e'4 c8 a
 		fis fis r d a'8. a16 a8 h
 		g g r4 g4. g16 g
-		cis8 cis e4~ e8 g, g f!16 e
+		cis8 cis e4~ e8 g, g f!16 e %10
 		f8 f r4 a8 a16 a d8 c
-		b b b4~ b8 g r g16 f %305
-		d8 d r4 r2\fermata \bar "||" %306 finis
+		b b b4~ b8 g r g16 f
+		d8 d r4 r2\fermata \bar "|." %13 finis
 	}
 }
 
 EamusPetrusLyrics = \lyricmode {
-	E -- a -- mus. %294
+	E -- a -- mus.
 	
-	Si -- sto, et al -- tum con -- %300
+	Si -- sto, et al -- tum con -- %7
 	tem -- plor in me de -- cre -- tum
 	De -- i. Fer -- vi -- do
-	cor -- de mor -- tem ta -- men im --
+	cor -- de mor -- tem ta -- men im -- %10
 	plo -- ro: Se -- qui Ma -- gi -- strum
-	me -- um o -- pto, et ex -- %305
-	o -- ro. %306 finis
+	me -- um o -- pto, et ex --
+	o -- ro. %13 finis
 }
 
 MeaTormentaPetrusNotes = {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 4/4 \autoBeamOff \tempoMeaTormenta
-			\set Score.currentBarNumber = #307
-		R1*17 \noBreak %323
+		R1*17 \noBreak %17
 		R1\fermataMarkup \bar "S-|"
-		g'2\pE b4.(\trill c8) \noBreak %325
-		d4 d, r d8. d16
+		g'2\pE b4.(\trill c8) \noBreak
+		d4 d, r d8. d16 %20
 		g8.([\trill fis16)] g4 r g8. b16
 		\appoggiatura b4 a4. c8 c([ b)] b a
 		b8.([\trill c16)] d4 r g,8. b16
-		\appoggiatura b4 a4. es'8 \appoggiatura es16 d8([ c)] b a %330
-		b4 a r2
+		\appoggiatura b4 a4. es'8 \appoggiatura es16 d8([ c)] b a
+		b4 a r2 %25
 		b2 b
 		es4 es, r2
 		es'2 es,
-		d4 b'2 as16[ g f8] %335
-		g4 es'2 d16[ c b8]
+		d4 b'2 as16[ g f8]
+		g4 es'2 d16[ c b8] %30
 		a!16[ b a g] a[ f g a] b[ a g a] b[ c d e]
 		f4 f, r2
 		R1
-		b2 d, %340
-		\appoggiatura d8 c4 c r r8 es'
+		b2 d,
+		\appoggiatura d8 c4 c r r8 es' %35
 		\appoggiatura es8 d4( c8[ b)] a([ g)] f([ es)]
 		\appoggiatura es2 d2~ d4 r
 		b'2~ b8([ c)] c([ d)]
-		d16([ c b8)] \appoggiatura a4 g2 r8 g %345
-		es'4 c \appoggiatura b a2
+		d16([ c b8)] \appoggiatura a4 g2 r8 g
+		es'4 c \appoggiatura b a2 %40
 		\appoggiatura a b2~ b4 b
 		\appoggiatura a'8 g4^\critnote \appoggiatura f8 es4 \appoggiatura d c2
 		b r
-		R1*6 %355
-		g2 b4.(\trill c8)
+		R1*6 %49
+		g2 b4.(\trill c8) %50
 		d4 d, r d8. d16
 		g8.([\trill fis16)] g4 r g8. b16
 		\appoggiatura b4 a4. es'8 d([ c)] b a
-		b4 a r2 %360
-		b b
+		b4 a r2
+		b b %55
 		es4 es, es'2~
 		es es,
 		es4 d r d8. d16
-		g2 r4 r8 g %365
-		c([ h)] c4 r r8 c
+		g2 r4 r8 g
+		c([ h)] c4 r r8 c %60
 		c4.( d16[ es)] d8([ c)] b([ a)]
 		b4 a d16([ b8.)] a16([ g8.)]
 		fis16([ e d8)] d r d'4 g,
-		fis16[ e] d4 e16[ fis] g[ fis g a] b[ a b c] %370
-		d[ c b a] d[ c b a] \appoggiatura c b8[ a16 g] \appoggiatura c b8[ a16 g]
+		fis16[ e] d4 e16[ fis] g[ fis g a] b[ a b c]
+		d[ c b a] d[ c b a] \appoggiatura c b8[ a16 g] \appoggiatura c b8[ a16 g] %65
 		fis[ g fis e?] fis[ d e? fis] g[ fis g a] b[ a b c]
 		d4 d, r2
 		R1
-		g2~ g8([ a)] a([ b)] %375
-		\appoggiatura b a4 a r c
+		g2~ g8([ a)] a([ b)]
+		\appoggiatura b a4 a r c %70
 		c h r d
 		c2 r
 		es as,
-		\appoggiatura g8 fis4 g r r8 g %380
-		\appoggiatura f' es4 \appoggiatura d8 c4 \appoggiatura b a2
+		\appoggiatura g8 fis4 g r r8 g
+		\appoggiatura f' es4 \appoggiatura d8 c4 \appoggiatura b a2 %75
 		\appoggiatura a4 b2 g'
 		\appoggiatura f8 es4^\critnote \appoggiatura d8 c4 \appoggiatura b a2
 		g r
-		R1*10 \noBreak %394
-		R1\fermataMarkup \bar "||" %395
-		\time 3/4 \tempoMeaTormentaB b4( c) b \noBreak
+		R1*10 \noBreak %88
+		R1\fermataMarkup \bar "||"
+		\time 3/4 \tempoMeaTormentaB b4( c) b \noBreak %90
 		\appoggiatura b as2.
 		g4 \appoggiatura b8 as?4 \appoggiatura g8 f4
 		\appoggiatura es d2 es4
-		c' \appoggiatura b as2 %400
-		b4( as) g
+		c' \appoggiatura b as2
+		b4( as) g %95
 		f8.([\trill g16] as4.) g8
 		g4 f r
 		r b b
-		b8.([ c32 des)] c4 b %405
-		as?( g) f
+		b8.([ c32 des)] c4 b
+		as?( g) f %100
 		e8.([ f32 g)] c,4 r
 		r c' c
 		c2.~
-		c~ %410
-		c4( b) as?
+		c~
+		c4( b) as? %105
 		\tuplet 3/2 4 { des8([ c b)] } \appoggiatura as?4 g2
 		f4 as? as
 		as? g es'~
-		es ges, ges %415
-		ges? f r
+		es ges, ges
+		ges? f r %110
 		r b b
 		b2.~
 		b~
-		b4( as?) g8([ es')] %420
-		\appoggiatura d16 c8([ b16 as?)] \appoggiatura g4 f2
+		b4( as?) g8([ es')]
+		\appoggiatura d16 c8([ b16 as?)] \appoggiatura g4 f2 %115
 		es r4
 		es es'2
 		\tuplet 3/2 4 { d8([ c b)] } \appoggiatura b4 as?2
-		\tuplet 3/2 4 { g8([ c b)] } \appoggiatura es,4 d2 %425
-		\appoggiatura d4 es2.
+		\tuplet 3/2 4 { g8([ c b)] } \appoggiatura es,4 d2
+		\appoggiatura d4 es2. %120
 		es4 es'2
 		d8.([ es32 f)] b,4 r
 		R2.
-		r4 b b %430
-		b2.~
+		r4 b b
+		b2.~ %125
 		b4( as?) g
 		as?8.([ b32 c)] b4 r
 		as?8.([ b32 c)] b4 r
-		R2.*2 %436
+		R2.*2 %130
 		es,2\fermata f4
 		es2 r4
 		R2.
-		R\fermataMarkup \bar "||" %440 finis
+		R\fermataMarkup \bar "S-S" %134 finis
 	}
 }
 
 MeaTormentaPetrusLyrics = \lyricmode {
-	Mea tor -- %325
-	men -- ta, pro -- pe --
+	Mea tor -- %19
+	men -- ta, pro -- pe -- %20
 	ra -- te! U -- bi
 	sunt fla -- gel -- la et
 	cae -- des, u -- bi
-	sunt fla -- gel -- la et %330
-	cae -- des?
+	sunt fla -- gel -- la et
+	cae -- des? %25
 	Cru -- cem
 	quae -- ro,
 	cru -- cem
-	da -- _ _ %335
-	_ _ _
+	da -- _ _
+	_ _ _ %30
 	_ _ _ _
 	_ te,
 	
-	vo -- lo %340
-	mo -- ri, o
+	vo -- lo
+	mo -- ri, o %35
 	De -- us, __ in __
 	te, __
 	vo -- lo __
-	mo -- ri, o %345
-	De -- us, in
+	mo -- ri, o
+	De -- us, in %40
 	te, __ o
 	De -- us, in
 	te.
 	
-	Mea tor -- %356
+	Mea tor -- %50
 	men -- ta, pro -- pe --
 	ra -- te! U -- bi
 	sunt fla -- gel -- la et
-	cae -- des? %360
-	Cru -- cem
+	cae -- des?
+	Cru -- cem %55
 	quae -- ro, cru --
 	cem
 	da -- te. U -- bi
-	sunt fla -- %365
-	gel -- la, fla --
+	sunt fla --
+	gel -- la, fla -- %60
 	gel -- la __ et __
 	cae -- des? Cru -- cem
 	quae -- ro, cru -- cem
-	da -- _ _ _ _ %370
-	_ _ _ _
+	da -- _ _ _ _
+	_ _ _ _ %65
 	_ _ _ _
 	_ te,
 	
-	vo -- lo __ %375
-	mo -- ri, o
+	vo -- lo __
+	mo -- ri, o %70
 	De -- us, in
 	te,
 	vo -- lo
-	mo -- ri, o %380
-	De -- us, in
+	mo -- ri, o
+	De -- us, in %75
 	te, o
 	De -- us, in
 	te.
 	
-	Je -- su %396
+	Je -- su %90
 	mi,
 	si me vo --
 	ca -- sti
-	san -- cta %400
-	fa -- cie
+	san -- cta
+	fa -- cie %95
 	tua __ se --
 	re -- na,
 	in tua
-	cru -- ce, et %405
-	in __ tua
+	cru -- ce, et
+	in __ tua %100
 	poe -- na,
 	Je -- su,
 	ca --
-	%410
-	re
+	
+	re %105
 	vo -- ca
 	me, in tua
 	cru -- ce, et __
-	in tua %415
-	poe -- na,
+	in tua
+	poe -- na, %110
 	Je -- su,
 	ca --
 	
-	re __ %420
-	vo -- ca
+	re __
+	vo -- ca %115
 	me,
 	in tua
 	cru -- ce
-	vo -- ca %425
-	me,
+	vo -- ca
+	me, %120
 	in tua
 	poe -- na,
 	
-	Je -- su, %430
-	ca --
+	Je -- su,
+	ca -- %120
 	re
 	vo -- ca
 	me, __ _
 	
-	vo -- ca %437
-	me. %438 finis
+	vo -- ca %131
+	me. %132 finis
 }
 
 PetreExtollePetrusNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoPetreExtolle
-			\set Score.currentBarNumber = #441
-		R1*8 %448
+		R1*8 %8
 		c'4 c8. c16 \once \slurDown c4( \grace h16 a8) \appoggiatura g16 fis8
-		dis dis c'4. a8 a8. g16 %450
-		e8 e r4 r2\fermata \bar "||" %451
+		dis dis c'4. a8 a8. g16 %10
+		e8 e r4 r2\fermata \bar "|." %11
 	}
 }
 
 PetreExtollePetrusLyrics = \lyricmode {
-	Al -- ti do -- lo -- ris %449
+	Al -- ti do -- lo -- ris %9
 	me -- i no -- va ar -- gu --
-	men -- ta. %451 finis
+	men -- ta. %11 finis
 }
 
 PiaeMulieresPetrusNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoPiaeMulieres
-			\set Score.currentBarNumber = #562
 		
 	}
 }

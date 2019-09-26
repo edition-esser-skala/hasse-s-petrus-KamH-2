@@ -148,7 +148,7 @@ IntroduzioneOrgano = {
 		d
 		e
 		a %140
-		r4 h e, r\fermata \bar "||" %141 finis
+		r4 h e, r\fermata \bar "|." %141 finis
 	}
 }
 
@@ -300,907 +300,901 @@ CrucifixumOrgano = {
 	\relative c {
 		\clef bass
 		\key a \major \time 2/2 \tempoCrucifixum
-			\set Score.currentBarNumber = #142
 			\set Staff.timeSignatureFraction = 2/2
 		r4 a'\fE h cis
 		r d r cis,
 		d e fis gis
-		a e cis a %145
-		r a' h cis
+		a e cis a
+		r a' h cis %5
 		r d r cis
 		h gis a dis,
 		e e-! e-! e-!
-		dis-! h'-! d,2\trill %150
-		cis c
+		dis-! h'-! d,2\trill
+		cis c %10
 		h gis4 e
 		a2 r4 dis
 		e d cis d
-		e a d, e %155
-		a, r r2
+		e a d, e
+		a, r r2 %15
 		fis'4 r r2
 		d4 r r2
 		cis4 fis d e
-		a, r r2 %160
-		fis'4\p r r2
+		a, r r2
+		fis'4\p r r2 %20
 		d4 r r2
 		cis4\f fis d e
 		a-! r e-! r
-		a-! r e-!\p r \noBreak %165
-		a, r r2\fermata \bar "S-|"
+		a-! r e-!\p r \noBreak
+		a, r r2\fermata \bar "S-|" %25
 		r4 a(\p h cis) \noBreak
 		r d r cis
 		d e fis gis
-		a e cis a %170
-		r a' h cis
+		a e cis a
+		r a' h cis %30
 		r d, r cis
 		h gis' a a,
 		e' e-!\f e-! e-!
-		dis-! h'-! d,2\trill %175
-		cis c\p
+		dis-! h'-! d,2\trill
+		cis c\p %35
 		h gis4 e
 		a2 r4 dis
 		e e e e
-		e e dis e %180
-		cis dis e e, h'
+		e e dis e
+		cis dis e e, h' %40
 		h'-!\f h-! h-!
 		ais-! fis'-! a,2\trill
 		gis g\p
-		fis dis4 h %185
-		e2 e4 ais,
+		fis dis4 h
+		e2 e4 ais, %45
 		h h h h
 		h h h h
 		h h h h
-		h a'! gis a %190
-		h a h h,
+		h a'! gis a
+		h a h h, %50
 		e-! r r2
 		cis4-! r r2
 		a4 r a'2
-		gis4 a h h, %195
-		e r r2
+		gis4 a h h,
+		e r r2 %55
 		c4\f r r2
 		a4 r a'2\p
 		gis! r4 dis\fE
-		e\pE r r ais\f %200
-		h a gis a
+		e\pE r r ais\f
+		h a gis a %60
 		h a h h,
 		e-!\ff r r2
 		cis'4-! r r2
-		a4-! r r2 %205
-		gis4 a h h,
+		a4-! r r2
+		gis4 a h h, %65
 		e r h r
 		e r h r
 		e, r r2
-		r4 e'\p fis gis %210
-		r a, r gis
+		r4 e'\p fis gis
+		r a, r gis %70
 		a h cis dis
 		e h e, e'8 d
 		cis4 a h cis
-		d d' cis a %215
-		r d\f cis a
+		d d' cis a
+		r d\f cis a %75
 		r d\p cis2
 		h4 e, a a,
 		e' e-!\f e-! e-!
-		dis-! h'-! d,2\trill %220
-		cis c\p
+		dis-! h'-! d,2\trill
+		cis c\p %80
 		h r4 gis
 		a2 r4 dis
 		e e\f e d
-		cis! cis\p cis cis %225
-		d d d d
+		cis! cis\p cis cis
+		d d d d %85
 		dis\f dis dis dis\p
 		e e e d
 		cis cis cis cis
-		cis cis cis cis %230
-		d dis dis dis
+		cis cis cis cis
+		d dis dis dis %90
 		dis dis dis dis
 		e e e e
 		e e e e
-		e e e e %235
 		e e e e
+		e e e e %95
 		a a a a
 		d, d d dis
 		e d\pocoF cis d
-		e d e e, %240
-		a-! r r2
+		e d e e,
+		a-! r r2 %100
 		fis'4\p-! r r2
 		d4 r d'2
 		cis4 d e e,
-		a r r2 %245
-		f4-!\f r r2
+		a r r2
+		f4-!\f r r2 %105
 		d4\p r d'2
 		cis!4 d e e,
 		a r r cis,\fE
-		d\pE r r dis\f %250
-		e e fis gis
+		d\pE r r dis\f
+		e e fis gis %110
 		\time 4/2 a2 f e dis
 		\time 2/2 e1\fermata
 		a,4\ff a'-! a-! a-!
-		gis-\parenthesize-! e'-\parenthesize-! g,2\trill %255
-		fis4-\parenthesize-! d'-\parenthesize-! f,2\trill
+		gis-\parenthesize-! e'-\parenthesize-! g,2\trill
+		fis4-\parenthesize-! d'-\parenthesize-! f,2\trill %115
 		e cis4 ais
 		h2 gis4 e
 		a r r2
-		fis'4-! r r2 %260
-		d4 r r2
+		fis'4-! r r2
+		d4 r r2 %120
 		cis4 fis d e
 		a, r e'\p r
 		a r e\f r \noBreak
-		a, r r2\fermata \bar "||" %265
-		\key a \minor r4 a'\p a a \noBreak
+		a, r r2\fermata \bar "||"
+		\key a \minor r4 a'\p a a \noBreak %125
 		a a a gis
 		a2 dis,
 		e4 e8\pocoF d c4 f
-		e r r2 %270
-		f\p e
+		e r r2
+		f\p e %130
 		dis1\fermata
 		e~
 		e4 e e( f)
-		f f f f %275
-		f f f fis
+		f f f f
+		f f f fis %135
 		g g g8. f16 e8.[ d16]
 		c4 r g' r
 		c r g r
-		e2 c %280
-		f4 f f f
+		e2 c
+		f4 f f f %140
 		r g-!\f g-! g-!
 		fis-\parenthesize-! d'-\parenthesize-! f,2\trill
 		e es2\p
-		d4 e8 d e4 c %285
-		f f f f
+		d4 e8 d e4 c
+		f f f f %145
 		r fis fis fis
 		g g8.\f a16 g8. f16 e8.[ d16]
 		c4 r r2
-		r4 r8 f\f f4 r8 f %290
-		f4 r8 f f4 r8 f
+		r4 r8 f\f f4 r8 f
+		f4 r8 f f4 r8 f %150
 		f1\fermata
 		e4-!\p r e-! r
 		e-! r r2
-		\key a \major r4 a\f h cis %295
-		r d r cis,
+		\key a \major r4 a\f h cis
+		r d r cis, %155
 		d e fis gis
 		a r r2
 		fis4 r r2
-		d4 r r2 %300
-		cis4 fis d e
-		a, r r2 \bar "S-S" %302 finis
+		d4 r r2
+		cis4 fis d e %160
+		a, r r2 \bar "S-S" %161 finis
 	}
 }
 
 CrucifixumBassFigures = \figuremode {
-	r2 <7>4 <6> %142
-	r2. <6>4
-	q q <7> <5>
-	<4>2 <6> %145
-	r <7>4 <6>
-	r2. <6>4
-	r <6> <4 2> <7>
-	r4 <1> q q
-	q q q2 %150
-	<6> <6\\ 5!>
-	<_+> <6 5!>4 <7>
-	r2. <7!>4
-	r4 <2> <6> q
-	r2 <7> %155
-	r1
-	<6>
-	<2>
-	<6>2 <6 5>
-	r1 %160
-	<6>
-	<2>
-	<6>2 <6 5>
-	r1
-	r %165
-	r
 	r2 <7>4 <6>
 	r2. <6>4
 	q q <7> <5>
-	<4>2 <6> %170
-	r <7>4 <6>
+	<4>2 <6>
+	r <7>4 <6> %5
 	r2. <6>4
-	<6> q <4 2> <3 1>
+	r <6> <4 2> <7>
 	r4 <1> q q
-	q q q2 %175
-	<6> <6\\ 5!>
-	<_+> <6 5!>
-	r2. <[7!]>4
-	<[6!] 4>4 <5 3> r <6+>
-	<5 2> <4+ \t> <6>2 %180
-	<6>4 <6 5> <4 2> <3 1>
-	<_+> <1> q q
 	q q q2
-	<6>2 <6\\ 5!>
-	<_+> <6 5!>4 <7 _+> %185
-	r2 <6 _!>4 <7!>
-	<_+>1
-	<6 4>
-	<7 _+>
-	<\t \t>4 <4\+ 2> <6>2 %190
-	<6 4>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff <5 _+>
-	r1
-	<6>
-	<4\+ 2>2 <\t \t>
-	<6> <6 4>4 <5 _+> %195
-	<_!>1
-	<6>
-	<4\+ 2>2 <\t \t>
-	<6>2. <6 5>4
-	r2. <7!>4 %200
-	<_+>4 <\t> <6>2
-	<6 4>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff <5 _+>
-	r1
-	<6>
-	<4\+ 2> %205
-	<6>2 <6 4>4 <5 _+>
-	r2 <_+>
-	r q
-	r1
-	r2 <7>4 <6> %210
-	r2. <6>4
-	q <6 _+> <7> <5>
-	<4> <\t> <3>2
-	<6>4 r <7> <6>
-	r2 <6> %215
-	r <6>
-	r <6>
-	<7>4 q <4> <3>
-	r <1> q q
-	q q q2 %220
-	<6> <6\\ 5!>
-	<7 _+>2. <6 5!>4
+	<6> <6\\ 5!> %10
+	<_+> <6 5!>4 <7>
 	r2. <7!>4
-	<6! 4> <5 3> r <\t \t>
-	<6>2. <5!>4 %225
-	<4! 2> <3 1> <7!>2
-	<\t>4 <6>2 <5>4
-	<4 2> <3 1> r <2>
-	<6>1
-	<6 5!> %230
-	r4 <6>2.
-	<6 5>1
-	<5 3>2. <6 4\+>4
-	<7>1
-	<6 4>2 <\t 4\+> %235
-	<7>1
-	r
-	<9 7>4 <8 6>2 <6 5>4
-	r <2> <6>2
-	<6 4>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff <5 _+> %240
-	r1
+	r4 <2> <6> q
+	r2 <7>
+	r1 %15
 	<6>
-	<2>2 <\t>
-	<6> <6 4>4 <5 3>
-	<_!>1 %245
-	<6>
-	<2>2 <\t>
-	<6>2 <6 4>4 <5 3>
-	r2. <6 5!>4
-	r2. <6 5>4 %250
-	r2 <7>4 <6 5>
-	<8 _!>\breve \bassFigureExtendersOn
-	q2 \bassFigureExtendersOff <5 3>
-	<_+>4 <1> q q
-	q q q2 %255
-	q4 q q2
-	r <6\\>4 <6 5>
-	<_+>2 <6 5!>4 <7 _+>
+	<2>
+	<6>2 <6 5>
 	r1
-	<6> %260
+	<6> %20
 	<2>
 	<6>2 <6 5>
 	r1
 	r
-	r %265
+	r %25
+	r2 <7>4 <6>
+	r2. <6>4
+	q q <7> <5>
+	<4>2 <6>
+	r <7>4 <6> %30
+	r2. <6>4
+	<6> q <4 2> <3 1>
+	r4 <1> q q
+	q q q2
+	<6> <6\\ 5!> %35
+	<_+> <6 5!>
+	r2. <[7!]>4
+	<[6!] 4>4 <5 3> r <6+>
+	<5 2> <4+ \t> <6>2
+	<6>4 <6 5> <4 2> <3 1> %40
+	<_+> <1> q q
+	q q q2
+	<6>2 <6\\ 5!>
+	<_+> <6 5!>4 <7 _+>
+	r2 <6 _!>4 <7!> %45
+	<_+>1
+	<6 4>
+	<7 _+>
+	<\t \t>4 <4\+ 2> <6>2
+	<6 4>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff <5 _+> %50
+	r1
+	<6>
+	<4\+ 2>2 <\t \t>
+	<6> <6 4>4 <5 _+>
+	<_!>1 %55
+	<6>
+	<4\+ 2>2 <\t \t>
+	<6>2. <6 5>4
+	r2. <7!>4
+	<_+>4 <\t> <6>2 %60
+	<6 4>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff <5 _+>
+	r1
+	<6>
+	<4\+ 2>
+	<6>2 <6 4>4 <5 _+> %65
+	r2 <_+>
+	r q
+	r1
+	r2 <7>4 <6>
+	r2. <6>4 %70
+	q <6 _+> <7> <5>
+	<4> <\t> <3>2
+	<6>4 r <7> <6>
 	r2 <6>
+	r <6> %75
+	r <6>
+	<7>4 q <4> <3>
+	r <1> q q
+	q q q2
+	<6> <6\\ 5!> %80
+	<7 _+>2. <6 5!>4
+	r2. <7!>4
+	<6! 4> <5 3> r <\t \t>
+	<6>2. <5!>4
+	<4! 2> <3 1> <7!>2 %85
+	<\t>4 <6>2 <5>4
+	<4 2> <3 1> r <2>
+	<6>1
+	<6 5!>
+	r4 <6>2. %90
+	<6 5>1
+	<5 3>2. <6 4\+>4
+	<7>1
+	<6 4>2 <\t 4\+>
+	<7>1 %95
+	r
+	<9 7>4 <8 6>2 <6 5>4
+	r <2> <6>2
+	<6 4>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff <5 _+>
+	r1 %100
+	<6>
+	<2>2 <\t>
+	<6> <6 4>4 <5 3>
+	<_!>1
+	<6> %105
+	<2>2 <\t>
+	<6>2 <6 4>4 <5 3>
+	r2. <6 5!>4
+	r2. <6 5>4
+	r2 <7>4 <6 5> %110
+	<8 _!>\breve \bassFigureExtendersOn
+	q2 \bassFigureExtendersOff <5 3>
+	<_+>4 <1> q q
+	q q q2
+	q4 q q2 %115
+	r <6\\>4 <6 5>
+	<_+>2 <6 5!>4 <7 _+>
+	r1
+	<6>
+	<2> %120
+	<6>2 <6 5>
+	r1
+	r
+	r
+	r2 <6> %125
 	<5 2>4 <4\+ \t>2 <6>4
 	<4 2>2 <7>
 	<_+> <6>4 <6\\>
-	<_+>1 %270
-	r2 <_+>
+	<_+>1
+	r2 <_+> %130
 	<7 6>2 <\t 5>
 	<5 _+>1
 	<6 \t>2. <5 3>4
-	r4 <5\+>2 <6>4 %275
-	q2. <\t>4
+	r4 <5\+>2 <6>4
+	q2. <\t>4 %135
 	r2 <1>8. q16 q8. q16
 	r1
 	r
-	<6>2 <7-> %280
-	r1
+	<6>2 <7->
+	r1 %140
 	r4 <1> q q
 	q q q2
 	<6> <6>
-	q4 q8 <\t> <6 5->4 <7-> %285
-	r1
+	q4 q8 <\t> <6 5->4 <7->
+	r1 %145
 	r4 <7>2.
 	r4 <1>8. q16 q8. q16 q8. q16
 	r1
-	r4. <6\\>8 \bassFigureExtendersOn q2 %290
-	q1
+	r4. <6\\>8 \bassFigureExtendersOn q2
+	q1 %150
 	q \bassFigureExtendersOff
 	<_+>
 	r
-	r2 <7>4 <6> %295
-	r2. <6>4
+	r2 <7>4 <6>
+	r2. <6>4 %155
 	q q <7> <5>
 	r1
 	<6>
-	<2> %300
-	<6>2 <6 5>
-	r1 %302 finis
+	<2>
+	<6>2 <6 5> %160
+	r1 %161 finis
 }
 
 EamusOrgano = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \tempoEamus
-			\set Score.currentBarNumber = #294
 		eis1~\pE
-		eis2 fis %295
+		eis2 fis
 		h,1
 		e!8 r16 \tempoEamusB e e16. d32 cis16. h32 a2
-		d1~
+		d1~ %5
 		d2 r4 e
-		c!1~ %300
+		c!1~
 		c
 		h8 g'16. fis32 g8 g b, g'16. fis32 g8 b,
-		a1
+		a1 %10
 		d8 r16 a d16. f32 e16. g32 f2
-		g1 %305
-		r4 a d, r\fermata \bar "||" %306 finis
+		g1
+		r4 a d, r\fermata \bar "|." %13 finis
 	}
 }
 
 EamusBassFigures = \figuremode {
-	<[6+ _+]>1 %294
-	r2 <[5+]> %295
+	<[6+ _+]>1
+	r2 <[5+]>
 	<7 [5+] _+>1
 	r2 <_+>
-	<[_+]>1
+	<[_+]>1 %5
 	<[4\+]>2. <_+>4
-	<6>1 %300
+	<6>1
 	<[4\+]>
 	<[6]>2 <[\t]>
-	<[7 _+]>1
+	<[7 _+]>1 %10
 	<_!>2 <[6]>
-	<[_-]>1 %305
-	r4 <[_+]> <_+>2 %306 finis
+	<[_-]>1
+	r4 <[_+]> <_+>2 %13 finis
 }
 
 MeaTormentaOrgano = {
 	\relative c {
 		\clef bass
 		\key g \minor \time 4/4 \tempoMeaTormenta
-			\set Score.currentBarNumber = #307
 		g'8\fE g g g g g g g
 		fis fis fis fis f f f f
 		es es es es b b b b
-		c c c c d d d d %310
-		g g g g b, b b b
+		c c c c d d d d
+		g g g g b, b b b %5
 		c c c c d d d d
 		g g g g g g g g
 		c, c c c c c c c
-		f f f f f f f f %315
-		b, b b b b b b b
+		f f f f f f f f
+		b, b b b b b b b %10
 		es es es es es es es es
 		a, a a a a a a a
 		d d d d es es es es
-		d d d d es es es es %320
-		d4 r r8 d'-\unisonoE es! cis
+		d d d d es es es es
+		d4 r r8 d'-\unisonoE es! cis %15
 		d a b fis g d es cis
 		d a b g d' a b g \noBreak
 		d'4 r r2\fermata \bar "S-|"
-		r8 g\pocoF g g g g g g \noBreak %325
-		fis fis fis fis f f f f
+		r8 g\pocoF g g g g g g \noBreak
+		fis fis fis fis f f f f %20
 		es es es es b\p b b b
 		c c c c d d d d
 		g g g g b, b b b
-		c c c c d d d d %330
-		g4 d8 d16\f es d8 c b a
+		c c c c d d d d
+		g4 d8 d16\f es d8 c b a %25
 		g g'\p g g g g g g
 		c,\f c c c c c c c
 		f\p f f f f f f f
-		b, b b b d d d d %335
-		es es es es es es es es
+		b, b b b d d d d
+		es es es es es es es es %30
 		f f f f g g g g
 		f f f f g\f g g g
 		f4 r8 f16 g f8 d es c
-		d1\p %340
-		es
+		d1\p
+		es %35
 		f
 		g
 		d
-		es %345
-		r8 es es es f f f f
+		es
+		r8 es es es f f f f %40
 		g g\f g g d d d d
 		es es es es f f f f
 		b,\ff b b b b b b b
-		c c c c es es es es %350
-		d d d d es es es es
+		c c c c es es es es
+		d d d d es es es es %45
 		d r r4 r8 d'-\unisonoE es! cis
 		d a b fis g d es cis
 		d a b g d' a b g
-		d'4 r r2 %355
-		r8 g\p g g g g g g
+		d'4 r r2
+		r8 g\p g g g g g g %50
 		fis fis fis fis f f f f
 		es es es es b b b b
 		c c c c d d d d
-		g4 d8 d16\f es d8 c b a %360
-		g g'\p g g g g g g
+		g4 d8 d16\f es d8 c b a
+		g g'\p g g g g g g %55
 		c,\f c c c c c c\p c
 		f f f f f f f f
 		b, b b b b b b b
-		es es es es es es es es %365
-		a, a a a a a a a
+		es es es es es es es es
+		a, a a a a a a a %60
 		d\f d d d d\p d d d
 		d d d c b\f b es es
 		d d d\p c b b es es
-		d d d d es-! r r4 %370
-		d8-! r r4 cis8-! r r4
+		d d d d es-! r r4
+		d8-! r r4 cis8-! r r4 %65
 		d8-! r r4 es8-! r r4
 		r8 d\f d d es es es es
 		d4 r8 d16 es d8 c b a
-		b1\p %375
-		c
+		b1\p
+		c %70
 		d
 		es
 		c
-		c'4 b r2 %380
-		r8 c,c c d d d d
+		c'4 b r2
+		r8 c,c c d d d d %75
 		g\f g g g b, b b b
 		c c c c d d d d
 		g,\ff g' g g g g g g
-		c, c c c c c c c %385
-		f f f f f f f f
+		c, c c c c c c c
+		f f f f f f f f %80
 		b, b b b b b b b
 		es es es es es es es es
 		a, a a a a a a a
-		d d d d es es es es %390
 		d d d d es es es es
+		d d d d es es es es %85
 		d r r4 c2
 		b8 b b c d d d d
 		es4-! g-! c,-! d-! \noBreak
-		g, r r2\fermata \bar "||" %395
-		\time 3/4 \tempoMeaTormentaB es'2.~\p \noBreak
+		g, r r2\fermata \bar "||"
+		\time 3/4 \tempoMeaTormentaB es'2.~\p \noBreak %90
 		es4 d( b)
 		es c( as)
 		b( as) g
-		as r r %400
-		es' r r
+		as r r
+		es' r r %95
 		r as, a
 		r b\f c
 		des2 des'4\p
-		e,2. %405
-		f4 b,( des)
+		e,2.
+		f4 b,( des) %100
 		r8 c(-. c-. c-. c-. c-.)
 		c r r4 r
 		r c' f,
-		c8 r r4 r %410
-		r c' f,
+		c8 r r4 r
+		r c' f, %105
 		b, c c
 		f d!( b)
 		es2 r4
-		a,!2.\f %415
-		r8 b(-.\p b-. b-. b-. b-.)
+		a,!2.\f
+		r8 b(-.\p b-. b-. b-. b-.) %110
 		b r r4 r
 		r b'( es,)
 		b8 r r4 r
-		r b'( es,) %420
-		as,? b b
+		r b'( es,)
+		as,? b b %115
 		ces ces(\f b)
 		a!2.
 		b4( c! \once \stemUp d)
-		es b2 %425
-		ces4 ces(\f b)
+		es b2
+		ces4 ces(\f b) %120
 		a!2.
 		r8 b(-.\p b-. b-. b-. b-.)
 		b r r4 r
-		r b'( es,) %430
-		b8 r r4 r
+		r b'( es,)
+		b8 r r4 r %125
 		r b'( es,)
 		as, es' r
 		as, es' r
-		g,\f g g %435
-		as as as
+		g,\f g g
+		as as as %130
 		b2.\fermata
 		es
 		c\pE
-		d\fermata \bar "S-S" %440 finis
+		d\fermata \bar "S-S" %134 finis
 	}
 }
 
 MeaTormentaBassFigures = \figuremode {
-	r1 %307
-	<6>2 q
-	r q
-	<6 5> <7 _+> %310
-	r <6>
-	<6 5> <_+>
 	r1
-	<7>
-	q %315
-	q
-	q
-	q
-	<7 _+>
-	q %320
-	q
-	r
-	r
-	r
-	r %325
 	<6>2 q
 	r q
 	<6 5> <7 _+>
+	r <6> %5
+	<6 5> <_+>
+	r1
+	<7>
+	q
+	q %10
+	q
+	q
+	<7 _+>
+	q
+	q %15
+	r
+	r
+	r
+	r
+	<6>2 q %20
+	r q
+	<6 5> <7 _+>
 	r <6>
-	<6 5> <7 _+> %330
-	r4 <_+>8 <1>16 q q8 q q q
+	<6 5> <7 _+>
+	r4 <_+>8 <1>16 q q8 q q q %25
 	<5 3>1
 	<7>
 	q
-	r2 <6> %335
-	r <6>4 <5>
+	r2 <6>
+	r <6>4 <5> %30
 	<9>8 <8>4. <7>8 <6!>4.
 	r2.. <6!>8
 	r4. <1>16 q q8 q q q
-	<6>1 %340
-	<6 5>
+	<6>1
+	<6 5> %35
 	<7>
 	<5 3>
 	<6>
-	<7>2 <6> %345
-	r8 q4. <4>4 <3>
+	<7>2 <6>
+	r8 q4. <4>4 <3> %40
 	r2 <6>
 	<6 5> <6 4>4 <5 3>
 	r1
-	<7>4 <6> <6\\ 4> <\t 3> %350
-	<_+>1
+	<7>4 <6> <6\\ 4> <\t 3>
+	<_+>1 %45
 	<_+>
 	r
 	r
-	r %355
 	r
+	r %50
 	<6>2 q
 	r q
 	<6 5> <_+>
-	r4 <_+>8 <1>16 q q8 q q q %360
-	<5 3>1
+	r4 <_+>8 <1>16 q q8 q q q
+	<5 3>1 %55
 	<7>
 	q
 	q
-	q %365
 	q
+	q %60
 	<7 _+>
 	<6 4>4 <5 _+>8 <\t \t> <6>4 <6\\>
 	<_+>4. <\t>8 <6>4 <6\\>
-	<_+>2 <6\\> %370
-	<_+> <7 _!>
+	<_+>2 <6\\>
+	<_+> <7 _!> %65
 	<_+> <6\\>
 	r8 <_+>4. <5 3>2
 	r4. <1>16 q q8 q q q
-	<6>1 %375
-	q
+	<6>1
+	q %70
 	<6!>
 	<6>
 	<5>2 <6->
-	<6! 4\+ 3>4 <6>2. %380
-	<5>4 <6> <6 4> <5 _+>
+	<6! 4\+ 3>4 <6>2.
+	<5>4 <6> <6 4> <5 _+> %75
 	r2 <6>
 	r <6 4>4 <5 _+>
 	r1
-	<7> %385
+	<7>
+	q %80
 	q
 	q
 	q
-	q
-	<7 _+> %390
-	q
+	<7 _+>
+	q %85
 	<_+>2 <4\+ 3>
 	<6> <6 4>4 <5 _+>
 	r2 <6 5>4 <_+>
-	r1 %395
-	<5 3>4 <6 4-> <5 3>
+	r1
+	<5 3>4 <6 4-> <5 3> %90
 	<\t> <6 5-> <7->
 	r <6-> <6>
 	<4> <2> <6>
-	r2. %400
-	r
+	r2.
+	r %95
 	r4 <6> <7>
 	<6 4> <5 3> <6!>
 	<6>2 <\t>4
-	<7-> <6> <5> %405
-	<_-> <6 _-> <6!>
+	<7-> <6> <5>
+	<_-> <6 _-> <6!> %100
 	r8 <_!> r2
 	<\t>2.
 	r4 <_!> <_->
-	<_!>2. %410
-	r4 <_!> <_->
+	<_!>2.
+	r4 <_!> <_-> %105
 	<_-> <6- 4> <5 _!>
 	<_-> <6 5-> <7->
 	<4- 2> <3 1> r
-	<7> <7->2 %415
-	<6- 4>4 <5 3> r
+	<7> <7->2
+	<6- 4>4 <5 3> r %110
 	r2.
 	r4 <7->2
 	r2.
-	r4 <7->2 %420
-	r4 <6 4> <5 3>
+	r4 <7->2
+	r4 <6 4> <5 3> %115
 	<8 3>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff
 	<6 5 _!>2.
 	r4 <7> <6 5->
-	r <6 4> <5 3> %425
-	<8 3>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff
+	r <6 4> <5 3>
+	<8 3>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff %120
 	<6 5 _!>2.
 	r
 	r
-	r4 <7->2 %430
-	r2.
+	r4 <7->2
+	r2. %125
 	r4 <7->2
 	r2.
 	r
-	<6> %435
-	<6 5>
+	<6>
+	<6 5> %130
 	<6 4>2 <5 3>4
 	r2 <6>4
 	<5>2 <6!>4
-	<7 4> <\t _+>2 %440 finis
+	<7 4> <\t _+>2 %134 finis
 }
 
 PetreExtolleOrgano = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \tempoPetreExtolle
-			\set Score.currentBarNumber = #441
 		cis1~
 		cis
 		d~
 		d
-		g %445
+		g %5
 		r4 a gis2~
 		gis1~
 		gis2 a~
 		a1~
-		a %450
-		r4 h e, r\fermata \bar "||" %451 finis
+		a %10
+		r4 h e, r\fermata \bar "|." %11 finis
 	}
 }
 
 PetreExtolleBassFigures = \figuremode {
-	<6>1 %441
+	<6>1
 	r
 	<_+>
 	<\t>2 <7 _+>
-	<3>2 <4\+> %445
+	<3>2 <4\+> %5
 	r4 <_+> <6>2
 	<7!>1
 	<5>2 <_!>
 	r1
-	<6+ 4+ 3> %450
-	r4 <[5+] _+> <_!>2 %451 finis
+	<6+ 4+ 3> %10
+	r4 <[5+] _+> <_!>2 %11 finis
 }
 
 AmorMeusOrgano = {
 	\relative c {
 		\clef bass
 		\key h \minor \time 3/4 \tempoAmorMeus
-			\set Score.currentBarNumber = #452
 		r4 h'\fE h,
 		r ais' ais,
 		h( cis \once \stemUp d)
-		e2 fis4 %455
-		g( fis eis)
+		e2 fis4
+		g( fis eis) %5
 		g( fis eis)
 		fis( e d)
 		r8 ais( h cis d e)
-		fis4( e d) %460
-		e fis2
+		fis4( e d)
+		e fis2 %10
 		g r4
 		e fis fis
 		h2 r4
-		e, fis fis, %465
-		h d cis
+		e, fis fis,
+		h d cis %15
 		h\p h' h,
 		r ais' ais,
 		h( cis \once \stemUp d)
-		e2 fis4 %470
-		g( fis e)
+		e2 fis4
+		g( fis e) %20
 		\once \stemUp d( cis h)
 		g'( fis e)
 		\once \stemUp d( cis h)
-		r ais h %475
-		fis' fis, r
+		r ais h
+		fis' fis, r %25
 		r cis' d
 		a' a, r
 		R2.
-		d4\f b' a %480
-		gis2.\p
+		d4\f b' a
+		gis2.\p %30
 		a4( cis d)
 		a( cis d)
 		a( cis d)
-		a( cis d) %485
-		r a g!
+		a( cis d)
+		r a g! %35
 		fis2.
 		g
 		g2 fis4
-		g a a, %490
-		h2 r4
+		g a a,
+		h2 r4 %40
 		fis'2.
 		g2 gis4
 		a a, r
-		R2.*3 %497
+		R2.*3 %46
 		g'!4 a a,
 		h'2 r4
-		g\f a a, %500
-		d\ff e fis
+		g\f a a,
+		d\ff e fis %50
 		g a h
 		cis d g,
 		a g fis
-		g a a, %505
-		d2 g4
+		g a a,
+		d2 g4 %55
 		r8 ais, h cis d e
 		fis4 fis, fis
 		r h'\p h,
-		r ais' ais, %510
-		h( cis \once \stemUp d)
+		r ais' ais,
+		h( cis \once \stemUp d) %60
 		e2 fis4
 		g( fis e)
 		\once \stemUp d( cis h)
-		g'( fis e) %515
-		\once \stemUp d( cis h)
+		g'( fis e)
+		\once \stemUp d( cis h) %65
 		r ais h
 		fis' fis, r
 		R2.
-		h4\f g' g %520
-		g8.( fis16) e4 r
+		h4\f g' g
+		g8.( fis16) e4 r %70
 		e\p c' h
 		ais2.
 		h4( e, g)
-		fis( ais h) %525
 		fis( ais h)
+		fis( ais h) %75
 		fis( ais h)
 		fis( ais h)
 		r fis fis
-		fis2. %530
-		eis
+		fis2.
+		eis %80
 		fis2 fis4
 		h d, h
 		r8 fis'(-. fis-. fis-. fis-. fis-.)
-		fis2. %535
-		R2.*6 %541
+		fis2.
+		R2.*6 %90
 		e4\pocoF fis fis
 		g2 r4
 		e\p fis fis
-		g2. %545
-		e4\f fis fis,
+		g2.
+		e4\f fis fis, %95
 		h'\ff g e
 		r dis dis,
 		e'( fis g)
-		a2( h4) %550
-		c( h ais)
+		a2( h4)
+		c( h ais) %100
 		c( h ais)
 		h( g fis)
 		eis2.
-		fis4( e d) %555
-		e fis fis
+		fis4( e d)
+		e fis fis %105
 		g2 r4
 		e fis fis
 		h2 r4
-		e, fis fis, %560
-		h r r\fermata \bar "||" %561 finis
+		e, fis fis,
+		h r r\fermata \bar "|." %110 finis
 	}
 }
 
 AmorMeusBassFigures = \figuremode {
-	r2. %452
+	r2.
 	r4 <7>2
 	r4 <6\\> <6>
-	<6!> <5> <_+> %455
-	<3>2. \bassFigureExtendersOn
+	<6!> <5> <_+>
+	<3>2. \bassFigureExtendersOn %5
 	q2 q4 \bassFigureExtendersOff
 	<_+>4 <\t> <6>
 	r8 <6 5> <9 4> <\t \t> <6> <\t>
-	<6 4>4 <4\+> <6> %460
-	q <6 4> <5 _+>
+	<6 4>4 <4\+> <6>
+	q <6 4> <5 _+> %10
 	r2.
 	<6>4 <6 4> <5 _+>
 	r2.
-	<6>4 <6 4> <5 _+> %465
-	r <6> <6\\>
+	<6>4 <6 4> <5 _+>
+	r <6> <6\\> %15
 	r2.
 	r4 <7>2
 	r4 <6\\> <6>
-	<6!> <5> <_+> %470
-	<3>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff
+	<6!> <5> <_+>
+	<3>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff %20
 	<3> q q
 	q q q
 	q q q
-	r <6 5>2 %475
-	<6 4>4 <5 _+>2
+	r <6 5>2
+	<6 4>4 <5 _+>2 %25
 	r4 <6! 5>2
 	<6 4>4 <5 3>2
 	r2.
-	<_!>4 <5! 3> <6! 4 _!> %480
-	<7! _!> <6> <5>
+	<_!>4 <5! 3> <6! 4 _!>
+	<7! _!> <6> <5> %30
 	<_+> <6 5> <_+>
 	r <6 5> r
 	r q r
-	r q r %485
-	r2 <4! 2>4
+	r q r
+	r2 <4! 2>4 %35
 	<6 5!>2.
 	<5>4 <6> <5>
 	<5 2> <4+ \t> <6>
-	q <6 4> <5 3> %490
-	r2.
+	q <6 4> <5 3>
+	r2. %40
 	<6 5!>
 	<5>4 <6> <7>
 	<6 4> <5 3>2
-	r2.*3 %497
+	r2.*3 %46
 	<6>4 <6 4> <5 3>
 	r2.
-	<6>4 <6 4> <5 3> %500
-	r <7>8 <6> <\t> <6 5!>
+	<6>4 <6 4> <5 3>
+	r <7>8 <6> <\t> <6 5!> %50
 	<4!> <3> <9 _+> <8> <7> <6\\>
 	<\t> <6 5!> <4> <3> <6>4
 	<6 4> <2> <6>
-	q <6 4> <5 3> %505
-	r2.
+	q <6 4> <5 3>
+	r2. %55
 	r8 <6 5> <9 4> <\t \t> <6> <\t>
 	<6 4>2 <5 _+>4
 	r2.
-	r4 <7>2 %510
-	r4 <6\\> <6>
+	r4 <7>2
+	r4 <6\\> <6> %60
 	<6!> <5> <_+>
 	<3>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff
 	<3> q q
-	q q q %515
 	q q q
+	q q q %65
 	r <6 5>2
 	<6 4>4 <5 _+>2
 	r2.
-	r %520
-	<6>
+	r
+	<6> %70
 	r2 <6 4 3>4
 	<7 _+> <6> <5>
 	r <6> <6\\>
-	<_+> <6 5> r %525
 	<_+> <6 5> r
+	<_+> <6 5> r %75
 	<_+> <6 5> r
 	<_+> <6 5> r
 	r <_+ 1>8 <4 2+> <5 _+> <6 4>
-	<7 5 _+>4 <6 4> <5 _+> %530
-	<8! 6> <7 5>2
+	<7 5 _+>4 <6 4> <5 _+>
+	<8! 6> <7 5>2 %80
 	<_+>2.
 	<9 4>4 <6> r
 	r8 <_+> r2
-	r2. %535
-	r2.*6 %541
+	r2.
+	r2.*6 %90
 	<6>4 <6 4> <5 _+>
 	r2.
 	<6>4 <6 4> <5 _+>
-	r2. %545
-	<6>4 <6 4> <5 _+>
+	r2.
+	<6>4 <6 4> <5 _+> %95
 	<_+> <6>2
 	r4 <7!>2
 	<6>4 <6\\> <6>
-	<6! _!> <5 \t> <_+> %550
-	<3>2. \bassFigureExtendersOn
+	<6! _!> <5 \t> <_+>
+	<3>2. \bassFigureExtendersOn %100
 	q2 q4 \bassFigureExtendersOff
 	<_!>2 <6 4 3>4
 	<7 _+> <6> <5>
-	<5 4> <4\+> <6> %555
-	q <6 4> <5 _+>
+	<5 4> <4\+> <6>
+	q <6 4> <5 _+> %105
 	r2.
 	<6>4 <6 4> <5 _+>
 	r2.
-	<6>4 <6 4> <5 _+> %560
-	r2. %561 finis
+	<6>4 <6 4> <5 _+>
+	r2. %110 finis
 }
 
 PiaeMulieresOrgano = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \tempoPiaeMulieres
-			\set Score.currentBarNumber = #562
 		eis1\pE
 	}
 }

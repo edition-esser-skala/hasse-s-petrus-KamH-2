@@ -143,7 +143,7 @@ IntroduzioneViolinoII = {
 		R1*3 %135
 		\time 2/4 R2
 		\time 4/4 R1*4 %140
-		R1\fermataMarkup \bar "||" %141 finis
+		R1\fermataMarkup \bar "|." %141 finis
 	}
 }
 
@@ -151,169 +151,168 @@ CrucifixumViolinoII = {
 	\relative c' {
 		\clef treble
 		\key a \major \time 2/2 \tempoCrucifixum
-			\set Score.currentBarNumber = #142
 			\set Staff.timeSignatureFraction = 2/2
 		a'2\fE a4.(\trill gis16 a)
 		fis'2 e
 		h8([ d)] cis([ e)] \appoggiatura e4 d2
-		\appoggiatura d2 cis1 %145
-		a2 a4.(\trill gis16 a)
+		\appoggiatura d2 cis1
+		a2 a4.(\trill gis16 a) %5
 		fis'2 e
 		d8([ h')] h,([ e)] \appoggiatura d4 cis2
 		h4 e,-! e-! e-!
-		dis-! h'-! d,2\trill %150
-		cis4 e'-! e-! e-!
+		dis-! h'-! d,2\trill
+		cis4 e'-! e-! e-! %10
 		dis-! h'-! d,2\trill
 		cis4 a' c,2\trill
 		h4 \appoggiatura a'16 gis16( fis gis8) a16( e8.) fis16([ h,8.)]
-		h[ d16] cis8. h16 \appoggiatura cis4 h2 %155
-		a8-! r cis4~ \tuplet 3/2 4 { cis8 d( e d[ cis h]) }
+		h[ d16] cis8. h16 \appoggiatura cis4 h2
+		a8-! r cis4~ \tuplet 3/2 4 { cis8 d( e d[ cis h]) } %15
 		a-! r d4~ \tuplet 3/2 4 { d8 e( fis e[ d cis]) }
 		h-!-\critnote r gis'4~ \tuplet 3/2 4 { gis8 a( h a[ gis fis]) }
 		e8.[ a16] a,8. h16 h2\trill
-		a8 r cis4~\p \tuplet 3/2 4 { cis8 d( e d[ cis h]) } %160
-		a-! r d4~ \tuplet 3/2 4 { d8 e( fis e[ d cis]) }
+		a8 r cis4~\p \tuplet 3/2 4 { cis8 d( e d[ cis h]) }
+		a-! r d4~ \tuplet 3/2 4 { d8 e( fis e[ d cis]) } %20
 		h-! r gis'4~ \tuplet 3/2 4 { gis8 a( h a[ gis fis]) }
 		e8.[\f a16] a,8. h16 h2\trill
 		a8-! r a2 \tuplet 3/2 4 { h8( a gis) }
-		a-! r a4~\p \tuplet 3/2 4 { \stemDown a8 h( cis h[ a gis]) } \stemNeutral \noBreak %165
-		a4-! e-! a,-! r\fermata \bar "S-|"
+		a-! r a4~\p \tuplet 3/2 4 { \stemDown a8 h( cis h[ a gis]) } \stemNeutral \noBreak
+		a4-! e-! a,-! r\fermata \bar "S-|" %25
 		a'2\p a4.(\trill gis16 a) \noBreak
 		a2 a
 		fis4 gis a h
-		e,1 %170
-		a2 a4.(\trill gis16 a)
+		e,1
+		a2 a4.(\trill gis16 a) %30
 		a2 a
 		gis4 h2 a4
 		gis4 e-!\f e-! e-!
-		dis-! h'-! d,2\trill %175
-		cis4 r ais'2\p
+		dis-! h'-! d,2\trill
+		cis4 r ais'2\p %35
 		h h4 gis
 		e( cis') a!2
 		a4 gis gis gis
-		fis fis fis gis %180
-		e fis \appoggiatura fis e2
+		fis fis fis gis
+		e fis \appoggiatura fis e2 %40
 		dis4 h'-!\f h-! h-!
 		ais-! fis'-! a,2\trill
 		gis4 r eis2\p
-		fis fis %185
-		e! e
+		fis fis
+		e! e %45
 		dis4 dis'2 fis,4
 		e e'2 gis,4
 		fis fis'2 \once \tieDashed fis,4~
-		fis fis gis e %190
-		e4.( fis8) \appoggiatura e4 dis2
+		fis fis gis e
+		e4.( fis8) \appoggiatura e4 dis2 %50
 		e4-! gis~\f \tuplet 3/2 4 { gis8 a(\p h a[ gis fis]) }
 		e4-! a~\f \tuplet 3/2 4 { \stemDown a8 h(\p cis h[ a gis]) } \stemNeutral
 		fis4-! dis'~\f \tuplet 3/2 4 { dis8 e(\p fis e[ dis cis)] }
-		h4 a16( fis8.) \appoggiatura e4 dis2 %195
-		e4-! g~\f \tuplet 3/2 4 { g8 a( h a[ g fis]) }
+		h4 a16( fis8.) \appoggiatura e4 dis2
+		e4-! g~\f \tuplet 3/2 4 { g8 a( h a[ g fis]) } %55
 		e4-! a~ \tuplet 3/2 4 { \stemDown a8 h( c h[ a g]) } \stemNeutral
 		fis4-! dis'~ \tuplet 3/2 4 { dis8 e(\p fis) h,[( cis dis)] }
 		e4( h)a'2\f
-		gis4(\p e) g2\f %200
-		fis4 fis, h-! a16( fis8.)
+		gis4(\p e) g2\f
+		fis4 fis, h-! a16( fis8.) %60
 		e4.( fis8) \appoggiatura e4 dis2\trill
 		e8 r gis'4~\ff \tuplet 3/2 4 { gis8 a( h a[ gis fis]) }
 		e4-! a~ \tuplet 3/2 4 { a8 h( cis h[ a gis]) }
-		fis4-! fis~ \tuplet 3/2 4 { fis8 gis( a) dis,([ e fis)] } %205
-		\tuplet 3/2 4 { h,([ e dis] cis h a) } \appoggiatura gis4 fis2
+		fis4-! fis~ \tuplet 3/2 4 { fis8 gis( a) dis,([ e fis)] }
+		\tuplet 3/2 4 { h,([ e dis] cis h a) } \appoggiatura gis4 fis2 %65
 		e8 r e'2 \tuplet 3/2 4 { fis8( e dis) }
 		e4-! e,~ \tuplet 3/2 4 { e8 fis( gis fis[ e dis)] }
 		e4-! h-! e-! r
-		e'2\p e,4.(\trill dis16 e) %210
-		e2 e
+		e'2\p e,4.(\trill dis16 e)
+		e2 e %70
 		cis4 dis e fis
 		h,1
 		e4 a a4.(\trill gis16 a)
-		fis'4.\trill gis8 a4-! r %215
-		fis4.\trill\f gis8 a4-! r
+		fis'4.\trill gis8 a4-! r
+		fis4.\trill\f gis8 a4-! r %75
 		fis4.\trill\p gis8 a4-! a,~
 		a4 gis a2
 		gis4 e-!\f e-! e-!
-		dis-! h'-! d,2\trill %220
-		cis4 ais'(-.\p ais-. ais-.)
+		dis-! h'-! d,2\trill
+		cis4 ais'(-.\p ais-. ais-.) %80
 		a gis8( fis) h2
 		e,4( cis') a2
 		a4 gis~ gis16 e\f fis gis a[ h cis? dis]
-		e4 a,,2\p e'4 %225
-		e d c2~
+		e4 a,,2\p e'4
+		e d c2~ %85
 		c4 h2\fE fis'4\p
 		fis \tuplet 3/2 4 { gis!8( h e) } e,4-! \tuplet 3/2 4 { e8( fis gis) }
 		a4 e e e
-		e e'2 e,4 %230
-		fis fis fis fis
+		e e'2 e,4
+		fis fis fis fis %90
 		fis fis'2 fis,4
 		h, gis' gis ais
 		h h h h
-		a a ais ais %235
-		h h h h
+		a a ais ais
+		h h h h %95
 		a cis2 e,4
 		fis h,2 fis'4
 		h, gis''16([\pocoF e8.)] a16([ a,8.)] d16([ h8.)]
-		a4.( h8) \appoggiatura a4 gis2 %240
-		a8-! r cis4~ \tuplet 3/2 4 { cis8 d(\p e d[ cis h)] }
+		a4.( h8) \appoggiatura a4 gis2
+		a8-! r cis4~ \tuplet 3/2 4 { cis8 d(\p e d[ cis h)] } %100
 		a-! r d4~ \tuplet 3/2 4 { d8 e( fis e[ d cis)] }
 		h-! r gis'4~ \tuplet 3/2 4 { gis8 a( h a[ gis fis)] }
 		e16( a,8.) h4 \appoggiatura a gis2
-		a4 c4~\f \tuplet 3/2 4 { c8 d(\p e d[ c h)] } %245
-		a-! r d4~\f \tuplet 3/2 4 { d8 e(\p f e[ d c)] }
+		a4 c4~\f \tuplet 3/2 4 { c8 d(\p e d[ c h)] }
+		a-! r d4~\f \tuplet 3/2 4 { d8 e(\p f e[ d c)] } %105
 		h-! r gis'4~ \tuplet 3/2 4 { gis8 a( h a[ gis fis)] }
 		e16( a,8.) h4 \appoggiatura a gis2
 		a8 a( gis a) g'2\f
-		fis4(\p h,) a'!2\f %250
-		\tuplet 3/2 4 { gis!8( fis e) } gis,4 a h
+		fis4(\p h,) a'!2\f
+		\tuplet 3/2 4 { gis!8( fis e) } gis,4 a h %110
 		\time 4/2 e, c'2 a a dis,4
 		\time 2/2 e1\fermata
 		a,4\ff a'-! a-! a-!
-		gis-! e'-! g,2\trill %255
-		fis4-! d'-! f,2\trill
+		gis-! e'-! g,2\trill
+		fis4-! d'-! f,2\trill %115
 		e4 e'-! e-! e-!
 		dis-! h'-! d,2\trill
 		cis8-! r cis4~ \tuplet 3/2 4 { cis8 d( e d[ cis h)] }
-		a-! r d4~ \tuplet 3/2 4 { d8 e( fis e[ d cis)] } %260
-		h-! r gis'4~ \tuplet 3/2 4 { gis8 a( h a[ gis fis)] }
+		a-! r d4~ \tuplet 3/2 4 { d8 e( fis e[ d cis)] }
+		h-! r gis'4~ \tuplet 3/2 4 { gis8 a( h a[ gis fis)] } %120
 		e8.[ a16] a,8. h16 h2\trill
 		a8-! r a2\p \tuplet 3/2 4 { h8( a gis) }
 		a-! r a4~\f \tuplet 3/2 4 { a8 h( cis h[ a gis)] } \noBreak
-		a4 e a, r\fermata \bar "||" %265
-		\key a \minor a'2\p c~ \noBreak
+		a4 e a, r\fermata \bar "||"
+		\key a \minor a'2\p c~ \noBreak %125
 		c h
 		\appoggiatura h2 a1
 		gis8( e) gis h e16([\pocoF c8.)] h16([ a8.)]
-		<gis h e>4 r r e\p %270
-		f2 e
+		<gis h e>4 r r e\p
+		f2 e %130
 		dis1\fermata
 		r4 \tuplet 3/2 4 { e8( gis h) } e4 r
 		r gis, gis( a)
-		a a(-. a-. a-.) %275
-		a(-. a-. a-. a-.)
+		a a(-. a-. a-.)
+		a(-. a-. a-. a-.) %135
 		h2~ h4 r
 		r c~ \tuplet 3/2 4 { c8 d( e d[ c h)] }
 		c8 r c4~ \tuplet 3/2 4 { c8 d( e d[ c h)] }
-		c4 b~ \tuplet 3/2 4 { b8 c( d) g,([ a b)] } %280
-		a4( a'2) a,4
+		c4 b~ \tuplet 3/2 4 { b8 c( d) g,([ a b)] }
+		a4( a'2) a,4 %140
 		\tuplet 3/2 4 { h!8( c d) } g,4-!\f g-! g-!
 		fis-! d'-! f,2\trill
 		e4 c'-!\p c-! c-!
-		h( g') b,2 %285
-		a4( f'2) e8( d)
+		h( g') b,2
+		a4( f'2) e8( d) %145
 		\appoggiatura d2 c1
 		h4 g8.\f a16 g8. f16 e8.[ d16]
 		c4 r r2
-		r4 r8 dis'-!\f dis4-! r8 a-! %290
-		a4-! r8 a,-! a4-! r8 a'-!
+		r4 r8 dis'-!\f dis4-! r8 a-!
+		a4-! r8 a,-! a4-! r8 a'-! %150
 		a1\fermata
 		r4 \tuplet 3/2 4 { e8(\p gis h) } e4-! \tuplet 3/2 4 { e,8( gis h) }
 		e4-! r r2
-		\key a \major a,2\f a4.(\trill gis16 a) %295
-		fis'2 e
+		\key a \major a,2\f a4.(\trill gis16 a)
+		fis'2 e %155
 		h8([ d)] cis([ e)] \appoggiatura e4 d2
 		cis8-! r cis4~ \tuplet 3/2 4 { cis8 d( e d[ cis h)] }
 		a4-! d~ \tuplet 3/2 4 { d8 e( fis e[ d cis)] }
-		h4-! gis'~ \tuplet 3/2 4 { gis8 a( h a[ gis fis)] } %300
-		e8.[ a16] a,2 gis4
-		a4 e a, r \bar "S-S" %302 finis
+		h4-! gis'~ \tuplet 3/2 4 { gis8 a( h a[ gis fis)] }
+		e8.[ a16] a,2 gis4 %160
+		a4 e a, r \bar "S-S" %161 finis
 	}
 }
 
@@ -321,141 +320,140 @@ MeaTormentaViolinoII = {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 4/4 \tempoMeaTormenta
-			\set Score.currentBarNumber = #307
 		g''2\fE b4~\trill b16 a b c
 		d4 d, r d8. d16
 		g8.\trill fis16 g4-! r g8. b16
-		\appoggiatura b4 a4. c8 c([ b)] b( a) %310
-		\appoggiatura c32 b16 a b c d4 r g,,8. b16
+		\appoggiatura b4 a4. c8 c([ b)] b( a)
+		\appoggiatura c32 b16 a b c d4 r g,,8. b16 %5
 		\appoggiatura b4 a4. es'8 d c b a
 		b16 g a b c d e fis g fis g a \kneeBeam b8 d,,
 		es!16 c d es f g a b c b c d es8 es
-		es es, es'4~ es8 es es, es' %315
+		es es, es'4~ es8 es es, es'
+		d16 b, c d es f g a b a b c d8 d %10
+		d d, d'4~ d8 d d, d'
+		c16 a, b c d es f g a g a b c8 c
+		c4 \appoggiatura d16 c8 b16 a g fis g a b a b c
+		d8 d4 e16 fis g fis g a b a b c
+		d8 a b fis g d es cis %15
+		d a b fis g d es cis
+		d a b g d' a b g \noBreak
+		d'4 r r2\fermata \bar "S-|"
+		r8 b'\pocoF b b b b b b \noBreak
+		a a a a a a a a %20
+		g16 fis g a b a b c d8\p d d d
+		es es es es fis, fis fis fis
+		g16 fis g a b a b c d8 d, d d
+		es es es g fis a g fis
+		g4 fis8 d16\f es d8 c b a %25
+		g8 g'\p g16 fis g a b a b c d8 d
+		es16\f c, d es f g a b c b c d es8 es
+		es\p es, es'4~ es8 es es, es'
+		d d d d b b b b
+		b b b b c c b b %30
+		a a a a b b b b
+		a f4 g16\f a b a b c d c d e
+		f4 r8 f,16 g f8 d es c
+		b'1\p
+		b~ %35
+		b2 a8([ g)] f( es)
+		es([ d)] d( b') b([ a)] a( b)
+		b([ f)] f( b) b([\pocoF c)] c( d)
+		d b( a g) fis([\p g)] h( c)
+		es( g es c) \appoggiatura b4 a2 %40
+		b16 b b\f b b b b b b b b b b b b b
+		b b b b b b b b b b b b a a a a
+		b16\ff es d c d b c d es f g a b8 b
+		b a a2 g4
+		fis16 g fis e fis d e fis g fis g a b a b c %45
+		d8 a b fis g d es cis
+		d a b fis g d es cis
+		d a b g d' a b g
+		d'4 r r2
+		r8 b'\p b b b b b b %50
+		a a a a a a a a
+		g16 fis g a b a b c d8 d, d d
+		es es es g fis a g fis
+		g4 fis8 d16\f es d8 c b a
+		g8 g'\p g16 fis g a b a b c d8 d %55
+		es16\f c, d es f g a b c b c d es8\p es
+		es es, es'4~ es8 es es, es'
+		d16 b, c d es f g a b a b c d8 d
+		d d, d'4~ d8 d d, d'
+		c16 a, b c d es f g a g a b c8 c %60
+		c2~ \f c\p
+		b4 a g-!\f g'-!
+		fis-! r d-!\p cis-!
+		d8-! r r4 g,8-! r r4
+		a8-! r r4 e'8-! r r4 %65
+		d8-! r r4 g,8-! r r4
+		d'4.\f e16 fis g fis g a b a b c
+		d4-! r8 d,,16 es d8 c b a
+		\mvTrh g'1\p-\tenuto
+		g %70
+		g
+		g
+		es'
+		es4-! d-! r r8 g,
+		c4( a) \appoggiatura g fis2 %75
+		g16\f g g g g g g g g g g g g g g g
+		g g g g g g g g g g g g fis fis fis fis
+		g8\ff g g16 fis g a b a b c d8 d,
+		es16 c d es f g a b c b c d es8 es
+		es es, es'4~ es8 es es, es' %80
 		d16 b, c d es f g a b a b c d8 d
 		d d, d'4~ d8 d d, d'
 		c16 a, b c d es f g a g a b c8 c
 		c4 \appoggiatura d16 c8 b16 a g fis g a b a b c
-		d8 d4 e16 fis g fis g a b a b c %320
-		d8 a b fis g d es cis
-		d a b fis g d es cis
-		d a b g d' a b g \noBreak
-		d'4 r r2\fermata \bar "S-|"
-		r8 b'\pocoF b b b b b b \noBreak %325
-		a a a a a a a a
-		g16 fis g a b a b c d8\p d d d
-		es es es es fis, fis fis fis
-		g16 fis g a b a b c d8 d, d d
-		es es es g fis a g fis %330
-		g4 fis8 d16\f es d8 c b a
-		g8 g'\p g16 fis g a b a b c d8 d
-		es16\f c, d es f g a b c b c d es8 es
-		es\p es, es'4~ es8 es es, es'
-		d d d d b b b b %335
-		b b b b c c b b
-		a a a a b b b b
-		a f4 g16\f a b a b c d c d e
-		f4 r8 f,16 g f8 d es c
-		b'1\p %340
-		b~
-		b2 a8([ g)] f( es)
-		es([ d)] d( b') b([ a)] a( b)
-		b([ f)] f( b) b([\pocoF c)] c( d)
-		d b( a g) fis([\p g)] h( c) %345
-		es( g es c) \appoggiatura b4 a2
-		b16 b b\f b b b b b b b b b b b b b
-		b b b b b b b b b b b b a a a a
-		b16\ff es d c d b c d es f g a b8 b
-		b a a2 g4 %350
-		fis16 g fis e fis d e fis g fis g a b a b c
-		d8 a b fis g d es cis
-		d a b fis g d es cis
-		d a b g d' a b g
-		d'4 r r2 %355
-		r8 b'\p b b b b b b
-		a a a a a a a a
-		g16 fis g a b a b c d8 d, d d
-		es es es g fis a g fis
-		g4 fis8 d16\f es d8 c b a %360
-		g8 g'\p g16 fis g a b a b c d8 d
-		es16\f c, d es f g a b c b c d es8\p es
-		es es, es'4~ es8 es es, es'
-		d16 b, c d es f g a b a b c d8 d
-		d d, d'4~ d8 d d, d' %365
-		c16 a, b c d es f g a g a b c8 c
-		c2~ \f c\p
-		b4 a g-!\f g'-!
-		fis-! r d-!\p cis-!
-		d8-! r r4 g,8-! r r4 %370
-		a8-! r r4 e'8-! r r4
-		d8-! r r4 g,8-! r r4
-		d'4.\f e16 fis g fis g a b a b c
-		d4-! r8 d,,16 es d8 c b a
-		\mvTrh g'1\p-\tenuto %375
-		g
-		g
-		g
-		es'
-		es4-! d-! r r8 g, %380
-		c4( a) \appoggiatura g fis2
-		g16\f g g g g g g g g g g g g g g g
-		g g g g g g g g g g g g fis fis fis fis
-		g8\ff g g16 fis g a b a b c d8 d,
-		es16 c d es f g a b c b c d es8 es %385
-		es es, es'4~ es8 es es, es'
-		d16 b, c d es f g a b a b c d8 d
-		d d, d'4~ d8 d d, d'
-		c16 a, b c d es f g a g a b c8 c
-		c4 \appoggiatura d16 c8 b16 a g fis g a b a b c %390
-		d8 d4 e16 fis g fis g a b a b c
+		d8 d4 e16 fis g fis g a b a b c %85
 		d8 r r4 es,2
 		d16 g f es d c b a \appoggiatura c b8 a16 g d'8 d,
 		es4-! g-! c,-! d-! \noBreak
-		<g, d' b' g'>-! r r2\fermata \bar "||" %395
-		\time 3/4 \tempoMeaTormentaB g'4(\p as g) \noBreak
+		<g, d' b' g'>-! r r2\fermata \bar "||"
+		\time 3/4 \tempoMeaTormentaB g'4(\p as g) \noBreak %90
 		\appoggiatura g f2.
 		es2 c4
 		b2.
-		as'4 \appoggiatura g f2 %400
-		g4( f) es
+		as'4 \appoggiatura g f2
+		g4( f) es %95
 		r as g
 		g f\f f
 		f2 f'4\p
-		g2. %405
-		f4( des) h
+		g2.
+		f4( des) h %100
 		c2 r4
 		R2.
 		c,8[( f)] e( g) f([ as)]
-		R2. %410
-		c,8([ f)] e([ g)] f( as)
+		R2.
+		c,8([ f)] e([ g)] f( as) %105
 		b g \appoggiatura f4 e2
 		f4 f' f,
 		f( es!) g~\f
-		g es\p es %415
-		es d r
+		g es\p es
+		es d r %110
 		R2.
 		b8([ es)] d([ f)] es( g)
 		R2.
-		b,8([ es)] d([ f)] es( g) %420
-		as?( f) \appoggiatura es4 d2
+		b,8([ es)] d([ f)] es( g)
+		as?( f) \appoggiatura es4 d2 %115
 		es r4
 		es\f f2
 		f4(\p es f)
-		\tuplet 3/2 4 { g8( c b) } \appoggiatura es,4 d2 %425
-		\appoggiatura d4 es2.
+		\tuplet 3/2 4 { g8( c b) } \appoggiatura es,4 d2
+		\appoggiatura d4 es2. %120
 		es4\f f2
 		f2\p r4
 		R2.
-		b,8([ es)] d([ f)] es( g) %430
-		R2.
+		b,8([ es)] d([ f)] es( g)
+		R2. %125
 		b,8([ es)] d([ f)] es( g)
 		as?4( g) r
 		as?( g) r
-		es'8\f es,4 es b'16( g) %435
-		es8 es4 es as16( f)
+		es'8\f es,4 es b'16( g)
+		es8 es4 es as16( f) %130
 		es2\fermata d4
 		es8 g( a! h) c([ d)]
 		es([ g)] c,4(-.\p c-.)
-		c2.\fermata \bar "S-S" %440 finis
+		c2.\fermata \bar "S-S" %134 finis
 	}
 }
 
@@ -463,117 +461,116 @@ AmorMeusViolinoII = {
 	\relative c' {
 		\clef treble
 		\key h \minor \time 3/4 \tempoAmorMeus
-			\set Score.currentBarNumber = #452
 		\mvTr d'2.\fE-\markup { \remark "sordini" }
 		\appoggiatura { cis16[ d] } e2.
 		d4( cis h)
-		c( h) ais %455
-		h2.~
+		c( h) ais
+		h2.~ %5
 		h
 		\stemDown ais8.( h16 cis4) h \stemNeutral
 		e \appoggiatura e d2
-		\appoggiatura d4 cis2 h4 %460
-		cis \appoggiatura h ais2
+		\appoggiatura d4 cis2 h4
+		cis \appoggiatura h ais2 %10
 		h8( cis d dis e fis)
 		g16 e( d cis) \appoggiatura h4 ais2
 		d8( dis e fis g ais)
-		h16( e,) d( cis) \appoggiatura h4 ais2 %465
-		h4-! fis-! r
+		h16( e,) d( cis) \appoggiatura h4 ais2
+		h4-! fis-! r %15
 		d'2.\p
 		e
 		d4( cis h)
-		g2 \once \slurDashed fis8( e) %470
-		d2( g4)
+		g2 \once \slurDashed fis8( e)
+		d2( g4) %20
 		fis( e d)
 		\once \stemUp h'( a g)
 		fis( e d)
-		r cis'( h) %475
-		h ais r
+		r cis'( h)
+		h ais r %25
 		r e' d
 		d cis r
 		a\f d d~
-		d d\p c %480
-		h!2.
+		d d\p c
+		h!2. %30
 		a~
 		a
 		cis8( e g e fis! d)
-		cis( e g e fis d) %485
-		cis( a') a,([ h)] h( c)
+		cis( e g e fis d)
+		cis( a') a,([ h)] h( c) %35
 		c?( a') h,([ c)] d,( c')
 		h( h') dis,([ e)] h( g')
 		\appoggiatura d4 cis2 d4
-		h4 a( g) %490
-		fis8( fis' cis d) fis,([ g)]
+		h4 a( g)
+		fis8( fis' cis d) fis,([ g)] %40
 		d( a'' h, c) \slurDashed d,([ c')]
 		h( h' dis, e) h([ d)] \slurSolid
 		d4( cis!) cis~
-		cis( d) d %495
-		d cis r
+		cis( d) d
+		d cis r %45
 		r a8( h cis d)
 		h( g) \appoggiatura fis!4 e2
 		d8( fis'\f g gis a ais)
-		h( e,) \appoggiatura d4 cis2 %500
-		d8\ff d'4 cis c8~
+		h( e,) \appoggiatura d4 cis2
+		d8\ff d'4 cis c8~ %50
 		c h4 a gis8~
 		gis g4 fis8( h, e)
 		\appoggiatura d4 cis2 d4
-		\tuplet 3/2 4 { g8( fis e) } \appoggiatura d4 cis2 %505
-		d8( fis e d cis h)
+		\tuplet 3/2 4 { g8( fis e) } \appoggiatura d4 cis2
+		d8( fis e d cis h) %55
 		fis( cis') \appoggiatura cis4 h2
 		\appoggiatura h ais2.
 		d\p
-		\appoggiatura { cis16[ d] } e2. %510
-		d4( cis h)
+		\appoggiatura { cis16[ d] } e2.
+		d4( cis h) %60
 		g2 fis8( e)
 		\once \slurDashed d2( g4)
 		fis( e d)
-		\once \stemUp h'( a g) %515
-		fis( e d)
+		\once \stemUp h'( a g)
+		fis( e d) %65
 		r cis'( h)
 		h ais r
 		fis\f h h
-		h8.(\trill ais16) h4 r %520
-		e, e' e~\p
+		h8.(\trill ais16) h4 r
+		e, e' e~\p %70
 		e e( d)
 		cis!2.
 		h4( g eis)
-		fis2.~ %525
-		fis
+		fis2.~
+		fis %75
 		ais8( cis e cis d h)
 		ais( cis e cis) d([ h)]
 		fis' r fis,( gis ais h)
-		cis4( h ais) %530
-		\appoggiatura cis h2.
+		cis4( h ais)
+		\appoggiatura cis h2. %80
 		ais4 ais cis
 		\appoggiatura cis h2.
 		ais8( fis') fis,(-. fis-. fis-. fis-.)
-		fis2. %535
-		d'4 cis2
+		fis2.
+		d'4 cis2 %85
 		h4 a!2
 		d'8 d,( e d cis d)
 		\mvTr \once \stemUp h4\p-\markup { \remark "assai" } a2
-		g4 fis2 %540
-		h'8 h,( ais h cis d)
+		g4 fis2
+		h'8 h,( ais h cis d) %90
 		e4\f \appoggiatura d4 cis2
 		h8(\p cis d dis e fis)
 		g( cis,) \appoggiatura h4 ais2
-		h8(\f dis e fis g ais) %545
-		h16 e,( d cis) \appoggiatura h4 ais2
+		h8(\f dis e fis g ais)
+		h16 e,( d cis) \appoggiatura h4 ais2 %95
 		<< { \oneVoice \shiftOn h'2. \shiftOff } \\ { h,4\ff s s } >>
 		a'!2.
 		g4( fis e)
-		f( e dis) %550
-		e2.~
+		f( e dis)
+		e2.~ %100
 		e
 		d!~
 		d4 cis( h)
-		\appoggiatura h ais2 h4~ %555
-		h h( ais)
+		\appoggiatura h ais2 h4~
+		h h( ais) %105
 		h8( cis d dis e fis)
 		g e \appoggiatura d4 cis2
 		d8( dis e fis g ais)
-		h16 e,( d cis) \appoggiatura h4 ais2 %560
-		h4 h, r\fermata \bar "||" %561 finis
+		h16 e,( d cis) \appoggiatura h4 ais2
+		h4 h, r\fermata \bar "|." %110 finis
 	}
 }
 
@@ -581,7 +578,6 @@ PiaeMulieresViolinoII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoPiaeMulieres
-			\set Score.currentBarNumber = #562
 		
 	}
 }
