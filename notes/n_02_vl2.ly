@@ -614,6 +614,122 @@ SiDeoDilectaeViolinoII = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 2/2 \tempoSiDeoDilectae
-		
+		\partial 4 a''4\fE d2 \appoggiatura g,8 fis4 e8( d)
+		\appoggiatura h'16 a8( gis a2.)
+		h16( cis d4.) g,4-! h-!
+		eis,-! fis-! r2
+		g16( a h4.) e,4-! g-! %5
+		cis, d2 d'4~
+		d g,2 fis4
+		fis\trill e r e(
+		d8) r a4-!-\pizz d,-! e'(-\arco
+		d8) r a4-!-\pizz d,-! e'-\arco %10
+		a, g \appoggiatura fis e2\trill
+		fis4-! a,-! d-! e'(\p
+		d8) r a4-!-\pizz d,-! e'(-\arco
+		d8) r a4-!-\pizz d,-! \mvDll e'-\arco\f
+		fis h \appoggiatura d, cis2\trill \noBreak %15
+		d4 d, r2 \bar "S-|"
+		r4 \mvTr <fis a>\p-\markup { \remark "assai" } q q
+		r e fis e
+		r d d d
+		r cis d cis %20
+		r h h h'
+		r a h a
+		h cis2 d4
+		d cis cis cis
+		dis dis dis dis %25
+		e e e e
+		e e e e
+		d! fis r e
+		r d r cis
+		h8( a) gis4 h'2( %30
+		a8) r e4-!-\pizz a,-! h'(-\arco
+		a8) r e4-!-\pizz a,-! h'(-\arco
+		a8) r e4-!-\pizz a,-! e'-\arco
+		fis2( h)
+		a( gis) %35
+		a( g!)
+		fis h\pocoF
+		e, gis\trill
+		a4\f e,-! a-! e'(
+		d8) r a,4-! d-! fis'( %40
+		e8) r h,4-! e-! h'(
+		a8) r e'4-!-\pizz a,-! h'(-\arco
+		a8) r e4-!-\pizz a,-! h'(-\arco
+		e,) d \appoggiatura cis h2
+		cis4 r r2 %45
+		a4\p r r2
+		g!4 r r2
+		cis4 r r2
+		d4 cis r2
+		r4 <fis, a> q q %50
+		r e fis e
+		r d d d
+		r cis d cis
+		r h h h'
+		r a h a %55
+		h cis2 d4
+		d2( cis4) d
+		e d2 cis4
+		d8( e fis2) g4
+		a g2 fis4 %60
+		g g g g
+		g g g g
+		g g g g
+		e2 fis4 e
+		d d cis cis %65
+		d r r2
+		h4 r r2
+		e1
+		\appoggiatura e4 d1
+		cis2 r4 e( %70
+		d8) r a4-!-\pizz d,-! e'4(-\arco
+		d8) r a4-!-\pizz d,-! \mvDll e'4(\f-\arco
+		d8) r a,4-! d-! a''(
+		g8) r d,4-! g-! d'
+		d2\fermata r4 a'\ff %75
+		d2 \appoggiatura g,8 fis4 e8 d
+		\appoggiatura h'16 a8( gis a2.)
+		h16( cis d4.) g,4-! h-!
+		eis, fis r2
+		g16( a h4.) e,4-! g-! %80
+		cis, d2 d'4~
+		d g,2 fis4
+		fis\trill e r e(
+		d8) r a4-!-\pizz d,-! e'(-\arco
+		d8) r a4-!-\pizz d,-! e'-\arco %85
+		a, g \appoggiatura fis e2
+		fis4-! a,-! d-! e'(\p
+		d8) r a4-!-\pizz d,-! e'(-\arco
+		d8) r a4-!-\pizz d,-! \mvDll e'-\arco\f
+		fis h \appoggiatura d, cis2\trill \noBreak %90
+		d4 a d, r\fermata \bar "||"
+		\key d \dorian r4 a'\p a a \noBreak
+		r d f, f
+		r f' f f
+		f-\parenthesize-! e-\parenthesize-! r2 %95
+		r4 es, es es
+		r es es es
+		r es' es es
+		es-! d-! r2
+		g2. g4 %100
+		\appoggiatura a16 g8( fis g2.)
+		g2. g4
+		\appoggiatura a16 g8( fis g2.)
+		g1
+		f!4 d2 c4~ %105
+		c b2 a4
+		r gis(-. gis-. gis-.)
+		r a(-. a-. a-.)
+		r a(-. a-. a-.)
+		r a(-. a-. a-.) %110
+		r a'(-. a-. a-.)
+		r gis(-. gis-. gis-.)
+		\key d \major a e-!-\pizz a,-! e'(-\arco
+		d8) r a4-!-\pizz d,-! d'(-\arco
+		cis8) r e4-!-\pizz a,-! g'(-\arco %115
+		fis8) r a,4-!-\pizz d,-! d'4(-\arco
+		cis8) r r4 r2 \bar "S-S" %117 finis
 	}
 }
