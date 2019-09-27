@@ -117,12 +117,177 @@ SiDeoDilectaeMariaSalomeNotes = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 2/2 \autoBeamOff \tempoSiDeoDilectae
-		
+		\partial 4 r4
+		R1*15 %15
+		r2 r4 a' \bar "S-|"
+		d2 \appoggiatura g,8 fis4 e8([ d)]
+		a'([ gis)] a4 r2
+		d2 cis8([ h)] a([ g)]
+		\appoggiatura fis eis4 fis r2 %20
+		h a8([ g)] fis([ e)]
+		\appoggiatura d cis4 d r d'~
+		d g,2 fis4
+		fis e a2~
+		a \appoggiatura h8 a4 g8([ fis)] %25
+		g4. a8 h4 r
+		r g \appoggiatura a8 g4 fis8[ e]
+		fis4 d'2 cis4~
+		cis h2 a4
+		gis8([ fis)] e4 r2 %30
+		<e e'>2 e4 e
+		e2. e4
+		e2 r4 e
+		fis2 d'
+		e,( h') %35
+		a r4 e
+		<< \context Voice = "MariaSalome" { \voiceOne fis'2. e8([ d)] \oneVoice } \\ { fis,2 d' } >>
+		\tuplet 3/2 4 { cis8[ h a] gis[ fis e] } h'2\trill
+		a r
+		R1*5 %44
+		r2 a~ %45
+		a4.( h16[ c)] h8([ a)] g([ fis)]
+		e([ fis)] g4 g2~
+		g4.( a16[ h)] a8([ g)] fis([ e)]
+		fis4 e r a
+		d2 \appoggiatura g,8 fis4 e8([ d)] %50
+		\appoggiatura h'16 a8([ gis)] a4 r2
+		d cis8([ h)] a([ g)]
+		\appoggiatura fis eis4 fis r2
+		h a8([ g)] fis([ e)]
+		\appoggiatura d cis4 d r d'~ %55
+		d g,2 fis4
+		fis4. e8 e4 fis
+		g( fis2) e4
+		fis8[ g] a2 h4
+		c h2 a4 %60
+		h d8[( h]) h2~
+		h4 \once \slurDashed d8[( h]) h2~
+		h4 d8([ h)] a([ g)] fis([ e)]
+		d([ cis)] e'([ cis)] d([ a)] \once \slurDashed h([ g)]
+		fis4.(\trill g8) \appoggiatura fis4 e2 %65
+		d4 r c'2
+		r h
+		r4 e d8([ cis!)] h([ a)]
+		\appoggiatura g4 fis2~ fis4. e8
+		e2 r4 a %70
+		a1
+		a2 r4 a
+		d1
+		d,
+		d2(\fermata e) %75
+		d r
+		R1*14 \noBreak %90
+		R1\fermataMarkup \bar "||"
+		\key d \dorian d2 \appoggiatura g8 f4 e8([ d)] \noBreak
+		b'([ a)] b2.
+		d8([ c)] b2 a4
+		gis a r2 %95
+		a a4 a
+		\appoggiatura h16 a8([ g)] a2.
+		c8([ b)] a2 g4
+		fis g r2
+		g g4 g %100
+		\appoggiatura a16 g8([ fis)] g2.
+		g2 g4 g
+		g8([ fis)] g2 r4
+		g4.( a16[ b]) a8([ g)] f([ e)]
+		f[ d] d'2 c4~ %105
+		c b2 a4
+		gis8[ fis] e4 e'2
+		r4 a, a a
+		c8([ h!)] a2.
+		a2 a4 a %110
+		a1
+		h!
+		\key d \major a2 r
+		R1*3 %116
+		r2 r4 a \bar "S-S" %117 finis
 	}
 }
 
 SiDeoDilectaeMariaSalomeLyrics = \lyricmode {
+	Si %16
+	De -- o di --
+	le -- ctae
+	tan -- tum plo --
+	ra -- tis, %20
+	a -- ni -- mae_e --
+	le -- ctae, si __
+	su -- spi --
+	ra -- tis, ah, __
+	qua -- les %25
+	la -- cry -- mas
+	pec -- ca -- _
+	_ _ _
+	_ tor
+	da -- bit? %30
+	Ah, qua -- les
+	la -- cry --
+	mas pec --
+	ca -- tor
+	da -- %35
+	bit, pec --
+	ca -- tor
+	da -- _ _
+	bit?
 	
+	A -- %45
+	ni -- mae_e --
+	le -- ctae, a --
+	ni -- mae_e --
+	le -- ctae, si
+	De -- o di -- %50
+	le -- ctae
+	tan -- tum plo --
+	ra -- tis,
+	si su -- spi --
+	ra -- tis, ah, __ %55
+	qua -- les
+	la -- cry -- mas pec --
+	ca -- tor
+	da -- _ _
+	_ _ _ %60
+	_ _ _
+	_ _
+	_ _ _
+	_ _ _ _
+	_ _ %65
+	bit, ah!
+	ah!
+	ah!, qua -- lis
+	la -- cry --
+	mas pec -- %70
+	ca --
+	tor, pec --
+	ca --
+	tor
+	da -- %75
+	bit?
+	
+	Quae_in Chri -- sti %92
+	mor -- te
+	a -- ni -- ma_af --
+	fli -- cta, %95
+	o -- mnia de --
+	li -- cta
+	di -- gne plo --
+	ra -- bit?
+	Quae_in Chri -- sti %100
+	mor -- te
+	o -- mnia de --
+	li -- cta
+	di -- gne plo --
+	ra -- _ _ %105
+	_ _
+	_ bit, quae?
+	o -- mnia de --
+	li -- cta
+	di -- gne plo -- %110
+	ra --
+	_
+	bit?
+	
+	Si %117 finis
 }
 
 % MariaSalomeNotes = {
