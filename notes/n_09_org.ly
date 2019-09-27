@@ -1389,7 +1389,7 @@ SiDeoDilectaeOrgano = {
 		d2 gis
 		a4 a, a cis'( %70
 		d8) r r4 r cis(
-		d8) r r4 r cis(
+		d8) r r4 r cis(\f
 		d8) r r4 r fis,(
 		g8) r r4 r g
 		a1\fermata %75

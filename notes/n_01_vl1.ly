@@ -614,7 +614,123 @@ SiDeoDilectaeViolinoI = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 2/2 \tempoSiDeoDilectae
-		
+		\partial 4 a''4\fE d2 \appoggiatura g,8 fis4 e8( d)
+		\appoggiatura h'16 a8( gis a2.)
+		h16( cis d4.) g,4-! h-!
+		eis,-! fis-! r2
+		g16( a h4.) e,4-! g-! %5
+		cis, d2 d'4~
+		d g,2 fis4
+		fis\trill e r g(
+		fis8) r a,4-!-\pizz d,-! g'(^\arco
+		fis8) r a,4-!-\pizz d,-! g'(^\arco %10
+		fis) h,8.( e16) \appoggiatura d4 cis2
+		d4-! a,-! d-! g'(\p
+		fis8) r a,4-!-\pizz d,-! g'(^\arco
+		fis8) r a,4-!-\pizz d,-! g'^\arco\f
+		fis h \appoggiatura d, cis2\trill \noBreak %15
+		d4 d, r \mvTr a''\p-\markup { \remark "assai" } \bar "S-|"
+		d2 \appoggiatura g,8 fis4 e8( d) \noBreak
+		\appoggiatura h'16 a8( gis a2.)
+		h16( cis d4.) g,4 h
+		eis,-! fis-! r2 %20
+		g16( a h4.) e,4 g
+		cis, d2 d'4~
+		d g,2 fis4
+		fis e e e
+		dis fis fis fis %25
+		g g g g
+		g g g g
+		fis d' r cis
+		r h r a
+		gis8( fis) e4 d'2( %30
+		cis8) r e,4-!-\pizz a,-! d'(^\arco
+		cis8) r e,4-!-\pizz a,-! d'(^\arco
+		cis8) r e,4-!-\pizz a,-! e'^\arco
+		fis2( d')
+		cis( h) %35
+		a( g!)
+		fis d'\pocoF
+		\tuplet 3/2 4 { cis8([ h a] gis fis e) } h'2\trill
+		a4\f e,-! a-! g'(
+		fis8) r a,,4-! d-! a''( %40
+		gis8) r h,,4-! e-! d'(
+		cis8) r e4-!-\pizz a,-! d'(^\arco
+		cis8) r e,4-!-\pizz a,-! d'(^\arco
+		cis) fis,8.( h16) \appoggiatura a4 gis2
+		a4 a, r2 %45
+		dis4\p r r2
+		e4 r r2
+		e4 r r2
+		fis4 e r a
+		d2 \appoggiatura g,8 fis4 e8 d %50
+		\appoggiatura h'16 a8.( gis16 a2.)
+		h16( cis d4.) g,4 h
+		eis, fis r2
+		g16( a h4.) e,4 g
+		cis, d2 d'4~ %55
+		d g,2 fis4
+		fis2( e4) fis
+		g fis2 e4
+		fis8( g a2) h4
+		c h2 a4 %60
+		h h h h
+		h h h h
+		h h h h
+		cis!2 d4 g,
+		fis fis e e %65
+		d r r2
+		d4 r r2
+		g1
+		\appoggiatura g4 fis1
+		e2 r4 g( %70
+		fis8) r a,4-!-\pizz d,-! g'4(^\arco
+		fis8) r a,4-!-\pizz d,-! g'4(\f^\arco
+		fis8) r a,,4-! d-! c''(
+		h8) r d,,4-! g-! h'
+		fis2\fermata r4 a\ff %75
+		d2 \appoggiatura g,8 fis4 e8 d
+		\appoggiatura h'16 a8( gis a2.)
+		h16( cis d4.) g,4-! h-!
+		eis, fis r2
+		g16( a h4.) e,4-! g-! %80
+		cis, d2 d'4~
+		d g,2 fis4
+		fis\trill e r g(
+		fis8) r a,4-!-\pizz d,-! g'(^\arco
+		fis8) r a,4-!-\pizz d,-! g'(^\arco %85
+		fis) h,8( e) \appoggiatura d4 cis2
+		d4-! a,-! d-! g'(\p
+		fis8) r a,4-!-\pizz d,-! g'(^\arco
+		fis8) r a,4-!-\pizz d,-! g'^\arco\f
+		fis h \appoggiatura d, cis2\trill \noBreak %90
+		d4 a d, r\fermata \bar "||"
+		\key d \dorian d'2\p \appoggiatura g8 f4 e8 d \noBreak
+		b'( a b2.)
+		d8( c) b2 a4
+		gis-! a-! r2 %95
+		c, \appoggiatura f8 es4 d8( c)
+		\appoggiatura h'16 a8( g a2.)
+		c8( b) a2 g4
+		fis-! g-! r2
+		cis, r4 d( %100
+		cis2) r4 d(
+		cis2) r4 d(
+		cis2) r4 d(
+		cis1)
+		d4 f2 f4~ %105
+		f f2 f4
+		r h,!(-. h-. h-.)
+		r c(-. c-. c-.)
+		r c(-. c-. c-.)
+		r c(-. c-. c-.) %110
+		r c(-. c-. c-.)
+		r h(-. h-. h-.)
+		\key d \major cis e-!-\pizz a,-! g'(^\arco
+		fis8) r a,4-!-\pizz d,-! gis'(^\arco
+		a8) r e4-!-\pizz a,-! cis'(^\arco %115
+		d8) r a,4-!-\pizz d,-! gis'4(^\arco
+		a8) r r4 r a\p \bar "S-S" %117 finis
 	}
 }
 
