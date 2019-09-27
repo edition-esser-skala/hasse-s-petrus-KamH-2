@@ -612,7 +612,7 @@ PiaeMulieresViola = {
 
 SiDeoDilectaeViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key d \major \time 2/2 \tempoSiDeoDilectae
 		\partial 4 r4 r <fis a>\fE q q
 		r e fis e
