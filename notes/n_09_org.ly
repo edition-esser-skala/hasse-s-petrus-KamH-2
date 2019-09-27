@@ -1319,6 +1319,122 @@ SiDeoDilectaeOrgano = {
 		\clef bass
 		\key d \major \time 2/2 \tempoSiDeoDilectae
 		\partial 4 r4 r d'\fE d d
+		r cis d cis
+		r h h h
+		r ais h a
+		r g g g %5
+		r fis g fis
+		e2 d
+		a'4 a, a cis'(
+		d8) r r4 r cis(
+		d8) r r4 r cis %10
+		d g, a a,
+		d r r cis'(\p
+		d8) r r4 r cis(
+		d8) r r4 r cis\f
+		d g, a a, \noBreak %15
+		d r r2 \bar "S-|"
+		r4 d'\p d d \noBreak
+		r cis d cis
+		r h h h
+		r ais h a %20
+		r g g g
+		r fis g fis
+		e2 d
+		a'4 a, r a'
+		h h h h %25
+		e, e e e
+		a a a a
+		d, r d r
+		d r dis r
+		e e, r gis'( %30
+		a8) r r4 r gis(
+		a8) r r4 r \once \slurDashed gis(
+		a8) r r4 r cis
+		d d, r d'
+		e e, r e %35
+		a a, h cis
+		d d, r d'\pocoF
+		e2 e,
+		a4\f r r cis(
+		d8) r r4 r dis( %40
+		e8) r r4 r gis(
+		a8) r r4 r gis(
+		a8) r r4 r gis
+		a d e e,
+		a r r2 %45
+		h4\p r r2
+		e,4 r r2
+		a4 r r2
+		d,4-! a'-! r2
+		r4 d d d %50
+		r cis d cis
+		r h h h
+		r ais h a
+		r g g g
+		r fis g fis %55
+		e2 d
+		a'4 a a a
+		a a a a
+		d, d d d
+		d d d d %60
+		g g g g
+		g g g g
+		g g g g
+		g g fis g
+		a a a a %65
+		d r r2
+		g,4 r r2
+		cis,1
+		d2 gis
+		a4 a, a cis'( %70
+		d8) r r4 r cis(
+		d8) r r4 r cis(
+		d8) r r4 r fis,(
+		g8) r r4 r g
+		a1\fermata %75
+		r4 d\ff d d
+		r cis d cis
+		r h h h
+		r ais h a
+		r g g g %80
+		r fis g fis
+		e2 d
+		a'4 a, a cis'(
+		d8) r r4 r cis(
+		d8) r r4 r cis %85
+		d g, a a,
+		d r r cis'(\p
+		d8) r r4 r cis(
+		d8) r r4 r cis\f
+		d g, a a, \noBreak %90
+		d r r2\fermata \bar "||"
+		\key d \dorian r4 d\p d d \noBreak
+		r d' d d
+		r d d d
+		d c r2 %95
+		r4 c c c
+		r c c c
+		r c c c
+		c b r2
+		r4 a( b2) %100
+		r4 a( b2)
+		r4 a( b2)
+		r4 a( b2)
+		r4 a a a
+		d,2 d %105
+		d d
+		e1
+		c
+		d
+		dis %110
+		e
+		e
+		\key d \major a,4\fE r r2
+		a'4-! r r2
+		a4-! r r2 %115
+		a4-! r r2
+		a4-! r r2 \bar "S-S" %117 finis
 	}
 }
 
