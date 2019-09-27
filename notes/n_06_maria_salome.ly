@@ -113,6 +113,18 @@ PiaeMulieresMariaSalomeLyrics = \lyricmode {
 	poe -- ni -- te -- re. %55 finis
 }
 
+SiDeoDilectaeMariaSalomeNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 2/2 \autoBeamOff \tempoSiDeoDilectae
+		
+	}
+}
+
+SiDeoDilectaeMariaSalomeLyrics = \lyricmode {
+	
+}
+
 % MariaSalomeNotes = {
 % 	\relative c' {
 % 		\clef treble

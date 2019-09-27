@@ -609,3 +609,11 @@ PiaeMulieresViola = {
 		R1\fermataMarkup \bar "|." %56 finis
 	}
 }
+
+SiDeoDilectaeViola = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 2/2 \tempoSiDeoDilectae
+		
+	}
+}

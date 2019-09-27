@@ -610,6 +610,14 @@ PiaeMulieresViolinoI = {
 	}
 }
 
+SiDeoDilectaeViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 2/2 \tempoSiDeoDilectae
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

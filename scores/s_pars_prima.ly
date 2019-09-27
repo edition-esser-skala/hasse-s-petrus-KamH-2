@@ -326,17 +326,72 @@
 % 			\midi { \tempo 4 = 105 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "8 PIAE MULIERES CESSATE"
+% 		}
+% 		\paper {
+% 			top-system-spacing.basic-distance = #17
+% 			top-system-spacing.minimum-distance = #17
+% 			markup-system-spacing.basic-distance = #12
+% 			markup-system-spacing.minimum-distance = #12
+% 			system-system-spacing.basic-distance = #18
+% 			system-system-spacing.minimum-distance = #18
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\PiaeMulieresViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\PiaeMulieresViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 							\PiaeMulieresViola
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Maria" "Magdalena" } }
+% 						\new Voice = "MariaMagdalena" { \dynamicUp \PiaeMulieresMariaMagdalenaNotes }
+% 					}
+% 					\new Lyrics \lyricsto MariaMagdalena \PiaeMulieresMariaMagdalenaLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Petrus"
+% 						\new Voice = "Petrus" { \dynamicUp \PiaeMulieresPetrusNotes }
+% 					}
+% 					\new Lyrics \lyricsto Petrus \PiaeMulieresPetrusLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Maria" "Salome" } }
+% 						\new Voice = "MariaSalome" { \dynamicUp \PiaeMulieresMariaSalomeNotes }
+% 					}
+% 					\new Lyrics \lyricsto MariaSalome \PiaeMulieresMariaSalomeLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\PiaeMulieresOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\PiaeMulieresBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "8 PIAE MULIERES CESSATE"
-		}
-		\paper {
-			top-system-spacing.basic-distance = #17
-			top-system-spacing.minimum-distance = #17
-			markup-system-spacing.basic-distance = #12
-			markup-system-spacing.minimum-distance = #12
-			system-system-spacing.basic-distance = #18
-			system-system-spacing.minimum-distance = #18
+			movement = "9 SI DEO DILECTAE"
 		}
 		\score {
 			<<
@@ -344,49 +399,37 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\PiaeMulieresViolinoI
+							\SiDeoDilectaeViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\PiaeMulieresViolinoII
+							\SiDeoDilectaeViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-							\PiaeMulieresViola
+							\SiDeoDilectaeViola
 					}
 				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Maria" "Magdalena" } }
-						\new Voice = "MariaMagdalena" { \dynamicUp \PiaeMulieresMariaMagdalenaNotes }
-					}
-					\new Lyrics \lyricsto MariaMagdalena \PiaeMulieresMariaMagdalenaLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Petrus"
-						\new Voice = "Petrus" { \dynamicUp \PiaeMulieresPetrusNotes }
-					}
-					\new Lyrics \lyricsto Petrus \PiaeMulieresPetrusLyrics
-					
+				\new ChoirStaff \with { \smallerGroupDistance } <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Maria" "Salome" } }
-						\new Voice = "MariaSalome" { \dynamicUp \PiaeMulieresMariaSalomeNotes }
+						\new Voice = "MariaSalome" { \dynamicUp \SiDeoDilectaeMariaSalomeNotes }
 					}
-					\new Lyrics \lyricsto MariaSalome \PiaeMulieresMariaSalomeLyrics
+					\new Lyrics \lyricsto MariaSalome \SiDeoDilectaeMariaSalomeLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\PiaeMulieresOrgano
+						\SiDeoDilectaeOrgano
 					}
 				>>
 				\new FiguredBass {
-					\PiaeMulieresBassFigures
+					\SiDeoDilectaeBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 2 = 60 }
 		}
 	}
 }

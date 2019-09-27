@@ -1314,6 +1314,18 @@ PiaeMulieresBassFigures = \figuremode {
 	<_!>1 %56 finis
 }
 
+SiDeoDilectaeOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 2/2 \tempoSiDeoDilectae
+		\partial 4 r4 r d'\fE d d
+	}
+}
+
+SiDeoDilectaeBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
