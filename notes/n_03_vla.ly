@@ -614,6 +614,123 @@ SiDeoDilectaeViola = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 2/2 \tempoSiDeoDilectae
-		
+		\partial 4 r4 r <fis a>\fE q q
+		r e fis e
+		r d d d
+		r cis d cis
+		r h h h %5
+		r a h a
+		g2 a4 d
+		d cis r a'~
+		a8 r a4-!-\pizz d,-! \once \tieDashed a'~-\arco
+		a8 r a4-!-\pizz d,-! a'-\arco %10
+		a g \appoggiatura fis e2\trill
+		fis4 a,-! d-! \once \tieDashed a'~\p
+		a8 r a4-!-\pizz d,-! \once \tieDashed a'~-\arco
+		a8 r a4-!-\pizz d,-! \mvDll a'-\arco\f
+		a g \appoggiatura fis e2 \noBreak %15
+		fis4 r r2 \bar "S-|"
+		r4 d\pE d d \noBreak
+		r cis d cis
+		r h h h
+		r ais h a %20
+		r g g g
+		r fis g fis
+		g2 a
+		a4 a r a
+		h h h h %25
+		h h h h
+		cis cis cis cis
+		d r e r
+		fis r fis r
+		h, h r e~ %30
+		e8 r r4 r e~
+		e8 r r4 r e~
+		e8 r r4 r a
+		a2 r4 fis
+		e2( d) %35
+		cis4 cis d e
+		a,2 r4 fis'\pocoFE
+		e2 d
+		cis4-!\fE e-! a-! a~
+		a8 r a,4-! d-! h'~ %40
+		h8 r h,4-! e-! e~
+		e8 r r4 r e~
+		e8 r r4 r e
+		e' d \appoggiatura cis h2
+		a4 r r2 %45
+		fis4\pE r r2
+		h,4 r r2
+		a4 r r2
+		a'4 a r2
+		r4 d, d d %50
+		r cis d cis
+		r h h h
+		r ais h a
+		r g g g
+		r fis g fis %55
+		g2 a
+		a4 a a a
+		a a a' a
+		a d, d d
+		d d d d %60
+		d d d d
+		d d d d
+		d d d d
+		a'2 a4 h
+		a a <g a> q %65
+		<fis a> r r2
+		g4 r r2
+		a,1
+		a'2 h
+		e,4 a, a a'~ %70
+		a8 r a4-!-\pizz d,-! a'~-\arco
+		a8 r a4-!-\pizz d,-! \mvDll a'~-\arco\fE
+		a8 r a,4-! d-! d'~
+		d8 r d,4-! g-! g
+		a1\fermata %75
+		r4 <fis a>\ffE q q
+		r e fis e
+		r d d d
+		r cis d cis
+		r h h h %80
+		r a h a
+		h cis2 d4
+		d cis r a'~
+		a8 r a4-!-\pizz d,-! a'4~-\arco
+		a8 r a4-!-\pizz d,-! a'4-\arco %85
+		a g \appoggiatura fis e2
+		fis4 a,-\parenthesize-! d-\parenthesize-! a'~\pE
+		a8 r a4-!-\pizz d,-! a'4~-\arco
+		a8 r a4-!-\pizz d,-! \mvDll a'4-\arco\fE
+		a g \appoggiatura fis e2 \noBreak %90
+		fis4 r r2\fermata \bar "||"
+		\key d \dorian r4 f\pE f f \noBreak
+		r f f f
+		r d' d d
+		h! c r2 %95
+		r4 es, es es
+		r es es es
+		r c' c c
+		a-! b-! r2
+		r4 e,( d2)^\critnote %100
+		r4 e( d2)
+		r4 e( d2)
+		r4 \once \slurDashed e( d2)
+		r4 e e e
+		d2 d %105
+		d d
+		e r
+		e1
+		f
+		fis %110
+		e
+		e
+		\key d \major
+		e4-! r r cis'(
+		d8) r a4-!-\pizz d,-! h'4(-\arco %115
+		a8) r r4 r e'(
+		d8) r a4-!-\pizz d,-! h'4(-\arco
+		a8) r r4 r2 \bar "S-S"
 	}
 }
