@@ -1591,6 +1591,149 @@ JesuMeaPaxOrgano = {
 		\clef bass
 		\key b \major \time 2/2 \tempoJesuMeaPax
 		b4\fE b f' f
+		g g r es
+		f b, r2
+		es4 es f f
+		b8 b[-! f-! b-!] f2 %5
+		b8 b[-!\p f-! b-!] f4. es8\fE
+		d4 d c c
+		b c d es
+		f es f f, \noBreak
+		b r b'8. f16 d8.[ f16] \bar "S-|" %10
+		b,4\p b f' f \noBreak
+		g g r es
+		f b, r2
+		es4 es f f
+		b, b r2 %15
+		es4 es f f
+		b4. b8\f a4 g
+		f\pE f c c
+		d d r b
+		c f, r2 %20
+		b4 b c c
+		f f r2
+		b4 b c c
+		f, f r as
+		g c8 r16 c,32\f d es8.(\trill d32 c) es8.(\trill d32 c) %25
+		f2\p g4 g
+		c8([ es)] c(\pocoF b) as([ c)] as( g)
+		fis4 fis\p fis fis
+		g8([ b)] g(\pocoF f) es([ g)] es( d)
+		cis4 cis\p cis cis %30
+		d2 \clef "treble_8" r8 d'(-\vlc e fis)
+		g4 g g g
+		fis8 d( e fis) g \clef bass g,([-\bassi a b)]
+		c4 c c c
+		b c d d, %35
+		g g e e
+		f f a, a
+		b b r h
+		c8.[ c16] c8 r16 c'\f c4 r
+		r8 f,-!\p c-! f-! c2 %40
+		r8 f-!\f c-! f-! c2\p
+		f4 f f f
+		f f b, b
+		c c b b
+		as as a a %45
+		b b h h
+		c(-.\pocoF c-. c-. c-.)
+		c2.\p c4
+		f8 r f, r r4 c'\f
+		f8\p r f, r r4 c'\f %50
+		f8 r b r c4 c,
+		f8 f[-\parenthesize-!\ff c-\parenthesize-! f-\parenthesize-!] c2
+		r8 f[-\parenthesize-! c-\parenthesize-! f-\parenthesize-!] c4. b'8
+		a4 b c c,
+		f r f8. c16 a8.[ c16] %55
+		f,4\p f c' c
+		d d r b
+		c f, r2
+		b4 b c c
+		f f8. g16 f8( es! d c) %60
+		b4 b f' f
+		g g r es
+		f b, r2
+		es4 es r f
+		f f r fis %65
+		g c d d,
+		g8\f es( d c) b-! b( a g)
+		c4 c\p d d
+		es es es es
+		f f g g %70
+		as as as as
+		r8 b(-. b-. b-.) b(-. b-. b-. b-.)
+		b4 b b b
+		es\f r8 as,\p b4 b,
+		es8 r16 es'\f es8.[ es16] es4 r %75
+		d\p es r d
+		c b r b,
+		f'8.[ f16] f8 r16 f\f f4 r
+		r8 b-\parenthesize-!\p f-\parenthesize-! b-\parenthesize-! f2^\tenuto
+		r8 b-\parenthesize-!\f f-\parenthesize-! b-\parenthesize-! f2\p^\tenutoE %80
+		b,4 b b b
+		es es es es
+		f f\pocoF es es
+		des des\p d d
+		es es\pocoF e e %85
+		f\p f f f
+		b8-! r b,-! r r4 f'\f
+		b8-!\p r b,-! r r4 f'\f
+		g es f f,
+		b8 b'[-! f-! b-!] f2\p^\tenuto %90
+		r8 b-\parenthesize-! f-\parenthesize-! b-\parenthesize-! f2
+		r8 b-\parenthesize-!\f f-\parenthesize-! b-\parenthesize-! f2\p
+		b,4 b des\f des
+		es es e e
+		f1\fermata %95
+		b,8 b'[-\parenthesize-!\ff f-\parenthesize-! b-\parenthesize-!] f4. es8
+		d4 d c c
+		b c d es
+		f es f f, \noBreak
+		b b8. b16 b4 r\fermata \bar "||" %100
+		\time 3/4 \tempoJesuMeaPaxB
+			\set Timing.measurePosition = #(ly:make-moment -1/4) r4
+			b'2.\p^\tenuto
+		f
+		b,
+		a\f
+		b\p %105
+		f'
+		b
+		a\f
+		b\p
+		es, %110
+		f
+		fis\f
+		g\p
+		c,
+		d~ %115
+		d~
+		d4( es d)
+		es( d es)
+		d(\f es d)
+		es(\p d es) %120
+		\once \stemUp d( c b)
+		c d2
+		es2.\pocoF
+		e
+		f4(\p e d) %125
+		g2.
+		a4. a8\f cis,8. e16
+		a,2 r4
+		r cis' cis,
+		r d'\p d, %130
+		r g g,
+		r a' a,
+		r b' b,
+		b2 r4
+		r cis\f cis, %135
+		r d'' d,
+		g2.\p \noBreak
+		a\fermata
+		\time 2/2 \tempoJesuMeaPaxC d,4\f d' a a, \noBreak
+		b c d es %140
+		f es f f,
+		b r b'8. f16 d8.[ f16] \bar "S-S" %142 finis
 	}
 }
 

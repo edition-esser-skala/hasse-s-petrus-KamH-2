@@ -228,6 +228,8 @@ tempoPiaeMulieres = \tempoMarkup "[Tempo deest]"
 tempoSiDeoDilectae = \tempoMarkup "Andantino"
 tempoStillate = \tempoMarkup "[Tempo deest]"
 tempoJesuMeaPax = \tempoMarkup "Lento"
+	tempoJesuMeaPaxB = \tempoMarkup "Un poco andante"
+	tempoJesuMeaPaxC = \tempoMarkup "Come prima"
 
 
 
