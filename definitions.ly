@@ -181,6 +181,11 @@ twofourtime = {
 		#'(4)
 		#'((end . (((1 . 16) . (4 4)))))
 	}
+	
+markAttacaID = {
+	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+	\mark \markup { \remark "attacca il Duetto" }
+}
 
 mvTr = \once \override TextScript.X-offset = #2
 mvTrh = \once \override TextScript.X-offset = #2.5

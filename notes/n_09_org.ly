@@ -1563,11 +1563,27 @@ StillateOrgano = {
 		\clef bass
 		\key c \major \time 4/4 \tempoStillate
 		gis'1~\pE
+		gis2 g~
+		g1
+		fis
+		f2 e~ %5
+		e1
+		f
+		ges
+		f4 f8. g16 f8 es d c \bar "||" \markAttacaID %9 finis
 	}
 }
 
 StillateBassFigures = \figuremode {
-	
+	<6>1
+	<6 5>2 <4\+>
+	r1
+	<6>
+	<4>2 <6> %5
+	<6 5->1
+	r
+	<6! 5- _->
+	r2 r8 <2> <6-> <6 _-> %9 finis
 }
 
 % Organo = {

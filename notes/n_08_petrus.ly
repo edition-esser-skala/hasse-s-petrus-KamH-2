@@ -442,12 +442,23 @@ StillatePetrusNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoStillate
-		
+		R1*3
+		r4 r8 d a' a r4
+		r r8 g c r r4 %5
+		R1
+		r4 r8 c a a g f
+		b b b2 b8 << \context Voice = "Petrus" { \voiceOne a c c \oneVoice } \\ { e,! f f } >>
+		r4 r2 \bar "||" %9 finis
 	}
 }
 
 StillatePetrusLyrics = \lyricmode {
+	O pe -- na! %4
+	O crux! %5
 	
+	Et quan -- do_er -- ro -- rem
+	me -- um ple -- ne la --
+	va -- bo? %9 finis
 }
 
 % PetrusNotes = {

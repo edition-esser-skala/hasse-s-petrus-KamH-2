@@ -259,12 +259,25 @@ StillateMariaMagdalenaNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoStillate
-		
+		r4 r8 e' e h r h
+		d d d e cis8. cis16 cis4
+		r e8 d cis4 cis8 d
+		d a r4 r d
+		h8 h r4 r8 c c8. d16 %5
+		b8 b g'4. b,8 b a16 g
+		a8 a r4 r2
+		R1*2 \bar "||" %9 finis
 	}
 }
 
 StillateMariaMagdalenaLyrics = \lyricmode {
-	
+	Stil -- la -- te, stil --
+	la -- te_a -- ma -- rae la -- cry -- mae,
+	pe -- ctus meum ir -- ri --
+	ga -- te. O_an --
+	gu -- stiae! O Je -- su_a -- %5
+	ma -- te, quan -- do sa -- tis plo --
+	ra -- bo? %7 finis
 }
 
 % MariaMagdalenaNotes = {

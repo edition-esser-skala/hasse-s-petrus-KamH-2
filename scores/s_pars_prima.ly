@@ -436,7 +436,7 @@
 		\header {
 			movement = "10 STILLATE AMARAE LACRYMAE"
 		}
-		\paper { systems-per-page = #3 }
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new ChoirStaff <<
