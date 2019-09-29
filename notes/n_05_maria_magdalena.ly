@@ -284,12 +284,244 @@ JesuMeaPaxMariaMagdalenaNotes = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 2/2 \autoBeamOff \tempoJesuMeaPax
-		
+		R1*10 \bar "S-|" %10
+		\appoggiatura g''16 f8([ es16 d)] d2 \appoggiatura f16 es8 d16([ c)]
+		\appoggiatura c4 b2 r4 g'
+		\appoggiatura f8 es4^\critnote d r2
+		c8([ d)] d es \appoggiatura f16 es8([ d)] \appoggiatura es16 d8([ c)]
+		d8.([\trill es16)] f4 r2 %15
+		c8([ es)] es g \appoggiatura g16 f8([ es16 d] \appoggiatura f16 es8) d16([ c)]
+		\appoggiatura es d8([ c16 b)] b4 r2
+		R1*6 %23
+		r4 c f2~
+		f8([ d)]\trill es4 r c %25
+		c8([ as')] g f es16([ d c8)] d4\trill
+		c2 r
+		R1
+		r2 g'~
+		g4 b,8. b16 \appoggiatura b4 a4. g'8 %30
+		fis16([ e d8)] d4 r d
+		es8([ d)] d([ cis)] es([ d)] d([ cis)]
+		\appoggiatura cis?4 d2 r
+		r es
+		\appoggiatura es16 d8([ c16 d] \appoggiatura f es8) d16([ c)] \appoggiatura b4 a4. g8 %35
+		g2 r
+		r4 es'~ es8.([ f32 g)] f8 es
+		es d r4 r f
+		f e r2
+		c~ c8([ b)] a g %40
+		c2~ c8[ b a g]\trill
+		a-! a4( c8) b-! b4( d8)
+		c-! c4( es8) d-! d4( f8)
+		e16[ d c8] c2 r4
+		f1~ %45
+		f
+		e8([ f g a)] b([ g a f)]
+		e([ c)]\trill d([ b)]\trill c([ a)]\trill b([ g)]\trill
+		a-! c4( d32[ c b a]) g8-![ a-!] b4\trill
+		a8-! c4( d32[ c b a]) g8-![ a-!] b4\trill %50
+		a16([ a' g f)] e([ d)] c([ b)] a8.([\trill b16)] \appoggiatura a8 g4
+		f r r2
+		R1*8 %60
+		\appoggiatura g'16 f8([ es16 d)] d2 \appoggiatura f16 es8 d16([ c)]
+		\appoggiatura c4 b2 r4 g'
+		\appoggiatura f8 es4 d r2
+		c8([ es)] es g \appoggiatura g16 f8([ es16 d] \appoggiatura f es8) d16([ c)]
+		\appoggiatura c8 d4 c c4.( d16[ es)] %65
+		d8([ g)] \appoggiatura f16 es8^\critnote d16([ c)] b8.([\trill c16)] \appoggiatura b8 a4
+		g2 r
+		R1
+		r2 es'~
+		es8([ c)]\trill des f, \appoggiatura f4 es4. des'8 %70
+		des? c r as' \appoggiatura g4 f4. es8
+		\appoggiatura f8 es4 d r b
+		f'8( es4) d8 f([ es)] es([ d)]
+		g f16([ es)] d([ c)] b([ as)] g8.([ as16)] \appoggiatura g8 f4
+		es r r g' %75
+		\appoggiatura c,8 h4 c r2
+		r d4~ d16[( es32 f)] es16 d
+		\appoggiatura es8 d4 c r2
+		d2~ d8([ c)] b a\trill
+		f'2~ f8[( es d c])\trill %80
+		d-! d4( f8) r b,4( as8)\trill
+		g-! es'4( g8) r c,16.([ d32)] c8[ b]
+		\appoggiatura c b4 a r2
+		R1
+		c~ %85
+		c8([ es)] d([ f)] es([ g)] \grace f16 es8([ \grace d16 c8)]
+		d-! d4( es32[ d c b)] a8-![ b-!] c4\trill
+		b8-! f'4( g32[ f es d)] c8[-! d-!] es4\trill
+		\once \slurDashed d8[( b']) \appoggiatura a16 g8^\critnote f16([ es)] d8.([ es16)] \appoggiatura d8 c4
+		b r c~ c8.([ des32 es)] %90
+		des4 r c~ c16([ des32 es)] des16 c
+		des([ es)] f8 r r16 des c4~ c8.([ des32 es)]
+		des4 f~ f8([ des)] \appoggiatura c b4
+		r2 r4 des?
+		<< \context Voice = "MariaMagdalena" { \voiceOne d!2\fermata \oneVoice } \\ { b } >> c %95
+		b4 r r2
+		R1*3 \noBreak
+		R1\fermataMarkup \bar "||" %100
+		\time 3/4 \tempoJesuMeaPaxB
+			\set Timing.measurePosition = #(ly:make-moment -1/4) d4
+			d( c) b \noBreak
+		c b a
+		b( c) d
+		es2.(
+		d4) c b %105
+		c \appoggiatura b a2
+		b4( c) d
+		es2.(
+		d4) c b
+		c \appoggiatura c b2 %110
+		b4 a r
+		c2.
+		b4 a b
+		c \appoggiatura c b2
+		b4 a r %115
+		r r d,
+		\appoggiatura d'16 c8([ h)] c2
+		c4 c c
+		\appoggiatura d16 c8([ h)] c2
+		c2. %120
+		c8.([ d16] es4) d
+		c \appoggiatura b a2
+		g r4
+		cis2.
+		d4 e f %125
+		f( e) d
+		d cis r
+		r r a
+		g'2.
+		f %130
+		es!
+		\appoggiatura d4 cis2.
+		\appoggiatura cis?4 d2.
+		r4 r d,
+		g'2. %135
+		f
+		e
+		\appoggiatura d4 cis2.\fermata
+		\time 2/2 \tempoJesuMeaPaxC d4 r r2
+		R1*3 \bar "S-S" %142 finis
 	}
 }
 
 JesuMeaPaxMariaMagdalenaLyrics = \lyricmode {
+	Je -- su, me -- a %11
+	pax, mea
+	vi -- ta,
+	dul -- cis Re -- dem -- ptor
+	me -- us, %15
+	dul -- cis Re -- dem -- ptor
+	me -- us.
 	
+	Pec -- can -- %25
+	do, pec -- %25
+	can -- do oc -- ci -- di
+	te.
+	
+	spi --
+	nis per me con -- %30
+	fi -- xus, et
+	cru -- ci -- fi -- xus
+	es,
+	et
+	cru -- ci -- fi -- xus %35
+	es.
+	A -- ni -- ma
+	me -- a, quid
+	ceſ -- sas?
+	Plan -- ge tur -- %40
+	ba --
+	_ _ _ _
+	_ _ _ _
+	_ ta,
+	plan -- %45
+	
+	_ _
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _ %50
+	_ [ge] tur -- ba -- ta_in
+	me.
+	
+	Je -- su, me -- a %61
+	pax, mea
+	vi -- ta,
+	dul -- cis Re -- dem -- ptor
+	me -- us, pec -- %65
+	can -- do oc -- ci -- di
+	te.
+	
+	spi -- %69
+	nis per me con -- %70
+	fi -- xus, et cru -- ci --
+	fi -- xus, et
+	cru -- ci -- fi -- xus
+	es, et cru -- ci -- fi -- xus
+	es. Quid %75
+	ceſ -- sas,
+	a -- ni -- ma
+	me -- a?
+	Plan -- ge tur --
+	ba -- %80
+	_ _ _
+	_ _ _ _
+	_ [ta,]
+	
+	plan -- %85
+	_ _ _
+	_ _ _ _
+	_ _ _ _
+	_ [ge] tur -- ba -- ta_in
+	me, plan -- %90
+	ge, a -- ni -- ma
+	me -- a, tur -- ba --
+	ta plan -- ge,
+	tur -- 
+	ba -- ta_in %95
+	me.
+	
+	Cle -- %100
+	men -- tia
+	tu -- a_in -- fi --
+	ni -- ta
+	par --
+	ce do -- %105
+	len -- ti,_o
+	De -- us,
+	par --
+	ce do --
+	len -- ti,_o %110
+	De -- us,
+	si
+	re -- um, si
+	ti -- bi_in --
+	gra -- tum, %115
+	si
+	re -- um,
+	si ti -- bi_in --
+	gra -- tum,
+	er -- %120
+	ra -- vit
+	cor in
+	se,
+	si
+	re -- um, si %125
+	ti -- bi_in --
+	gra -- tum,
+	er --
+	ra --
+	vit %130
+	cor
+	in
+	se,
+	si_er --
+	ra -- %135
+	vit
+	cor
+	in
+	se. %139 finis
 }
 
 % MariaMagdalenaNotes = {

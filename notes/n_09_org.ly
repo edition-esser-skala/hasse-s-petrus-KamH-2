@@ -1600,7 +1600,7 @@ JesuMeaPaxOrgano = {
 		b c d es
 		f es f f, \noBreak
 		b r b'8. f16 d8.[ f16] \bar "S-|" %10
-		b,4\p b f' f \noBreak
+		\grace s16 b,4\p b f' f \noBreak
 		g g r es
 		f b, r2
 		es4 es f f

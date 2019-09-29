@@ -465,12 +465,243 @@ JesuMeaPaxPetrusNotes = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 2/2 \autoBeamOff \tempoJesuMeaPax
-		
+		R1*10 \bar "S-|" %10
+		\grace s16 R1*7 %17
+		\appoggiatura d'16 c8([ b16 a)] a2 \appoggiatura c16 b8 a16([ g)]
+		\appoggiatura g4 f2 r4 d'
+		\appoggiatura c8 b4 a r c, %20
+		g'8([ a)] a([ b)] \appoggiatura c16 b8([ a)] a([ g)]
+		a8.([\trill b16)] c4 r c,
+		g'8([ b)] b([ d)] \appoggiatura d16 c8([ b16 a] \appoggiatura c b8) a16([ g)]
+		\appoggiatura b a8([ g16 f)] f4 r f
+		h c r g %25
+		as8([ h)] c d g,4 h
+		c2 r4 c
+		c4. es,8 \appoggiatura es4 d4. c'8
+		b16([ a g8)] g4 r2
+		R1*3 %32
+		r2 r4 g
+		as8([ g)] g([ fis)] as([ g)] g([ fis)]
+		g4( \appoggiatura d'16 c8) b16([ a)] \appoggiatura g4 fis4. g8 %35
+		g4 b~ b8.([ c32 d)] c8 b
+		b a r4 r2
+		r r4 a4
+		a g r2
+		a2~ a8([ g)] f e %40
+		a2~ a8[ g f e]\trill
+		f-! f4( a8) g-! g4( b8)
+		a-! a4( c8) b-! b4( a8)
+		g16([ f e8)] e2 r4
+		R1 %45
+		g~
+		g8([ a b c)] d([ e f h,)]
+		c([ a)]\trill b([ g)]\trill a([ f)]\trill g([ e)]\trill
+		f-! a4( b32[ a g f]) e8-![ f-!] g4\trill
+		f8-! a4( b32[ a g f]) e8-![ f-!] g4\trill %50
+		f16([ f' e d)] c([ b)] a([ g)] f8.([\trillE g16)] \appoggiatura f8 e?4
+		f r r2
+		R1*3 %55
+		\appoggiatura d'16 c8([ b16 a)] a2 \appoggiatura c16 b8 a16([ g)]
+		\appoggiatura g4 f2 r4 d'
+		\appoggiatura c8 b4 a r c,
+		g'8([ b)] b([ d)] \appoggiatura d16 c8([ b16 a] \appoggiatura c16 b8) a16([ g)]
+		\appoggiatura b a8([ g16 f)] f4 r2 %60
+		R1*3
+		r2 r4 a
+		b a a4.( b16[ c)] %65
+		b8[ b]\trill \appoggiatura d16 c8 b16([ a)] g8.([\trill a16)] \appoggiatura g8 fis4
+		g2 r4 r8 b
+		b16([ g] as4) c,8 \appoggiatura c4 b4. as'8
+		as?4 g r2
+		R1 %70
+		r4 r8 c \appoggiatura b4 as4. g8
+		\appoggiatura as?8 g4 f r d
+		as'8( g4) f8 as([ g)] g([ f)]
+		es'8 d16([ c)] b([ as)] g([ f)] es8.([ f16)] \appoggiatura es8 d4
+		es4 r r2 %75
+		r2 r4 f8.([ b16)]
+		\appoggiatura f8 es4 d b'~ b16([ c32 d)] c16 b
+		\appoggiatura c8 b4 a r2
+		f~ f8([ es)] d c\trill
+		d'2~ d8([ c b a)]\trill %80
+		b-! b4( as8) r g4( f8)\trill
+		es-! g4( b8) r es,16.([ f32)] es8[ d]
+		\appoggiatura es d4 c r2
+		b'1~
+		b %85
+		a8([ c)] b([ d)] c([ es)] \grace d16 c8([ \grace b16 a8)]
+		b-\parenthesize-! f4( g32[ f es d)] c8-![ d-!] es4\trill
+		d8-! d'4( es32[ d c b)] a8-![ b-!] c4\trill
+		b8([ d)] \appoggiatura f16 es8^\critnote d16([ c)] b8.([ c16)] \appoggiatura b8 a4
+		b4 r a~ a8.([ b32 c)] %90
+		b4 r a~ a16([ b32 c)] b16 a
+		b([ c)] des8 r r16 b a4~ a8.([ b32 c)]
+		b4 b2 b4
+		r2 r4 b
+		b2\fermata a %95
+		b4 r r2
+		R1*3 \noBreak
+		R1\fermataMarkup \bar "||" %100
+		\time 3/4 \tempoJesuMeaPaxB
+			\set Timing.measurePosition = #(ly:make-moment -1/4) f4
+			f( es) d \noBreak
+		es d c
+		d( es) f
+		g2.(
+		f4) es d %105
+		es \appoggiatura d c2
+		d4( es) f
+		g2.(
+		f4) es d
+		es \appoggiatura es d2 %110
+		d4 c r
+		es2.
+		d4 fis g
+		a \appoggiatura a g2
+		g4 fis r %115
+		r r d
+		a' a2
+		a4 a a
+		a a2
+		a2. %120
+		a8.([ g16] fis4) g
+		a \appoggiatura g fis2
+		g r4
+		b2.
+		a4 g a %125
+		b2 b4
+		b a r
+		r r a
+		b2.
+		a %130
+		g
+		\appoggiatura f4 e?2.
+		d
+		r4 r d
+		b'2. %135
+		a
+		g
+		\appoggiatura f4 e2.\fermata
+		\time 2/2 \tempoJesuMeaPaxC d4 r r2
+		R1*3 \bar "S-S" %142 finis
 	}
 }
 
 JesuMeaPaxPetrusLyrics = \lyricmode {
+	Je -- su, me -- a %18
+	spes, mea
+	vi -- ta, coe -- %20
+	le -- stis a -- mor
+	me -- us, coe --
+	le -- stis a -- mor
+	me -- us, pec --
+	can -- do, pec -- %25
+	can -- do oc -- ci -- di
+	te. Per
+	me fla -- gel -- lis
+	cae -- sus,
 	
+	et %33
+	cru -- ci -- fi -- xus,
+	cru -- ci -- fi -- xus %35
+	es. A -- ni -- ma
+	me -- a,
+	quid
+	ceſ -- sas?
+	Plan -- ge tur -- %40
+	ba --
+	_ _ _ _
+	_ _ _ _
+	_ ta,
+	%45
+	plan --
+	_
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _ %50
+	_ [ge] tur -- ba -- ta_in
+	me.
+	
+	Je -- su, me -- a %56
+	spes, mea
+	vi -- ta, coe --
+	le -- stis a -- mor
+	me -- us. %60
+	
+	Pec -- %64
+	can -- do, pec -- %65
+	can -- do oc -- ci -- di
+	te. Per
+	me __ fla -- gel -- lis
+	cae -- sus,
+	%70
+	et cru -- ci --
+	fi -- xus, et
+	cru -- ci -- fi -- xus
+	es, et cru -- ci -- fi -- xus
+	es. %75
+	Quid
+	ceſ -- sas, a -- ni -- ma
+	me -- a?
+	Plan -- ge tur --
+	ba -- %80
+	_ _ _
+	_ _ _ _
+	_ [ta,]
+	plan --
+	%85
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _
+	_ [ge] tur -- ba -- ta_in
+	me, plan -- %90
+	ge, a -- ni -- ma
+	me -- a, tur -- ba --
+	ta plan -- ge,
+	tur -- 
+	ba -- ta_in %95
+	me.
+	
+	Cle -- %100
+	men -- tia
+	tu -- a_in -- fi --
+	ni -- ta
+	par --
+	ce do -- %105
+	len -- ti,_o
+	De -- us,
+	par --
+	ce do --
+	len -- ti,_o %110
+	De -- us,
+	si
+	re -- um, si
+	ti -- bi_in --
+	gra -- tum, %115
+	si
+	re -- um,
+	si ti -- bi_in --
+	gra -- tum,
+	er -- %120
+	ra -- vit
+	cor in
+	se,
+	si
+	re -- um, si %125
+	ti -- bi_in --
+	gra -- tum,
+	er --
+	ra --
+	vit %130
+	cor
+	in
+	se,
+	si_er --
+	ra -- %135
+	vit
+	cor
+	in
+	se. %139 finis
 }
 
 % PetrusNotes = {
