@@ -227,6 +227,7 @@ tempoPiaeMulieres = \tempoMarkup "[Tempo deest]"
 	tempoPiaeMulieresF = \tempoMarkup "Adagio sempre" %37
 tempoSiDeoDilectae = \tempoMarkup "Andantino"
 tempoStillate = \tempoMarkup "[Tempo deest]"
+tempoJesuMeaPax = \tempoMarkup "Lento"
 
 
 

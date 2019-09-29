@@ -432,38 +432,86 @@
 % 			\midi { \tempo 2 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "10 STILLATE AMARAE LACRYMAE"
+% 		}
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Maria" "Magdalena" } }
+% 						\new Voice = "MariaMagdalena" { \dynamicUp \StillateMariaMagdalenaNotes }
+% 					}
+% 					\new Lyrics \lyricsto MariaMagdalena \StillateMariaMagdalenaLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Petrus"
+% 						\new Voice = "Petrus" { \dynamicUp \StillatePetrusNotes }
+% 					}
+% 					\new Lyrics \lyricsto Petrus \StillatePetrusLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\StillateOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\StillateBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "10 STILLATE AMARAE LACRYMAE"
+			movement = "11 JESU MEA PAX"
 		}
-		\paper { systems-per-page = #2 }
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\JesuMeaPaxViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\JesuMeaPaxViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+							\JesuMeaPaxViola
+					}
+				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Maria" "Magdalena" } }
-						\new Voice = "MariaMagdalena" { \dynamicUp \StillateMariaMagdalenaNotes }
+						\new Voice = "MariaMagdalena" { \dynamicUp \JesuMeaPaxMariaMagdalenaNotes }
 					}
-					\new Lyrics \lyricsto MariaMagdalena \StillateMariaMagdalenaLyrics
+					\new Lyrics \lyricsto MariaMagdalena \JesuMeaPaxMariaMagdalenaLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Petrus"
-						\new Voice = "Petrus" { \dynamicUp \StillatePetrusNotes }
+						\new Voice = "Petrus" { \dynamicUp \JesuMeaPaxPetrusNotes }
 					}
-					\new Lyrics \lyricsto Petrus \StillatePetrusLyrics
+					\new Lyrics \lyricsto Petrus \JesuMeaPaxPetrusLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\StillateOrgano
+						\JesuMeaPaxOrgano
 					}
 				>>
 				\new FiguredBass {
-					\StillateBassFigures
+					\JesuMeaPaxBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 }

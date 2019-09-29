@@ -733,3 +733,11 @@ SiDeoDilectaeViolinoII = {
 		cis8) r r4 r2 \bar "S-S" %117 finis
 	}
 }
+
+JesuMeaPaxViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 2/2 \tempoJesuMeaPax
+		
+	}
+}

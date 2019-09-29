@@ -734,6 +734,14 @@ SiDeoDilectaeViolinoI = {
 	}
 }
 
+JesuMeaPaxViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 2/2 \tempoJesuMeaPax
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

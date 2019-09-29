@@ -280,6 +280,18 @@ StillateMariaMagdalenaLyrics = \lyricmode {
 	ra -- bo? %7 finis
 }
 
+JesuMeaPaxMariaMagdalenaNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 2/2 \autoBeamOff \tempoJesuMeaPax
+		
+	}
+}
+
+JesuMeaPaxMariaMagdalenaLyrics = \lyricmode {
+	
+}
+
 % MariaMagdalenaNotes = {
 % 	\relative c' {
 % 		\clef treble

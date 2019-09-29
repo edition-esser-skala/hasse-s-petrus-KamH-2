@@ -461,6 +461,18 @@ StillatePetrusLyrics = \lyricmode {
 	va -- bo? %9 finis
 }
 
+JesuMeaPaxPetrusNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 2/2 \autoBeamOff \tempoJesuMeaPax
+		
+	}
+}
+
+JesuMeaPaxPetrusLyrics = \lyricmode {
+	
+}
+
 % PetrusNotes = {
 % 	\relative c' {
 % 		\clef treble

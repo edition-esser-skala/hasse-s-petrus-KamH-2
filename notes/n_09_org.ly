@@ -1586,6 +1586,18 @@ StillateBassFigures = \figuremode {
 	r2 r8 <2> <6-> <6 _-> %9 finis
 }
 
+JesuMeaPaxOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 2/2 \tempoJesuMeaPax
+		b4\fE b f' f
+	}
+}
+
+JesuMeaPaxBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

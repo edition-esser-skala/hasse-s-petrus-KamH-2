@@ -734,3 +734,11 @@ SiDeoDilectaeViola = {
 		a8) r r4 r2 \bar "S-S"
 	}
 }
+
+JesuMeaPaxViola = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 2/2 \tempoJesuMeaPax
+		
+	}
+}
