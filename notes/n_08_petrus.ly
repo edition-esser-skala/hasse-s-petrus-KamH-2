@@ -438,6 +438,18 @@ PiaeMulieresPetrusLyrics = \lyricmode {
 	_ cry -- mae stil -- la -- te. %47 finis
 }
 
+StillatePetrusNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoStillate
+		
+	}
+}
+
+StillatePetrusLyrics = \lyricmode {
+	
+}
+
 % PetrusNotes = {
 % 	\relative c' {
 % 		\clef treble

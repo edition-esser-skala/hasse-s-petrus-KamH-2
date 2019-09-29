@@ -255,6 +255,18 @@ PiaeMulieresMariaMagdalenaLyrics = \lyricmode {
 	_ cry -- mae stil -- la -- te. %47 finis
 }
 
+StillateMariaMagdalenaNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoStillate
+		
+	}
+}
+
+StillateMariaMagdalenaLyrics = \lyricmode {
+	
+}
+
 % MariaMagdalenaNotes = {
 % 	\relative c' {
 % 		\clef treble

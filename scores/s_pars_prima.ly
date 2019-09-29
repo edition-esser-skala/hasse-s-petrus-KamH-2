@@ -389,47 +389,81 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "9 SI DEO DILECTAE"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\SiDeoDilectaeViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\SiDeoDilectaeViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 							\SiDeoDilectaeViola
+% 					}
+% 				>>
+% 				\new ChoirStaff \with { \smallerGroupDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Maria" "Salome" } }
+% 						\new Voice = "MariaSalome" { \dynamicUp \SiDeoDilectaeMariaSalomeNotes }
+% 					}
+% 					\new Lyrics \lyricsto MariaSalome \SiDeoDilectaeMariaSalomeLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\SiDeoDilectaeOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\SiDeoDilectaeBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "9 SI DEO DILECTAE"
+			movement = "10 STILLATE AMARAE LACRYMAE"
 		}
+		\paper { systems-per-page = #3 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\SiDeoDilectaeViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\SiDeoDilectaeViolinoII
-						}
-					>>
+				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Viola"
-							\SiDeoDilectaeViola
+						\set Staff.instrumentName = \markup { \center-column { "Maria" "Magdalena" } }
+						\new Voice = "MariaMagdalena" { \dynamicUp \StillateMariaMagdalenaNotes }
 					}
-				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
+					\new Lyrics \lyricsto MariaMagdalena \StillateMariaMagdalenaLyrics
+					
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Maria" "Salome" } }
-						\new Voice = "MariaSalome" { \dynamicUp \SiDeoDilectaeMariaSalomeNotes }
+						\set Staff.instrumentName = "Petrus"
+						\new Voice = "Petrus" { \dynamicUp \StillatePetrusNotes }
 					}
-					\new Lyrics \lyricsto MariaSalome \SiDeoDilectaeMariaSalomeLyrics
+					\new Lyrics \lyricsto Petrus \StillatePetrusLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\SiDeoDilectaeOrgano
+						\StillateOrgano
 					}
 				>>
 				\new FiguredBass {
-					\SiDeoDilectaeBassFigures
+					\StillateBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 2 = 90 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

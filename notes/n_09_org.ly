@@ -1558,6 +1558,18 @@ SiDeoDilectaeBassFigures = \figuremode {
 	<5 3> %117 finis
 }
 
+StillateOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoStillate
+		gis'1~\pE
+	}
+}
+
+StillateBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
