@@ -740,5 +740,148 @@ JesuMeaPaxViola = {
 		\clef treble
 		\key b \major \time 2/2 \tempoJesuMeaPax
 		\grace s16 f4\fE f2 es4
+		d-! d-! r g,
+		a b d8([ c)] c( f,)
+		g4 g' f f
+		f8-! b,[-! f-! b-!] f2 %5
+		r8 b-!\p f-! b-! f4. es'8\f
+		d4 f g es
+		d es f8 b4 g8
+		f f4 g16( es) \appoggiatura d4 c2 \noBreak
+		d4 r b8.[ f16] d8. f16 \bar "S-|" %10
+		\grace s16 f4\pE f'2 es4 \noBreak
+		d-! d-! r g,
+		a b d8([ c)] c( b)
+		g4 g f f
+		f2 r %15
+		g'4 g f f
+		\appoggiatura g16 f8([^\critnote es16 d)] \appoggiatura es d8( c16\fE b) a4 b
+		c\pE c2 b4
+		a-! a-! r d
+		e f r f, %20
+		d' d c c
+		c r r f,
+		d' d r c
+		c a r c
+		d c8 r16 c32\fE d es8.(\trill d32 c) es8.(\trill d32 c) %25
+		c8 d([\pE es f)] g4 g
+		g8 g([ es\pocoF d)] c([ es)] c( b)
+		a!4 a'\p a a
+		r8 d, b([\pocoF a)] g([ b)] g( f)
+		e!4 e'\p e e %30
+		d d r8 d( e fis)
+		g4 g g g
+		fis8 d( e fis) g b,( c d)
+		es4 es es c
+		d es d d %35
+		d d c c
+		f f f f
+		f b, r d
+		c8.[ c16] c8 r16 g'\fE g4 r
+		r8 f,-!\pE c-! f-! c2 %40
+		r8 f-!\fE c-! f-! c2\pE
+		f4 f' f f
+		f f f b,
+		c g' g g
+		c, c c c %45
+		des des d d
+		\once \slurDashed c(-.\pocoFE c-. c-. c-.)
+		c(-.\pE c-. c-. c-.)
+		c8-! r f,-! r r4 g'\fE
+		f8\pE r r4 r e %50\fE
+		f r8 d c4 b
+		a8-! f[-!\ffE c-! f-!] <c c'>2~
+		q8 f[-! c-! f-!] <c c'>4. b''8
+		a4 b c8 d16( b) \appoggiatura a8 g4
+		a r f8.[ c16] a8. c16 %55
+		c4\pE c2 b4
+		a a r d
+		e f f,2
+		d'4 d c c
+		c a8. b16 a8( g f es!) %60
+		d4 f'2 es4
+		d d r b
+		a b d8([ c)] c( b)
+		g4 g r f
+		f f r fis' %65
+		g4. es8 d4 d
+		r8 es(\fE d c) b-! b( a g)
+		c4-! c\p d f
+		b, b b g'
+		f f r8 es(-. es-. es-.) %70
+		es4 es c c
+		r8 b(-. b-. b-.) b(-. b-. b-. b-.)
+		b4 b b b
+		es\fE r8 c\pE b4 as
+		g8 r16 es'\fE es8.[ es16] es4-! r %75
+		f\p g r d
+		c b r f'
+		f8.[ f16] f8^\critnote r16 a\fE a4-! r
+		r8 b,-!\pE f-! b-! f2-\tenutoE
+		r8 b-\parenthesize-!\fE f-\parenthesize-! b-\parenthesize-! \mvTr f2\pE-\tenuto %80
+		b4 b b b
+		b r es r
+		r8 f4\pocoFE f f f8
+		f4 f\pE f f
+		ges ges\pocoFE g g %85
+		f-!\pE f-! f-! f-!
+		f8-! r b,-! r r4 a\fE
+		b8-\parenthesize-!\pE r b-\parenthesize-! r r4 c'\fE
+		b8-! r r g\pE f4( es)
+		d8 b[-!\fE f-! b-!] \mvTr f2\pE-\tenutoE %90
+		r8 b-!\fE f-! b-! f2\pE
+		r8 b-!\fE f-! b-! f2\pE
+		b4 des f\fE f
+		ges ges g g
+		f1\fermata %95
+		b,8 b[-\parenthesize-!\ffE f-\parenthesize-! b-\parenthesize-!] f4. es'8
+		d4 f g es
+		d es f16( b) b4 b16( g)
+		f8-! f4 g16( es) \appoggiatura d4 c2 \noBreak
+		d4 <b d>8. q16 a4 r\fermata \bar "||" %100
+		\time 3/4 \tempoJesuMeaPaxB
+			\set Timing.measurePosition = #(ly:make-moment -1/4) r4 \noBreak
+			f'2.\pE \noBreak
+		f
+		f4( es d)
+		c2.\fE
+		d4( es f) %105
+		f2.~
+		f4( es d)
+		c2.\fE
+		d4(\pE es f)
+		g2. %110
+		f4( c b)
+		a2.\fE
+		b4(\pE c d)
+		es2.
+		d2 a4 %115
+		fis( a) d~
+		d es( d)
+		es( d es)
+		d(\fE es d)
+		es(\pE d es) %120
+		d( c b)
+		c d2
+		g,2.\pocoFE
+		g'
+		f4(\pE e d) %125
+		d( e f)
+		e4. a8\fE cis,8. e16
+		a,4 r r
+		b'2.
+		a\pE %130
+		g
+		\appoggiatura f4 e2.
+		d4 b' b,
+		b2 r4
+		r e\fE e %135
+		r f f
+		g2.\pE
+		\appoggiatura f4 e2.\fermata
+		\time 2/2 \tempoJesuMeaPaxC d4\fE a' c! c
+		f, es! f16( b) b4 b16( g) %140
+		f8 f4 g8 \appoggiatura d4 c2
+		d4 r b8.[ f16] d8. f16 \bar "S-S" %142 finis
 	}
 }
