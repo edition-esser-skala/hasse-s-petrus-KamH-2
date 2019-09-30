@@ -478,7 +478,7 @@ JesuMeaPaxPetrusNotes = {
 		as8([ h)] c d g,4 h
 		c2 r4 c
 		c4. es,8 \appoggiatura es4 d4. c'8
-		b16([ a g8)] g4 r2
+		b!16([ a g8)] g4 r2
 		R1*3 %32
 		r2 r4 g
 		as8([ g)] g([ fis)] as([ g)] g([ fis)]
@@ -519,7 +519,7 @@ JesuMeaPaxPetrusNotes = {
 		as'8( g4) f8 as([ g)] g([ f)]
 		es'8 d16([ c)] b([ as)] g([ f)] es8.([ f16)] \appoggiatura es8 d4
 		es4 r r2 %75
-		r2 r4 f8.([ b16)]
+		r2 r4 f8.([ b!16)]
 		\appoggiatura f8 es4 d b'~ b16([ c32 d)] c16 b
 		\appoggiatura c8 b4 a r2
 		f~ f8([ es)] d c\trill

@@ -769,12 +769,12 @@ JesuMeaPaxViolinoI = {
 		d4 d\pocoFE g g
 		r8 g(-.\pE g-. g-.) g(-. g-. g-. g-.) %30
 		r fis( g a) a4 d,
-		es8([ d)] d( cis) es([ d)] d( cis)
+		es!8([ d)] d( cis) es([ d)] d( cis)
 		\appoggiatura cis?4 d2~ d4 r
 		r2 es
 		d8 g( es c) \appoggiatura b4 a2 %35
 		g8 g'(-. g-. g-.) r g(-. g-. g-.)
-		r c, c( es) r es(-. es-. es-.)
+		r c, c( es!) r es(-. es-. es-.)
 		es([ d)] d( e) e([ f)] f( a,)
 		a4 g8 r16 c'\f c4 r
 		r8 \appoggiatura g,16 f32(\p e f16) c8-! \appoggiatura g'16 f32( e f16) c8-! b'( a g) %40
@@ -794,7 +794,7 @@ JesuMeaPaxViolinoI = {
 		c-! c4 d16( b) a8 b16( g) \appoggiatura f8 e4
 		f8.[ c16] a8. c16 f,4 r %55
 		\appoggiatura d'16 c8(\p b16 a) a2 \appoggiatura c16 b8( a16 g)
-		\appoggiatura g4 f4. g32( a b c d2)
+		\appoggiatura g4 f4. g32( a b c \once \stemUp d2)
 		\appoggiatura c8 b4 a c'8([ b)] b( a)
 		g4 g a b
 		a8 r f, r f4~ f16 g32( a b c d es!) %60
@@ -839,8 +839,8 @@ JesuMeaPaxViolinoI = {
 		d8-! d4 es16( c) \appoggiatura b4 a2 \noBreak
 		b8.[ f16] d8. f16 b,4 r\fermata \bar "||" %100
 		\time 3/4 \tempoJesuMeaPaxB
-			\set Timing.measurePosition = #(ly:make-moment -1/4) f''4\p
-			f( es d)
+			\set Timing.measurePosition = #(ly:make-moment -1/4) f''4\p \noBreak
+			f( es d) \noBreak
 		es( d c)
 		d( es f)
 		g2.\f

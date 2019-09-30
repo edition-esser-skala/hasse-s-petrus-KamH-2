@@ -739,5 +739,148 @@ JesuMeaPaxViolinoII = {
 		\clef treble
 		\key b \major \time 2/2 \tempoJesuMeaPax
 		\appoggiatura es'16 d8(\fE c16 b) b2 \appoggiatura d16 c8( b16 a)
+		b16.(\trill a32) b4( a32 b c d) es2
+		\appoggiatura d8 c4\trill b f8([ es)] es( d)
+		c4. c'8 \appoggiatura d16 c8([ b)] \appoggiatura c16 b8( a)
+		b \appoggiatura c16 b32( a b16) f8-! \appoggiatura c'16 b32( a b16) f8-! a32( b c16) b8 a\trill %5
+		b-\parenthesize-! \appoggiatura c16 b32([\p a b16)] f8-! \appoggiatura c'16 b32( a b16) f8-! a32([\f b c16)] b8 a\trill
+		<b f'>-\parenthesize-! f'4 es32( d c b) es16([ f)] f( g) g([ a)] a( b)
+		b32( c d16) d4 c32( b a g) f8-! f4 g16( es)
+		d8-! d4 es16( c) \appoggiatura b4 a2 \noBreak
+		b8.[ f16] d8. f16 b,4 r \bar "S-|" %10
+		\appoggiatura es'16 d8(\p c16 b) b2 \appoggiatura d16 c8( b16 a) \noBreak
+		\appoggiatura a4 b4. a32( b c d es2)
+		\appoggiatura d8 c4 b d,8([ c)] c( b)
+		b4. c8 c([ b)] b( a)
+		b8.( c16) d4 d'8([ c)] c( b) %15
+		b4 b b a
+		f4. f8\pocoF c'2
+		\appoggiatura d16 c8(\p b16 a) a2 \appoggiatura c16 b8( a16 g)
+		\appoggiatura g4 f4. e'32( f g a b2)
+		\appoggiatura a8 g4 f a,8([ g)] g( f) %20
+		f4. g8 g([ f)] f( e)
+		f8.( g16) a4 a'8([ g)] g( f)
+		f4 f f e
+		f f, r f'
+		h4 c8 r16 c,,32\f d es8.(\trill d32 c) es8.(\trill d32 c) %25
+		f8 h([\p c d)] c4 h
+		c c(-.\pocoFE c-. c-.)
+		r8 c(-.\pE c-. c-.) c(-. c-. c-. c-.)
+		b!4 b\pocoFE b b
+		r8 b(-.\pE b-. b-.) b(-. a-. a-. a-.) %30
+		a d( e fis) fis fis,( g a)
+		b4 b b b
+		a8 fis g a b r g4
+		as8([ g)] g( fis) as([ g)] g( fis)
+		g4 g \appoggiatura g fis2 %35
+		g8 b(-. b-. b-.) r b(-. b-. b-.)
+		b([ a)] a( c) c(-. c-. c-. c-.)
+		c([ b)] b( g) g([ a)] a( f)
+		f4 e8 r16 e'\f e4 r
+		r8 \appoggiatura g,16 f32(\p e f16) c8-! \appoggiatura g'16 f32( e f16) c8-! g'( f e) %40
+		a-\parenthesize-! f[\trill\f c f]\trill c e32([\p f g16)] f8 e
+		f4-\parenthesize-! f-\parenthesize-! g-\parenthesize-! g-\parenthesize-!
+		a a b d
+		g,8-! c4( e8) r c4( e8)
+		f c(-. c-. c-.) r c(-. c-. c-.) %45
+		r g(-. g-. g-.) r g(-. g-. g-.)
+		g(\pocoF a b c) d( e f h,)
+		c([\p a)] b( g) a([ f)] g( e?)
+		f r r4 r b\f
+		a8\p r r4 e'8(-. f-.) g4\f %50
+		\appoggiatura g16 f8 e16( d) c([ b)] a( g) f8.( g16) \appoggiatura f8 e4
+		f8 \appoggiatura g16 f32([\ff e f16)] c8 \appoggiatura g'16 f32( e f16) c8 e'32( f g16) f8 e\trill
+		f-\parenthesize-! \appoggiatura g,16 f32( e f16) c8 \appoggiatura g'16 f32( e f16) c8 e'32( f g16) f8 e\trill
+		c'-! c4 d16( b) a8 b16( g) \appoggiatura f8 e4
+		f8.[ c16] a8. c16 f,4 r %55
+		\appoggiatura b16 a8(\p g16 f) f2 \appoggiatura a16 g8( f16 e?)
+		\appoggiatura e?4 f4. e32( f g a \once \stemUp b2)
+		\appoggiatura a8 g4 f a'8([ g)] g( f)
+		f4 f f e
+		f8 r c, r f4.( g32 a b c) %60
+		\appoggiatura es!16 d8(^\critnote c16 b) b2 \appoggiatura d16 c8( b16 a)
+		\appoggiatura a4 b4. a32( b c d es2)
+		\appoggiatura d8 c4 b d,8([ c)] c( b)
+		b4 b2 a4
+		b a c'2 %65
+		b4 c8( a) g4 fis
+		g8 es([\f d c)] b-! b( a g)
+		c-! es'([-.\p es-. es-.)] r f(-. f-. f-.)
+		f( d es b) as( g f es)
+		as as(-. as-. as-.) r b(-. b-. b-.) %70
+		b as4 c f es8
+		es4 d! r4 f,
+		f'8( es4) d8 f([ es)] es( d)
+		es-!\f d16([\p c)] b([ as)] g( f) es4 d
+		es8 r16 g'\f g8.[-! g16] g8-\parenthesize-! r g4(\p %75
+		\grace c,8 h4) c16( d es d es[) es( f g] f) d( c b?)
+		\appoggiatura b8 a!4 b8( f) b(-. b-. b-. b-.)
+		b4 a8 r16 c\f c4-! r
+		r8 \appoggiatura c16 b32(\p a b16) f8 \appoggiatura c'16 b32( a b16) f8 c'( b a)
+		d-\parenthesize-! b[\f\trill f b]\trill f c'([\p b a)] %80
+		b-! b4( as8) r g4( f8)
+		es-\parenthesize-! g'(-. g-. g-.) r g(-. g-. g-.)
+		r f,4\pocoF a c f16( a,)
+		b4 r r8 b(-.\pE b-. b-.)
+		r c(-.\pocoF c-. c-.) c(-. c-. c-. c-.) %85
+		c4-! d!-! es-! a,-!
+		b8-! d4( es32 d c b) a8(-. b-.) c4\f
+		b8-!\p r d-! r r4 es\f
+		d8 d([\p es c)] b8.( c16) \appoggiatura b8 a4
+		b8 \appoggiatura c16 b32([\pocoF a b16)] f8 \appoggiatura c'16 b32( a b16) f8 es'([-.\p es-. es-.)] %90
+		des8-! b[\trill\fE f b]\trill f es'([-.\pE es-. es-.)]
+		des8 b[\trill\f f b]\trill f es'([-.\p es-. es-.)]
+		des \appoggiatura c16 b32( a b16) des,8-! b'-! r \appoggiatura c16 b32(\f a b16) b,8-! b'-!
+		r \appoggiatura c16 b32( a b16) b'8 b, r \appoggiatura c16 b32( a b16) c,8 b'
+		b,2\fermata a %95
+		b8 \appoggiatura c'16 b32([\ff a b16)] f8-! \appoggiatura c'16 b32( a b16) f8 a32( b c16) b8 a\trill
+		<b f'>-! f'4 es32( d c b) es16([ f)] f( g) g([ a)] a( b)
+		b32( c d16) d4 c32( b a g) f8-! f4 g16( es)
+		d8-! d4 es16( c) \appoggiatura b4 a2 \noBreak
+		b8.[ f16] d8. f16 b,4 r\fermata \bar "||" %100
+		\time 3/4 \tempoJesuMeaPaxB
+			\set Timing.measurePosition = #(ly:make-moment -1/4) d'4\p \noBreak
+			d( c b) \noBreak
+		c( b a)
+		b( c d)
+		es2.\f
+		d4(\p c b) %105
+		c \appoggiatura b a2
+		b4( c d)
+		es2.\f
+		d4(\p c b)
+		c \appoggiatura c b2 %110
+		b4( a) b
+		c2.\f
+		b4(\p a g)
+		a \appoggiatura a g2
+		g4 fis2 %115
+		a,4( d fis)
+		<fis a>2.
+		g4( fis g)
+		<fis a>2.\pocoF
+		g4(\p fis g) %120
+		<fis a>2 g4
+		a \appoggiatura g fis2
+		g2.\pocoF
+		b
+		a4(\p cis d) %125
+		b2.
+		b4 a8 \noBeam a\f cis,8. e16
+		a,4 r a'
+		e'?2.
+		d\p %130
+		b
+		a
+		d,
+		r4 r d
+		g'2.\f %135
+		f
+		e\p
+		\appoggiatura d4 cis2.\fermata
+		\time 2/2 \tempoJesuMeaPaxC d,8 f'([-.\f f-. f-.)] f16.(\trill e32 f16 g) \appoggiatura f8 es4
+		d16( d') d4 c32( b a g) f8-! f4 g16( es) %140
+		d8-! d4 es16( c) \appoggiatura b4 a2
+		b8.[ f16] d8. f16 b,4 r \bar "S-S" %142 finis
 	}
 }

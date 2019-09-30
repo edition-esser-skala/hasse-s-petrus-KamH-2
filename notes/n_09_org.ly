@@ -1691,7 +1691,7 @@ JesuMeaPaxOrgano = {
 		f es f f, \noBreak
 		b b8. b16 b4 r\fermata \bar "||" %100
 		\time 3/4 \tempoJesuMeaPaxB
-			\set Timing.measurePosition = #(ly:make-moment -1/4) r4
+			\set Timing.measurePosition = #(ly:make-moment -1/4) r4 \noBreak
 			b'2.\p^\tenuto
 		f
 		b,

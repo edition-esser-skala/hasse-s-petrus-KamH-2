@@ -306,7 +306,7 @@ JesuMeaPaxMariaMagdalenaNotes = {
 		r es
 		\appoggiatura es16 d8([ c16 d] \appoggiatura f es8) d16([ c)] \appoggiatura b4 a4. g8 %35
 		g2 r
-		r4 es'~ es8.([ f32 g)] f8 es
+		r4 es'!~ es8.([ f32 g)] f8 es
 		es d r4 r f
 		f e r2
 		c~ c8([ b)] a g %40
