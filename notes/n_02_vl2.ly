@@ -738,6 +738,6 @@ JesuMeaPaxViolinoII = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 2/2 \tempoJesuMeaPax
-		
+		\appoggiatura es'16 d8(\fE c16 b) b2 \appoggiatura d16 c8( b16 a)
 	}
 }

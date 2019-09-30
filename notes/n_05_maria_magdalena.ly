@@ -284,7 +284,7 @@ JesuMeaPaxMariaMagdalenaNotes = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 2/2 \autoBeamOff \tempoJesuMeaPax
-		R1*10 \bar "S-|" %10
+		\grace s16 R1*10 \bar "S-|" %10
 		\appoggiatura g''16 f8([ es16 d)] d2 \appoggiatura f16 es8 d16([ c)]
 		\appoggiatura c4 b2 r4 g'
 		\appoggiatura f8 es4^\critnote d r2
@@ -294,7 +294,7 @@ JesuMeaPaxMariaMagdalenaNotes = {
 		\appoggiatura es d8([ c16 b)] b4 r2
 		R1*6 %23
 		r4 c f2~
-		f8([ d)]\trill es4 r c %25
+		f8([ d)]\trill es!4 r c %25
 		c8([ as')] g f es16([ d c8)] d4\trill
 		c2 r
 		R1

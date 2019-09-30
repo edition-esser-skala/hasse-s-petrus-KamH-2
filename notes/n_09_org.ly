@@ -1590,7 +1590,7 @@ JesuMeaPaxOrgano = {
 	\relative c {
 		\clef bass
 		\key b \major \time 2/2 \tempoJesuMeaPax
-		b4\fE b f' f
+		\grace s16 b4\fE b f' f
 		g g r es
 		f b, r2
 		es4 es f f
@@ -1678,9 +1678,9 @@ JesuMeaPaxOrgano = {
 		f\p f f f
 		b8-! r b,-! r r4 f'\f
 		b8-!\p r b,-! r r4 f'\f
-		g es f f,
-		b8 b'[-! f-! b-!] f2\p^\tenuto %90
-		r8 b-\parenthesize-! f-\parenthesize-! b-\parenthesize-! f2
+		g es\pE f f,
+		b8 b'[-!\f f-! b-!] f2\p^\tenuto %90
+		r8 b-\parenthesize-!\fE f-\parenthesize-! b-\parenthesize-! f2\pE
 		r8 b-\parenthesize-!\f f-\parenthesize-! b-\parenthesize-! f2\p
 		b,4 b des\f des
 		es es e e

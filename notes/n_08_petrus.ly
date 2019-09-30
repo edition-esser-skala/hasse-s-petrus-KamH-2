@@ -465,7 +465,7 @@ JesuMeaPaxPetrusNotes = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 2/2 \autoBeamOff \tempoJesuMeaPax
-		R1*10 \bar "S-|" %10
+		\grace s16 R1*10 \bar "S-|" %10
 		\grace s16 R1*7 %17
 		\appoggiatura d'16 c8([ b16 a)] a2 \appoggiatura c16 b8 a16([ g)]
 		\appoggiatura g4 f2 r4 d'

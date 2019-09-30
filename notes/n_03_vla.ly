@@ -739,6 +739,6 @@ JesuMeaPaxViola = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 2/2 \tempoJesuMeaPax
-		
+		\grace s16 f4\fE f2 es4
 	}
 }
