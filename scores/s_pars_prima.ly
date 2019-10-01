@@ -518,7 +518,10 @@
 		\header {
 			movement = "12 INEFFABILE EXCELSUM"
 		}
-		\paper { indent = 3\cm }
+		\paper {
+			indent = 3\cm
+			systems-per-page = #3
+		}
 		\score {
 			<<
 				\new ChoirStaff <<

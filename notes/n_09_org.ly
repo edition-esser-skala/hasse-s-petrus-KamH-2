@@ -1913,7 +1913,29 @@ IneffabileOrgano = {
 }
 
 IneffabileBassFigures = \figuremode {
-	
+	<6>1
+	r
+	<_->
+	<6>
+	<5-> %5
+	r
+	<4!>
+	r2 <6>
+	r1
+	<7-> %10
+	r2 <4\+>
+	r <6>
+	r1
+	<6+>
+	<_-> %15
+	<4!>
+	<_+>
+	r
+	r2 <6>
+	<6 5>1 %20
+	r8 <1>16. q32 q16. q32 q16. q32 <6>2
+	r1
+	r %23 finis
 }
 
 % Organo = {
