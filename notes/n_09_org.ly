@@ -2031,12 +2031,12 @@ OPortentaOrgano = {
 		b a r4 r r8 as
 		as g r4 r8 ges ges ges
 		r f f f f f f f
-		b,\f c d c b c d c
+		b,\f c d c b c d c %90
 		b c d es f2\fermata
 		b8\f b g g e e e e
 		f f d d h h h h
 		c b a b c b c c,
-		f f f f f2 \bar "S-S"
+		f f f f f2 \bar "S-S" %95 finis
 	}
 }
 
