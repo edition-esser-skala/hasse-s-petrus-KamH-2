@@ -1887,6 +1887,28 @@ IneffabileOrgano = {
 		\clef bass
 		\key c \major \time 4/4 \tempoIneffabile
 		fis1~\pE
+		fis
+		g
+		e~
+		e2 f~ %5
+		f1~
+		f2 r4 g
+		c,2 cis~
+		cis1~
+		cis2 d~ %10
+		d c!~
+		c b~
+		b1
+		a
+		g %15
+		f'!
+		e
+		a~
+		a2 fis~
+		fis g %2ß
+		\tempoIneffabileB r8 g16. a32 g16. e32 f16. d32 e2
+		f1
+		r4 g c, r \bar "|." %23 finis
 	}
 }
 
