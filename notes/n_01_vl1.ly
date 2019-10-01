@@ -889,7 +889,101 @@ OPortentaViolinoI = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 4/4 \tempoOPortenta
-		
+		c'2\fE c
+		f f,4 r8 a
+		g16 b( c d) c f( g a) \appoggiatura c,4 b2
+		\appoggiatura b8 a4 r8-\critnote r64 f( g a b c d e) f4 f,
+		f8\trill e r r64 c( d e f g a h) c4 es, %5
+		es?8\trill d r r64 b( c d es f g a) b8-! b-! b-! b-!
+		b'32([ g16.)] e!32([ c16.)] f32([ c16.)] d32([ g,16.)] a8.\trill b16 \appoggiatura a8 g4
+		f8-! c-! r r64 f(\p g a b c d e) f4 f,
+		f8\trill e r r64 c( d e f g a h) c4 es,
+		es8\trill d r r64 b(\f c d es f g a) b8-! b-! b-! b-! %10
+		e!32([ c16.)] \appoggiatura d16 c32([ h c16)] g'32( c,16.) c8\trill f32( c16.) c8\trill b'32( c,16.) c8\trill
+		a'32( c,16.) c8\trill e32( c16.) c8\trill f32( c16.) c8\trill b'32( c,16.) c8\trill
+		a'32([ f16.)] g32[( e16.)] f32([ c16.)] d32([ b16.)] a8.(\trill b16) \appoggiatura a8 g4
+		f16 a( g f) e( f) e( f) c-! a'( g f) e( f) e( f)
+		c2 b\trill \noBreak %15
+		\appoggiatura b a1 \bar "S-|"
+		c'2\p c \noBreak
+		f f,4 r8 a
+		g16 b( c d) c f( g a) \appoggiatura c,4 b2
+		\appoggiatura b8 a4 r8-\critnote r64 f(\f g a b c d e) f4 f,\p %20
+		f8\trill e r r64 c(\fE d e f g a h) c4 es,\pE
+		es8\trill d r r64 b!(\fE c d es f g a) b8-! b-!\pE b-! b-!
+		g'4 b, a( b8) a
+		a g r32 c,(\f d e f g a h) c2\p
+		c16(\f d,) d8~ d16 e32(\p f g a h c) d2 %25
+		d16(\fE e,) e8~ e16 f32(\p g a h c d) e2
+		e16(\fE f,) f8~ f16 g32(\pE a b c d e) f2
+		g,16( h d f) f( e) e( d) g,( c e g) g( f) f( e)
+		g,( h d f) f( e) e( d) g,( c e g) g( f) f( e)
+		\appoggiatura f e8( d) r4 <c, g' c e>8\pocoF r r4 %30
+		\mvDll <g d' h' g'>8\f r r4 <g e' c' g'>8 r r4
+		r8 <g d' h' g'> q q q r r4
+		c'4~\p c8.( d32 e) d4~ d8.( e32 f)
+		g,2-\tenuto g,
+		g1 %35
+		\mvTr c'4~\p-\markup { \remark "assai" } c8.( d32 e) d4~ d8.( e32 f)
+		g,4.( a32 h c d) d2\trill
+		c16\ff c \appoggiatura d c32( h c16) e32( c16.) c8\trill f32( c16.) c8\trill fis32( c16.) c8\trill
+		h16 g' \appoggiatura a g32( fis g16) h32( g16.) g8\trill c32( g16.) g8\trill g,16 f' f8\trill
+		e16 c a' a, \appoggiatura c8 h4\trill c8-![ g-!] c,-! r %40
+		g''2\p g
+		c c,4 r8 e
+		d16 f( g a) g e( d c) \appoggiatura g4 f2
+		\appoggiatura f8 e4 r32 c(\pocoF d e f64 g a h c d e f) g4 b,
+		f8 e r r64 f(\p g a b c d e) f4 f, %45
+		f8 e r r64 c(\fE d e f g a h) c4 es,\pE
+		es?8 d r r64 b(\fE c d es? f g a) b8(-. b-.\pE b-. b-.)
+		g'4 b, a( b8) a
+		a g r32 c,(\f d e f g a b) c2\p
+		c32(\fE d,16.) d8~ d16 e32(\pE f g a b c) d2 %50
+		\appoggiatura f,4 e4. f64( g a b c d e f) g2
+		\appoggiatura a,4 g2 d'
+		e4 f8-!\pocoF b,-! a8.(\trill b16) \appoggiatura a8 g4
+		f  r32 f(\p g a b c d e) es4 es,
+		es?8 d r r16 d c'2 %55
+		c8 h r32 g(\pocoF a h c d e f) g4 b,\p
+		\appoggiatura b a4. f'8 f4. a,8
+		a g r4 \mvDll <f c' f>8-!\f r r4
+		<e c' g'>8 r r4 <f c' a'>8 r r4
+		<e c' g'>8 c''16[ c] c8 c c r r4 %60
+		d,4~\p d8.( e32 f) g,4~ g8.( a32 b)
+		c,2 b\trill
+		\appoggiatura b a1
+		\mvTr d'4~\p-\markup { \remark "assai" } d8.( e32 f) g,4~ g8.( a32 b)
+		c,4.( d32 e f g) g2\trill %65
+		f16\f f' \appoggiatura g f32( e f16) a16 f f8\trill f,16 f' f8\trill a16 f f8\trill
+		f,16 f' f8\trill a16 f f8\trill d16-! f-! b,-! d-! c b a g
+		a2\fermata g
+		r16 f'\ff f8\trill a16 f f8\trill b16 f f8\trill h16 f f8\trill
+		c'16 c, \appoggiatura d c32( h c16) e16 c c8\trill f16 c c8\trill b'16 c, c8\trill %70
+		a'32([ f16.)] g32([ e16.)] f32([ c16.)] d32([ b16.)] a8.(\trill b16) \appoggiatura a8 g4
+		f16 a( g f) e( f) e( f) c-! a'( g f) e( f) e( f)
+		c2 b\trill \noBreak
+		\appoggiatura b a1\fermata \bar "||"
+		b''2\p f \noBreak %75
+		\appoggiatura es4 d4. f,8 b8.\trill\pocoF c16 d8-! e-!
+		f f, r r32 f(\p g a) b4-! d,-!
+		\once \slurDashed es?16([ d)] es8 r32 c( d es f g a b) c4 e,
+		f16([ e)] f8 r32 d( e f g a b c) d4 fis,
+		g8 es'4 d c b8 %80
+		a r r16 f \appoggiatura g f32( e f16) a8-! r r16 a a8\trill
+		c-! r r16 c c8\trill es d4 c8
+		d r f r r4 a8 r
+		r4 b8 r r4 a8 r
+		b-! a-! b-! es,-! d4 c\trill %85
+		b-! r8 r64 b( c d es f g a) b4 b,
+		b8\trill a r r64 f( g a b c d es) f4 as,
+		as?8( g) r r64 es?( f g as b c d) es4 es
+		es16 es, es8\trill a16 es es8\trill c'16 es, es8\trill es'16 es, es8\trill
+		d16-!\f f'-! a,-![ c-!] f, b a[ es'] d f a,[ c] f, b a[ es'] %90
+		d32([ b'16.)] \appoggiatura b16 a32([ g16.)] \appoggiatura g16 f32([ es16.)] \appoggiatura es d32([ c16.)] d4\fermata c
+		r16 b\f b8\trill d16 b b8\trill b'16 b, b8\trill d32([ b16.)] a32([ g16.)]
+		a16 f' f8\trill a16 f f8\trill f,16 f' f8\trill a32([ f16.)] e32([ d16.)]
+		e32([ c16.)] g'32([ e16.)] f32([ c16.)] d32([ b16.)] a8.(\trill b16) \appoggiatura a8 g4
+		f8 c16 c c8 c c2 \bar "S-S"
 	}
 }
 

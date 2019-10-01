@@ -75,7 +75,7 @@ OPortentaJosephNotes = {
 		c'2 c \noBreak
 		f f,4 r8 a
 		g([ d')] c f \appoggiatura c4 b2
-		a4 r f' f, %20
+		\appoggiatura b8 a4^\critnote r f' f, %20
 		f8 e r4 c' es,
 		es?8 d r4 b' b
 		g' b, a8.([ b32 c)] b8 a
@@ -92,7 +92,7 @@ OPortentaJosephNotes = {
 		g,2( f)
 		\appoggiatura f4 e1 %35
 		c'4~ c8.([ d32 e)] d4~ d8.([ e32 f)]
-		g,4. a32([ h c d)] d2\trill
+		g,4.( a32[ h c d)] d2\trill
 		c4 r r2
 		R1*2 %40
 		g2 g
@@ -106,10 +106,10 @@ OPortentaJosephNotes = {
 		a g r4 c c
 		c8 d,4. d'4 d %50
 		\appoggiatura f,4 e2 g'4 f16([ e)] d([ c)]
-		\appoggiatura b8 a4~ a8.([ b32 c)] d16[ c b a] g[ f e d]
+		\appoggiatura b4 a~ a8.([ b32 c)] d16[ c b a] g[ f e d]
 		\kneeBeam c8[ g''32( e16.)] f32([ c16.)] d32([ b16.)] a8.[ b16] \appoggiatura a8 g4
 		f r es' es,
-		es?8 d r r16 es c'8.([ b32 c]) d8 c %55
+		es?8 d r r16 d c'8.([ b32 c]) d8 c %55
 		c h r4 g' b,
 		\appoggiatura b a4. f'8 f4. a,8
 		a g r4 r c8. f16
@@ -119,7 +119,7 @@ OPortentaJosephNotes = {
 		c,1
 		c
 		d'4~ d8.([ e32 f)] g,4~ g8.([ a32 b)]
-		c,4. d32[ e f g] g2\trill %65
+		c,4.( d32[ e f g]) g2\trill %65
 		f4 f'8. f16 f4 f,
 		r2 r4 f8 f
 		f2(\fermata g)
@@ -144,8 +144,7 @@ OPortentaJosephNotes = {
 		f'8([ a,)] b4 r2 %90
 		r4 b8 b b4(\fermata c)
 		b r r2
-		R1*2
-		R1\fermataMarkup \bar "S-S" %95 finis
+		R1*3 \bar "S-S" %95 finis
 	}
 }
 
@@ -170,7 +169,7 @@ OPortentaJosephLyrics = \lyricmode {
 	la --
 	tur, %35
 	tu -- mu --
-	la -- _ _
+	la -- _
 	tur.
 	
 	O por -- %41
@@ -197,7 +196,7 @@ OPortentaJosephLyrics = \lyricmode {
 	la --
 	tur,
 	tu -- mu --
-	la -- _ _ %65
+	la -- _ %65
 	tur, qui tri -- um -- phat
 	tu -- mu --
 	la --
