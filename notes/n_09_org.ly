@@ -1963,7 +1963,7 @@ OPortentaOrgano = {
 		b4 a g c,
 		f8 c a f r4 r8 f' %20
 		f e r4 r r8 es
-		es d r4 r des
+		es? d r4 r des
 		r8 c c c c c c c
 		c c c\pocoF d e!\p e e e
 		r f f f r f f f %25
@@ -1988,7 +1988,7 @@ OPortentaOrgano = {
 		c8 g e c r4 r8 e'\pocoF
 		f c a f r4 r8 f'\p %45
 		f e r4 r r8 es
-		es d r4 r des
+		es? d r4 r des
 		r8 c c c c c c c
 		c c\f c b a a\p a a
 		r b b b r b b b %50
@@ -2029,7 +2029,7 @@ OPortentaOrgano = {
 		b8 f d es f f f f %85
 		b,4-! r r r8 b'
 		b a r4 r r8 as
-		as g r4 r8 ges ges ges
+		as? g r4 r8 ges ges ges
 		r f f f f f f f
 		b,\f c d c b c d c %90
 		b c d es f2\fermata

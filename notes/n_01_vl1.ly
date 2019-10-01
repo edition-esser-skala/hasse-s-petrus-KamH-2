@@ -895,7 +895,7 @@ OPortentaViolinoI = {
 		\appoggiatura b8 a4 r8-\critnote r64 f( g a b c d e) f4 f,
 		f8\trill e r r64 c( d e f g a h) c4 es, %5
 		es?8\trill d r r64 b( c d es f g a) b8-! b-! b-! b-!
-		b'32([ g16.)] e!32([ c16.)] f32([ c16.)] d32([ g,16.)] a8.\trill b16 \appoggiatura a8 g4
+		b'32([ g16.)] e!32([ c16.)] f32([ c16.)] d32([ g,16.)] \once \slurDashed a8.(\trill b16) \appoggiatura a8 g4
 		f8-! c-! r r64 f(\p g a b c d e) f4 f,
 		f8\trill e r r64 c( d e f g a h) c4 es,
 		es8\trill d r r64 b(\f c d es f g a) b8-! b-! b-! b-! %10
@@ -908,9 +908,9 @@ OPortentaViolinoI = {
 		c'2\p c \noBreak
 		f f,4 r8 a
 		g16 b( c d) c f( g a) \appoggiatura c,4 b2
-		\appoggiatura b8 a4 r8-\critnote r64 f(\f g a b c d e) f4 f,\p %20
+		\appoggiatura b8 a4 r8 r64 f(\f g a b c d e) f4 f,\p %20
 		f8\trill e r r64 c(\fE d e f g a h) c4 es,\pE
-		es8\trill d r r64 b!(\fE c d es f g a) b8-! b-!\pE b-! b-!
+		es?8\trill d r r64 b!(\fE c d es f g a) b8-! b-!\pE b-! b-!
 		g'4 b, a( b8) a
 		a g r32 c,(\f d e f g a h) c2\p
 		c16(\f d,) d8~ d16 e32(\p f g a h c) d2 %25
@@ -925,7 +925,7 @@ OPortentaViolinoI = {
 		g,2-\tenuto g,
 		g1 %35
 		\mvTr c'4~\p-\markup { \remark "assai" } c8.( d32 e) d4~ d8.( e32 f)
-		g,4.( a32 h c d) d2\trill
+		g,4.(\f a32 h c d) d2\trill
 		c16\ff c \appoggiatura d c32( h c16) e32( c16.) c8\trill f32( c16.) c8\trill fis32( c16.) c8\trill
 		h16 g' \appoggiatura a g32( fis g16) h32( g16.) g8\trill c32( g16.) g8\trill g,16 f' f8\trill
 		e16 c a' a, \appoggiatura c8 h4\trill c8-![ g-!] c,-! r %40
@@ -934,20 +934,20 @@ OPortentaViolinoI = {
 		d16 f( g a) g e( d c) \appoggiatura g4 f2
 		\appoggiatura f8 e4 r32 c(\pocoF d e f64 g a h c d e f) g4 b,
 		f8 e r r64 f(\p g a b c d e) f4 f, %45
-		f8 e r r64 c(\fE d e f g a h) c4 es,\pE
-		es?8 d r r64 b(\fE c d es? f g a) b8(-. b-.\pE b-. b-.)
+		f8 e r r64 c( d e f g a h) c4 es,
+		es?8 d r r64 b( c d es? f g a) b8(-. b-. b-. b-.)
 		g'4 b, a( b8) a
 		a g r32 c,(\f d e f g a b) c2\p
-		c32(\fE d,16.) d8~ d16 e32(\pE f g a b c) d2 %50
+		c32([ d,16.)] d8~ d16 e32( f g a b c) d2 %50
 		\appoggiatura f,4 e4. f64( g a b c d e f) g2
 		\appoggiatura a,4 g2 d'
 		e4 f8-!\pocoF b,-! a8.(\trill b16) \appoggiatura a8 g4
-		f  r32 f(\p g a b c d e) es4 es,
+		f r16 f32(\p g a b c d) es4 es,
 		es?8 d r r16 d c'2 %55
 		c8 h r32 g(\pocoF a h c d e f) g4 b,\p
 		\appoggiatura b a4. f'8 f4. a,8
 		a g r4 \mvDll <f c' f>8-!\f r r4
-		<e c' g'>8 r r4 <f c' a'>8 r r4
+		\mvTr <e c' g'>8\f-\markup { \remark "sempre" } r r4 <f c' a'>8 r r4
 		<e c' g'>8 c''16[ c] c8 c c r r4 %60
 		d,4~\p d8.( e32 f) g,4~ g8.( a32 b)
 		c,2 b\trill
@@ -983,7 +983,7 @@ OPortentaViolinoI = {
 		r16 b\f b8\trill d16 b b8\trill b'16 b, b8\trill d32([ b16.)] a32([ g16.)]
 		a16 f' f8\trill a16 f f8\trill f,16 f' f8\trill a32([ f16.)] e32([ d16.)]
 		e32([ c16.)] g'32([ e16.)] f32([ c16.)] d32([ b16.)] a8.(\trill b16) \appoggiatura a8 g4
-		f8 c16 c c8 c c2 \bar "S-S"
+		f8 c16 c c8 c c2 \bar "S-S" %95 finis
 	}
 }
 
