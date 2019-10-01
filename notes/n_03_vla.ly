@@ -888,7 +888,7 @@ JesuMeaPaxViola = {
 
 OPortentaViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key f \major \time 4/4 \tempoOPortenta
 		r8 a'\fE g e r a g e
 		r f e d r c b c
