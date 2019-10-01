@@ -1943,6 +1943,100 @@ OPortentaOrgano = {
 		\clef bass
 		\key f \major \time 4/4 \tempoOPortenta
 		r8 f\fE e c r f e c
+		r d c b r a' g f
+		b4 a g c,
+		f8 c a f r4 r8 f'
+		f e r4 r r8 es %5
+		es d r4 r des
+		c8 b a b c b c c,
+		f4 r r r8 f'\p
+		f e r4 r r8 es
+		es d r4 r des\f %10
+		c8 c b' b a a e e
+		f f b b a a e e
+		f r16 g a8 b c b c c,
+		f r r4 r2 \noBeam
+		r2 c,-\tenuto %15
+		r8 f(-. f-. f-.) f2 \bar "S-|"
+		r8 f'\p e c r f e c \noBreak
+		r d c b r a' g f
+		b4 a g c,
+		f8 c a f r4 r8 f' %20
+		f e r4 r r8 es
+		es d r4 r des
+		r8 c c c c c c c
+		c c c\pocoF d e!\p e e e
+		r f f f r f f f %25
+		r g g g r g g g
+		r a a a r a a a
+		h-! r r4 c8-! r r4
+		h8-! r r4 c8-\parenthesize-! r r4
+		g16 g,\pocoF h d g h d h c g c h c c, e c %30
+		g'\f g, h d g h d h c g c h c c, e c
+		g'8 g16 g g8-! g-! g r r4
+		r8 e\p e e r f f f
+		r g(-. g-. g-.) r g,(-. g-. g-.)
+		r c(-. c-. c-.) c2-\tenuto %35
+		r8 e e e r f f f
+		r g\f g g g g g g
+		c\ff c b! b a a as as
+		g g f f e! e h h
+		c f g g, c4 r %40
+		r8 c'\p h g r c h g
+		r a g f r e d c
+		f4 e d g,
+		c8 g e c r4 r8 e'\pocoF
+		f c a f r4 r8 f'\p %45
+		f e r4 r r8 es
+		es d r4 r des
+		r8 c c c c c c c
+		c c\f c b a a\p a a
+		r b b b r b b b %50
+		r c c c r e e e
+		r f f f r b, b b
+		r b'\f a b c b c c,
+		d4 r a2\p
+		r8 b b b r fis fis fis %55
+		r g g g r e'! e e
+		r f f f r h, h h
+		r16 c\pocoF e g c g c b! a g f e f c a f
+		c'\f c e g c g a e f c f e f c a f
+		c'8 c16 c c8-! c-! c-! r r4 %60
+		r8 b\p b b r b b b
+		r c c c r c c c
+		r f,(-. f-. f-.) f2
+		r8 \mvTr b\p-\markup { \remark "assai" } b b r b b b
+		r c c c r c c c %65
+		f\f f f f d d d d
+		a a a a b2
+		c1\fermata
+		f8\ff f es es d d des des
+		c c b' b a! a e e %70
+		f r16 g a8 b c b c c,
+		f r r4 r2
+		r c,-\tenuto \noBreak
+		r8 f(-. f-. f-.) f2\fermata \bar "||"
+		r8 b\p d b r f' a f \noBreak %75
+		r b b, a' g2\pocoF
+		r8 f16\p g f8 es d d d d
+		r es? es es r e e e
+		r f f f r fis fis fis
+		r g f f es! es e e %80
+		f f f f f f f f
+		f f f f f f f f
+		b, r r4 f'8 r r4
+		b,8 r r4 f'8 r r4
+		b8 f d es f f f f %85
+		b,4-! r r r8 b'
+		b a r4 r r8 as
+		as g r4 r8 ges ges ges
+		r f f f f f f f
+		b,\f c d c b c d c
+		b c d es f2\fermata
+		b8\f b g g e e e e
+		f f d d h h h h
+		c b a b c b c c,
+		f f f f f2 \bar "S-S"
 	}
 }
 
