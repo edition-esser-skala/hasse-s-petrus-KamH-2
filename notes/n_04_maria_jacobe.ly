@@ -426,12 +426,19 @@ IneffabileMariaJacobeNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoIneffabile
-		
+		R1*7 %7
+		r8 g' b a a a r a
+		cis cis r4 e8 g, r4
+		b b8 a f f r4 %10
+		R1*12 %22
+		R1\fermataMarkup \bar "|." %23 finis
 	}
 }
 
 IneffabileMariaJacobeLyrics = \lyricmode {
-	
+	Do -- lo -- ris no -- stri, o %8
+	Jo -- seph, ve -- ni,
+	so -- cium te prae -- be. %10 finis
 }
 
 % MariaJacobeNotes = {

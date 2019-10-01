@@ -1908,7 +1908,7 @@ IneffabileOrgano = {
 		fis g %2ß
 		\tempoIneffabileB r8 g16. a32 g16. e32 f16. d32 e2
 		f1
-		r4 g c, r \bar "|." %23 finis
+		r4 g c, r\fermata \bar "|." %23 finis
 	}
 }
 
