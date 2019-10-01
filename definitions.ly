@@ -232,6 +232,7 @@ tempoJesuMeaPax = \tempoMarkup "Lento"
 	tempoJesuMeaPaxC = \tempoMarkup "Come prima"
 tempoIneffabile = \tempoMarkup "[Tempo deest]"
 	tempoIneffabileB = \tempoMarkup "Andante"
+tempoOPortenta = \tempoMarkup "Allegro, ma non troppo"
 
 
 

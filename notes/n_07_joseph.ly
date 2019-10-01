@@ -67,7 +67,19 @@ IneffabileJosephLyrics = \lyricmode {
 	va -- mus. %23 finis
 }
 
-% JosephusNotes = {
+OPortentaJosephNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \autoBeamOff \tempoOPortenta
+		
+	}
+}
+
+OPortentaJosephLyrics = \lyricmode {
+	
+}
+
+% JosephNotes = {
 % 	\relative c' {
 % 		\clef treble
 % 		
@@ -75,6 +87,6 @@ IneffabileJosephLyrics = \lyricmode {
 % 	}
 % }
 % 
-% JosephusLyrics = \lyricmode {
+% JosephLyrics = \lyricmode {
 % 	
 % }

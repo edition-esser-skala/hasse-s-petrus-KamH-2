@@ -885,3 +885,11 @@ JesuMeaPaxViola = {
 		d4 r b8.[ f16] d8. f16 \bar "S-S" %142 finis
 	}
 }
+
+OPortentaViola = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoOPortenta
+		
+	}
+}

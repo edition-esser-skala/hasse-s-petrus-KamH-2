@@ -884,3 +884,11 @@ JesuMeaPaxViolinoII = {
 		b8.[ f16] d8. f16 b,4 r \bar "S-S" %142 finis
 	}
 }
+
+OPortentaViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoOPortenta
+		
+	}
+}

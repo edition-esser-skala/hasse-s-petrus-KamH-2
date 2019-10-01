@@ -1938,6 +1938,18 @@ IneffabileBassFigures = \figuremode {
 	r %23 finis
 }
 
+OPortentaOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/4 \tempoOPortenta
+		r8 f\fE e c r f e c
+	}
+}
+
+OPortentaBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

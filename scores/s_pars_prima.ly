@@ -514,43 +514,86 @@
 % 			\midi { \tempo 2 = 45 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "12 INEFFABILE EXCELSUM"
+% 		}
+% 		\paper {
+% 			indent = 3\cm
+% 			systems-per-page = #3
+% 		}
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Maria" "Jacobe" } }
+% 						\new Voice = "MariaJacobe" { \dynamicUp \IneffabileMariaJacobeNotes }
+% 					}
+% 					\new Lyrics \lyricsto MariaJacobe \IneffabileMariaJacobeLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \JosephIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Joseph" { \dynamicUp \IneffabileJosephNotes }
+% 					}
+% 					\new Lyrics \lyricsto Joseph \IneffabileJosephLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\IneffabileOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\IneffabileBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "12 INEFFABILE EXCELSUM"
-		}
-		\paper {
-			indent = 3\cm
-			systems-per-page = #3
+			movement = "13 O PORTENTA AETERNA AMORIS"
 		}
 		\score {
 			<<
-				\new ChoirStaff <<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\OPortentaViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\OPortentaViolinoII
+						}
+					>>
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Maria" "Jacobe" } }
-						\new Voice = "MariaJacobe" { \dynamicUp \IneffabileMariaJacobeNotes }
+						\set Staff.instrumentName = "Viola"
+							\OPortentaViola
 					}
-					\new Lyrics \lyricsto MariaJacobe \IneffabileMariaJacobeLyrics
-					
+				>>
+				\new ChoirStaff \with { \smallerGroupDistance } <<
 					\new Staff {
-						\set Staff.instrumentName = \JosephIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Joseph" { \dynamicUp \IneffabileJosephNotes }
+						\set Staff.instrumentName = "Joseph"
+						\new Voice = "Joseph" { \dynamicUp \OPortentaJosephNotes }
 					}
-					\new Lyrics \lyricsto Joseph \IneffabileJosephLyrics
+					\new Lyrics \lyricsto Joseph \OPortentaJosephLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\IneffabileOrgano
+						\OPortentaOrgano
 					}
 				>>
 				\new FiguredBass {
-					\IneffabileBassFigures
+					\OPortentaBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 120 }
 		}
 	}
 }

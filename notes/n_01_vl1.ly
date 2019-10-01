@@ -885,6 +885,14 @@ JesuMeaPaxViolinoI = {
 	}
 }
 
+OPortentaViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoOPortenta
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
