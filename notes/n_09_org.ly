@@ -1977,7 +1977,7 @@ OPortentaOrgano = {
 		r8 e\p e e r f f f
 		r g(-. g-. g-.) r g,(-. g-. g-.)
 		r c(-. c-. c-.) c2-\tenuto %35
-		r8 e e e r f f f
+		r8 \mvTr e\pE-\markup { \remarkE "assai" } e e r f f f
 		r g\f g g g g g g
 		c\ff c b! b a a as as
 		g g f f e! e h h

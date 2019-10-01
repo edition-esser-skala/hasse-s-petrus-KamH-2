@@ -904,7 +904,7 @@ OPortentaViolinoI = {
 		a'32([ f16.)] g32[( e16.)] f32([ c16.)] d32([ b16.)] a8.(\trill b16) \appoggiatura a8 g4
 		f16 a( g f) e( f) e( f) c-! a'( g f) e( f) e( f)
 		c2 b\trill \noBreak %15
-		\appoggiatura b a1 \bar "S-|"
+		\appoggiatura b a1\fermata \bar "S-|"
 		c'2\p c \noBreak
 		f f,4 r8 a
 		g16 b( c d) c f( g a) \appoggiatura c,4 b2

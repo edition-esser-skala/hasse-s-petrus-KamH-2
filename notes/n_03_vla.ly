@@ -890,6 +890,100 @@ OPortentaViola = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 4/4 \tempoOPortenta
-		
+		r8 a'\fE g e r a g e
+		r f e d r c b c
+		d e f2 e4
+		f8 c a f r4 r8 f
+		f\trill e r4 r r8 es %5
+		es d r4 r f'
+		e!8 g f4~ f8.( g16) \appoggiatura f8 e4
+		f8-! c-! r4 r r8 f,\pE
+		f( e) r4 r r8 es
+		es d r4 r f'\fE %10
+		g8 e! e e f f g g
+		a a g e f f g g
+		c, r16 b' a8 g f8.( g16) \appoggiatura f8 e4
+		f8 r r4 r16 a( g f) e( f) e( f)
+		c2 e, \noBreak %15
+		f1\fermata \bar "S-|"
+		r8 f'\pE e c r f e c \noBreak
+		r d c b r a g f
+		b4 a g c
+		f8 c a f r4 r8 f %20
+		f e r4 r r8 es
+		es? d r4 r f'
+		r8 e! e e f f e f
+		c c r4 r8 g g g
+		r a a a r a a a %25
+		r h h h r h h h
+		r c c c r c c c
+		d r r4 e8 r r4
+		d8 r r4 e8 r r4
+		g16 g,\pocoF h d g h d h c g c h c c, e c %30
+		g'\f g, h d g h d h c g c h c c, e c
+		g'8 g16 g g8-! g-! g r r4
+		r8 e\p e e r f f f
+		r g,(-. g-. g-.) r h(-. h-. h-.)
+		c1 %35
+		r8 \mvTr e\pE-\markup { \remarkE "assai" } e e r f f f
+		r g\fE g g <g g,> q <f g,> q
+		e\ffE r g r c,^\critnote r c r
+		d r d r g, c d g,
+		g' f \appoggiatura e d4 e8-![ g-!] c, r %40
+		r8 e\pE d h r e d h
+		r c h a r g f g
+		a( h) c2 h4
+		c8 g e c r4 r8 c'\pocoFE
+		c4 r r r8 f,\pE %45
+		f e r4 r r8 es
+		es? d r4 r f'
+		r8 e! e e f f e f
+		c c\pocoF c b a f'\pE f f
+		r f f f r g g g %50
+		r g g g r c, c c
+		r c c c b b b b
+		g'4\fE f8 d c d c b
+		a4 r f2\p
+		r8 f b b r d d d %55
+		r d d d r c c c
+		r c c c r d d d
+		r16 c\pocoF e g c g c b! a g f e f c a f
+		c'\f c e g c g a e f c f e f c a f
+		c'8 c16 c c8-! c-! c-! r r4 %60
+		r8 b\pE b b r d d d
+		c2 e,
+		f1
+		r8 \mvTr b\pE-\markup { \remarkE "assai" } b b r d d d
+		r c c c r b b b %65
+		a\fE a a a a a a a
+		c c c c d2
+		c1\fermata
+		f8\ffE r f r f r f r
+		e e g e f f g g %70
+		c, r16 b' a8 g f8.(\trill g16) \appoggiatura f8 e4
+		f8 r r4 r16 a( g f) e( f) e( f)
+		c2 e, \noBreak
+		f1\fermata \bar "||"
+		r8 d'\pE f d r a c a \noBreak %75
+		r f'16 es d8 c b2\pocoF
+		r8 a16\pE b a8 g f f f f
+		r g g g r g g g
+		r a a a r a a a
+		r g d' d es es e e %80
+		f f, f f f f f f
+		f f f f f f' f f
+		f r r4 f8 r r4
+		f8 r r4 f8 r r4
+		f8-! f-! f-! g-! f4 es? %85
+		d-! r r r8 b
+		b a r4 r r8 as
+		as? g r4 r8 b b b
+		r a a a a a a a
+		b\fE c d c b c d c %90
+		d es f g f2\fermata
+		d8\fE d d d g g c, c
+		f a, a a d d g, g'
+		g g a g f8.( g16) \appoggiatura f8 e4
+		f8 f, f f f2 \bar "S-S" %95 finis
 	}
 }
