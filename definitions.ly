@@ -230,6 +230,7 @@ tempoStillate = \tempoMarkup "[Tempo deest]"
 tempoJesuMeaPax = \tempoMarkup "Lento"
 	tempoJesuMeaPaxB = \tempoMarkup "Un poco andante"
 	tempoJesuMeaPaxC = \tempoMarkup "Come prima"
+tempoIneffabile = \tempoMarkup "[Tempo deest]"
 
 
 

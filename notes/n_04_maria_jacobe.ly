@@ -422,6 +422,18 @@ AmorMeusMariaJacobeLyrics = \lyricmode {
 	cor. %96 finis
 }
 
+IneffabileMariaJacobeNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoIneffabile
+		
+	}
+}
+
+IneffabileMariaJacobeLyrics = \lyricmode {
+	
+}
+
 % MariaJacobeNotes = {
 % 	\relative c' {
 % 		\clef treble

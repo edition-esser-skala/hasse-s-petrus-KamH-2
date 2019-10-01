@@ -1882,6 +1882,18 @@ JesuMeaPaxBassFigures = \figuremode {
 	r2 <1>8. q16 q8. q16 %142 finis
 }
 
+IneffabileOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoIneffabile
+		fis1~\pE
+	}
+}
+
+IneffabileBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

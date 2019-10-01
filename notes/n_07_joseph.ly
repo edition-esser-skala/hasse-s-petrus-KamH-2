@@ -4,25 +4,37 @@
 
 \version "2.18.0"
 
-JosephusIncipit = \markup {
-	"Josephus" \hspace #-17 \score {
+JosephIncipit = \markup {
+	"Joseph" \hspace #-19.3 \score {
 		\new Staff \with {
 			\remove Time_signature_engraver
 		} {
-			\clef alto s4 \bar empty
+			\clef soprano s4 \bar empty
 		}
 		\layout { }
-	} \hspace #-1.8
+	} \hspace #-.7
 }
 
-JosephusNotes = {
+IneffabileJosephNotes = {
 	\relative c' {
 		\clef treble
-		
+		\key c \major \time 4/4 \autoBeamOff \tempoIneffabile
 		
 	}
 }
 
-JosephusLyrics = \lyricmode {
+IneffabileJosephLyrics = \lyricmode {
 	
 }
+
+% JosephusNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		
+% 		
+% 	}
+% }
+% 
+% JosephusLyrics = \lyricmode {
+% 	
+% }

@@ -465,53 +465,89 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "11 JESU MEA PAX"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\JesuMeaPaxViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\JesuMeaPaxViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 							\JesuMeaPaxViola
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Maria" "Magdalena" } }
+% 						\new Voice = "MariaMagdalena" { \dynamicUp \JesuMeaPaxMariaMagdalenaNotes }
+% 					}
+% 					\new Lyrics \lyricsto MariaMagdalena \JesuMeaPaxMariaMagdalenaLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Petrus"
+% 						\new Voice = "Petrus" { \dynamicUp \JesuMeaPaxPetrusNotes }
+% 					}
+% 					\new Lyrics \lyricsto Petrus \JesuMeaPaxPetrusLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\JesuMeaPaxOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\JesuMeaPaxBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 45 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "11 JESU MEA PAX"
+			movement = "12 INEFFABILE EXCELSUM"
 		}
+		\paper { indent = 3\cm }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\JesuMeaPaxViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\JesuMeaPaxViolinoII
-						}
-					>>
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-							\JesuMeaPaxViola
-					}
-				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Maria" "Magdalena" } }
-						\new Voice = "MariaMagdalena" { \dynamicUp \JesuMeaPaxMariaMagdalenaNotes }
+						\set Staff.instrumentName = \markup { \center-column { "Maria" "Jacobe" } }
+						\new Voice = "MariaJacobe" { \dynamicUp \IneffabileMariaJacobeNotes }
 					}
-					\new Lyrics \lyricsto MariaMagdalena \JesuMeaPaxMariaMagdalenaLyrics
+					\new Lyrics \lyricsto MariaJacobe \IneffabileMariaJacobeLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Petrus"
-						\new Voice = "Petrus" { \dynamicUp \JesuMeaPaxPetrusNotes }
+						\set Staff.instrumentName = \JosephIncipit
+						\override Staff.InstrumentName.self-alignment-Y = ##f
+						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\new Voice = "Joseph" { \dynamicUp \IneffabileJosephNotes }
 					}
-					\new Lyrics \lyricsto Petrus \JesuMeaPaxPetrusLyrics
+					\new Lyrics \lyricsto Joseph \IneffabileJosephLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\JesuMeaPaxOrgano
+						\IneffabileOrgano
 					}
 				>>
 				\new FiguredBass {
-					\JesuMeaPaxBassFigures
+					\IneffabileBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 2 = 45 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }
