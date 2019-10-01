@@ -940,7 +940,7 @@ OPortentaViolinoII = {
 		f e r32 c(\f d e f g a b) c2\p
 		c32([ d,16.)] d8~ d16 e32( f g a b c) d2 %50
 		\appoggiatura f,4 e4. f64( g a b c d e f) g2
-		\appoggiatura a,4 g2 d'
+		\appoggiatura b,4 a2-\critnote d
 		c4 c8-\parenthesize-!\pocoF f,-\parenthesize-! f8.(\trill g16) \appoggiatura f8 e4
 		f4 r8 f32(\p g a b) c4 c,
 		c8 b r r16 d a'2 %55
