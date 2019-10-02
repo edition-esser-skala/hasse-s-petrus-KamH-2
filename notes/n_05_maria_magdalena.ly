@@ -558,6 +558,18 @@ VadamMariaMagdalenaLyrics = \lyricmode {
 	quam re -- ce -- dam. %19 finis
 }
 
+SemperFidaMariaMagdalenaNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \autoBeamOff \tempoSemperFida
+		
+	}
+}
+
+SemperFidaMariaMagdalenaLyrics = \lyricmode {
+	
+}
+
 % MariaMagdalenaNotes = {
 % 	\relative c' {
 % 		\clef treble

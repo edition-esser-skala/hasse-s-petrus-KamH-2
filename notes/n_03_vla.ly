@@ -987,3 +987,11 @@ OPortentaViola = {
 		f8 f, f f f2 \bar "S-S" %95 finis
 	}
 }
+
+SemperFidaViola = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoSemperFida
+		
+	}
+}

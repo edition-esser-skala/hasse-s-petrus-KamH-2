@@ -2185,7 +2185,19 @@ VadamBassFigures = \figuremode {
 	<6>
 	r2 <4\+ _->
 	r2. <_+>4
-	<_!>1
+	<_!>1 %20 finis
+}
+
+SemperFidaOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \tempoSemperFida
+		c8\fE c' c c c c
+	}
+}
+
+SemperFidaBassFigures = \figuremode {
+	
 }
 
 % Organo = {

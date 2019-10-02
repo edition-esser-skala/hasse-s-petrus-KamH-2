@@ -596,44 +596,87 @@
 % 			\midi { \tempo 4 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "14 VADAM, SED SACRI ORRORIS"
+% 		}
+% 		\paper { systems-per-page = #3 }
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Maria" "Magdalena" } }
+% 						\new Voice = "MariaMagdalena" { \dynamicUp \VadamMariaMagdalenaNotes }
+% 					}
+% 					\new Lyrics \lyricsto MariaMagdalena \VadamMariaMagdalenaLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Maria" "Jacobe" } }
+% 						\new Voice = "MariaJacobe" { \dynamicUp \VadamMariaJacobeNotes }
+% 					}
+% 					\new Lyrics \lyricsto MariaJacobe \VadamMariaJacobeLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Maria" "Salome" } }
+% 						\new Voice = "MariaSalome" { \dynamicUp \VadamMariaSalomeNotes }
+% 					}
+% 					\new Lyrics \lyricsto MariaSalome \VadamMariaSalomeLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\VadamOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\VadamBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "14 VADAM, SED SACRI ORRORIS"
+			movement = "15 SEMPER FIDA O MEA PUPILLA"
 		}
-		\paper { systems-per-page = #3 }
 		\score {
 			<<
-				\new ChoirStaff <<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\SemperFidaViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\SemperFidaViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+							\SemperFidaViola
+					}
+				>>
+				\new ChoirStaff \with { \smallerGroupDistance } <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Maria" "Magdalena" } }
-						\new Voice = "MariaMagdalena" { \dynamicUp \VadamMariaMagdalenaNotes }
+						\new Voice = "MariaMagdalena" { \dynamicUp \SemperFidaMariaMagdalenaNotes }
 					}
-					\new Lyrics \lyricsto MariaMagdalena \VadamMariaMagdalenaLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Maria" "Jacobe" } }
-						\new Voice = "MariaJacobe" { \dynamicUp \VadamMariaJacobeNotes }
-					}
-					\new Lyrics \lyricsto MariaJacobe \VadamMariaJacobeLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Maria" "Salome" } }
-						\new Voice = "MariaSalome" { \dynamicUp \VadamMariaSalomeNotes }
-					}
-					\new Lyrics \lyricsto MariaSalome \VadamMariaSalomeLyrics
+					\new Lyrics \lyricsto MariaMagdalena \SemperFidaMariaMagdalenaLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\VadamOrgano
+						\SemperFidaOrgano
 					}
 				>>
 				\new FiguredBass {
-					\VadamBassFigures
+					\SemperFidaBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 }

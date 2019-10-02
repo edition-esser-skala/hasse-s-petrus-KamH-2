@@ -986,3 +986,11 @@ OPortentaViolinoII = {
 		f8 a,16 a a8 a a2 \bar "S-S" %95 finis
 	}
 }
+
+SemperFidaViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoSemperFida
+		
+	}
+}
