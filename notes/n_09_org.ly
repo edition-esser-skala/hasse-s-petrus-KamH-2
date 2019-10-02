@@ -2143,11 +2143,49 @@ VadamOrgano = {
 		\clef bass
 		\key c \major \time 4/4 \tempoVadam
 		gis'1\pE
+		r8 a( f! e) dis2
+		e1~
+		e
+		f~ %5
+		f2 fis~
+		fis1~
+		fis2 g~
+		g f~
+		f d~ %10
+		d es~
+		es1~
+		es2 e~
+		e1
+		f~ %15
+		f
+		es
+		r2 c~
+		c r4 d
+		g, r r2\fermata \bar "|." %20 finis
 	}
 }
 
 VadamBassFigures = \figuremode {
-	
+	<6>1
+	r8 <5 3>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff <7 _+>2
+	r1
+	r2 <6>
+	r1 %5
+	<7->2 <6>
+	r1
+	r2 <_->
+	r <6>
+	r <6- 5-> %10
+	r <5->
+	r <7- 5->
+	r <6>
+	<7- 5->1
+	<_->2 <4!> %15
+	r1
+	<6>
+	r2 <4\+ _->
+	r2. <_+>4
+	<_!>1
 }
 
 % Organo = {

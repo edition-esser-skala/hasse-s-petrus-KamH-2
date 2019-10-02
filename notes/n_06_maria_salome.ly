@@ -294,12 +294,19 @@ VadamMariaSalomeNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoVadam
-		
+		R1*2
+		r4 h'16. h32 a16 h g8 g r h
+		h4 e, r8 g4 c8
+		a a r4 r2 %5
+		R1*14 %19
+		R1\fermataMarkup \bar "|." %20 finis
 	}
 }
 
 VadamMariaSalomeLyrics = \lyricmode {
-	
+	De -- bi -- ta of -- fi -- cia per -- %3
+	sol -- vam, sed quo
+	cor -- de? %5 finis
 }
 
 % MariaSalomeNotes = {

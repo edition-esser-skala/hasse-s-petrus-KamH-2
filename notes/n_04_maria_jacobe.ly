@@ -445,12 +445,28 @@ VadamMariaJacobeNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoVadam
-		
+		e'4 h r8 h h c
+		c4 c c8 c16 c c8 h
+		g4 r r2
+		R1
+		r2 r8 c c d %5
+		es es r16 es es d d8 d r4
+		d8 d16 d d8. es16 c8 c r a
+		d d r d16 a b8 b r4
+		R1*11 %19
+		R1\fermataMarkup \bar "|." %20 finis
 	}
 }
 
 VadamMariaJacobeLyrics = \lyricmode {
+	Va -- dam, sed sa -- cri_or --
+	ro -- ris mo -- tus iam sen -- tio_in
+	me.
 	
+	Ex an -- gue %5
+	cor -- pus Ma -- gi -- stri me -- i,
+	Do -- mi -- ni mei di -- le -- cti a --
+	spi -- ciam, et non mo -- riar? %8 finis
 }
 
 % MariaJacobeNotes = {

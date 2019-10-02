@@ -528,12 +528,34 @@ VadamMariaMagdalenaNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoVadam
-		
+		R1*8 %8
+		r8 b' b c d8. d16 d4
+		r8 d es f f as, r4 %10
+		as?4 as8 b g g r4
+		r8 b b es des4 des
+		des8 des des c16 b? c8 c r c
+		c des b b r b16 c des8 des16 c
+		as8 as r as16 f h4 h8 d %15
+		d g, r4 d' d8 es
+		c c r4 r8 c c c
+		es4( \grace d16 c8) \appoggiatura b?16 a8 \appoggiatura g fis fis es'4~
+		es c8 b g g r4
+		R1\fermataMarkup \bar "|." %20 finis
 	}
 }
 
 VadamMariaMagdalenaLyrics = \lyricmode {
-	
+	Con -- stan -- ti a -- ni -- mo %9
+	o dul -- ces so -- ciae, %10
+	nos de -- cet eſ -- se.
+	Et si vi -- ven -- tem
+	fi -- dae su -- mus se -- cu -- tae; in
+	e -- ius mo -- rte non de -- fi -- ciat cor
+	no -- strum: Ad se -- pul -- chrum ve -- %15
+	ni -- te, e -- go prae --
+	ce -- dam, et a Di --
+	le -- cto me -- o nun --
+	quam re -- ce -- dam. %19 finis
 }
 
 % MariaMagdalenaNotes = {
