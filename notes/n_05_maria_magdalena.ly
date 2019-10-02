@@ -562,12 +562,211 @@ SemperFidaMariaMagdalenaNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 3/4 \autoBeamOff \tempoSemperFida
-		
+		R2.*13 \bar "S-|" %13
+		r4 e'~ e16([ f32 g)] f16([ e)] \noBreak
+		\appoggiatura d c([ h)] c4 c8 c e %15
+		\appoggiatura d c8.([ h16)] c4 c8 e,
+		\appoggiatura e4 d4. d8 e f
+		\appoggiatura f e8.([ f16)] g4 g8 g
+		\appoggiatura g4 a4. f'8 e d
+		e16([ d c8)] c r r4 %20
+		r e~ e16([ f32 g)] f16([ e)]
+		\appoggiatura d8 c8.([ h16] c4.) c8
+		c4~ c8.([ h32 c)] d8 c
+		c h g'4. d8
+		\appoggiatura f!16 e8 d16([ c)] \appoggiatura h8 a4 g8([ fis16)] g %25
+		\appoggiatura g4 fis2 r8 d'
+		d2.~
+		d~
+		d~
+		d4 g4. f!32[ e d16] %30
+		e8-! e16.([ f32) e8]-! e~ e16.[ d32 c16.\trillE h32]
+		a8[ a'] r a~ a16.[ g32 fis16.\trill e32]
+		d8-! d16.([ e32 d8)] d~ d16.[ c32 h16.\trill a32]
+		g8[ g'] r g~ g16.[ fis32 e16.\trill d32]
+		c8-! c16.([ d32 c8)] c~ c16.[ h32 a16. g32] %35
+		fis8([ a d fis a c,])
+		\appoggiatura c h4 a d
+		\appoggiatura c8 h4 a r
+		c8.([ d32 e)] c4. h8
+		\appoggiatura h a4 g r8 r16 g %40
+		e'8.([ d32 c)] \appoggiatura h4 a2
+		h8. g'16 g4.\trill fis32([ e d16)]
+		e8.([\trill d32 c)] h4( a)\trill
+		g r r
+		R2.*3 %47
+		r4 h~ h16([ c32 d)] c16([ h)]
+		\appoggiatura a g([ fis)] g4 g8 g h
+		\appoggiatura a g8.([ fis16)] g4 g8 d %50
+		\appoggiatura d4 c4. c'8 \appoggiatura d16 c8 h16([ a)]
+		h32([ a g16)] g8 g'4. \appoggiatura f!16 e8
+		\appoggiatura d4 cis2 r8 a
+		d8.[(\trill e16 f8.\trill g16)] a([ f)] e([ d)]
+		\appoggiatura c! h8.([\trill c16 d8)]-! d~ d16.[ h32 a16.\trill g32] %55
+		c8.([\trill d16 e8.\trill f16)] g8([ b,)]
+		a a16.([ b32) a8]-! a4 h32[ c d e]
+		f8 f16.([ g32) f8] f4 a,8
+		g16([ a h c] d[ e f g]) a([ f e d)]
+		\appoggiatura f8 e4 d r %60
+		f8.([ g32 a)] f4. e8
+		\appoggiatura e d4 c r8 r16 g
+		f'8.([\trill e32 d)] c8.[ d16] d4\trill
+		c r r8 r16 g'
+		g2.~ %65
+		g2~ g8[~ g32 f es d]
+		\appoggiatura f8 es4 d g
+		\appoggiatura f8 es4 d2
+		R2.
+		f8.([ g32 a!)] f4. e!8 %70
+		\appoggiatura e d4 c r8 r16 g
+		f'8.([\trill e32 d)] c8.([\trill d16)] d4\trill
+		e8.([\trill f16)] g4 r8 r16 g,
+		f'8.([\trill e32 d)] c8.[ d16] d4\trill
+		c g'4. \appoggiatura f16 e8 %75
+		c16([ h)] c8 r4 r8 c
+		c4(\fermata d4.) c8
+		c4 r r
+		R2.*6 \noBreak %84
+		R2.\fermataMarkup \bar "||" %85
+		\twofourtime \key c \minor \time 2/4 \tempoSemperFidaB
+			c4 d \noBreak
+		es8.([\trill f16 g8)] c,
+		d( c4) h8
+		c g r4
+		c8.([ d16)] d4\trill %90
+		es8.([\trill f16 g8)] c,
+		d( c4) h8
+		c g r4
+		es'(\trill f8.) es16
+		d([ c)] b8 r4 %95
+		c4(\trill d8.) c16
+		h([ a)] g8 r4
+		es'(\trill f8) c
+		d4 r8 es
+		c8.([\trill h16)] c8 d %100
+		g,([ as'! g)] r16 f
+		es8.([\trill f16)] \appoggiatura es8 d4
+		c r
+		d8.([ es16 f8)] es16([ d)]
+		es8 r g,4 %105
+		d'8.([ es16 f8)] es16([ d)]
+		es8 d r4
+		es(\trill f8) es
+		d16([ c)] b8 r4
+		d(\trill es8) d %110
+		c16([ b)] a8 r4
+		c(\trill d8) a
+		\appoggiatura a?4 b4. g8
+		es'4 fis,
+		g8 g' g4~ %115
+		g16[ es( d c)] \appoggiatura b8 a4
+		b8 g' g4~
+		g16[ es( d c)] \appoggiatura b8 a4
+		g r
+		R1*2 %123
+		\key c \major \time 3/4 \tempoSemperFidaC
+		R2.*7 \bar "S-S" %130 finis
 	}
 }
 
 SemperFidaMariaMagdalenaLyrics = \lyricmode {
+	Sem -- per %14
+	fi -- da o mea pu -- %15
+	pil -- la ad se --
+	pul -- crum vi -- gi --
+	la -- bis, ad se --
+	pul -- crum vi -- gi --
+	la -- bis, %20
+	mae -- stum
+	cor __ plo --
+	ran -- do a --
+	ma -- bis dul -- ci_af --
+	fe -- ctu in ca -- ra %25
+	spe, plo --
+	ran --
 	
+	_ _ %30
+	_ _ _
+	_ _
+	_ _ _
+	_ _
+	_ _ _ %35
+	_
+	_ do a --
+	ma -- bis
+	dul -- ci af --
+	fe -- ctu in %40
+	ca -- ra
+	spe, in ca -- _
+	_ ra __
+	spe.
+	
+	Sem -- per %48
+	fi -- da o mea pu --
+	pil -- la ad se -- %50
+	pul -- crum vi -- gi --
+	la -- bis, mae -- stum
+	cor plo --
+	ran -- do a --
+	ma -- _ %55
+	_ _
+	_ _ _ _
+	_ _ _ _
+	_ _
+	_ bis %60
+	dul -- ci af --
+	fe -- ctu in
+	ca -- _ ra
+	spe, plo --
+	ran -- %65
+	
+	_ do a --
+	ma -- bis
+	
+	dul -- ci af -- %70
+	fe -- ctu in
+	ca -- _ ra
+	spe, __ _ in
+	ca -- _ ra
+	spe, dul -- ci_af -- %75
+	fe -- ctu in
+	ca -- ra
+	spe.
+	
+	In sua %86
+	spe __ meum
+	cor __ a --
+	man -- do,
+	no -- va %90
+	lu -- ce
+	cir -- cum --
+	fu -- sum
+	le -- ni
+	mo -- tu %95
+	re -- spi --
+	ran -- do,
+	sen -- tio
+	iam gau --
+	de -- re in %100
+	me, __ gau --
+	de -- re_in
+	me.
+	In sua
+	spe meum %105
+	cor __ a --
+	man -- do,
+	le -- ni
+	mo -- tu
+	re -- spi -- %110
+	ran -- do,
+	sen -- tio
+	iam gau --
+	de -- re_in
+	me, gau -- de -- %115
+	re_in
+	me, gau -- de --
+	re_in
+	me. %119 finis
 }
 
 % MariaMagdalenaNotes = {

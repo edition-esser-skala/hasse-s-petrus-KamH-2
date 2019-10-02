@@ -2282,47 +2282,47 @@ SemperFidaOrgano = {
 		r c es, as
 		f4 g
 		r8 c, es d
-		c c' h g
+		c c' h g %90
 		r c es, as
 		f4 g
 		r8 c es d
 		c4( as
-		b g)
+		b g) %95
 		as( f)
 		g g
 		c( as
 		b g)
-		as( f)
+		as( f) %100
 		g8\pocoF f-! es-! f-!
 		g f g g,
 		c4 r
 		g'\p g,
-		c r
+		c r %105
 		g' g,
 		c8 g' a h
 		c4( a)
 		b b,
-		b'( g)
+		b'( g) %110
 		a a,
 		\once \slurDashed a'( fis)
 		g b,
 		c d
-		es r8 b
+		es r8 b %115
 		c4 d8 d,
 		g4 r8 b'\f
 		c4 d8 d,
 		g4-!\ff f-!
-		es d8 c
+		es d8 c %120
 		g'4 f
 		es d8 c \noBreak
 		g' g g, g
 		\key c \major \time 3/4 \tempoSemperFidaC g2\fermata r4 \noBreak
-		R2.
+		R2. %125
 		r4 r8 e'8 e e
 		f f g g g g
 		c2~\p c8 c,\f
 		f f g g g, g
-		c4(-. c-. c-.) \bar "S-S"
+		c4(-. c-. c-.) \bar "S-S" %130 finis
 	}
 }
 
