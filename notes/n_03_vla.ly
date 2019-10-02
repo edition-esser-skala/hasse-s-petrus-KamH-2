@@ -990,7 +990,7 @@ OPortentaViola = {
 
 SemperFidaViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key c \major \time 3/4 \tempoSemperFida
 		c,8\fE c' c c c c
 		r e e e e c
@@ -1009,7 +1009,7 @@ SemperFidaViola = {
 		r c(-. c-. c-. c-. c-.) %15
 		r g(-. g-. g-. g-. g-.)
 		a(-. a-. a-. a-. g-. g-.)
-		g(-. a-. e-. e-.) c[ c']
+		g(-. g-. e-. e-.) c[ c']
 		c c4 a8 g g
 		g c4 c8( g) h %20
 		c c c c c c

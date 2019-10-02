@@ -681,7 +681,7 @@ SemperFidaMariaMagdalenaLyrics = \lyricmode {
 	cor __ plo --
 	ran -- do a --
 	ma -- bis dul -- ci_af --
-	fe -- ctu in ca -- ra %25
+	fe -- ctu __ in ca -- ra %25
 	spe, plo --
 	ran --
 	
@@ -707,7 +707,7 @@ SemperFidaMariaMagdalenaLyrics = \lyricmode {
 	pul -- crum vi -- gi --
 	la -- bis, mae -- stum
 	cor plo --
-	ran -- do a --
+	ran -- do __ a --
 	ma -- _ %55
 	_ _
 	_ _ _ _
@@ -751,7 +751,7 @@ SemperFidaMariaMagdalenaLyrics = \lyricmode {
 	me, __ gau --
 	de -- re_in
 	me.
-	In sua
+	In __ sua
 	spe meum %105
 	cor __ a --
 	man -- do,
