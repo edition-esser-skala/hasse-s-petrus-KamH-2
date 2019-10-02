@@ -235,6 +235,8 @@ tempoIneffabile = \tempoMarkup "[Tempo deest]"
 tempoOPortenta = \tempoMarkup "Allegro, ma non troppo"
 tempoVadam = \tempoMarkup "[Tempo deest]"
 tempoSemperFida = \tempoMarkup "Lento, ma non troppo"
+	tempoSemperFidaB = \tempoMarkup "Allegretto"
+	tempoSemperFidaC = \tempoMarkup "Tempo di prima"
 
 
 

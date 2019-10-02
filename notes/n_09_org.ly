@@ -2193,6 +2193,136 @@ SemperFidaOrgano = {
 		\clef bass
 		\key c \major \time 3/4 \tempoSemperFida
 		c8\fE c' c c c c
+		r a a a a a
+		r e e e e e
+		f f f f g g
+		c c c e, e e %5
+		f f f f f fis
+		g g, g g g4
+		r8 a'\mf a a g g
+		f f e e e\f e
+		f f g g g g %10
+		c2~\mf c8 c,\f
+		f4 g g, \noBreak
+		c(-. c-. c-.) \bar "S-|"
+		c8 c'\p c c c c \noBreak
+		r a(-. a-. a-. a-. a-.) %15
+		r e(-. e-. e-. e-. e-.)
+		f(-. f-. f-. f-. g-. g-.)
+		c,(-. c-. c-. c-.) e, e
+		f f f f g g
+		c,4( e g) %20
+		c8 c' c c c c
+		r a(-. a-. a-. a-. g-.)
+		fis(-. fis-. fis-. fis-. fis-. fis-.)
+		g(-. g-. g-. g-. h,-. h-.)
+		c(-. c-. c-. c-. cis-. cis-.) %25
+		d d' d( c! h a)
+		g4 d r
+		g, d' r
+		g d' r
+		g,8 g h, h h h %30
+		c c' c c c c
+		fis, fis fis fis fis fis
+		h h h h h h
+		e, e e e e e
+		a a a a a a %35
+		d, d d d d d
+		g16.( a32 h16. c32) d8 d, r16 d(\pocoF e16. fis32)
+		g16.( a32 h16. c32) d8[ d,] d r
+		\clef "treble_8" r \mvTr d'(-.\pE-\markup { \remarkE "assai" } d-. d-. c-. c-.)
+		\once \slurDashed h(-. h-. a-.) \clef bass h,(-.-\bassiE h-. h-.) %40
+		c([-. c-.)] d(-. d-. d-. d-.)
+		g g e e h\f h
+		c c d d d, d
+		g r d'2\ff
+		g8 r d'2 %45
+		g,~ g8 g,
+		c c d d d, d
+		g g'([-.\p g-. g-. g-. g-.)]
+		r e(-. e-. e-. e-. e-.)
+		r h(-. h-. h-. h-. h-.) %50
+		a a d d d d
+		g, g'(-. g-. g-. g-. g-.)
+		r g(-. g-. g-. g-. g-.)
+		f! f f f f f
+		f f f f f f %55
+		e e e e e e
+		f f f f f f
+		d d d d d d
+		h h h h h h
+		c16. d32 e16. f32 g8[ g,] g r %60
+		R2.
+		r4 r8 e'(-. e-. e-.)
+		f(-. f-. g-. g-.) g, g
+		c4-!\f g'-! r
+		c\p g r %65
+		c, g r8 g
+		c16. d32 es16. f32 g8 g, r16 g a16. h!32
+		c16. d32 es16. f32 g8 g,16.\pocoF a32 g8 g
+		g2\trill r4
+		R2. %70
+		r4 r8 e'!8(-.\p e-. e-.)
+		f(-. f-. g-. g-. g-. g-.)
+		c2~ c8 c,
+		f\pocoF f g g g g
+		a a e[\f e e e] %75
+		f f f f f f
+		g2.\fermata
+		c4\ff g2
+		c,4 g'2
+		c~ c8 c, %80
+		f f g g g g
+		c2~\p c8 c,\f
+		f4 g g,
+		c(-. c-. c-.) \noBreak
+		c2.\fermata \bar "||" %85
+		\twofourtime \key c \minor \time 2/4 \tempoSemperFidaB
+			r8 c'\p h g \noBreak
+		r c es, as
+		f4 g
+		r8 c, es d
+		c c' h g
+		r c es, as
+		f4 g
+		r8 c es d
+		c4( as
+		b g)
+		as( f)
+		g g
+		c( as
+		b g)
+		as( f)
+		g8\pocoF f-! es-! f-!
+		g f g g,
+		c4 r
+		g'\p g,
+		c r
+		g' g,
+		c8 g' a h
+		c4( a)
+		b b,
+		b'( g)
+		a a,
+		\once \slurDashed a'( fis)
+		g b,
+		c d
+		es r8 b
+		c4 d8 d,
+		g4 r8 b'\f
+		c4 d8 d,
+		g4-!\ff f-!
+		es d8 c
+		g'4 f
+		es d8 c \noBreak
+		g' g g, g
+		\key c \major \time 3/4 \tempoSemperFidaC g2\fermata r4 \noBreak
+		R2.
+		r4 r8 e'8 e e
+		f f g g g g
+		c2~\p c8 c,\f
+		f f g g g, g
+		c4(-. c-. c-.) \bar "S-S"
 	}
 }
 
