@@ -1054,11 +1054,11 @@ SemperFidaViolinoII = {
 		r8 \mvTr c(-.\pE-\markup { \remarkE "assai" } c-. c-. h-. h-.)
 		a(-. a-. g-. g-. g-. g-.)
 		a4 g8( c4) h8
-		c8-!\f c-! r h32( c d16 c8) h\trill
-		c\p c, r h32( c d16 c8) h\trill %65
-		c c' r h32( c d16 c8) h
-		c4 h r16 h c16. d32
-		\appoggiatura d8 c4 h8 g,16.(\pocoF a32) g8 g
+		c8-!\f c-! r h!32( c d16 c8) h!\trill
+		c\p c, r h!32( c d16 c8) h!\trill %65
+		c c' r h!32( c d16 c8) h!
+		c4 h! r16 h! c16. d32
+		\appoggiatura d8 c4 h!8 g,16.(\pocoF a32) g8 g
 		g2 r4
 		r8 c'(-.\pE c-. c-. h-. h-.) %70
 		a(-. a-. g-. g-. g-. g-.)

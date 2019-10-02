@@ -992,6 +992,137 @@ SemperFidaViola = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 3/4 \tempoSemperFida
-		
+		c,8\fE c' c c c c
+		r e e e e c
+		r g' g g g g,
+		a a a d c h
+		c c c c c c %5
+		c c c a' a a
+		d, d <d h> q q4
+		r8 c\mf c c h h
+		a a g g g\f c
+		a a' e g \appoggiatura c, h4 %10
+		c2~\mf c8 c\f
+		c a' g4( f\trill) \noBreak
+		e8 e,16.( f32) e8 e16.( f32) e8 e \bar "S-|"
+		e8 c'\p c c c c \noBreak
+		r c(-. c-. c-. c-. c-.) %15
+		r g(-. g-. g-. g-. g-.)
+		a(-. a-. a-. a-. g-. g-.)
+		g(-. a-. e-. e-.) c[ c']
+		c c4 a8 g g
+		g c4 c8( g) h %20
+		c c c c c c
+		r e e([-. e-. e-. e-.)]
+		r d(-. d-. d-. d-. d-.)
+		d(-. d-. d-. h-. g-. g-.)
+		g(-. g-. e'-. e-. e-. e-.) %25
+		r d(-. d-. d-. d-. d-.)
+		d4 d r
+		d d r
+		d d r
+		d8 d d g, g g %30
+		g g' g g g g
+		a a a a a a
+		a a a a a a
+		g g g g g g
+		g g g g g g %35
+		fis fis(-. fis-. fis-. fis-. fis-.)
+		g,16.( a32 h16. c32) d8 d, r16 d(\pocoF e16. fis32)
+		\once \slurDashed g16.( a32 h16. c32) d8[ d,] d r
+		r \mvTr e'(-.\p-\markup { \remark "assai" } e-. e-. d-. d-.)
+		\once \slurDashed c(-. c-. h-. h-. h-. h-.) %40
+		\once \slurDashed c(-. c-. d-. d-. d-. d-.)
+		d d e e h\f h
+		c c d d d d
+		d r d2\ff
+		d8 r d2 %45
+		g~ g8 g,
+		c c d d d, d
+		g g'([-.\p g-. g-. g-. g-.)]
+		r e(-. e-. e-. e-. e-.)
+		r h(-. h-. h-. h-. h-.) %50
+		a a d d d d
+		d h(-. h-. h-. b-. b-.)
+		b4. \once \slurDashed b'8(-. b-. a-.)
+		a f f f f f
+		g g g g g g %55
+		g e e e e e
+		f f f f f f
+		f a a d, d f
+		g, g' g g g g
+		g4 g r %60
+		r8 \mvTr a(-.\pE-\markup { \remarkE "assai" } a-. a-. g-. g-.)
+		f(-. f-. e-. e-. e-. e-.)
+		f([ a)] e([ g)] g, g
+		g4\fE g'2
+		g4\pE g r %65
+		g g r8 g,
+		c16. d32 es16. f32 g8 g, r16 g a16. h!32
+		c16. d32 es16. f32 g8  <h,! d>\pocoFE <h d> q
+		q2 r4
+		r8 \once \slurDashed a'(-.\pE a-. a-. g-. g-.) %70
+		f f e([ g)] e([ c)]
+		c([ a')] e([ g)] g,4
+		c2~ c8 c
+		c\pocoFE a' g g f f
+		e e g\fE g g c, %75
+		c c f f a a
+		g2.\fermata
+		g4\ffE g2
+		g4 g2
+		c,~ c8 c %80
+		f f g g g, g
+		c2~\pE c8 c\fE
+		c a' g4 f
+		e8 e,16.( f32) e8-! e16.( f32) e8 e \noBreak
+		e2.\fermata \bar "||" %85
+		\twofourtime \key c \minor \time 2/4 \tempoSemperFidaB
+			r8 c''\p h g \noBreak
+		r c es, as
+		as4 g
+		r8 c, es d
+		c c' h g %90
+		r c es, as
+		as4 g
+		r8 es g f
+		es4( c
+		d b) %95
+		c( as)
+		g( d')
+		es( c
+		d b)
+		c( as) %100
+		g8\pocoFE d'-! es-! as-!
+		g as g f
+		es g-![ es-! c-!]
+		h4\pE d
+		c8 g'-! es-! c-! %105
+		c h r g'
+		g h c d
+		g,4( f)
+		f-! f-!
+		\once \slurDashed f( es) %110
+		es es
+		\once \slurDashed es( d)
+		d b
+		c d
+		es r8 b %115
+		c4 d8 d
+		d4 r8 b\f
+		c4 d8 d
+		d4\ffE d
+		g h8-! c-! %120
+		h4 d
+		g, h8-! c-!
+		c h g, g \noBreak
+		\key c \major \time 3/4 \tempoSemperFidaC
+			g2\trill\fermata r4 \noBreak
+			r8 \once \slurDashed a'(-. a-. a-. g-. g-.) %125
+		\once \slurDashed f(-. f-. e-. e-. c-. c-.)
+		a' a e g \appoggiatura c,h4
+		c2~\pE c8 c\fE
+		c a' g4 f
+		e8 e,16.( f32) e8-! e16.( f32) e8 e \bar "S-S" %130 finis
 	}
 }

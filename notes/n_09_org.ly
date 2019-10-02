@@ -2231,8 +2231,8 @@ SemperFidaOrgano = {
 		g16.( a32 h16. c32) d8 d, r16 d(\pocoF e16. fis32)
 		g16.( a32 h16. c32) d8[ d,] d r
 		\clef "treble_8" r \mvTr d'(-.\pE-\markup { \remarkE "assai" } d-. d-. c-. c-.)
-		\once \slurDashed h(-. h-. a-.) \clef bass h,(-.-\bassiE h-. h-.) %40
-		c([-. c-.)] d(-. d-. d-. d-.)
+		\once \slurDashed h([-. h-. a-.)] \clef bass h,(-.-\bassiE h-. h-.) %40
+		c(-. c-. d-. d-. d-. d-.)
 		g g e e h\f h
 		c c d d d, d
 		g r d'2\ff
@@ -2266,7 +2266,7 @@ SemperFidaOrgano = {
 		f(-. f-. g-. g-. g-. g-.)
 		c2~ c8 c,
 		f\pocoF f g g g g
-		a a e[\f e e e] %75
+		a a e\f e e e %75
 		f f f f f f
 		g2.\fermata
 		c4\ff g2
@@ -2316,7 +2316,8 @@ SemperFidaOrgano = {
 		g'4 f
 		es d8 c \noBreak
 		g' g g, g
-		\key c \major \time 3/4 \tempoSemperFidaC g2\fermata r4 \noBreak
+		\key c \major \time 3/4 \tempoSemperFidaC
+			g2\fermata r4 \noBreak
 		R2. %125
 		r4 r8 e'8 e e
 		f f g g g g
