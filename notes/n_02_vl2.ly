@@ -991,6 +991,137 @@ SemperFidaViolinoII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 3/4 \tempoSemperFida
-		
+		r4 \mvTr e'~\fE-\markup { \remark "legato" } e16([ f32 g)] f16([ e)]
+		\appoggiatura d16 c([ h] c4) c8 c e
+		c8.(\trill h16 c4) c8 e,
+		\appoggiatura e4 d4. d32([ e f16)] f( e) e( d)
+		e8.\trill f16 g4 g'8 b, %5
+		b?16([ a)] a([ b')] b([ a)] g([ f)] e([ d)] a'([ c,)]
+		\appoggiatura c8 h8. c16 d4 r8 r32 g,64(\mf a h c d e)
+		f8.( g32 a) f4. e8
+		\appoggiatura e d4\trill c r8 r16 g\f
+		f'8.(\trill e32 d) c8. d16 d4\trill %10
+		r16 c\mf c([ d)] d([ e)] e([ f)] f([ d)] d([\f e)]
+		f8.(\trill e32 d) \appoggiatura c4 h2 \noBreak
+		c8 \once \slurDashed g,(-. g-. g-. g-. g-.) \bar "S-|"
+		g r c'([\p g)] e([ c)] \noBreak
+		r e(-. e-. e-. e-. e-.) %15
+		r g(-. g-. e-. c-. c-.)
+		c(-. c-. c-. c-. c-. h-.)
+		c(-. c-. c-. c-.) c g'
+		\appoggiatura g4 f4. d'8( c h)
+		c-! e,16.([ f32)] e8-! e16.( f32) e8 d\trill %20
+		c r c'( g e c)
+		r e a([-. c-. c-. c-.)]
+		c(-. c-. c-. c-. c-. c-.)
+		c(-. h-. h-. h-. d-. g,-.)
+		c(-. c-. a-. a-. g-. g-.) %25
+		\appoggiatura g4 fis4. fis8( g fis)
+		g g'-! r fis32( g a16 g8) fis\trill
+		g g, r fis32( g a16 g8) fis\trill
+		g g' r fis32( g a16 g8) fis\trill
+		g8 h, r d( g, d') %30
+		d c c c c c
+		c c c c c c
+		c h h h h h
+		h h h h h h
+		h a a a a a %35
+		a a(-. a-. a-. a-. a-.)
+		\appoggiatura a g4 fis r16 d\pocoF e16. fis32
+		g4 fis r
+		r8 \mvTr g(-.\p-\markup { \remark "assai" } g-. g-. fis-. fis-.)
+		\once \slurDashed e(-. e-. d-. d-. d-. d-.) %40
+		c'8.(\trill h32 a) \appoggiatura g4 fis2
+		g16 h(-. h-. h-.) h8.( c16) d8\f g,
+		c8.(\trill h32 a) g4( fis)\trill
+		g8 g'-! r fis32(\ff g a16 g8) fis\trill
+		g g, r fis32( g a16) a16([ g)] g( fis) %45
+		r g g([ a)] a([ h)] h([ c)] c([ a)] a([ h)]
+		c8.(\trill h32 a) g4 fis\trill
+		g8 r g(\p d h g)
+		r h(-. h-. g'-. g-. g-.)
+		r g(-. g-. g-. g-. d'-.) %50
+		\appoggiatura d16 c8 h16( a) \appoggiatura g4 fis2
+		h8( g h d g e)
+		\appoggiatura d4 cis4. cis8(-. cis-. cis-.)
+		d d d a a a
+		h! h h h h h %55
+		c c c g g g
+		a a a a a a
+		a a a a a a
+		d d d d d d
+		\appoggiatura d c4 h r %60
+		r8 \mvTr c(-.\pE-\markup { \remarkE "assai" } c-. c-. h-. h-.)
+		a(-. a-. g-. g-. g-. g-.)
+		a4 g8( c4) h8
+		c8-!\f c-! r h32( c d16 c8) h\trill
+		c\p c, r h32( c d16 c8) h\trill %65
+		c c' r h32( c d16 c8) h
+		c4 h r16 h c16. d32
+		\appoggiatura d8 c4 h8 g,16.(\pocoF a32) g8 g
+		g2 r4
+		r8 c'(-.\pE c-. c-. h-. h-.) %70
+		a(-. a-. g-. g-. g-. g-.)
+		a4 g8 c4 h8
+		r16 c c([ d)] d([ e)] e([ f)] f([ d)] d([ e)]
+		f8.(\trill\pocoF e32 d) c8.(\trill d16) \appoggiatura c8 h4
+		c16[ c'] c8~ c16 g,\f g([ c)] c([ e)] e( g) %75
+		g([ f)] f8~ f16([ a)] a([ f)] f([ e)] e([ d)]
+		c4\fermata h2
+		c8-!\ff e-! r \once \slurDashed d32( e f16 e8) d\trill
+		e c r h32( c d16) d([ c)] c([ h)]
+		r c c([ d)] d([ e)] e([ f)] f([ d)] d([ e)] %80
+		f8.(\trill e32 d) \appoggiatura c4 h2
+		r16 c\p c([ d)] d([ e)] e([ f)] f([ d)] d([\f e)]
+		f8.(\trill e32 d) c4 h\trill
+		c8 \once \slurDashed g,(-. g-. g-. g-. g-.) \noBreak
+		g2.\fermata \bar "||" %85
+		\twofourtime \key c \minor \time 2/4 \tempoSemperFidaB
+			r8 c'\p g h \noBreak
+		c4. es,8
+		\once \slurDashed f( es4) d8
+		es es g f
+		es g4 h8 %90
+		c4. es,8
+		\once \slurDashed f( es4) d8
+		es c r4
+		r8 es' r f
+		r d r es %95
+		r c r d
+		r h r h
+		r es r f
+		r d r es
+		r c r d %100
+		r h-!\pocoF c-! d-!
+		c8. d16 \appoggiatura c8 h4
+		c8 g[-! es-! c-!]
+		r4 f'\p
+		es8 g,-! es-! c-! %105
+		r4 h'
+		c8 h r4
+		r8 c r c'
+		r b, r b'
+		r b, r b' %110
+		r a, r a'
+		r a, r a'
+		r g, r g
+		r g r d16 c
+		b4 r8 d' %115
+		es16 c( b a) \appoggiatura g8 fis4
+		g4 r8 d'\f
+		es16 c( b a) \appoggiatura g8 fis4
+		g8\ff g' r h,
+		r16 c c8\trill f[-! es-!] %120
+		d-! g-! r h,
+		r16 c c8\trill d[-! es-!]
+		\appoggiatura f16 es8 d16. g32 g,,8 g \noBreak
+		\key c \major \time 3/4 \tempoSemperFidaC
+			g2\trill\fermata r4 \noBreak
+		r8 \once \slurDashed c'(-. c-. c-. h-. h-.) %125
+		\once \slurDashed a(-. a-.) g4 r8 r16 g
+		f'8.( e32 d) c8.( d16) d4\trill
+		r16 c\p c([ d)] d([ e)] e([ f)] f([ d)] d([\f e)]
+		f8.( e32 d) c4 h\trill
+		c8 \once \slurDashed g,(-. g-. g-. g-. g-.) \bar "S-S" %130 finis
 	}
 }

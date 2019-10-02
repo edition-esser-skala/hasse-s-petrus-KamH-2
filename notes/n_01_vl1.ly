@@ -991,7 +991,7 @@ SemperFidaViolinoI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 3/4 \tempoSemperFida
-		r4 e'~\fE e16([ f32 g)] f16([ e)]
+		r4 \mvTr e'~\fE-\markup { \remark "legato" } e16([ f32 g)] f16([ e)]
 		\appoggiatura d16 c([ h] c4) c8 c e
 		c8.(\trill h16 c4) c8 e,
 		\appoggiatura e4 d4. d32([ e f16)] f( e) e( d)
@@ -1017,9 +1017,9 @@ SemperFidaViolinoI = {
 		d,(-. d-. d-. d-. d-. d-.)
 		e(-. e-. c-. c-. h-. h-.) %25
 		\appoggiatura h4 a4. a8( h c)
-		h h'-! r a32( h c16) h8 a\trill
-		h h, r a32( h c16) h8 a\trill
-		h h' r a32( h c16) h8 a\trill
+		h h'-! r a32( h c16 h8) a\trill
+		h h, r a32( h c16 h8) a\trill
+		h h' r a32( h c16 h8) a\trill
 		h d, r d( e f!) %30
 		e e e e e e
 		e e e e e e
@@ -1034,7 +1034,7 @@ SemperFidaViolinoI = {
 		e'8.(\trill d32 c) \appoggiatura h4 a2
 		h16 g'(-. g-. g-.) g4. d8\f
 		e8.(\trill d32 c) h4( a)\trill
-		g8 h'-! r a32(\ff h c16) h8 a\trill
+		g8 h'-! r a32(\ff h c16 h8) a\trill
 		h h, r a32( h c16) c16([ h)] h( a) %45
 		r h h([ c)] c([ d)] d([ e)] e([ fis)] fis([ g)]
 		e8.(\trill d32 c) h4 a\trill
@@ -1042,7 +1042,7 @@ SemperFidaViolinoI = {
 		\appoggiatura a g( fis g4) h8(-. h-. h-.)
 		r d(-. d-. d-. d-. d-.) %50
 		\appoggiatura d16 c8 h16( a) \appoggiatura g4 fis4. c'8
-		h g( h d) g4(
+		h( g h d) g4(
 		\appoggiatura f!4 e4.) e8(-. e-. e-.)
 		f a a d, d d
 		d d d d d d %55
@@ -1054,10 +1054,10 @@ SemperFidaViolinoI = {
 		f8.( g32 a) f4. e8
 		\appoggiatura e d4 c r8 r16 g
 		f'8.(\trill e32 d) c4 d\trill
-		c8\f es-! r d32( es f16) es8 d\trill
-		es\p es, r d32( es f16) es8 d\trill %65
-		es es' r d32( es f16) es8 d
-		es4( d) g
+		c8-\parenthesize-!\f es-! r d32( es f16 es8) d\trill
+		es\p es, r d32( es f16 es8) d\trill %65
+		es es' r d32( es f16 es8) d
+		es4( d g)
 		\appoggiatura f8 es4 d8 g,,16.(\pocoF a32) g8 g
 		g2 r16 g'32(\p a h c d e)
 		f8.( g32 a!) f4. e8 %70
@@ -1068,7 +1068,7 @@ SemperFidaViolinoI = {
 		c16[ c'] c8~ c16 c,\f c([ e)] e([ g)] g( b) %75
 		b?([ a)] a8~ a16([ c)] c([ a)] a([ g)] g([ f)]
 		e4\fermata d2
-		c8-!\ff c'-! r h32( c d16) c8 h\trill
+		c8-!\ff c'-! r h32( c d16 c8) h\trill
 		c e, r d32( e f16) f([ e)] e([ d)]
 		r e e([ f)] f([ g)] g([ a)] a([ h)] h([ c)] %80
 		a8.(\trill g32 f) \appoggiatura e4 d2

@@ -2213,7 +2213,7 @@ SemperFidaOrgano = {
 		f f f f g g
 		c,4( e g) %20
 		c8 c' c c c c
-		r a(-. a-. a-. a-. g-.)
+		r a a([-. a-. a-. g-.)]
 		fis(-. fis-. fis-. fis-. fis-. fis-.)
 		g(-. g-. g-. g-. h,-. h-.)
 		c(-. c-. c-. c-. cis-. cis-.) %25
