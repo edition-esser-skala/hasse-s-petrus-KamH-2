@@ -553,47 +553,87 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "13 O PORTENTA AETERNA AMORIS"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\OPortentaViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\OPortentaViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 							\OPortentaViola
+% 					}
+% 				>>
+% 				\new ChoirStaff \with { \smallerGroupDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Joseph"
+% 						\new Voice = "Joseph" { \dynamicUp \OPortentaJosephNotes }
+% 					}
+% 					\new Lyrics \lyricsto Joseph \OPortentaJosephLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\OPortentaOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\OPortentaBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "13 O PORTENTA AETERNA AMORIS"
+			movement = "14 VADAM, SED SACRI ORRORIS"
 		}
+		\paper { systems-per-page = #3 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\OPortentaViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\OPortentaViolinoII
-						}
-					>>
+				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Viola"
-							\OPortentaViola
+						\set Staff.instrumentName = \markup { \center-column { "Maria" "Magdalena" } }
+						\new Voice = "MariaMagdalena" { \dynamicUp \VadamMariaMagdalenaNotes }
 					}
-				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
+					\new Lyrics \lyricsto MariaMagdalena \VadamMariaMagdalenaLyrics
+					
 					\new Staff {
-						\set Staff.instrumentName = "Joseph"
-						\new Voice = "Joseph" { \dynamicUp \OPortentaJosephNotes }
+						\set Staff.instrumentName = \markup { \center-column { "Maria" "Jacobe" } }
+						\new Voice = "MariaJacobe" { \dynamicUp \VadamMariaJacobeNotes }
 					}
-					\new Lyrics \lyricsto Joseph \OPortentaJosephLyrics
+					\new Lyrics \lyricsto MariaJacobe \VadamMariaJacobeLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Maria" "Salome" } }
+						\new Voice = "MariaSalome" { \dynamicUp \VadamMariaSalomeNotes }
+					}
+					\new Lyrics \lyricsto MariaSalome \VadamMariaSalomeLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\OPortentaOrgano
+						\VadamOrgano
 					}
 				>>
 				\new FiguredBass {
-					\OPortentaBassFigures
+					\VadamBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

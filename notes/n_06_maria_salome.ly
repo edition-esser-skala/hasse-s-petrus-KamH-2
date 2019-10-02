@@ -290,6 +290,18 @@ SiDeoDilectaeMariaSalomeLyrics = \lyricmode {
 	Si %117 finis
 }
 
+VadamMariaSalomeNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoVadam
+		
+	}
+}
+
+VadamMariaSalomeLyrics = \lyricmode {
+	
+}
+
 % MariaSalomeNotes = {
 % 	\relative c' {
 % 		\clef treble

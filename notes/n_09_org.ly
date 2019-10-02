@@ -2138,6 +2138,18 @@ OPortentaBassFigures = \figuremode {
 	r1 %95 finis
 }
 
+VadamOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoVadam
+		gis'1\pE
+	}
+}
+
+VadamBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

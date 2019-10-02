@@ -441,6 +441,18 @@ IneffabileMariaJacobeLyrics = \lyricmode {
 	so -- cium te prae -- be. %10 finis
 }
 
+VadamMariaJacobeNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoVadam
+		
+	}
+}
+
+VadamMariaJacobeLyrics = \lyricmode {
+	
+}
+
 % MariaJacobeNotes = {
 % 	\relative c' {
 % 		\clef treble

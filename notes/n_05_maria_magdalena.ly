@@ -524,6 +524,18 @@ JesuMeaPaxMariaMagdalenaLyrics = \lyricmode {
 	se. %139 finis
 }
 
+VadamMariaMagdalenaNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoVadam
+		
+	}
+}
+
+VadamMariaMagdalenaLyrics = \lyricmode {
+	
+}
+
 % MariaMagdalenaNotes = {
 % 	\relative c' {
 % 		\clef treble
