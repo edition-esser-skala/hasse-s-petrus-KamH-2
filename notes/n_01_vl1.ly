@@ -92,8 +92,17 @@ IntroduzioneViolinoI = {
 		b fis g d d' a
 		b fis g d d'[ c]
 		b a g f es d \noBreak
-		cis2.\fermata %85
-		\time 4/4 \tempoIntroduzioneC r16 d( cis d) r d( cis d) r g( fis g) r f( e f) \noBreak
+		cis2.\fermata \markEAttaca \bar "|" %85
+	}
+}
+
+PlangeViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 4/4 \tempoPlange
+			\set Staff.timeSignatureFraction = 4/4
+			\set Score.currentBarNumber = #86
+			r16 d'(\fE cis d) r d( cis d) r g( fis g) r f( e f)
 		e-! e,([\p f e)] r cis'( d cis) r e( f e) r f(\f d gis)
 		a-! e,([\p f e)] r cis'( d cis) r e( f e) r f(\f d gis)
 		\stemDown a a,(-. a-. a-. a-. a-. a-. a-.) \stemNeutral a4~ a8 r
@@ -107,12 +116,12 @@ IntroduzioneViolinoI = {
 		g4( g8-. g-.) g4(\f g8-. g-.)
 		g1~\p
 		g2 c,16( e,! f g) as([ g)] g([\f fis)]
-		fis?2 r4 r8 \tempoIntroduzioneD d'\f %100
+		fis?2 r4 r8 \tempoPlangeB d'\f %100
 		e!16( a8) g32( f) e16( f32 e f16) d\trill e16( a8) g32( f) e16( f32 e f16) d\trill
 		e1~\p
 		e
 		d16 a'8 g16 f( g32 f g16) e\trill f8 r r4\fermata
-		\tempoIntroduzioneE r16 d, d d es d d d fis d d d a' d, d d %105
+		\tempoPlangeC r16 d, d d es d d d fis d d d a' d, d d %105
 		g d d d es d d d g\f d d d b' d, d d
 		a'\p d, d es es h h c c d d es es h h c
 		c\f d d es es es es es es2~\p
@@ -127,10 +136,10 @@ IntroduzioneViolinoI = {
 		es4 r r2
 		d16 f'32 e! f16 f, g a b a b f'32 e f16 b, a g f es
 		d4 r8 r16 f' f8 r r4
-		\tempoIntroduzioneF es,16(\p f g as b\fE c des des) des2\pE %120
+		\tempoPlangeD es,16(\p f g as b\fE c des des) des2\pE %120
 		c4(-. c-.) c4( c8-. c-.)
 		c16 as'( g f e! des c b) as2~
-		as r4 \tempoIntroduzioneG d\f
+		as r4 \tempoPlangeE d\f
 		es8 es,-! es-! es-! es-! b!( c des)
 		c-! c[-! c-! c-!] c g( a! b) %125
 		\appoggiatura b4 a!2\p c

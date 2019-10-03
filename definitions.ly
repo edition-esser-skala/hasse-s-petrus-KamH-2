@@ -132,6 +132,12 @@ unisonoE = \markup { \remarkE "unisono" }
 pizz = \markup { \remark "pizz." }
 arco = \markup { \remark "arco" }
 
+MariaJacobe = \markup { \remark "Maria Jacobe" }
+MariaMagdalena = \markup { \remark "Maria Magdalena" }
+MariaSalome = \markup { \remark "Maria Salome" }
+Joseph = \markup { \remark "Joseph" }
+Petrus = \markup { \remark "Petrus" }
+
 t = \markup { \combine \fontsize #-2 \transparent \number 5 \raise #.6 \draw-line #'(1 . 0) }
 l = \markup { \fontsize #-2 \transparent \number 5 }
 fermataMarkdown = \markup { \musicglyph #'"scripts.dfermata" }
@@ -182,9 +188,19 @@ twofourtime = {
 		#'((end . (((1 . 16) . (4 4)))))
 	}
 	
+markEAttaca = {
+	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+	\mark \markup { \remarkE "attacca" }
+}
+
 markAttacaID = {
 	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
 	\mark \markup { \remark "attacca il Duetto" }
+}
+
+markEnd = {
+	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+	\mark \markup { \remark {\right-column { "Qui attacava uno de’ Miserere di Dresda" "accomodato per le pute, senza Tenori, e Baſsi." } } }
 }
 
 mvTr = \once \override TextScript.X-offset = #2
@@ -207,11 +223,11 @@ tempoMarkup =
 
 tempoIntroduzione = \tempoMarkup "Lento" %1
 	tempoIntroduzioneB = \tempoMarkup "Allegro non presto" %9
-	tempoIntroduzioneC = \tempoMarkup "Lento come prima" %86
-	tempoIntroduzioneD = \tempoMarkup "Un poco più andante" %100
-	tempoIntroduzioneE = \tempoMarkup "Andante" %105
-	tempoIntroduzioneF = \tempoMarkup "Adagio" %120
-	tempoIntroduzioneG = \tempoMarkup "Un poco più andante" %123
+tempoPlange = \tempoMarkup "Lento come prima" %86 C
+	tempoPlangeB = \tempoMarkup "Un poco più andante" %100 D
+	tempoPlangeC = \tempoMarkup "Andante" %105 E
+	tempoPlangeD = \tempoMarkup "Adagio" %120 F
+	tempoPlangeE = \tempoMarkup "Un poco più andante" %123 F
 tempoCrucifixum = \tempoMarkup "Andante"
 tempoEamus = \tempoMarkup "[Tempo deest]"
 	tempoEamusB = \tempoMarkup "Andante"
@@ -238,6 +254,7 @@ tempoSemperFida = \tempoMarkup "Lento, ma non troppo"
 	tempoSemperFidaB = \tempoMarkup "Allegretto"
 	tempoSemperFidaC = \tempoMarkup "Tempo di prima"
 tempoAhTuSiles = \tempoMarkup "[Tempo deest]"
+	tempoAhTuSilesB = \tempoMarkup "Adagio"
 
 
 
@@ -326,7 +343,7 @@ tempoAhTuSiles = \tempoMarkup "[Tempo deest]"
 		\Score
 		\override MetronomeMark.font-series = #'medium
 		\compressFullBarRests
-		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
+% 		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
 	}
 	\context {
 		\StaffGroup
@@ -411,3 +428,4 @@ tempoAhTuSiles = \tempoMarkup "[Tempo deest]"
 \include "notes/n_07_joseph.ly"
 \include "notes/n_08_petrus.ly"
 \include "notes/n_09_org.ly"
+\include "notes/n_99_soli.ly"

@@ -671,8 +671,8 @@ SemperFidaMariaMagdalenaNotes = {
 
 SemperFidaMariaMagdalenaLyrics = \lyricmode {
 	Sem -- per %14
-	fi -- da o mea pu -- %15
-	pil -- la ad se --
+	fi -- da, o mea pu -- %15
+	pil -- la, ad se --
 	pul -- crum vi -- gi --
 	la -- bis, ad se --
 	pul -- crum vi -- gi --
@@ -702,8 +702,8 @@ SemperFidaMariaMagdalenaLyrics = \lyricmode {
 	spe.
 	
 	Sem -- per %48
-	fi -- da o mea pu --
-	pil -- la ad se -- %50
+	fi -- da, o mea pu --
+	pil -- la, ad se -- %50
 	pul -- crum vi -- gi --
 	la -- bis, mae -- stum
 	cor plo --

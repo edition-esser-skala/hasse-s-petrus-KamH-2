@@ -92,8 +92,17 @@ IntroduzioneViola = {
 		d'8 c b4. es8
 		d c b4. a8
 		d, fis g4 g \noBreak
-		g2.\fermata %85
-		\time 4/4 \tempoIntroduzioneC a8 r a r <e a> r <d a'> r \noBreak
+		g2.\fermata \markEAttaca \bar "|" %85
+	}
+}
+
+PlangeViola = {
+	\relative c' {
+		\clef alto
+		\key d \minor \time 4/4 \tempoPlange
+			\set Staff.timeSignatureFraction = 4/4
+			\set Score.currentBarNumber = #86
+			a'8\fE r a r <e a> r <d a'> r
 		a4\p a a a8\f a
 		a4\pE a a a8\fE a
 		a( d cis d) cis4~ cis8 r
@@ -107,12 +116,12 @@ IntroduzioneViola = {
 		c16( d es f) g( a h c) h(\f c h as) g( as g h,)
 		c1~\pE
 		c2~ c8. b!16 as([ g)] g([\f fis)]
-		fis?2 r4 r8 \tempoIntroduzioneD g'\f %100
+		fis?2 r4 r8 \tempoPlangeB g'\f %100
 		c c, r g' c c, r g'
 		g2\pE g~
 		g1
 		f8 a r a a r r4\fermata
-		\tempoIntroduzioneE fis,8 r r4 a8 r fis r %105
+		\tempoPlangeC fis,8 r r4 a8 r fis r %105
 		d16 d' d d es d d d g\fE d d d b' d, d d
 		a'\pE d, d es es h h c c d d es es h h c
 		c\fE h h c c a a a a2~\pE
@@ -127,10 +136,10 @@ IntroduzioneViola = {
 		a4 r r2
 		b8 r16 f' g a b a b8 r16 b a g f es
 		d4 r8 r16 f f8 r r4
-		\tempoIntroduzioneF es8.([\p f16)] g(\fE as b as) g2\pE %120
+		\tempoPlangeD es8.([\p f16)] g(\fE as b as) g2\pE %120
 		r16 as,( g as) r b( as g) r as( g as) b-\parenthesize-! b( as g)
 		as8([ b)] c([ e!)] f2~
-		f r4 \tempoIntroduzioneG g\fE
+		f r4 \tempoPlangeE g\fE
 		g8-! es-! es-! es-! es-! b!( c des)
 		c-! c-![ c-! c-!] c \once \slurDashed g( a! b) %125
 		\appoggiatura b4 a!1~\pE
@@ -409,7 +418,7 @@ MeaTormentaViola = {
 		b8 g g g g g fis d
 		es4-! g-! c,-! d-! \noBreak
 		g,-! r r2\fermata \bar "||"
-		es'2.\pE \noBreak %90
+		\time 3/4 \tempoMeaTormentaB es'2.\pE \noBreak %90
 		c4( b) d
 		b c2
 		f, g4

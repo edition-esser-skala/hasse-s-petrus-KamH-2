@@ -15,16 +15,14 @@ PetrusIncipit = \markup {
 	} \hspace #-1.8
 }
 
-IntroduzionePetrusNotes = {
+PlangePetrusNotes = {
 	\relative c' {
 		\clef treble
-		\key d \minor \time 4/4 \autoBeamOff \tempoIntroduzione
-		R1*7 %7
-		R1\fermataMarkup
-		\time 3/4 \tempoIntroduzioneB R2.*76 %84
-		R2.\fermataMarkup %85
-		\time 4/4 \tempoIntroduzioneC R1*3 %88
-		r2 a'~\pE
+		\key d \minor \time 4/4 \autoBeamOff \tempoPlange
+			\set Staff.timeSignatureFraction = 4/4
+			\set Score.currentBarNumber = #86
+			R1*3 %88
+		r2 a'~
 		a1~ %90
 		a8 d, d'2~ d8.[ c64 b a32]
 		b8 b r4 r b~
@@ -35,12 +33,12 @@ IntroduzionePetrusNotes = {
 		es16. es32 es8 r4 r2
 		r4 r8 c b'4 b8 des~
 		des c16 b \appoggiatura b as8 \appoggiatura as16 g8 as as c4~
-		c h8 c g4 g8 \tempoIntroduzioneD r %100
+		c h8 c g4 g8 \tempoPlangeB r %100
 		R1
 		g8 g16. g32 b!8 g e!4 e
 		g g8. g16 b4 a
 		f8 f r4 r8 a8. a16 a8\fermata
-		\tempoIntroduzioneE r2 r4 r8 d, %105
+		\tempoPlangeC r2 r4 r8 d, %105
 		g g r4 r r8 d
 		a' a r4 r2
 		r r4 fis8 a
@@ -55,7 +53,7 @@ IntroduzionePetrusNotes = {
 		r a8. c16 c8 es, r d
 		f f r4 r2
 		R1
-		\tempoIntroduzioneF R1*6 %125
+		\tempoPlangeD R1*6 %125
 		r8 c'4 c8 a! a r c
 		ges4 ges2 f8 es
 		des des r4 r f
@@ -65,11 +63,11 @@ IntroduzionePetrusNotes = {
 		\key c \major R1*4 %135
 		\time 2/4 R2
 		\time 4/4 R1*4 %140
-		R1\fermataMarkup \bar "||" %141 finis
+		R1\fermataMarkup \bar "|." %141 finis
 	}
 }
 
-IntroduzionePetrusLyrics = \lyricmode {
+PlangePetrusLyrics = \lyricmode {
 	Plan -- %89
 	%90
 	ge, plan --
@@ -113,7 +111,7 @@ EamusPetrusNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoEamus
-		r4 r8 cis'\pE cis gis r4
+		r4 r8 cis' cis gis r4
 		R1*5 %6
 		a8 a r a e'4 c8 a
 		fis fis r d a'8. a16 a8 h
@@ -143,7 +141,7 @@ MeaTormentaPetrusNotes = {
 		\key g \minor \time 4/4 \autoBeamOff \tempoMeaTormenta
 		R1*17 \noBreak %17
 		R1\fermataMarkup \bar "S-|"
-		g'2\pE b4.(\trill c8) \noBreak
+		g'2 b4.(\trill c8) \noBreak
 		d4 d, r d8. d16 %20
 		g8.([\trill fis16)] g4 r g8. b16
 		\appoggiatura b4 a4. c8 c([ b)] b a
@@ -406,7 +404,7 @@ PiaeMulieresPetrusNotes = {
 }
 
 PiaeMulieresPetrusLyrics = \lyricmode {
-	Pi -- ae mu -- li -- e -- res ceſ --
+	Pi -- ae mu -- li -- e -- res, ceſ --
 	sa -- te; in -- gra -- to cor -- di
 	me -- o so -- lum de -- ben -- tur
 	la -- cry -- mae.
@@ -707,11 +705,37 @@ JesuMeaPaxPetrusLyrics = \lyricmode {
 AhTuSilesPetrusNotes = {
 	\relative c' {
 		\clef treble
-		\key f \major \time 4/4 \autoBeamOff \tempoAhTuSiles
-		
+		\key c \major \time 4/4 \autoBeamOff \tempoAhTuSiles
+		R1*5 %5
+		r2 b'8 b r b16. a32
+		a4 a r8 e16 f g8 g16 a
+		f4 r16 f e d gis4 gis
+		h8 e, r16 gis gis gis h8 a h h
+		r h16 h d8 c a a r4 %10
+		r4 c8. d16 b8 b r4
+		b?16. b32 b8 b a16 g c8. c16 c8 r
+		c4 b8. c16 a4 a
+		r c8 a f16. f32 f8 r f16. g32
+		a8 a r4 c8 es,16. es32 es8 f %15
+		\tempoAhTuSilesB d d c'8. d16 b8 b r4
+		b8 b b a16 g c8 c r4
+		es4( c8) b g g r4
+		R1\fermataMarkup \bar "|." %19 FINIS
 	}
 }
 
 AhTuSilesPetrusLyrics = \lyricmode {
-	
+	I -- te, hinc ex -- %6
+	i -- re mi -- hi da -- tum non
+	est. Ad mo -- nu -- men -- tum
+	it -- e, et quae_e -- ve -- ni -- ant o -- mnia
+	re -- nun -- cia -- te mi -- hi. %10
+	Ah, tam ci -- to
+	Pi -- e -- tas ve -- stra non de -- se -- rat
+	Pe -- trum plo -- ran -- tem.
+	Me -- cum si -- sti -- te, dum o --
+	ra -- re et de pec -- ca -- to %15
+	meo dum de -- beo fle -- re:
+	At -- que di -- ci -- te me -- cum
+	Mi -- se -- re -- re. %18 FINIS
 }

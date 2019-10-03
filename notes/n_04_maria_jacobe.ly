@@ -15,22 +15,20 @@ MariaJacobeIncipit = \markup {
 	} \hspace #-1.8
 }
 
-IntroduzioneMariaJacobeNotes = {
+PlangeMariaJacobeNotes = {
 	\relative c' {
 		\clef treble
-		\key d \minor \time 4/4 \autoBeamOff \tempoIntroduzione
-		R1*7 %7
+		\key d \minor \time 4/4 \autoBeamOff \tempoPlange
+			\set Staff.timeSignatureFraction = 4/4
+			\set Score.currentBarNumber = #86
+			R1*18 %103
 		R1\fermataMarkup
-		\time 3/4 \tempoIntroduzioneB R2.*76 %84
-		R2.\fermataMarkup %85
-		\time 4/4 \tempoIntroduzioneC R1*18 %103
-		R1\fermataMarkup
-		\tempoIntroduzioneE R1*14 %118
-		r8 b'16\pE c as8 as r as16 as b8 f
-		\tempoIntroduzioneF g g r4 r8 des'4 c16 b %120
+		\tempoPlangeC R1*14 %118
+		r8 b'16 c as8 as r as16 as b8 f
+		\tempoPlangeD g g r4 r8 des'4 c16 b %120
 		as8 as r4 c4~ c8. c,16
 		c4 r r8 f'4 \appoggiatura es?16 des8
-		\appoggiatura c16 h8. h16 h8 c g g \tempoIntroduzioneG r4
+		\appoggiatura c16 h8. h16 h8 c g g \tempoPlangeE r4
 		R1*8 %131
 		\key c \major r4 r8 b d d d es
 		fis, fis c'4. d16 es es([ d)] d([ c)]
@@ -45,7 +43,7 @@ IntroduzioneMariaJacobeNotes = {
 	}
 }
 
-IntroduzioneMariaJacobeLyrics = \lyricmode {
+PlangeMariaJacobeLyrics = \lyricmode {
 	Non -- ne sen -- tis, non -- ne sen -- tis, %119
 	Pe -- tre? Mo -- ri -- tur %120
 	Je -- sus, mo -- ri --
@@ -71,7 +69,7 @@ CrucifixumMariaJacobeNotes = {
 			\set Staff.timeSignatureFraction = 2/2
 		R1*24
 		R1\fermataMarkup \bar "S-|" %25
-		a'2\pE a4.(\trill gis16[ a])
+		a'2 a4.(\trill gis16[ a])
 		fis'2 e
 		h8([ d)] cis([ e)] \appoggiatura e4 d2
 		\appoggiatura d2 cis1
@@ -309,7 +307,7 @@ EamusMariaJacobeNotes = {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoEamus
 		R1
-		h'8\pE h r cis a a r a
+		h'8 h r cis a a r a
 		dis dis r4 fis a,8 h
 		g! g r4 r8 cis16 e e8 g,16 a
 		fis8 fis r4 fis'4( \grace e16 d8) \appoggiatura cis?16 h8 %5
@@ -472,11 +470,27 @@ VadamMariaJacobeLyrics = \lyricmode {
 AhTuSilesMariaJacobeNotes = {
 	\relative c' {
 		\clef treble
-		\key f \major \time 4/4 \autoBeamOff \tempoAhTuSiles
-		
+		\key c \major \time 4/4 \autoBeamOff \tempoAhTuSiles
+		c'4 r8 c f f r c
+		d d r4 r8 d16 d d8 d16 es
+		c4 c r8 es4 c8
+		a a r a c c d a
+		b16. b32 b8 r4 r2 %5
+		R1*4
+		r2 r4 r8 c %10
+		a a r4 r2
+		R1*7 %18
+		R1\fermataMarkup \bar "|." %19 FINIS
 	}
 }
 
 AhTuSilesMariaJacobeLyrics = \lyricmode {
+	Ah, tu si -- les, o %1
+	Pe -- tre! Et a no -- bis di --
+	vi -- sus, tri -- stis
+	ad huc a -- ma -- ras fun -- dis
+	la -- cry -- mas? %5
 	
+	Sic %10
+	e -- rit. %11 FINIS
 }

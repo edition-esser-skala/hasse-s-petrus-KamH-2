@@ -6,10 +6,11 @@
 
 #(ly:set-option 'relative-includes #t)
 
-\include "scores/s_pars_prima.ly"
+% \include "scores/s_oratorio.ly"
 
 % \include "parts/p_vl1.ly"
 % \include "parts/p_vl2.ly"
+% \include "parts/p_vla.ly"
 % \include "parts/p_soli.ly"
 % \include "parts/p_org.ly"
-% \include "parts/p_b.ly"
+\include "parts/p_b.ly"
