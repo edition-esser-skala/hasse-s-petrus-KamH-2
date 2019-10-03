@@ -2463,11 +2463,47 @@ SemperFidaBassFigures = \figuremode {
 AhTuSilesOrgano = {
 	\relative c {
 		\clef bass
-		\key f \major \time 4/4 \tempoAhTuSiles
+		\key c \major \time 4/4 \tempoAhTuSiles
 		f1\pE
+		b
+		fis~
+		fis
+		g~ %5
+		g
+		cis,
+		d~
+		d~
+		d2 c!~ %10
+		c e~
+		e1~
+		e2 f~
+		f1~
+		f %15
+		\tempoAhTuSilesB fis2 g~
+		g es4 c~
+		c2 r4 d
+		g,1\fermata \bar "|." %19 FINIS
 	}
 }
 
 AhTuSilesBassFigures = \figuremode {
-	
+	r1
+	r
+	<7->
+	<6>
+	<_-> %5
+	r
+	<6>
+	<_!>2 <4\+>
+	r1
+	r2 <6> %10
+	r <6 5->
+	r1
+	r
+	r1
+	r2 <7-> %15
+	<6> <_->
+	r <6>4 <_->
+	r2. <_+>4
+	<_!>1 %19 FINIS
 }

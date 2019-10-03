@@ -312,11 +312,16 @@ VadamMariaSalomeLyrics = \lyricmode {
 AhTuSilesMariaSalomeNotes = {
 	\relative c' {
 		\clef treble
-		\key f \major \time 4/4 \autoBeamOff \tempoAhTuSiles
-		
+		\key c \major \time 4/4 \autoBeamOff \tempoAhTuSiles
+		R1*4
+		r4 d'8 c16 d b8 b r4 %5
+		d8 g, r4 r2
+		R1*12 %18
+		R1\fermataMarkup \bar "|." %19 FINIS
 	}
 }
 
 AhTuSilesMariaSalomeLyrics = \lyricmode {
-	
+	Ve -- ni no -- bis -- cum, %4
+	ve -- ni. %5 FINIS
 }

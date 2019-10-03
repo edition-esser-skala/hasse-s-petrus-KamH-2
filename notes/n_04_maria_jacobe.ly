@@ -472,11 +472,27 @@ VadamMariaJacobeLyrics = \lyricmode {
 AhTuSilesMariaJacobeNotes = {
 	\relative c' {
 		\clef treble
-		\key f \major \time 4/4 \autoBeamOff \tempoAhTuSiles
-		
+		\key c \major \time 4/4 \autoBeamOff \tempoAhTuSiles
+		c'4 r8 c f f r c
+		d d r4 r8 d16 d d8 d16 es
+		c4 c r8 es4 c8
+		a a r a c c d a
+		b16. b32 b8 r4 r2 %5
+		R1*4
+		r2 r4 r8 c %10
+		a a r4 r2
+		R1*7 %18
+		R1\fermataMarkup \bar "|." %19 FINIS
 	}
 }
 
 AhTuSilesMariaJacobeLyrics = \lyricmode {
+	Ah, tu si -- les, o %1
+	Pe -- tre! Et a no -- bis di --
+	vi -- sus, tri -- stis
+	ad huc a -- ma -- ras fun -- dis
+	la -- cry -- mas? %5
 	
+	Sic %10
+	e -- rit. %11 FINIS
 }

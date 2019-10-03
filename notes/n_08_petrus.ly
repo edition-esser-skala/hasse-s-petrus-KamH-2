@@ -707,11 +707,37 @@ JesuMeaPaxPetrusLyrics = \lyricmode {
 AhTuSilesPetrusNotes = {
 	\relative c' {
 		\clef treble
-		\key f \major \time 4/4 \autoBeamOff \tempoAhTuSiles
-		
+		\key c \major \time 4/4 \autoBeamOff \tempoAhTuSiles
+		R1*5 %5
+		r2 b'8 b r b16. a32
+		a4 a r8 e16 f g8 g16 a
+		f4 r16 f e d gis4 gis
+		h8 e, r16 gis gis gis h8 a h h
+		r h16 h d8 c a a r4 %10
+		r4 c8. d16 b8 b r4
+		b?16. b32 b8 b a16 g c8. c16 c8 r
+		c4 b8. c16 a4 a
+		r c8 a f16. f32 f8 r f16. g32
+		a8 a r4 c8 es,16. es32 es8 f %15
+		\tempoAhTuSilesB d d c'8. d16 b8 b r4
+		b8 b b a16 g c8 c r4
+		es4( c8) b g g r4
+		R1\fermataMarkup \bar "|." %19 FINIS
 	}
 }
 
 AhTuSilesPetrusLyrics = \lyricmode {
-	
+	I -- te, hinc ex -- %6
+	i -- re mi -- hi da -- tum non
+	est. Ad mo -- nu -- men -- tum
+	it -- e, et quae_e -- ve -- ni -- ant o -- mnia
+	re -- nun -- cia -- te mi -- hi. %10
+	Ah, tam ci -- to
+	Pi -- e -- tas ve -- stra non de -- se -- rat
+	Pe -- trum plo -- ran -- tem.
+	Me -- cum si -- sti -- te, dum o --
+	ra -- re et de pec -- ca -- to %15
+	meo dum de -- beo fle -- re:
+	At -- que di -- ci -- te me -- cum
+	Mi -- se -- re -- re. %18 FINIS
 }
