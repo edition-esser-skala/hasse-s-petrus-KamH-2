@@ -8,7 +8,7 @@ project = Hasse_S_Petrus_et_S_Maria_Magdalena_KamH_2
 zipname = Hasse_S_Petrus_et_S_Maria_Magdalena_KamH_2_Engraving_Files
 notes = joseph maria_jacobe maria_magdalena maria_salome org petrus vl1 vl2 vla
 parts = b org soli vl1 vl2 vla
-movements = pars_prima pars_secunda
+movements = oratorio
 
 
 .DEFAULT_GOAL := info

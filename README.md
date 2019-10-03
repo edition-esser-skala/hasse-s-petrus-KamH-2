@@ -37,9 +37,9 @@ The file *master.ly* allows you to work with an editor like Kile: Change the inc
     * n_07_joseph.ly
     * n_08_petrus.ly
     * n_09_org.ly
+    * n_99_soli.ly
 * Movement definitions in folder *scores*:
-    * s_pars_prima.ly
-    * s_pars_secunda.ly
+    * s_oratorio.ly
 * Parts definitions in folder *parts*:
     * p_b.ly
     * p_soli.ly
