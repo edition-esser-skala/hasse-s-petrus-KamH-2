@@ -768,15 +768,3 @@ SemperFidaMariaMagdalenaLyrics = \lyricmode {
 	re_in
 	me. %119 finis
 }
-
-% MariaMagdalenaNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% MariaMagdalenaLyrics = \lyricmode {
-% 	
-% }

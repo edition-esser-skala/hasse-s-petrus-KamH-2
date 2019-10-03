@@ -2460,14 +2460,14 @@ SemperFidaBassFigures = \figuremode {
 	r2. %130 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+AhTuSilesOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/4 \tempoAhTuSiles
+		f1\pE
+	}
+}
+
+AhTuSilesBassFigures = \figuremode {
+	
+}

@@ -469,14 +469,14 @@ VadamMariaJacobeLyrics = \lyricmode {
 	spi -- ciam, et non mo -- riar? %8 finis
 }
 
-% MariaJacobeNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% MariaJacobeLyrics = \lyricmode {
-% 	
-% }
+AhTuSilesMariaJacobeNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \autoBeamOff \tempoAhTuSiles
+		
+	}
+}
+
+AhTuSilesMariaJacobeLyrics = \lyricmode {
+	
+}

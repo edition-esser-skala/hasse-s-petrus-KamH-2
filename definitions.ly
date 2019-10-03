@@ -237,6 +237,7 @@ tempoVadam = \tempoMarkup "[Tempo deest]"
 tempoSemperFida = \tempoMarkup "Lento, ma non troppo"
 	tempoSemperFidaB = \tempoMarkup "Allegretto"
 	tempoSemperFidaC = \tempoMarkup "Tempo di prima"
+tempoAhTuSiles = \tempoMarkup "[Tempo deest]"
 
 
 

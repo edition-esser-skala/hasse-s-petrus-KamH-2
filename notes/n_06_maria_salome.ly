@@ -309,14 +309,14 @@ VadamMariaSalomeLyrics = \lyricmode {
 	cor -- de? %5 finis
 }
 
-% MariaSalomeNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% MariaSalomeLyrics = \lyricmode {
-% 	
-% }
+AhTuSilesMariaSalomeNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \autoBeamOff \tempoAhTuSiles
+		
+	}
+}
+
+AhTuSilesMariaSalomeLyrics = \lyricmode {
+	
+}

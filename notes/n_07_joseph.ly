@@ -221,15 +221,3 @@ OPortentaJosephLyrics = \lyricmode {
 	re -- pa -- ra --
 	tur. %92 finis
 }
-
-% JosephNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% JosephLyrics = \lyricmode {
-% 	
-% }

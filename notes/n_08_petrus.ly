@@ -704,14 +704,14 @@ JesuMeaPaxPetrusLyrics = \lyricmode {
 	se. %139 finis
 }
 
-% PetrusNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% PetrusLyrics = \lyricmode {
-% 	
-% }
+AhTuSilesPetrusNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \autoBeamOff \tempoAhTuSiles
+		
+	}
+}
+
+AhTuSilesPetrusLyrics = \lyricmode {
+	
+}

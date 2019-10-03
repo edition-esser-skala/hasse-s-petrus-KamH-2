@@ -636,47 +636,87 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "15 SEMPER FIDA O MEA PUPILLA"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\SemperFidaViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\SemperFidaViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 							\SemperFidaViola
+% 					}
+% 				>>
+% 				\new ChoirStaff \with { \smallerGroupDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Maria" "Magdalena" } }
+% 						\new Voice = "MariaMagdalena" { \dynamicUp \SemperFidaMariaMagdalenaNotes }
+% 					}
+% 					\new Lyrics \lyricsto MariaMagdalena \SemperFidaMariaMagdalenaLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\SemperFidaOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\SemperFidaBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 72 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "15 SEMPER FIDA O MEA PUPILLA"
+			movement = "16 AH, TU SILES, O PETRE"
 		}
+		\paper { systems-per-page = #3 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\SemperFidaViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\SemperFidaViolinoII
-						}
-					>>
+				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Viola"
-							\SemperFidaViola
+						\set Staff.instrumentName = \markup { \center-column { "Maria" "Jacobe" } }
+						\new Voice = "MariaJacobe" { \dynamicUp \AhTuSilesMariaJacobeNotes }
 					}
-				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
+					\new Lyrics \lyricsto MariaJacobe \AhTuSilesMariaJacobeLyrics
+					
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Maria" "Magdalena" } }
-						\new Voice = "MariaMagdalena" { \dynamicUp \SemperFidaMariaMagdalenaNotes }
+						\set Staff.instrumentName = \markup { \center-column { "Maria" "Salome" } }
+						\new Voice = "MariaSalome" { \dynamicUp \AhTuSilesMariaSalomeNotes }
 					}
-					\new Lyrics \lyricsto MariaMagdalena \SemperFidaMariaMagdalenaLyrics
+					\new Lyrics \lyricsto MariaSalome \AhTuSilesMariaSalomeLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Petrus"
+						\new Voice = "Petrus" { \dynamicUp \AhTuSilesPetrusNotes }
+					}
+					\new Lyrics \lyricsto Petrus \AhTuSilesPetrusLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\SemperFidaOrgano
+						\AhTuSilesOrgano
 					}
 				>>
 				\new FiguredBass {
-					\SemperFidaBassFigures
+					\AhTuSilesBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 72 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }
