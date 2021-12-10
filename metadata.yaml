@@ -1,17 +1,23 @@
-composer: Hasse, Johann Adolph
+composer:
+  last: Hasse
+  first: Johann Adolph
 title: Sanctus Petrus et Sancta Maria Magdalena
 id: KamH 2
 genre: oratorio
 scoring: 3 S, 2 A (solo), 2 vl, vla, b, org
+license: cc-by-sa-4.0
 sources:
-  1:
+  B1:
     siglum: D-Dl
     shelfmark: Mus.2477-D-7a
-    type: manuscript copy
     date: 1763
     rism: 270000584
-    url: http://digital.slub-dresden.de/id469811064
-github: hasse-s-petrus-KamH-2
+    url: https://digital.slub-dresden.de/id469811064
+    license: public domain
+    principal: true
 imslp: S._Petrus_et_S._Maria_Magdalena_(Hasse,_Johann_Adolph)
-notes:
-
+extra_abbreviations:
+  fond:
+  Jo: Joseph
+  Mm: Maria Magdalena
+  Pe: Petrus
